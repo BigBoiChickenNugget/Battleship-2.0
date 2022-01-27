@@ -13,7 +13,11 @@ namespace Battleship_2._0
     public partial class GameScreen : Form
     {
 
+        // Variable that stores the enemy's side of the board that have the boat on them.
         bool[] IsHit = new bool[100];
+
+        // Variable that stores the number of moves the user has made so far.
+        int moves = 0;
 
         public GameScreen()
         {
@@ -39,6 +43,10 @@ namespace Battleship_2._0
             {
                 cell.Image = Properties.Resources.miss;
             }
+
+            // Increment the move counter by one.
+            moves++;
+            lblMoves.Text = "Move: " + moves;
         }
     }
 }
