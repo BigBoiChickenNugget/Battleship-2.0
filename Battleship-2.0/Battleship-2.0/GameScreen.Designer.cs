@@ -122,16 +122,16 @@
             this.picPlayer17 = new System.Windows.Forms.PictureBox();
             this.picPlayer16 = new System.Windows.Forms.PictureBox();
             this.picPlayer15 = new System.Windows.Forms.PictureBox();
-            this.picPlayer01 = new System.Windows.Forms.PictureBox();
-            this.picPlayer02 = new System.Windows.Forms.PictureBox();
-            this.picPlayer03 = new System.Windows.Forms.PictureBox();
-            this.picPlayer04 = new System.Windows.Forms.PictureBox();
+            this.picPlayer1 = new System.Windows.Forms.PictureBox();
+            this.picPlayer2 = new System.Windows.Forms.PictureBox();
+            this.picPlayer3 = new System.Windows.Forms.PictureBox();
+            this.picPlayer4 = new System.Windows.Forms.PictureBox();
             this.picPlayer10 = new System.Windows.Forms.PictureBox();
-            this.picPlayer09 = new System.Windows.Forms.PictureBox();
-            this.picPlayer08 = new System.Windows.Forms.PictureBox();
-            this.picPlayer07 = new System.Windows.Forms.PictureBox();
-            this.picPlayer06 = new System.Windows.Forms.PictureBox();
-            this.picPlayer05 = new System.Windows.Forms.PictureBox();
+            this.picPlayer9 = new System.Windows.Forms.PictureBox();
+            this.picPlayer8 = new System.Windows.Forms.PictureBox();
+            this.picPlayer7 = new System.Windows.Forms.PictureBox();
+            this.picPlayer6 = new System.Windows.Forms.PictureBox();
+            this.picPlayer5 = new System.Windows.Forms.PictureBox();
             this.picEnemy91 = new System.Windows.Forms.PictureBox();
             this.picEnemy92 = new System.Windows.Forms.PictureBox();
             this.picEnemy93 = new System.Windows.Forms.PictureBox();
@@ -322,16 +322,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer01)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer03)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer04)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer09)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer08)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer07)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer06)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer05)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy91)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy92)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy93)).BeginInit();
@@ -442,7 +442,7 @@
             this.lblMoves.ForeColor = System.Drawing.Color.White;
             this.lblMoves.Location = new System.Drawing.Point(889, 19);
             this.lblMoves.Name = "lblMoves";
-            this.lblMoves.Size = new System.Drawing.Size(175, 45);
+            this.lblMoves.Size = new System.Drawing.Size(169, 44);
             this.lblMoves.TabIndex = 100;
             this.lblMoves.Text = "Moves: 0";
             // 
@@ -1382,49 +1382,49 @@
             this.picPlayer15.Tag = "EnemyCell15";
             this.picPlayer15.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer01
+            // picPlayer1
             // 
-            this.picPlayer01.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer01.Image")));
-            this.picPlayer01.Location = new System.Drawing.Point(41, 77);
-            this.picPlayer01.Name = "picPlayer01";
-            this.picPlayer01.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer01.TabIndex = 110;
-            this.picPlayer01.TabStop = false;
-            this.picPlayer01.Tag = "EnemyCell1";
-            this.picPlayer01.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer1.Image")));
+            this.picPlayer1.Location = new System.Drawing.Point(41, 77);
+            this.picPlayer1.Name = "picPlayer1";
+            this.picPlayer1.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer1.TabIndex = 110;
+            this.picPlayer1.TabStop = false;
+            this.picPlayer1.Tag = "EnemyCell1";
+            this.picPlayer1.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer02
+            // picPlayer2
             // 
-            this.picPlayer02.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer02.Image")));
-            this.picPlayer02.Location = new System.Drawing.Point(119, 77);
-            this.picPlayer02.Name = "picPlayer02";
-            this.picPlayer02.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer02.TabIndex = 109;
-            this.picPlayer02.TabStop = false;
-            this.picPlayer02.Tag = "EnemyCell2";
-            this.picPlayer02.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer2.Image")));
+            this.picPlayer2.Location = new System.Drawing.Point(119, 77);
+            this.picPlayer2.Name = "picPlayer2";
+            this.picPlayer2.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer2.TabIndex = 109;
+            this.picPlayer2.TabStop = false;
+            this.picPlayer2.Tag = "EnemyCell2";
+            this.picPlayer2.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer03
+            // picPlayer3
             // 
-            this.picPlayer03.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer03.Image")));
-            this.picPlayer03.Location = new System.Drawing.Point(197, 77);
-            this.picPlayer03.Name = "picPlayer03";
-            this.picPlayer03.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer03.TabIndex = 108;
-            this.picPlayer03.TabStop = false;
-            this.picPlayer03.Tag = "EnemyCell3";
-            this.picPlayer03.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer3.Image")));
+            this.picPlayer3.Location = new System.Drawing.Point(197, 77);
+            this.picPlayer3.Name = "picPlayer3";
+            this.picPlayer3.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer3.TabIndex = 108;
+            this.picPlayer3.TabStop = false;
+            this.picPlayer3.Tag = "EnemyCell3";
+            this.picPlayer3.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer04
+            // picPlayer4
             // 
-            this.picPlayer04.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer04.Image")));
-            this.picPlayer04.Location = new System.Drawing.Point(275, 77);
-            this.picPlayer04.Name = "picPlayer04";
-            this.picPlayer04.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer04.TabIndex = 107;
-            this.picPlayer04.TabStop = false;
-            this.picPlayer04.Tag = "EnemyCell4";
-            this.picPlayer04.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer4.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer4.Image")));
+            this.picPlayer4.Location = new System.Drawing.Point(275, 77);
+            this.picPlayer4.Name = "picPlayer4";
+            this.picPlayer4.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer4.TabIndex = 107;
+            this.picPlayer4.TabStop = false;
+            this.picPlayer4.Tag = "EnemyCell4";
+            this.picPlayer4.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
             // picPlayer10
             // 
@@ -1437,60 +1437,60 @@
             this.picPlayer10.Tag = "EnemyCell10";
             this.picPlayer10.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer09
+            // picPlayer9
             // 
-            this.picPlayer09.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer09.Image")));
-            this.picPlayer09.Location = new System.Drawing.Point(665, 77);
-            this.picPlayer09.Name = "picPlayer09";
-            this.picPlayer09.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer09.TabIndex = 105;
-            this.picPlayer09.TabStop = false;
-            this.picPlayer09.Tag = "EnemyCell9";
-            this.picPlayer09.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer9.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer9.Image")));
+            this.picPlayer9.Location = new System.Drawing.Point(665, 77);
+            this.picPlayer9.Name = "picPlayer9";
+            this.picPlayer9.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer9.TabIndex = 105;
+            this.picPlayer9.TabStop = false;
+            this.picPlayer9.Tag = "EnemyCell9";
+            this.picPlayer9.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer08
+            // picPlayer8
             // 
-            this.picPlayer08.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer08.Image")));
-            this.picPlayer08.Location = new System.Drawing.Point(587, 77);
-            this.picPlayer08.Name = "picPlayer08";
-            this.picPlayer08.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer08.TabIndex = 104;
-            this.picPlayer08.TabStop = false;
-            this.picPlayer08.Tag = "EnemyCell8";
-            this.picPlayer08.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer8.Image")));
+            this.picPlayer8.Location = new System.Drawing.Point(587, 77);
+            this.picPlayer8.Name = "picPlayer8";
+            this.picPlayer8.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer8.TabIndex = 104;
+            this.picPlayer8.TabStop = false;
+            this.picPlayer8.Tag = "EnemyCell8";
+            this.picPlayer8.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer07
+            // picPlayer7
             // 
-            this.picPlayer07.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer07.Image")));
-            this.picPlayer07.Location = new System.Drawing.Point(509, 77);
-            this.picPlayer07.Name = "picPlayer07";
-            this.picPlayer07.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer07.TabIndex = 103;
-            this.picPlayer07.TabStop = false;
-            this.picPlayer07.Tag = "EnemyCell7";
-            this.picPlayer07.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer7.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer7.Image")));
+            this.picPlayer7.Location = new System.Drawing.Point(509, 77);
+            this.picPlayer7.Name = "picPlayer7";
+            this.picPlayer7.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer7.TabIndex = 103;
+            this.picPlayer7.TabStop = false;
+            this.picPlayer7.Tag = "EnemyCell7";
+            this.picPlayer7.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer06
+            // picPlayer6
             // 
-            this.picPlayer06.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer06.Image")));
-            this.picPlayer06.Location = new System.Drawing.Point(431, 77);
-            this.picPlayer06.Name = "picPlayer06";
-            this.picPlayer06.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer06.TabIndex = 102;
-            this.picPlayer06.TabStop = false;
-            this.picPlayer06.Tag = "EnemyCell6";
-            this.picPlayer06.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer6.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer6.Image")));
+            this.picPlayer6.Location = new System.Drawing.Point(431, 77);
+            this.picPlayer6.Name = "picPlayer6";
+            this.picPlayer6.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer6.TabIndex = 102;
+            this.picPlayer6.TabStop = false;
+            this.picPlayer6.Tag = "EnemyCell6";
+            this.picPlayer6.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer05
+            // picPlayer5
             // 
-            this.picPlayer05.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer05.Image")));
-            this.picPlayer05.Location = new System.Drawing.Point(353, 77);
-            this.picPlayer05.Name = "picPlayer05";
-            this.picPlayer05.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer05.TabIndex = 101;
-            this.picPlayer05.TabStop = false;
-            this.picPlayer05.Tag = "EnemyCell5";
-            this.picPlayer05.Click += new System.EventHandler(this.ClickPlayerCell);
+            this.picPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer5.Image")));
+            this.picPlayer5.Location = new System.Drawing.Point(353, 77);
+            this.picPlayer5.Name = "picPlayer5";
+            this.picPlayer5.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer5.TabIndex = 101;
+            this.picPlayer5.TabStop = false;
+            this.picPlayer5.Tag = "EnemyCell5";
+            this.picPlayer5.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
             // picEnemy91
             // 
@@ -2620,16 +2620,16 @@
             this.Controls.Add(this.picPlayer17);
             this.Controls.Add(this.picPlayer16);
             this.Controls.Add(this.picPlayer15);
-            this.Controls.Add(this.picPlayer01);
-            this.Controls.Add(this.picPlayer02);
-            this.Controls.Add(this.picPlayer03);
-            this.Controls.Add(this.picPlayer04);
+            this.Controls.Add(this.picPlayer1);
+            this.Controls.Add(this.picPlayer2);
+            this.Controls.Add(this.picPlayer3);
+            this.Controls.Add(this.picPlayer4);
             this.Controls.Add(this.picPlayer10);
-            this.Controls.Add(this.picPlayer09);
-            this.Controls.Add(this.picPlayer08);
-            this.Controls.Add(this.picPlayer07);
-            this.Controls.Add(this.picPlayer06);
-            this.Controls.Add(this.picPlayer05);
+            this.Controls.Add(this.picPlayer9);
+            this.Controls.Add(this.picPlayer8);
+            this.Controls.Add(this.picPlayer7);
+            this.Controls.Add(this.picPlayer6);
+            this.Controls.Add(this.picPlayer5);
             this.Controls.Add(this.lblMoves);
             this.Controls.Add(this.picEnemy91);
             this.Controls.Add(this.picEnemy92);
@@ -2823,16 +2823,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer01)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer03)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer04)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer09)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer08)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer07)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer06)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer05)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy91)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy92)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy93)).EndInit();
@@ -3131,16 +3131,16 @@
         private System.Windows.Forms.PictureBox picPlayer17;
         private System.Windows.Forms.PictureBox picPlayer16;
         private System.Windows.Forms.PictureBox picPlayer15;
-        private System.Windows.Forms.PictureBox picPlayer01;
-        private System.Windows.Forms.PictureBox picPlayer02;
-        private System.Windows.Forms.PictureBox picPlayer03;
-        private System.Windows.Forms.PictureBox picPlayer04;
+        private System.Windows.Forms.PictureBox picPlayer1;
+        private System.Windows.Forms.PictureBox picPlayer2;
+        private System.Windows.Forms.PictureBox picPlayer3;
+        private System.Windows.Forms.PictureBox picPlayer4;
         private System.Windows.Forms.PictureBox picPlayer10;
-        private System.Windows.Forms.PictureBox picPlayer09;
-        private System.Windows.Forms.PictureBox picPlayer08;
-        private System.Windows.Forms.PictureBox picPlayer07;
-        private System.Windows.Forms.PictureBox picPlayer06;
-        private System.Windows.Forms.PictureBox picPlayer05;
+        private System.Windows.Forms.PictureBox picPlayer9;
+        private System.Windows.Forms.PictureBox picPlayer8;
+        private System.Windows.Forms.PictureBox picPlayer7;
+        private System.Windows.Forms.PictureBox picPlayer6;
+        private System.Windows.Forms.PictureBox picPlayer5;
         private System.Windows.Forms.Timer gameTimer;
     }
 }
