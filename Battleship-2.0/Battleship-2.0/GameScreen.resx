@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="gameTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="picPlayer91.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1087,28 +1090,6 @@
 </value>
   </data>
   <data name="picPlayer60.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
-        dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
-        FbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4Xt
-        UGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TY
-        DhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF
-        7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU
-        2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZD
-        he1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7
-        VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2
-        Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBh
-        O1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4V
-        tkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1Q
-        YTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
-        FbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4Xt
-        UGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TY
-        DhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF
-        7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe1QYTtU2A4VtkOF7VBhO1TYDhW2Q4XtUGE7VNgOFbZDhe3QsD23
-        Bf5RKaZyJwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="picPlayer59.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO

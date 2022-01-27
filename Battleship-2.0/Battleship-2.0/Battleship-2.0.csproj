@@ -119,5 +119,23 @@
   <ItemGroup>
     <None Include="Resources\PlayerEmpty.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miss1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerEmpty1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerHit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerTaken.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
