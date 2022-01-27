@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GameScreen.resx">
+      <DependentUpon>GameScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +106,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\img_272299.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miss.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
