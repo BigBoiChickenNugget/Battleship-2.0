@@ -16,5 +16,26 @@ namespace Battleship_2._0
         {
             InitializeComponent();
         }
+
+        private void QuitGame(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void StartNew(object sender, EventArgs e)
+        {
+            GameScreen game = new GameScreen();
+            this.Hide();
+            game.ShowDialog();
+            this.Show();
+        }
+
+        private void Settings(object sender, EventArgs e)
+        {
+            Settings setting = new Settings();
+            this.Hide();
+            setting.ShowDialog();
+            this.Show();
+        }
     }
 }
