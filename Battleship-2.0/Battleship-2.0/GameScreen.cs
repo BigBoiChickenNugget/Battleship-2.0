@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
+using WMPLib;
 
 namespace Battleship_2._0
 {
     public partial class GameScreen : Form
     {
 
-        // Variable's that stores the enemy's and the player's cells on the board that have a boat on them. yeah
+        // Variable's that stores the enemy's and the player's cells on the board that have a boat on them. 
         bool[] isHit = new bool[100];
         bool[] playerBoats = new bool[100];
 
@@ -77,11 +79,15 @@ namespace Battleship_2._0
             // If there's a boat sitting on the part the user clicks, then color the cell the hit color, otherwise, color it the miss color.
             if (isHit[index-1] == true)
             {
+                SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
+                simpleSound.Play();
                 cell.Image = Properties.Resources.PlayerHit;
             }
 
             else
             {
+                SoundPlayer simpleSound = new SoundPlayer(@"missile.wav");
+                simpleSound.Play();
                 cell.Image = Properties.Resources.miss;
             }
 
@@ -119,7 +125,8 @@ namespace Battleship_2._0
             // If the AI's move is a hit, color the cell appropriately.
             if (playerBoats[move] == true)
             {
-
+                SoundPlayer simpleSound = new SoundPlayer(@"allyshipsunk.wav");
+                simpleSound.Play();
                 // Set the playerHits cell to true.
                 playerHits[move] = true;
 
@@ -162,10 +169,18 @@ namespace Battleship_2._0
             // If this cell is not taken and if the user is still process in the process of entering, otherwise, do nothing.
             if (playerBoats[index-1] == false && enterBoats == true)
             {
+                SoundPlayer simpleSound = new SoundPlayer(@"shipplace.wav");
+                simpleSound.Play();
                 playerBoats[index - 1] = true;
                 cell.Image = Properties.Resources.PlayerTaken;
                 numBoats++;
             }
         }
+
+        private void GameScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

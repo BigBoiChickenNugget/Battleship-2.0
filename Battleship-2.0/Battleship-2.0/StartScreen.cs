@@ -7,27 +7,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 using WMPLib;
 
 namespace Battleship_2._0
 {
     public partial class StartScreen : Form
     {
+        private SoundPlayer Player = new SoundPlayer();
+
         public StartScreen()
         {
+            //InitializeComponent();
+            //WindowsMediaPlayer player = new WindowsMediaPlayer();
+            //player.URL = "battleship_8-bit_music.mp3";
+            //player.controls.play()
+            
             InitializeComponent();
-            WindowsMediaPlayer player = new WindowsMediaPlayer();
-            player.URL = "battleship_8-bit_music.mp3";
-            player.controls.play();
+            this.Player.SoundLocation = @"mainmusic.wav";
+            this.Player.PlayLooping();
+           
         }
 
         private void QuitGame(object sender, EventArgs e)
         {
+            SoundPlayer simpleSound = new SoundPlayer(@"menuclick1.wav");
+            simpleSound.Play();
             Application.Exit();
         }
 
         private void StartNew(object sender, EventArgs e)
         {
+            SoundPlayer simpleSound = new SoundPlayer(@"menuclick1.wav");
+            simpleSound.Play();
             GameScreen game = new GameScreen();
             this.Hide();
             game.ShowDialog();
@@ -36,6 +48,8 @@ namespace Battleship_2._0
 
         private void Settings(object sender, EventArgs e)
         {
+            SoundPlayer simpleSound = new SoundPlayer(@"menuclick1.wav");
+            simpleSound.Play();
             Settings setting = new Settings();
             this.Hide();
             setting.ShowDialog();
