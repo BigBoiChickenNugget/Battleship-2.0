@@ -157,5 +157,20 @@
   <ItemGroup>
     <None Include="Resources\MainTheme.wav.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroyer.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submarine.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruiser.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleship.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrier.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

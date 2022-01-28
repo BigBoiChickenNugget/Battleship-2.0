@@ -32,9 +32,16 @@ namespace Battleship_2._0
         // Boolean that shows if it's the players or computers turn. If it's true, it's the player's turn, otherwise, it's the computers turn.
         bool turn = true;
 
+        // Variables that store the ship pictures current x and y positions.
+        int shipX;
+        int shipY;
+
         // Boolean that checks if the user is permitted to input their boat spots.
         bool enterBoats = false;
         int numBoats = 0;
+
+        // Boolean to see if a ship is being moved or not.
+        bool shipMoving = false;
 
         public GameScreen()
         {
@@ -203,6 +210,26 @@ namespace Battleship_2._0
 
                 // Increase the number of boats the player has placed.
                 numBoats++;
+            }
+        }
+
+       
+
+        private void HoldShip(object sender, MouseEventArgs e)
+        {
+            shipMoving = true;
+            shipX = e.X;
+            shipY = e.Y; 
+        }
+
+        private void MoveShip(object sender, MouseEventArgs e)
+        {
+            PictureBox ship = (PictureBox)sender;
+
+            if (shipMoving == true)
+            {
+                ship.Top = ship.Top + (e.Y - shipY);
+                ship.Left = ship.Left + (e.X - shipX);
             }
         }
     }
