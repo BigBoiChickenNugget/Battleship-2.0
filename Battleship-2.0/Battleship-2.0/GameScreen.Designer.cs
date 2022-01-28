@@ -1600,6 +1600,7 @@
             this.picEnemy91.Size = new System.Drawing.Size(72, 67);
             this.picEnemy91.TabIndex = 99;
             this.picEnemy91.TabStop = false;
+            this.picEnemy91.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy92
             // 
@@ -1609,6 +1610,7 @@
             this.picEnemy92.Size = new System.Drawing.Size(72, 67);
             this.picEnemy92.TabIndex = 98;
             this.picEnemy92.TabStop = false;
+            this.picEnemy92.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy93
             // 
@@ -1618,6 +1620,7 @@
             this.picEnemy93.Size = new System.Drawing.Size(72, 67);
             this.picEnemy93.TabIndex = 97;
             this.picEnemy93.TabStop = false;
+            this.picEnemy93.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy94
             // 
@@ -1627,6 +1630,7 @@
             this.picEnemy94.Size = new System.Drawing.Size(72, 67);
             this.picEnemy94.TabIndex = 96;
             this.picEnemy94.TabStop = false;
+            this.picEnemy94.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy100
             // 
@@ -1636,6 +1640,7 @@
             this.picEnemy100.Size = new System.Drawing.Size(72, 67);
             this.picEnemy100.TabIndex = 95;
             this.picEnemy100.TabStop = false;
+            this.picEnemy100.Click += new System.EventHandler(this.ClickCell);
             // 
             // pictureBox99
             // 
@@ -1645,6 +1650,7 @@
             this.pictureBox99.Size = new System.Drawing.Size(72, 67);
             this.pictureBox99.TabIndex = 94;
             this.pictureBox99.TabStop = false;
+            this.pictureBox99.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy98
             // 
@@ -1654,6 +1660,7 @@
             this.picEnemy98.Size = new System.Drawing.Size(72, 67);
             this.picEnemy98.TabIndex = 93;
             this.picEnemy98.TabStop = false;
+            this.picEnemy98.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy97
             // 
@@ -1663,6 +1670,7 @@
             this.picEnemy97.Size = new System.Drawing.Size(72, 67);
             this.picEnemy97.TabIndex = 92;
             this.picEnemy97.TabStop = false;
+            this.picEnemy97.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy96
             // 
@@ -1672,6 +1680,7 @@
             this.picEnemy96.Size = new System.Drawing.Size(72, 67);
             this.picEnemy96.TabIndex = 91;
             this.picEnemy96.TabStop = false;
+            this.picEnemy96.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy95
             // 
@@ -1681,6 +1690,7 @@
             this.picEnemy95.Size = new System.Drawing.Size(72, 67);
             this.picEnemy95.TabIndex = 90;
             this.picEnemy95.TabStop = false;
+            this.picEnemy95.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy81
             // 
