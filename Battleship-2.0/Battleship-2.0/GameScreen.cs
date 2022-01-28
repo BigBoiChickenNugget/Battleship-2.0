@@ -135,6 +135,7 @@ namespace Battleship_2._0
                 playerMiss[move] = true;
 
                 // Change the picture of the cell.
+                cell.Image = Properties.Resources.miss;
             }
 
             turn = true;

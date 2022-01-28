@@ -456,6 +456,7 @@
             this.picPlayer91.Location = new System.Drawing.Point(41, 733);
             this.picPlayer91.Name = "picPlayer91";
             this.picPlayer91.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer91.TabIndex = 200;
             this.picPlayer91.TabStop = false;
             this.picPlayer91.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -466,6 +467,7 @@
             this.picPlayer92.Location = new System.Drawing.Point(119, 733);
             this.picPlayer92.Name = "picPlayer92";
             this.picPlayer92.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer92.TabIndex = 199;
             this.picPlayer92.TabStop = false;
             this.picPlayer92.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -476,6 +478,7 @@
             this.picPlayer93.Location = new System.Drawing.Point(197, 733);
             this.picPlayer93.Name = "picPlayer93";
             this.picPlayer93.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer93.TabIndex = 198;
             this.picPlayer93.TabStop = false;
             this.picPlayer93.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -486,6 +489,7 @@
             this.picPlayer94.Location = new System.Drawing.Point(275, 733);
             this.picPlayer94.Name = "picPlayer94";
             this.picPlayer94.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer94.TabIndex = 197;
             this.picPlayer94.TabStop = false;
             this.picPlayer94.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -496,6 +500,7 @@
             this.picPlayer100.Location = new System.Drawing.Point(743, 733);
             this.picPlayer100.Name = "picPlayer100";
             this.picPlayer100.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer100.TabIndex = 196;
             this.picPlayer100.TabStop = false;
             this.picPlayer100.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -506,6 +511,7 @@
             this.picPlayer99.Location = new System.Drawing.Point(665, 733);
             this.picPlayer99.Name = "picPlayer99";
             this.picPlayer99.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer99.TabIndex = 195;
             this.picPlayer99.TabStop = false;
             this.picPlayer99.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -516,6 +522,7 @@
             this.picPlayer98.Location = new System.Drawing.Point(587, 733);
             this.picPlayer98.Name = "picPlayer98";
             this.picPlayer98.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer98.TabIndex = 194;
             this.picPlayer98.TabStop = false;
             this.picPlayer98.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -526,6 +533,7 @@
             this.picPlayer97.Location = new System.Drawing.Point(509, 733);
             this.picPlayer97.Name = "picPlayer97";
             this.picPlayer97.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer97.TabIndex = 193;
             this.picPlayer97.TabStop = false;
             this.picPlayer97.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -536,6 +544,7 @@
             this.picPlayer96.Location = new System.Drawing.Point(431, 733);
             this.picPlayer96.Name = "picPlayer96";
             this.picPlayer96.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer96.TabIndex = 192;
             this.picPlayer96.TabStop = false;
             this.picPlayer96.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -546,6 +555,7 @@
             this.picPlayer95.Location = new System.Drawing.Point(353, 733);
             this.picPlayer95.Name = "picPlayer95";
             this.picPlayer95.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer95.TabIndex = 191;
             this.picPlayer95.TabStop = false;
             this.picPlayer95.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -556,6 +566,7 @@
             this.picPlayer81.Location = new System.Drawing.Point(41, 661);
             this.picPlayer81.Name = "picPlayer81";
             this.picPlayer81.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer81.TabIndex = 190;
             this.picPlayer81.TabStop = false;
             this.picPlayer81.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -566,6 +577,7 @@
             this.picPlayer82.Location = new System.Drawing.Point(119, 661);
             this.picPlayer82.Name = "picPlayer82";
             this.picPlayer82.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer82.TabIndex = 189;
             this.picPlayer82.TabStop = false;
             this.picPlayer82.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -576,6 +588,7 @@
             this.picPlayer83.Location = new System.Drawing.Point(197, 661);
             this.picPlayer83.Name = "picPlayer83";
             this.picPlayer83.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer83.TabIndex = 188;
             this.picPlayer83.TabStop = false;
             this.picPlayer83.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -586,6 +599,7 @@
             this.picPlayer84.Location = new System.Drawing.Point(275, 661);
             this.picPlayer84.Name = "picPlayer84";
             this.picPlayer84.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer84.TabIndex = 187;
             this.picPlayer84.TabStop = false;
             this.picPlayer84.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -596,6 +610,7 @@
             this.picPlayer90.Location = new System.Drawing.Point(743, 661);
             this.picPlayer90.Name = "picPlayer90";
             this.picPlayer90.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer90.TabIndex = 186;
             this.picPlayer90.TabStop = false;
             this.picPlayer90.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -606,6 +621,7 @@
             this.picPlayer89.Location = new System.Drawing.Point(665, 661);
             this.picPlayer89.Name = "picPlayer89";
             this.picPlayer89.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer89.TabIndex = 185;
             this.picPlayer89.TabStop = false;
             this.picPlayer89.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -616,6 +632,7 @@
             this.picPlayer88.Location = new System.Drawing.Point(587, 661);
             this.picPlayer88.Name = "picPlayer88";
             this.picPlayer88.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer88.TabIndex = 184;
             this.picPlayer88.TabStop = false;
             this.picPlayer88.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -626,6 +643,7 @@
             this.picPlayer87.Location = new System.Drawing.Point(509, 661);
             this.picPlayer87.Name = "picPlayer87";
             this.picPlayer87.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer87.TabIndex = 183;
             this.picPlayer87.TabStop = false;
             this.picPlayer87.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -636,6 +654,7 @@
             this.picPlayer86.Location = new System.Drawing.Point(431, 661);
             this.picPlayer86.Name = "picPlayer86";
             this.picPlayer86.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer86.TabIndex = 182;
             this.picPlayer86.TabStop = false;
             this.picPlayer86.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -646,6 +665,7 @@
             this.picPlayer85.Location = new System.Drawing.Point(353, 661);
             this.picPlayer85.Name = "picPlayer85";
             this.picPlayer85.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer85.TabIndex = 181;
             this.picPlayer85.TabStop = false;
             this.picPlayer85.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -656,6 +676,7 @@
             this.picPlayer71.Location = new System.Drawing.Point(41, 588);
             this.picPlayer71.Name = "picPlayer71";
             this.picPlayer71.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer71.TabIndex = 180;
             this.picPlayer71.TabStop = false;
             this.picPlayer71.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -666,6 +687,7 @@
             this.picPlayer72.Location = new System.Drawing.Point(119, 588);
             this.picPlayer72.Name = "picPlayer72";
             this.picPlayer72.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer72.TabIndex = 179;
             this.picPlayer72.TabStop = false;
             this.picPlayer72.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -676,6 +698,7 @@
             this.picPlayer73.Location = new System.Drawing.Point(197, 588);
             this.picPlayer73.Name = "picPlayer73";
             this.picPlayer73.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer73.TabIndex = 178;
             this.picPlayer73.TabStop = false;
             this.picPlayer73.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -686,6 +709,7 @@
             this.picPlayer74.Location = new System.Drawing.Point(275, 588);
             this.picPlayer74.Name = "picPlayer74";
             this.picPlayer74.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer74.TabIndex = 177;
             this.picPlayer74.TabStop = false;
             this.picPlayer74.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -696,6 +720,7 @@
             this.picPlayer80.Location = new System.Drawing.Point(743, 588);
             this.picPlayer80.Name = "picPlayer80";
             this.picPlayer80.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer80.TabIndex = 176;
             this.picPlayer80.TabStop = false;
             this.picPlayer80.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -706,6 +731,7 @@
             this.picPlayer79.Location = new System.Drawing.Point(665, 588);
             this.picPlayer79.Name = "picPlayer79";
             this.picPlayer79.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer79.TabIndex = 175;
             this.picPlayer79.TabStop = false;
             this.picPlayer79.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -716,6 +742,7 @@
             this.picPlayer78.Location = new System.Drawing.Point(587, 588);
             this.picPlayer78.Name = "picPlayer78";
             this.picPlayer78.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer78.TabIndex = 174;
             this.picPlayer78.TabStop = false;
             this.picPlayer78.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -726,6 +753,7 @@
             this.picPlayer77.Location = new System.Drawing.Point(509, 588);
             this.picPlayer77.Name = "picPlayer77";
             this.picPlayer77.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer77.TabIndex = 173;
             this.picPlayer77.TabStop = false;
             this.picPlayer77.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -736,6 +764,7 @@
             this.picPlayer76.Location = new System.Drawing.Point(431, 588);
             this.picPlayer76.Name = "picPlayer76";
             this.picPlayer76.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer76.TabIndex = 172;
             this.picPlayer76.TabStop = false;
             this.picPlayer76.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -746,6 +775,7 @@
             this.picPlayer75.Location = new System.Drawing.Point(353, 588);
             this.picPlayer75.Name = "picPlayer75";
             this.picPlayer75.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer75.TabIndex = 171;
             this.picPlayer75.TabStop = false;
             this.picPlayer75.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -756,6 +786,7 @@
             this.picPlayer61.Location = new System.Drawing.Point(41, 515);
             this.picPlayer61.Name = "picPlayer61";
             this.picPlayer61.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer61.TabIndex = 170;
             this.picPlayer61.TabStop = false;
             this.picPlayer61.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -766,6 +797,7 @@
             this.picPlayer62.Location = new System.Drawing.Point(119, 515);
             this.picPlayer62.Name = "picPlayer62";
             this.picPlayer62.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer62.TabIndex = 169;
             this.picPlayer62.TabStop = false;
             this.picPlayer62.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -776,6 +808,7 @@
             this.picPlayer63.Location = new System.Drawing.Point(197, 515);
             this.picPlayer63.Name = "picPlayer63";
             this.picPlayer63.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer63.TabIndex = 168;
             this.picPlayer63.TabStop = false;
             this.picPlayer63.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -786,6 +819,7 @@
             this.picPlayer64.Location = new System.Drawing.Point(275, 515);
             this.picPlayer64.Name = "picPlayer64";
             this.picPlayer64.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer64.TabIndex = 167;
             this.picPlayer64.TabStop = false;
             this.picPlayer64.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -796,6 +830,7 @@
             this.picPlayer70.Location = new System.Drawing.Point(743, 515);
             this.picPlayer70.Name = "picPlayer70";
             this.picPlayer70.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer70.TabIndex = 166;
             this.picPlayer70.TabStop = false;
             this.picPlayer70.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -806,6 +841,7 @@
             this.picPlayer69.Location = new System.Drawing.Point(665, 515);
             this.picPlayer69.Name = "picPlayer69";
             this.picPlayer69.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer69.TabIndex = 165;
             this.picPlayer69.TabStop = false;
             this.picPlayer69.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -816,6 +852,7 @@
             this.picPlayer68.Location = new System.Drawing.Point(587, 515);
             this.picPlayer68.Name = "picPlayer68";
             this.picPlayer68.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer68.TabIndex = 164;
             this.picPlayer68.TabStop = false;
             this.picPlayer68.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -826,6 +863,7 @@
             this.picPlayer67.Location = new System.Drawing.Point(509, 515);
             this.picPlayer67.Name = "picPlayer67";
             this.picPlayer67.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer67.TabIndex = 163;
             this.picPlayer67.TabStop = false;
             this.picPlayer67.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -836,6 +874,7 @@
             this.picPlayer66.Location = new System.Drawing.Point(431, 515);
             this.picPlayer66.Name = "picPlayer66";
             this.picPlayer66.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer66.TabIndex = 162;
             this.picPlayer66.TabStop = false;
             this.picPlayer66.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -846,6 +885,7 @@
             this.picPlayer65.Location = new System.Drawing.Point(353, 515);
             this.picPlayer65.Name = "picPlayer65";
             this.picPlayer65.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer65.TabIndex = 161;
             this.picPlayer65.TabStop = false;
             this.picPlayer65.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -856,6 +896,7 @@
             this.picPlayer51.Location = new System.Drawing.Point(41, 442);
             this.picPlayer51.Name = "picPlayer51";
             this.picPlayer51.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer51.TabIndex = 160;
             this.picPlayer51.TabStop = false;
             this.picPlayer51.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -866,6 +907,7 @@
             this.picPlayer52.Location = new System.Drawing.Point(119, 442);
             this.picPlayer52.Name = "picPlayer52";
             this.picPlayer52.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer52.TabIndex = 159;
             this.picPlayer52.TabStop = false;
             this.picPlayer52.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -876,6 +918,7 @@
             this.picPlayer53.Location = new System.Drawing.Point(197, 442);
             this.picPlayer53.Name = "picPlayer53";
             this.picPlayer53.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer53.TabIndex = 158;
             this.picPlayer53.TabStop = false;
             this.picPlayer53.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -886,6 +929,7 @@
             this.picPlayer54.Location = new System.Drawing.Point(275, 442);
             this.picPlayer54.Name = "picPlayer54";
             this.picPlayer54.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer54.TabIndex = 157;
             this.picPlayer54.TabStop = false;
             this.picPlayer54.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -896,6 +940,7 @@
             this.picPlayer60.Location = new System.Drawing.Point(743, 442);
             this.picPlayer60.Name = "picPlayer60";
             this.picPlayer60.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer60.TabIndex = 156;
             this.picPlayer60.TabStop = false;
             this.picPlayer60.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -906,6 +951,7 @@
             this.picPlayer59.Location = new System.Drawing.Point(665, 442);
             this.picPlayer59.Name = "picPlayer59";
             this.picPlayer59.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer59.TabIndex = 155;
             this.picPlayer59.TabStop = false;
             this.picPlayer59.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -916,6 +962,7 @@
             this.picPlayer58.Location = new System.Drawing.Point(587, 442);
             this.picPlayer58.Name = "picPlayer58";
             this.picPlayer58.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer58.TabIndex = 154;
             this.picPlayer58.TabStop = false;
             this.picPlayer58.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -926,6 +973,7 @@
             this.picPlayer57.Location = new System.Drawing.Point(509, 442);
             this.picPlayer57.Name = "picPlayer57";
             this.picPlayer57.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer57.TabIndex = 153;
             this.picPlayer57.TabStop = false;
             this.picPlayer57.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -936,6 +984,7 @@
             this.picPlayer56.Location = new System.Drawing.Point(431, 442);
             this.picPlayer56.Name = "picPlayer56";
             this.picPlayer56.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer56.TabIndex = 152;
             this.picPlayer56.TabStop = false;
             this.picPlayer56.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -946,6 +995,7 @@
             this.picPlayer55.Location = new System.Drawing.Point(353, 442);
             this.picPlayer55.Name = "picPlayer55";
             this.picPlayer55.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer55.TabIndex = 151;
             this.picPlayer55.TabStop = false;
             this.picPlayer55.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -956,6 +1006,7 @@
             this.picPlayer41.Location = new System.Drawing.Point(41, 369);
             this.picPlayer41.Name = "picPlayer41";
             this.picPlayer41.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer41.TabIndex = 150;
             this.picPlayer41.TabStop = false;
             this.picPlayer41.Tag = "EnemyCell40";
@@ -967,6 +1018,7 @@
             this.picPlayer42.Location = new System.Drawing.Point(119, 369);
             this.picPlayer42.Name = "picPlayer42";
             this.picPlayer42.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer42.TabIndex = 149;
             this.picPlayer42.TabStop = false;
             this.picPlayer42.Tag = "EnemyCell41";
@@ -978,6 +1030,7 @@
             this.picPlayer43.Location = new System.Drawing.Point(197, 369);
             this.picPlayer43.Name = "picPlayer43";
             this.picPlayer43.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer43.TabIndex = 148;
             this.picPlayer43.TabStop = false;
             this.picPlayer43.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -988,6 +1041,7 @@
             this.picPlayer44.Location = new System.Drawing.Point(275, 369);
             this.picPlayer44.Name = "picPlayer44";
             this.picPlayer44.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer44.TabIndex = 147;
             this.picPlayer44.TabStop = false;
             this.picPlayer44.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -998,6 +1052,7 @@
             this.picPlayer50.Location = new System.Drawing.Point(743, 369);
             this.picPlayer50.Name = "picPlayer50";
             this.picPlayer50.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer50.TabIndex = 146;
             this.picPlayer50.TabStop = false;
             this.picPlayer50.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1008,6 +1063,7 @@
             this.picPlayer49.Location = new System.Drawing.Point(665, 369);
             this.picPlayer49.Name = "picPlayer49";
             this.picPlayer49.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer49.TabIndex = 145;
             this.picPlayer49.TabStop = false;
             this.picPlayer49.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1018,6 +1074,7 @@
             this.picPlayer48.Location = new System.Drawing.Point(587, 369);
             this.picPlayer48.Name = "picPlayer48";
             this.picPlayer48.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer48.TabIndex = 144;
             this.picPlayer48.TabStop = false;
             this.picPlayer48.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1028,6 +1085,7 @@
             this.picPlayer47.Location = new System.Drawing.Point(509, 369);
             this.picPlayer47.Name = "picPlayer47";
             this.picPlayer47.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer47.TabIndex = 143;
             this.picPlayer47.TabStop = false;
             this.picPlayer47.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1038,6 +1096,7 @@
             this.picPlayer46.Location = new System.Drawing.Point(431, 369);
             this.picPlayer46.Name = "picPlayer46";
             this.picPlayer46.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer46.TabIndex = 142;
             this.picPlayer46.TabStop = false;
             this.picPlayer46.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1048,6 +1107,7 @@
             this.picPlayer45.Location = new System.Drawing.Point(353, 369);
             this.picPlayer45.Name = "picPlayer45";
             this.picPlayer45.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer45.TabIndex = 141;
             this.picPlayer45.TabStop = false;
             this.picPlayer45.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1058,6 +1118,7 @@
             this.picPlayer31.Location = new System.Drawing.Point(41, 296);
             this.picPlayer31.Name = "picPlayer31";
             this.picPlayer31.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer31.TabIndex = 140;
             this.picPlayer31.TabStop = false;
             this.picPlayer31.Tag = "EnemyCell31";
@@ -1069,6 +1130,7 @@
             this.picPlayer32.Location = new System.Drawing.Point(119, 296);
             this.picPlayer32.Name = "picPlayer32";
             this.picPlayer32.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer32.TabIndex = 139;
             this.picPlayer32.TabStop = false;
             this.picPlayer32.Tag = "EnemyCell32";
@@ -1080,6 +1142,7 @@
             this.picPlayer33.Location = new System.Drawing.Point(197, 296);
             this.picPlayer33.Name = "picPlayer33";
             this.picPlayer33.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer33.TabIndex = 138;
             this.picPlayer33.TabStop = false;
             this.picPlayer33.Tag = "EnemyCell33";
@@ -1091,6 +1154,7 @@
             this.picPlayer34.Location = new System.Drawing.Point(275, 296);
             this.picPlayer34.Name = "picPlayer34";
             this.picPlayer34.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer34.TabIndex = 137;
             this.picPlayer34.TabStop = false;
             this.picPlayer34.Tag = "EnemyCell34";
@@ -1102,6 +1166,7 @@
             this.picPlayer40.Location = new System.Drawing.Point(743, 296);
             this.picPlayer40.Name = "picPlayer40";
             this.picPlayer40.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer40.TabIndex = 136;
             this.picPlayer40.TabStop = false;
             this.picPlayer40.Tag = "EnemyCell40";
@@ -1113,6 +1178,7 @@
             this.picPlayer39.Location = new System.Drawing.Point(665, 296);
             this.picPlayer39.Name = "picPlayer39";
             this.picPlayer39.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer39.TabIndex = 135;
             this.picPlayer39.TabStop = false;
             this.picPlayer39.Tag = "EnemyCell39";
@@ -1124,6 +1190,7 @@
             this.picPlayer38.Location = new System.Drawing.Point(587, 296);
             this.picPlayer38.Name = "picPlayer38";
             this.picPlayer38.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer38.TabIndex = 134;
             this.picPlayer38.TabStop = false;
             this.picPlayer38.Tag = "EnemyCell38";
@@ -1135,6 +1202,7 @@
             this.picPlayer37.Location = new System.Drawing.Point(509, 296);
             this.picPlayer37.Name = "picPlayer37";
             this.picPlayer37.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer37.TabIndex = 133;
             this.picPlayer37.TabStop = false;
             this.picPlayer37.Tag = "EnemyCell37";
@@ -1146,6 +1214,7 @@
             this.picPlayer36.Location = new System.Drawing.Point(431, 296);
             this.picPlayer36.Name = "picPlayer36";
             this.picPlayer36.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer36.TabIndex = 132;
             this.picPlayer36.TabStop = false;
             this.picPlayer36.Tag = "EnemyCell36";
@@ -1157,6 +1226,7 @@
             this.picPlayer35.Location = new System.Drawing.Point(353, 296);
             this.picPlayer35.Name = "picPlayer35";
             this.picPlayer35.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer35.TabIndex = 131;
             this.picPlayer35.TabStop = false;
             this.picPlayer35.Tag = "EnemyCell35";
@@ -1168,6 +1238,7 @@
             this.picPlayer21.Location = new System.Drawing.Point(41, 223);
             this.picPlayer21.Name = "picPlayer21";
             this.picPlayer21.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer21.TabIndex = 130;
             this.picPlayer21.TabStop = false;
             this.picPlayer21.Tag = "EnemyCell21";
@@ -1179,6 +1250,7 @@
             this.picPlayer22.Location = new System.Drawing.Point(119, 223);
             this.picPlayer22.Name = "picPlayer22";
             this.picPlayer22.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer22.TabIndex = 129;
             this.picPlayer22.TabStop = false;
             this.picPlayer22.Tag = "EnemyCell22";
@@ -1190,6 +1262,7 @@
             this.picPlayer23.Location = new System.Drawing.Point(197, 223);
             this.picPlayer23.Name = "picPlayer23";
             this.picPlayer23.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer23.TabIndex = 128;
             this.picPlayer23.TabStop = false;
             this.picPlayer23.Tag = "EnemyCell23";
@@ -1201,6 +1274,7 @@
             this.picPlayer24.Location = new System.Drawing.Point(275, 223);
             this.picPlayer24.Name = "picPlayer24";
             this.picPlayer24.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer24.TabIndex = 127;
             this.picPlayer24.TabStop = false;
             this.picPlayer24.Tag = "EnemyCell24";
@@ -1212,6 +1286,7 @@
             this.picPlayer30.Location = new System.Drawing.Point(743, 223);
             this.picPlayer30.Name = "picPlayer30";
             this.picPlayer30.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer30.TabIndex = 126;
             this.picPlayer30.TabStop = false;
             this.picPlayer30.Tag = "EnemyCell30";
@@ -1223,6 +1298,7 @@
             this.picPlayer29.Location = new System.Drawing.Point(665, 223);
             this.picPlayer29.Name = "picPlayer29";
             this.picPlayer29.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer29.TabIndex = 125;
             this.picPlayer29.TabStop = false;
             this.picPlayer29.Tag = "EnemyCell29";
@@ -1234,6 +1310,7 @@
             this.picPlayer28.Location = new System.Drawing.Point(587, 223);
             this.picPlayer28.Name = "picPlayer28";
             this.picPlayer28.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer28.TabIndex = 124;
             this.picPlayer28.TabStop = false;
             this.picPlayer28.Tag = "EnemyCell28";
@@ -1245,6 +1322,7 @@
             this.picPlayer27.Location = new System.Drawing.Point(509, 223);
             this.picPlayer27.Name = "picPlayer27";
             this.picPlayer27.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer27.TabIndex = 123;
             this.picPlayer27.TabStop = false;
             this.picPlayer27.Tag = "EnemyCell27";
@@ -1256,6 +1334,7 @@
             this.picPlayer26.Location = new System.Drawing.Point(431, 223);
             this.picPlayer26.Name = "picPlayer26";
             this.picPlayer26.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer26.TabIndex = 122;
             this.picPlayer26.TabStop = false;
             this.picPlayer26.Tag = "EnemyCell26";
@@ -1267,6 +1346,7 @@
             this.picPlayer25.Location = new System.Drawing.Point(353, 223);
             this.picPlayer25.Name = "picPlayer25";
             this.picPlayer25.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer25.TabIndex = 121;
             this.picPlayer25.TabStop = false;
             this.picPlayer25.Tag = "EnemyCell25";
@@ -1278,6 +1358,7 @@
             this.picPlayer11.Location = new System.Drawing.Point(41, 150);
             this.picPlayer11.Name = "picPlayer11";
             this.picPlayer11.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer11.TabIndex = 120;
             this.picPlayer11.TabStop = false;
             this.picPlayer11.Tag = "EnemyCell11";
@@ -1289,6 +1370,7 @@
             this.picPlayer12.Location = new System.Drawing.Point(119, 150);
             this.picPlayer12.Name = "picPlayer12";
             this.picPlayer12.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer12.TabIndex = 119;
             this.picPlayer12.TabStop = false;
             this.picPlayer12.Tag = "EnemyCell12";
@@ -1300,6 +1382,7 @@
             this.picPlayer13.Location = new System.Drawing.Point(197, 150);
             this.picPlayer13.Name = "picPlayer13";
             this.picPlayer13.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer13.TabIndex = 118;
             this.picPlayer13.TabStop = false;
             this.picPlayer13.Tag = "EnemyCell13";
@@ -1311,6 +1394,7 @@
             this.picPlayer14.Location = new System.Drawing.Point(275, 150);
             this.picPlayer14.Name = "picPlayer14";
             this.picPlayer14.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer14.TabIndex = 117;
             this.picPlayer14.TabStop = false;
             this.picPlayer14.Tag = "EnemyCell14";
@@ -1322,6 +1406,7 @@
             this.picPlayer20.Location = new System.Drawing.Point(743, 150);
             this.picPlayer20.Name = "picPlayer20";
             this.picPlayer20.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer20.TabIndex = 116;
             this.picPlayer20.TabStop = false;
             this.picPlayer20.Tag = "EnemyCell20";
@@ -1333,6 +1418,7 @@
             this.picPlayer19.Location = new System.Drawing.Point(665, 150);
             this.picPlayer19.Name = "picPlayer19";
             this.picPlayer19.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer19.TabIndex = 115;
             this.picPlayer19.TabStop = false;
             this.picPlayer19.Tag = "EnemyCell19";
@@ -1344,6 +1430,7 @@
             this.picPlayer18.Location = new System.Drawing.Point(587, 150);
             this.picPlayer18.Name = "picPlayer18";
             this.picPlayer18.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer18.TabIndex = 114;
             this.picPlayer18.TabStop = false;
             this.picPlayer18.Tag = "EnemyCell18";
@@ -1355,6 +1442,7 @@
             this.picPlayer17.Location = new System.Drawing.Point(509, 150);
             this.picPlayer17.Name = "picPlayer17";
             this.picPlayer17.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer17.TabIndex = 113;
             this.picPlayer17.TabStop = false;
             this.picPlayer17.Tag = "EnemyCell17";
@@ -1366,6 +1454,7 @@
             this.picPlayer16.Location = new System.Drawing.Point(431, 150);
             this.picPlayer16.Name = "picPlayer16";
             this.picPlayer16.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer16.TabIndex = 112;
             this.picPlayer16.TabStop = false;
             this.picPlayer16.Tag = "EnemyCell16";
@@ -1377,6 +1466,7 @@
             this.picPlayer15.Location = new System.Drawing.Point(353, 150);
             this.picPlayer15.Name = "picPlayer15";
             this.picPlayer15.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer15.TabIndex = 111;
             this.picPlayer15.TabStop = false;
             this.picPlayer15.Tag = "EnemyCell15";
@@ -1388,6 +1478,7 @@
             this.picPlayer1.Location = new System.Drawing.Point(41, 77);
             this.picPlayer1.Name = "picPlayer1";
             this.picPlayer1.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer1.TabIndex = 110;
             this.picPlayer1.TabStop = false;
             this.picPlayer1.Tag = "EnemyCell1";
@@ -1399,6 +1490,7 @@
             this.picPlayer2.Location = new System.Drawing.Point(119, 77);
             this.picPlayer2.Name = "picPlayer2";
             this.picPlayer2.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer2.TabIndex = 109;
             this.picPlayer2.TabStop = false;
             this.picPlayer2.Tag = "EnemyCell2";
@@ -1410,6 +1502,7 @@
             this.picPlayer3.Location = new System.Drawing.Point(197, 77);
             this.picPlayer3.Name = "picPlayer3";
             this.picPlayer3.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer3.TabIndex = 108;
             this.picPlayer3.TabStop = false;
             this.picPlayer3.Tag = "EnemyCell3";
@@ -1421,6 +1514,7 @@
             this.picPlayer4.Location = new System.Drawing.Point(275, 77);
             this.picPlayer4.Name = "picPlayer4";
             this.picPlayer4.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer4.TabIndex = 107;
             this.picPlayer4.TabStop = false;
             this.picPlayer4.Tag = "EnemyCell4";
@@ -1428,10 +1522,11 @@
             // 
             // picPlayer10
             // 
-            this.picPlayer10.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer10.Image")));
+            this.picPlayer10.Image = global::Battleship_2._0.Properties.Resources.PlayerEmpty;
             this.picPlayer10.Location = new System.Drawing.Point(743, 77);
             this.picPlayer10.Name = "picPlayer10";
             this.picPlayer10.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer10.TabIndex = 106;
             this.picPlayer10.TabStop = false;
             this.picPlayer10.Tag = "EnemyCell10";
@@ -1443,6 +1538,7 @@
             this.picPlayer9.Location = new System.Drawing.Point(665, 77);
             this.picPlayer9.Name = "picPlayer9";
             this.picPlayer9.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer9.TabIndex = 105;
             this.picPlayer9.TabStop = false;
             this.picPlayer9.Tag = "EnemyCell9";
@@ -1454,6 +1550,7 @@
             this.picPlayer8.Location = new System.Drawing.Point(587, 77);
             this.picPlayer8.Name = "picPlayer8";
             this.picPlayer8.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer8.TabIndex = 104;
             this.picPlayer8.TabStop = false;
             this.picPlayer8.Tag = "EnemyCell8";
@@ -1465,6 +1562,7 @@
             this.picPlayer7.Location = new System.Drawing.Point(509, 77);
             this.picPlayer7.Name = "picPlayer7";
             this.picPlayer7.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer7.TabIndex = 103;
             this.picPlayer7.TabStop = false;
             this.picPlayer7.Tag = "EnemyCell7";
@@ -1476,6 +1574,7 @@
             this.picPlayer6.Location = new System.Drawing.Point(431, 77);
             this.picPlayer6.Name = "picPlayer6";
             this.picPlayer6.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer6.TabIndex = 102;
             this.picPlayer6.TabStop = false;
             this.picPlayer6.Tag = "EnemyCell6";
@@ -1487,6 +1586,7 @@
             this.picPlayer5.Location = new System.Drawing.Point(353, 77);
             this.picPlayer5.Name = "picPlayer5";
             this.picPlayer5.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer5.TabIndex = 101;
             this.picPlayer5.TabStop = false;
             this.picPlayer5.Tag = "EnemyCell5";
