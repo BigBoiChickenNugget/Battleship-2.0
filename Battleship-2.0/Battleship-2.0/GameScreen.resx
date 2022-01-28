@@ -2079,7 +2079,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer01.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2101,7 +2101,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer02.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2123,7 +2123,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer03.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2145,7 +2145,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer04.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2189,7 +2189,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer09.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2211,7 +2211,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer08.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2233,7 +2233,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer07.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2255,7 +2255,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer06.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
@@ -2277,7 +2277,7 @@
         Bf5RKaZyJwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picPlayer05.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="picPlayer5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAU8AAAFPCAIAAABCr9ulAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAA7FJREFUeF7t04EAAAAMBKH5a73YQK4cugENtkOF7VBhO1TYDhW2Q4XtUGE7VNgO
