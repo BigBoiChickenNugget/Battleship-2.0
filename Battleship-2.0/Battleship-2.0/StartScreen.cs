@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace Battleship_2._0
 {
@@ -15,6 +16,9 @@ namespace Battleship_2._0
         public StartScreen()
         {
             InitializeComponent();
+            WindowsMediaPlayer player = new WindowsMediaPlayer();
+            player.URL = "battleship_8-bit_music.mp3";
+            player.controls.play();
         }
 
         private void QuitGame(object sender, EventArgs e)

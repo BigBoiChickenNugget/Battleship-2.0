@@ -440,9 +440,10 @@
             this.lblMoves.CausesValidation = false;
             this.lblMoves.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMoves.ForeColor = System.Drawing.Color.White;
-            this.lblMoves.Location = new System.Drawing.Point(889, 19);
+            this.lblMoves.Location = new System.Drawing.Point(649, 9);
+            this.lblMoves.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMoves.Name = "lblMoves";
-            this.lblMoves.Size = new System.Drawing.Size(175, 45);
+            this.lblMoves.Size = new System.Drawing.Size(139, 36);
             this.lblMoves.TabIndex = 100;
             this.lblMoves.Text = "Moves: 0";
             // 
@@ -453,9 +454,10 @@
             // picPlayer91
             // 
             this.picPlayer91.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer91.Image")));
-            this.picPlayer91.Location = new System.Drawing.Point(41, 733);
+            this.picPlayer91.Location = new System.Drawing.Point(59, 600);
+            this.picPlayer91.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer91.Name = "picPlayer91";
-            this.picPlayer91.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer91.Size = new System.Drawing.Size(54, 54);
             this.picPlayer91.TabIndex = 200;
             this.picPlayer91.TabStop = false;
             this.picPlayer91.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -463,9 +465,10 @@
             // picPlayer92
             // 
             this.picPlayer92.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer92.Image")));
-            this.picPlayer92.Location = new System.Drawing.Point(119, 733);
+            this.picPlayer92.Location = new System.Drawing.Point(117, 600);
+            this.picPlayer92.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer92.Name = "picPlayer92";
-            this.picPlayer92.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer92.Size = new System.Drawing.Size(54, 54);
             this.picPlayer92.TabIndex = 199;
             this.picPlayer92.TabStop = false;
             this.picPlayer92.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -473,9 +476,10 @@
             // picPlayer93
             // 
             this.picPlayer93.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer93.Image")));
-            this.picPlayer93.Location = new System.Drawing.Point(197, 733);
+            this.picPlayer93.Location = new System.Drawing.Point(176, 600);
+            this.picPlayer93.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer93.Name = "picPlayer93";
-            this.picPlayer93.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer93.Size = new System.Drawing.Size(54, 54);
             this.picPlayer93.TabIndex = 198;
             this.picPlayer93.TabStop = false;
             this.picPlayer93.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -483,9 +487,10 @@
             // picPlayer94
             // 
             this.picPlayer94.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer94.Image")));
-            this.picPlayer94.Location = new System.Drawing.Point(275, 733);
+            this.picPlayer94.Location = new System.Drawing.Point(234, 600);
+            this.picPlayer94.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer94.Name = "picPlayer94";
-            this.picPlayer94.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer94.Size = new System.Drawing.Size(54, 54);
             this.picPlayer94.TabIndex = 197;
             this.picPlayer94.TabStop = false;
             this.picPlayer94.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -493,9 +498,10 @@
             // picPlayer100
             // 
             this.picPlayer100.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer100.Image")));
-            this.picPlayer100.Location = new System.Drawing.Point(743, 733);
+            this.picPlayer100.Location = new System.Drawing.Point(585, 600);
+            this.picPlayer100.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer100.Name = "picPlayer100";
-            this.picPlayer100.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer100.Size = new System.Drawing.Size(54, 54);
             this.picPlayer100.TabIndex = 196;
             this.picPlayer100.TabStop = false;
             this.picPlayer100.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -503,9 +509,10 @@
             // picPlayer99
             // 
             this.picPlayer99.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer99.Image")));
-            this.picPlayer99.Location = new System.Drawing.Point(665, 733);
+            this.picPlayer99.Location = new System.Drawing.Point(527, 600);
+            this.picPlayer99.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer99.Name = "picPlayer99";
-            this.picPlayer99.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer99.Size = new System.Drawing.Size(54, 54);
             this.picPlayer99.TabIndex = 195;
             this.picPlayer99.TabStop = false;
             this.picPlayer99.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -513,9 +520,10 @@
             // picPlayer98
             // 
             this.picPlayer98.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer98.Image")));
-            this.picPlayer98.Location = new System.Drawing.Point(587, 733);
+            this.picPlayer98.Location = new System.Drawing.Point(468, 600);
+            this.picPlayer98.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer98.Name = "picPlayer98";
-            this.picPlayer98.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer98.Size = new System.Drawing.Size(54, 54);
             this.picPlayer98.TabIndex = 194;
             this.picPlayer98.TabStop = false;
             this.picPlayer98.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -523,9 +531,10 @@
             // picPlayer97
             // 
             this.picPlayer97.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer97.Image")));
-            this.picPlayer97.Location = new System.Drawing.Point(509, 733);
+            this.picPlayer97.Location = new System.Drawing.Point(410, 600);
+            this.picPlayer97.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer97.Name = "picPlayer97";
-            this.picPlayer97.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer97.Size = new System.Drawing.Size(54, 54);
             this.picPlayer97.TabIndex = 193;
             this.picPlayer97.TabStop = false;
             this.picPlayer97.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -533,9 +542,10 @@
             // picPlayer96
             // 
             this.picPlayer96.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer96.Image")));
-            this.picPlayer96.Location = new System.Drawing.Point(431, 733);
+            this.picPlayer96.Location = new System.Drawing.Point(351, 600);
+            this.picPlayer96.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer96.Name = "picPlayer96";
-            this.picPlayer96.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer96.Size = new System.Drawing.Size(54, 54);
             this.picPlayer96.TabIndex = 192;
             this.picPlayer96.TabStop = false;
             this.picPlayer96.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -543,9 +553,10 @@
             // picPlayer95
             // 
             this.picPlayer95.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer95.Image")));
-            this.picPlayer95.Location = new System.Drawing.Point(353, 733);
+            this.picPlayer95.Location = new System.Drawing.Point(293, 600);
+            this.picPlayer95.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer95.Name = "picPlayer95";
-            this.picPlayer95.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer95.Size = new System.Drawing.Size(54, 54);
             this.picPlayer95.TabIndex = 191;
             this.picPlayer95.TabStop = false;
             this.picPlayer95.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -553,9 +564,10 @@
             // picPlayer81
             // 
             this.picPlayer81.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer81.Image")));
-            this.picPlayer81.Location = new System.Drawing.Point(41, 661);
+            this.picPlayer81.Location = new System.Drawing.Point(59, 541);
+            this.picPlayer81.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer81.Name = "picPlayer81";
-            this.picPlayer81.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer81.Size = new System.Drawing.Size(54, 54);
             this.picPlayer81.TabIndex = 190;
             this.picPlayer81.TabStop = false;
             this.picPlayer81.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -563,9 +575,10 @@
             // picPlayer82
             // 
             this.picPlayer82.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer82.Image")));
-            this.picPlayer82.Location = new System.Drawing.Point(119, 661);
+            this.picPlayer82.Location = new System.Drawing.Point(117, 541);
+            this.picPlayer82.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer82.Name = "picPlayer82";
-            this.picPlayer82.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer82.Size = new System.Drawing.Size(54, 54);
             this.picPlayer82.TabIndex = 189;
             this.picPlayer82.TabStop = false;
             this.picPlayer82.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -573,9 +586,10 @@
             // picPlayer83
             // 
             this.picPlayer83.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer83.Image")));
-            this.picPlayer83.Location = new System.Drawing.Point(197, 661);
+            this.picPlayer83.Location = new System.Drawing.Point(176, 541);
+            this.picPlayer83.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer83.Name = "picPlayer83";
-            this.picPlayer83.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer83.Size = new System.Drawing.Size(54, 54);
             this.picPlayer83.TabIndex = 188;
             this.picPlayer83.TabStop = false;
             this.picPlayer83.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -583,9 +597,10 @@
             // picPlayer84
             // 
             this.picPlayer84.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer84.Image")));
-            this.picPlayer84.Location = new System.Drawing.Point(275, 661);
+            this.picPlayer84.Location = new System.Drawing.Point(234, 541);
+            this.picPlayer84.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer84.Name = "picPlayer84";
-            this.picPlayer84.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer84.Size = new System.Drawing.Size(54, 54);
             this.picPlayer84.TabIndex = 187;
             this.picPlayer84.TabStop = false;
             this.picPlayer84.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -593,9 +608,10 @@
             // picPlayer90
             // 
             this.picPlayer90.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer90.Image")));
-            this.picPlayer90.Location = new System.Drawing.Point(743, 661);
+            this.picPlayer90.Location = new System.Drawing.Point(585, 541);
+            this.picPlayer90.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer90.Name = "picPlayer90";
-            this.picPlayer90.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer90.Size = new System.Drawing.Size(54, 54);
             this.picPlayer90.TabIndex = 186;
             this.picPlayer90.TabStop = false;
             this.picPlayer90.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -603,9 +619,10 @@
             // picPlayer89
             // 
             this.picPlayer89.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer89.Image")));
-            this.picPlayer89.Location = new System.Drawing.Point(665, 661);
+            this.picPlayer89.Location = new System.Drawing.Point(527, 541);
+            this.picPlayer89.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer89.Name = "picPlayer89";
-            this.picPlayer89.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer89.Size = new System.Drawing.Size(54, 54);
             this.picPlayer89.TabIndex = 185;
             this.picPlayer89.TabStop = false;
             this.picPlayer89.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -613,9 +630,10 @@
             // picPlayer88
             // 
             this.picPlayer88.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer88.Image")));
-            this.picPlayer88.Location = new System.Drawing.Point(587, 661);
+            this.picPlayer88.Location = new System.Drawing.Point(468, 541);
+            this.picPlayer88.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer88.Name = "picPlayer88";
-            this.picPlayer88.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer88.Size = new System.Drawing.Size(54, 54);
             this.picPlayer88.TabIndex = 184;
             this.picPlayer88.TabStop = false;
             this.picPlayer88.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -623,9 +641,10 @@
             // picPlayer87
             // 
             this.picPlayer87.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer87.Image")));
-            this.picPlayer87.Location = new System.Drawing.Point(509, 661);
+            this.picPlayer87.Location = new System.Drawing.Point(410, 541);
+            this.picPlayer87.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer87.Name = "picPlayer87";
-            this.picPlayer87.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer87.Size = new System.Drawing.Size(54, 54);
             this.picPlayer87.TabIndex = 183;
             this.picPlayer87.TabStop = false;
             this.picPlayer87.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -633,9 +652,10 @@
             // picPlayer86
             // 
             this.picPlayer86.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer86.Image")));
-            this.picPlayer86.Location = new System.Drawing.Point(431, 661);
+            this.picPlayer86.Location = new System.Drawing.Point(351, 541);
+            this.picPlayer86.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer86.Name = "picPlayer86";
-            this.picPlayer86.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer86.Size = new System.Drawing.Size(54, 54);
             this.picPlayer86.TabIndex = 182;
             this.picPlayer86.TabStop = false;
             this.picPlayer86.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -643,9 +663,10 @@
             // picPlayer85
             // 
             this.picPlayer85.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer85.Image")));
-            this.picPlayer85.Location = new System.Drawing.Point(353, 661);
+            this.picPlayer85.Location = new System.Drawing.Point(293, 541);
+            this.picPlayer85.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer85.Name = "picPlayer85";
-            this.picPlayer85.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer85.Size = new System.Drawing.Size(54, 54);
             this.picPlayer85.TabIndex = 181;
             this.picPlayer85.TabStop = false;
             this.picPlayer85.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -653,9 +674,10 @@
             // picPlayer71
             // 
             this.picPlayer71.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer71.Image")));
-            this.picPlayer71.Location = new System.Drawing.Point(41, 588);
+            this.picPlayer71.Location = new System.Drawing.Point(59, 482);
+            this.picPlayer71.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer71.Name = "picPlayer71";
-            this.picPlayer71.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer71.Size = new System.Drawing.Size(54, 54);
             this.picPlayer71.TabIndex = 180;
             this.picPlayer71.TabStop = false;
             this.picPlayer71.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -663,9 +685,10 @@
             // picPlayer72
             // 
             this.picPlayer72.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer72.Image")));
-            this.picPlayer72.Location = new System.Drawing.Point(119, 588);
+            this.picPlayer72.Location = new System.Drawing.Point(117, 482);
+            this.picPlayer72.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer72.Name = "picPlayer72";
-            this.picPlayer72.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer72.Size = new System.Drawing.Size(54, 54);
             this.picPlayer72.TabIndex = 179;
             this.picPlayer72.TabStop = false;
             this.picPlayer72.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -673,9 +696,10 @@
             // picPlayer73
             // 
             this.picPlayer73.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer73.Image")));
-            this.picPlayer73.Location = new System.Drawing.Point(197, 588);
+            this.picPlayer73.Location = new System.Drawing.Point(176, 482);
+            this.picPlayer73.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer73.Name = "picPlayer73";
-            this.picPlayer73.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer73.Size = new System.Drawing.Size(54, 54);
             this.picPlayer73.TabIndex = 178;
             this.picPlayer73.TabStop = false;
             this.picPlayer73.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -683,9 +707,10 @@
             // picPlayer74
             // 
             this.picPlayer74.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer74.Image")));
-            this.picPlayer74.Location = new System.Drawing.Point(275, 588);
+            this.picPlayer74.Location = new System.Drawing.Point(234, 482);
+            this.picPlayer74.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer74.Name = "picPlayer74";
-            this.picPlayer74.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer74.Size = new System.Drawing.Size(54, 54);
             this.picPlayer74.TabIndex = 177;
             this.picPlayer74.TabStop = false;
             this.picPlayer74.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -693,9 +718,10 @@
             // picPlayer80
             // 
             this.picPlayer80.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer80.Image")));
-            this.picPlayer80.Location = new System.Drawing.Point(743, 588);
+            this.picPlayer80.Location = new System.Drawing.Point(585, 482);
+            this.picPlayer80.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer80.Name = "picPlayer80";
-            this.picPlayer80.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer80.Size = new System.Drawing.Size(54, 54);
             this.picPlayer80.TabIndex = 176;
             this.picPlayer80.TabStop = false;
             this.picPlayer80.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -703,9 +729,10 @@
             // picPlayer79
             // 
             this.picPlayer79.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer79.Image")));
-            this.picPlayer79.Location = new System.Drawing.Point(665, 588);
+            this.picPlayer79.Location = new System.Drawing.Point(527, 482);
+            this.picPlayer79.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer79.Name = "picPlayer79";
-            this.picPlayer79.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer79.Size = new System.Drawing.Size(54, 54);
             this.picPlayer79.TabIndex = 175;
             this.picPlayer79.TabStop = false;
             this.picPlayer79.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -713,9 +740,10 @@
             // picPlayer78
             // 
             this.picPlayer78.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer78.Image")));
-            this.picPlayer78.Location = new System.Drawing.Point(587, 588);
+            this.picPlayer78.Location = new System.Drawing.Point(468, 482);
+            this.picPlayer78.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer78.Name = "picPlayer78";
-            this.picPlayer78.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer78.Size = new System.Drawing.Size(54, 54);
             this.picPlayer78.TabIndex = 174;
             this.picPlayer78.TabStop = false;
             this.picPlayer78.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -723,9 +751,10 @@
             // picPlayer77
             // 
             this.picPlayer77.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer77.Image")));
-            this.picPlayer77.Location = new System.Drawing.Point(509, 588);
+            this.picPlayer77.Location = new System.Drawing.Point(410, 482);
+            this.picPlayer77.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer77.Name = "picPlayer77";
-            this.picPlayer77.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer77.Size = new System.Drawing.Size(54, 54);
             this.picPlayer77.TabIndex = 173;
             this.picPlayer77.TabStop = false;
             this.picPlayer77.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -733,9 +762,10 @@
             // picPlayer76
             // 
             this.picPlayer76.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer76.Image")));
-            this.picPlayer76.Location = new System.Drawing.Point(431, 588);
+            this.picPlayer76.Location = new System.Drawing.Point(351, 482);
+            this.picPlayer76.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer76.Name = "picPlayer76";
-            this.picPlayer76.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer76.Size = new System.Drawing.Size(54, 54);
             this.picPlayer76.TabIndex = 172;
             this.picPlayer76.TabStop = false;
             this.picPlayer76.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -743,9 +773,10 @@
             // picPlayer75
             // 
             this.picPlayer75.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer75.Image")));
-            this.picPlayer75.Location = new System.Drawing.Point(353, 588);
+            this.picPlayer75.Location = new System.Drawing.Point(293, 482);
+            this.picPlayer75.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer75.Name = "picPlayer75";
-            this.picPlayer75.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer75.Size = new System.Drawing.Size(54, 54);
             this.picPlayer75.TabIndex = 171;
             this.picPlayer75.TabStop = false;
             this.picPlayer75.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -753,9 +784,10 @@
             // picPlayer61
             // 
             this.picPlayer61.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer61.Image")));
-            this.picPlayer61.Location = new System.Drawing.Point(41, 515);
+            this.picPlayer61.Location = new System.Drawing.Point(59, 422);
+            this.picPlayer61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer61.Name = "picPlayer61";
-            this.picPlayer61.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer61.Size = new System.Drawing.Size(54, 54);
             this.picPlayer61.TabIndex = 170;
             this.picPlayer61.TabStop = false;
             this.picPlayer61.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -763,9 +795,10 @@
             // picPlayer62
             // 
             this.picPlayer62.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer62.Image")));
-            this.picPlayer62.Location = new System.Drawing.Point(119, 515);
+            this.picPlayer62.Location = new System.Drawing.Point(117, 422);
+            this.picPlayer62.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer62.Name = "picPlayer62";
-            this.picPlayer62.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer62.Size = new System.Drawing.Size(54, 54);
             this.picPlayer62.TabIndex = 169;
             this.picPlayer62.TabStop = false;
             this.picPlayer62.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -773,9 +806,10 @@
             // picPlayer63
             // 
             this.picPlayer63.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer63.Image")));
-            this.picPlayer63.Location = new System.Drawing.Point(197, 515);
+            this.picPlayer63.Location = new System.Drawing.Point(176, 422);
+            this.picPlayer63.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer63.Name = "picPlayer63";
-            this.picPlayer63.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer63.Size = new System.Drawing.Size(54, 54);
             this.picPlayer63.TabIndex = 168;
             this.picPlayer63.TabStop = false;
             this.picPlayer63.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -783,9 +817,10 @@
             // picPlayer64
             // 
             this.picPlayer64.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer64.Image")));
-            this.picPlayer64.Location = new System.Drawing.Point(275, 515);
+            this.picPlayer64.Location = new System.Drawing.Point(234, 422);
+            this.picPlayer64.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer64.Name = "picPlayer64";
-            this.picPlayer64.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer64.Size = new System.Drawing.Size(54, 54);
             this.picPlayer64.TabIndex = 167;
             this.picPlayer64.TabStop = false;
             this.picPlayer64.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -793,9 +828,10 @@
             // picPlayer70
             // 
             this.picPlayer70.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer70.Image")));
-            this.picPlayer70.Location = new System.Drawing.Point(743, 515);
+            this.picPlayer70.Location = new System.Drawing.Point(585, 422);
+            this.picPlayer70.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer70.Name = "picPlayer70";
-            this.picPlayer70.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer70.Size = new System.Drawing.Size(54, 54);
             this.picPlayer70.TabIndex = 166;
             this.picPlayer70.TabStop = false;
             this.picPlayer70.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -803,9 +839,10 @@
             // picPlayer69
             // 
             this.picPlayer69.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer69.Image")));
-            this.picPlayer69.Location = new System.Drawing.Point(665, 515);
+            this.picPlayer69.Location = new System.Drawing.Point(527, 422);
+            this.picPlayer69.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer69.Name = "picPlayer69";
-            this.picPlayer69.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer69.Size = new System.Drawing.Size(54, 54);
             this.picPlayer69.TabIndex = 165;
             this.picPlayer69.TabStop = false;
             this.picPlayer69.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -813,9 +850,10 @@
             // picPlayer68
             // 
             this.picPlayer68.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer68.Image")));
-            this.picPlayer68.Location = new System.Drawing.Point(587, 515);
+            this.picPlayer68.Location = new System.Drawing.Point(468, 422);
+            this.picPlayer68.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer68.Name = "picPlayer68";
-            this.picPlayer68.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer68.Size = new System.Drawing.Size(54, 54);
             this.picPlayer68.TabIndex = 164;
             this.picPlayer68.TabStop = false;
             this.picPlayer68.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -823,9 +861,10 @@
             // picPlayer67
             // 
             this.picPlayer67.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer67.Image")));
-            this.picPlayer67.Location = new System.Drawing.Point(509, 515);
+            this.picPlayer67.Location = new System.Drawing.Point(410, 422);
+            this.picPlayer67.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer67.Name = "picPlayer67";
-            this.picPlayer67.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer67.Size = new System.Drawing.Size(54, 54);
             this.picPlayer67.TabIndex = 163;
             this.picPlayer67.TabStop = false;
             this.picPlayer67.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -833,9 +872,10 @@
             // picPlayer66
             // 
             this.picPlayer66.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer66.Image")));
-            this.picPlayer66.Location = new System.Drawing.Point(431, 515);
+            this.picPlayer66.Location = new System.Drawing.Point(351, 422);
+            this.picPlayer66.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer66.Name = "picPlayer66";
-            this.picPlayer66.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer66.Size = new System.Drawing.Size(54, 54);
             this.picPlayer66.TabIndex = 162;
             this.picPlayer66.TabStop = false;
             this.picPlayer66.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -843,9 +883,10 @@
             // picPlayer65
             // 
             this.picPlayer65.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer65.Image")));
-            this.picPlayer65.Location = new System.Drawing.Point(353, 515);
+            this.picPlayer65.Location = new System.Drawing.Point(293, 422);
+            this.picPlayer65.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer65.Name = "picPlayer65";
-            this.picPlayer65.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer65.Size = new System.Drawing.Size(54, 54);
             this.picPlayer65.TabIndex = 161;
             this.picPlayer65.TabStop = false;
             this.picPlayer65.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -853,9 +894,10 @@
             // picPlayer51
             // 
             this.picPlayer51.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer51.Image")));
-            this.picPlayer51.Location = new System.Drawing.Point(41, 442);
+            this.picPlayer51.Location = new System.Drawing.Point(59, 363);
+            this.picPlayer51.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer51.Name = "picPlayer51";
-            this.picPlayer51.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer51.Size = new System.Drawing.Size(54, 54);
             this.picPlayer51.TabIndex = 160;
             this.picPlayer51.TabStop = false;
             this.picPlayer51.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -863,9 +905,10 @@
             // picPlayer52
             // 
             this.picPlayer52.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer52.Image")));
-            this.picPlayer52.Location = new System.Drawing.Point(119, 442);
+            this.picPlayer52.Location = new System.Drawing.Point(117, 363);
+            this.picPlayer52.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer52.Name = "picPlayer52";
-            this.picPlayer52.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer52.Size = new System.Drawing.Size(54, 54);
             this.picPlayer52.TabIndex = 159;
             this.picPlayer52.TabStop = false;
             this.picPlayer52.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -873,9 +916,10 @@
             // picPlayer53
             // 
             this.picPlayer53.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer53.Image")));
-            this.picPlayer53.Location = new System.Drawing.Point(197, 442);
+            this.picPlayer53.Location = new System.Drawing.Point(176, 363);
+            this.picPlayer53.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer53.Name = "picPlayer53";
-            this.picPlayer53.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer53.Size = new System.Drawing.Size(54, 54);
             this.picPlayer53.TabIndex = 158;
             this.picPlayer53.TabStop = false;
             this.picPlayer53.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -883,9 +927,10 @@
             // picPlayer54
             // 
             this.picPlayer54.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer54.Image")));
-            this.picPlayer54.Location = new System.Drawing.Point(275, 442);
+            this.picPlayer54.Location = new System.Drawing.Point(234, 363);
+            this.picPlayer54.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer54.Name = "picPlayer54";
-            this.picPlayer54.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer54.Size = new System.Drawing.Size(54, 54);
             this.picPlayer54.TabIndex = 157;
             this.picPlayer54.TabStop = false;
             this.picPlayer54.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -893,9 +938,10 @@
             // picPlayer60
             // 
             this.picPlayer60.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer60.Image")));
-            this.picPlayer60.Location = new System.Drawing.Point(743, 442);
+            this.picPlayer60.Location = new System.Drawing.Point(585, 363);
+            this.picPlayer60.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer60.Name = "picPlayer60";
-            this.picPlayer60.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer60.Size = new System.Drawing.Size(54, 54);
             this.picPlayer60.TabIndex = 156;
             this.picPlayer60.TabStop = false;
             this.picPlayer60.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -903,9 +949,10 @@
             // picPlayer59
             // 
             this.picPlayer59.Image = global::Battleship_2._0.Properties.Resources.PlayerEmpty;
-            this.picPlayer59.Location = new System.Drawing.Point(665, 442);
+            this.picPlayer59.Location = new System.Drawing.Point(527, 363);
+            this.picPlayer59.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer59.Name = "picPlayer59";
-            this.picPlayer59.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer59.Size = new System.Drawing.Size(54, 54);
             this.picPlayer59.TabIndex = 155;
             this.picPlayer59.TabStop = false;
             this.picPlayer59.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -913,9 +960,10 @@
             // picPlayer58
             // 
             this.picPlayer58.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer58.Image")));
-            this.picPlayer58.Location = new System.Drawing.Point(587, 442);
+            this.picPlayer58.Location = new System.Drawing.Point(468, 363);
+            this.picPlayer58.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer58.Name = "picPlayer58";
-            this.picPlayer58.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer58.Size = new System.Drawing.Size(54, 54);
             this.picPlayer58.TabIndex = 154;
             this.picPlayer58.TabStop = false;
             this.picPlayer58.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -923,9 +971,10 @@
             // picPlayer57
             // 
             this.picPlayer57.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer57.Image")));
-            this.picPlayer57.Location = new System.Drawing.Point(509, 442);
+            this.picPlayer57.Location = new System.Drawing.Point(410, 363);
+            this.picPlayer57.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer57.Name = "picPlayer57";
-            this.picPlayer57.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer57.Size = new System.Drawing.Size(54, 54);
             this.picPlayer57.TabIndex = 153;
             this.picPlayer57.TabStop = false;
             this.picPlayer57.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -933,9 +982,10 @@
             // picPlayer56
             // 
             this.picPlayer56.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer56.Image")));
-            this.picPlayer56.Location = new System.Drawing.Point(431, 442);
+            this.picPlayer56.Location = new System.Drawing.Point(351, 363);
+            this.picPlayer56.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer56.Name = "picPlayer56";
-            this.picPlayer56.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer56.Size = new System.Drawing.Size(54, 54);
             this.picPlayer56.TabIndex = 152;
             this.picPlayer56.TabStop = false;
             this.picPlayer56.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -943,9 +993,10 @@
             // picPlayer55
             // 
             this.picPlayer55.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer55.Image")));
-            this.picPlayer55.Location = new System.Drawing.Point(353, 442);
+            this.picPlayer55.Location = new System.Drawing.Point(293, 363);
+            this.picPlayer55.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer55.Name = "picPlayer55";
-            this.picPlayer55.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer55.Size = new System.Drawing.Size(54, 54);
             this.picPlayer55.TabIndex = 151;
             this.picPlayer55.TabStop = false;
             this.picPlayer55.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -953,9 +1004,10 @@
             // picPlayer41
             // 
             this.picPlayer41.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer41.Image")));
-            this.picPlayer41.Location = new System.Drawing.Point(41, 369);
+            this.picPlayer41.Location = new System.Drawing.Point(59, 304);
+            this.picPlayer41.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer41.Name = "picPlayer41";
-            this.picPlayer41.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer41.Size = new System.Drawing.Size(54, 54);
             this.picPlayer41.TabIndex = 150;
             this.picPlayer41.TabStop = false;
             this.picPlayer41.Tag = "EnemyCell40";
@@ -964,9 +1016,10 @@
             // picPlayer42
             // 
             this.picPlayer42.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer42.Image")));
-            this.picPlayer42.Location = new System.Drawing.Point(119, 369);
+            this.picPlayer42.Location = new System.Drawing.Point(117, 304);
+            this.picPlayer42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer42.Name = "picPlayer42";
-            this.picPlayer42.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer42.Size = new System.Drawing.Size(54, 54);
             this.picPlayer42.TabIndex = 149;
             this.picPlayer42.TabStop = false;
             this.picPlayer42.Tag = "EnemyCell41";
@@ -975,9 +1028,10 @@
             // picPlayer43
             // 
             this.picPlayer43.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer43.Image")));
-            this.picPlayer43.Location = new System.Drawing.Point(197, 369);
+            this.picPlayer43.Location = new System.Drawing.Point(176, 304);
+            this.picPlayer43.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer43.Name = "picPlayer43";
-            this.picPlayer43.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer43.Size = new System.Drawing.Size(54, 54);
             this.picPlayer43.TabIndex = 148;
             this.picPlayer43.TabStop = false;
             this.picPlayer43.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -985,9 +1039,10 @@
             // picPlayer44
             // 
             this.picPlayer44.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer44.Image")));
-            this.picPlayer44.Location = new System.Drawing.Point(275, 369);
+            this.picPlayer44.Location = new System.Drawing.Point(234, 304);
+            this.picPlayer44.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer44.Name = "picPlayer44";
-            this.picPlayer44.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer44.Size = new System.Drawing.Size(54, 54);
             this.picPlayer44.TabIndex = 147;
             this.picPlayer44.TabStop = false;
             this.picPlayer44.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -995,9 +1050,10 @@
             // picPlayer50
             // 
             this.picPlayer50.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer50.Image")));
-            this.picPlayer50.Location = new System.Drawing.Point(743, 369);
+            this.picPlayer50.Location = new System.Drawing.Point(585, 304);
+            this.picPlayer50.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer50.Name = "picPlayer50";
-            this.picPlayer50.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer50.Size = new System.Drawing.Size(54, 54);
             this.picPlayer50.TabIndex = 146;
             this.picPlayer50.TabStop = false;
             this.picPlayer50.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1005,9 +1061,10 @@
             // picPlayer49
             // 
             this.picPlayer49.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer49.Image")));
-            this.picPlayer49.Location = new System.Drawing.Point(665, 369);
+            this.picPlayer49.Location = new System.Drawing.Point(527, 304);
+            this.picPlayer49.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer49.Name = "picPlayer49";
-            this.picPlayer49.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer49.Size = new System.Drawing.Size(54, 54);
             this.picPlayer49.TabIndex = 145;
             this.picPlayer49.TabStop = false;
             this.picPlayer49.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1015,9 +1072,10 @@
             // picPlayer48
             // 
             this.picPlayer48.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer48.Image")));
-            this.picPlayer48.Location = new System.Drawing.Point(587, 369);
+            this.picPlayer48.Location = new System.Drawing.Point(468, 304);
+            this.picPlayer48.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer48.Name = "picPlayer48";
-            this.picPlayer48.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer48.Size = new System.Drawing.Size(54, 54);
             this.picPlayer48.TabIndex = 144;
             this.picPlayer48.TabStop = false;
             this.picPlayer48.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1025,9 +1083,10 @@
             // picPlayer47
             // 
             this.picPlayer47.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer47.Image")));
-            this.picPlayer47.Location = new System.Drawing.Point(509, 369);
+            this.picPlayer47.Location = new System.Drawing.Point(410, 304);
+            this.picPlayer47.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer47.Name = "picPlayer47";
-            this.picPlayer47.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer47.Size = new System.Drawing.Size(54, 54);
             this.picPlayer47.TabIndex = 143;
             this.picPlayer47.TabStop = false;
             this.picPlayer47.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1035,9 +1094,10 @@
             // picPlayer46
             // 
             this.picPlayer46.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer46.Image")));
-            this.picPlayer46.Location = new System.Drawing.Point(431, 369);
+            this.picPlayer46.Location = new System.Drawing.Point(351, 304);
+            this.picPlayer46.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer46.Name = "picPlayer46";
-            this.picPlayer46.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer46.Size = new System.Drawing.Size(54, 54);
             this.picPlayer46.TabIndex = 142;
             this.picPlayer46.TabStop = false;
             this.picPlayer46.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1045,9 +1105,10 @@
             // picPlayer45
             // 
             this.picPlayer45.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer45.Image")));
-            this.picPlayer45.Location = new System.Drawing.Point(353, 369);
+            this.picPlayer45.Location = new System.Drawing.Point(293, 304);
+            this.picPlayer45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer45.Name = "picPlayer45";
-            this.picPlayer45.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer45.Size = new System.Drawing.Size(54, 54);
             this.picPlayer45.TabIndex = 141;
             this.picPlayer45.TabStop = false;
             this.picPlayer45.Click += new System.EventHandler(this.ClickPlayerCell);
@@ -1055,9 +1116,10 @@
             // picPlayer31
             // 
             this.picPlayer31.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer31.Image")));
-            this.picPlayer31.Location = new System.Drawing.Point(41, 296);
+            this.picPlayer31.Location = new System.Drawing.Point(59, 244);
+            this.picPlayer31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer31.Name = "picPlayer31";
-            this.picPlayer31.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer31.Size = new System.Drawing.Size(54, 54);
             this.picPlayer31.TabIndex = 140;
             this.picPlayer31.TabStop = false;
             this.picPlayer31.Tag = "EnemyCell31";
@@ -1066,9 +1128,10 @@
             // picPlayer32
             // 
             this.picPlayer32.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer32.Image")));
-            this.picPlayer32.Location = new System.Drawing.Point(119, 296);
+            this.picPlayer32.Location = new System.Drawing.Point(117, 244);
+            this.picPlayer32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer32.Name = "picPlayer32";
-            this.picPlayer32.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer32.Size = new System.Drawing.Size(54, 54);
             this.picPlayer32.TabIndex = 139;
             this.picPlayer32.TabStop = false;
             this.picPlayer32.Tag = "EnemyCell32";
@@ -1077,9 +1140,10 @@
             // picPlayer33
             // 
             this.picPlayer33.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer33.Image")));
-            this.picPlayer33.Location = new System.Drawing.Point(197, 296);
+            this.picPlayer33.Location = new System.Drawing.Point(176, 244);
+            this.picPlayer33.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer33.Name = "picPlayer33";
-            this.picPlayer33.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer33.Size = new System.Drawing.Size(54, 54);
             this.picPlayer33.TabIndex = 138;
             this.picPlayer33.TabStop = false;
             this.picPlayer33.Tag = "EnemyCell33";
@@ -1088,9 +1152,10 @@
             // picPlayer34
             // 
             this.picPlayer34.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer34.Image")));
-            this.picPlayer34.Location = new System.Drawing.Point(275, 296);
+            this.picPlayer34.Location = new System.Drawing.Point(234, 244);
+            this.picPlayer34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer34.Name = "picPlayer34";
-            this.picPlayer34.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer34.Size = new System.Drawing.Size(54, 54);
             this.picPlayer34.TabIndex = 137;
             this.picPlayer34.TabStop = false;
             this.picPlayer34.Tag = "EnemyCell34";
@@ -1099,9 +1164,10 @@
             // picPlayer40
             // 
             this.picPlayer40.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer40.Image")));
-            this.picPlayer40.Location = new System.Drawing.Point(743, 296);
+            this.picPlayer40.Location = new System.Drawing.Point(585, 244);
+            this.picPlayer40.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer40.Name = "picPlayer40";
-            this.picPlayer40.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer40.Size = new System.Drawing.Size(54, 54);
             this.picPlayer40.TabIndex = 136;
             this.picPlayer40.TabStop = false;
             this.picPlayer40.Tag = "EnemyCell40";
@@ -1110,9 +1176,10 @@
             // picPlayer39
             // 
             this.picPlayer39.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer39.Image")));
-            this.picPlayer39.Location = new System.Drawing.Point(665, 296);
+            this.picPlayer39.Location = new System.Drawing.Point(527, 244);
+            this.picPlayer39.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer39.Name = "picPlayer39";
-            this.picPlayer39.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer39.Size = new System.Drawing.Size(54, 54);
             this.picPlayer39.TabIndex = 135;
             this.picPlayer39.TabStop = false;
             this.picPlayer39.Tag = "EnemyCell39";
@@ -1121,9 +1188,10 @@
             // picPlayer38
             // 
             this.picPlayer38.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer38.Image")));
-            this.picPlayer38.Location = new System.Drawing.Point(587, 296);
+            this.picPlayer38.Location = new System.Drawing.Point(468, 244);
+            this.picPlayer38.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer38.Name = "picPlayer38";
-            this.picPlayer38.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer38.Size = new System.Drawing.Size(54, 54);
             this.picPlayer38.TabIndex = 134;
             this.picPlayer38.TabStop = false;
             this.picPlayer38.Tag = "EnemyCell38";
@@ -1132,9 +1200,10 @@
             // picPlayer37
             // 
             this.picPlayer37.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer37.Image")));
-            this.picPlayer37.Location = new System.Drawing.Point(509, 296);
+            this.picPlayer37.Location = new System.Drawing.Point(410, 244);
+            this.picPlayer37.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer37.Name = "picPlayer37";
-            this.picPlayer37.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer37.Size = new System.Drawing.Size(54, 54);
             this.picPlayer37.TabIndex = 133;
             this.picPlayer37.TabStop = false;
             this.picPlayer37.Tag = "EnemyCell37";
@@ -1143,9 +1212,10 @@
             // picPlayer36
             // 
             this.picPlayer36.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer36.Image")));
-            this.picPlayer36.Location = new System.Drawing.Point(431, 296);
+            this.picPlayer36.Location = new System.Drawing.Point(351, 244);
+            this.picPlayer36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer36.Name = "picPlayer36";
-            this.picPlayer36.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer36.Size = new System.Drawing.Size(54, 54);
             this.picPlayer36.TabIndex = 132;
             this.picPlayer36.TabStop = false;
             this.picPlayer36.Tag = "EnemyCell36";
@@ -1154,9 +1224,10 @@
             // picPlayer35
             // 
             this.picPlayer35.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer35.Image")));
-            this.picPlayer35.Location = new System.Drawing.Point(353, 296);
+            this.picPlayer35.Location = new System.Drawing.Point(293, 244);
+            this.picPlayer35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer35.Name = "picPlayer35";
-            this.picPlayer35.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer35.Size = new System.Drawing.Size(54, 54);
             this.picPlayer35.TabIndex = 131;
             this.picPlayer35.TabStop = false;
             this.picPlayer35.Tag = "EnemyCell35";
@@ -1165,9 +1236,10 @@
             // picPlayer21
             // 
             this.picPlayer21.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer21.Image")));
-            this.picPlayer21.Location = new System.Drawing.Point(41, 223);
+            this.picPlayer21.Location = new System.Drawing.Point(59, 185);
+            this.picPlayer21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer21.Name = "picPlayer21";
-            this.picPlayer21.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer21.Size = new System.Drawing.Size(54, 54);
             this.picPlayer21.TabIndex = 130;
             this.picPlayer21.TabStop = false;
             this.picPlayer21.Tag = "EnemyCell21";
@@ -1176,9 +1248,10 @@
             // picPlayer22
             // 
             this.picPlayer22.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer22.Image")));
-            this.picPlayer22.Location = new System.Drawing.Point(119, 223);
+            this.picPlayer22.Location = new System.Drawing.Point(117, 185);
+            this.picPlayer22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer22.Name = "picPlayer22";
-            this.picPlayer22.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer22.Size = new System.Drawing.Size(54, 54);
             this.picPlayer22.TabIndex = 129;
             this.picPlayer22.TabStop = false;
             this.picPlayer22.Tag = "EnemyCell22";
@@ -1187,9 +1260,10 @@
             // picPlayer23
             // 
             this.picPlayer23.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer23.Image")));
-            this.picPlayer23.Location = new System.Drawing.Point(197, 223);
+            this.picPlayer23.Location = new System.Drawing.Point(176, 185);
+            this.picPlayer23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer23.Name = "picPlayer23";
-            this.picPlayer23.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer23.Size = new System.Drawing.Size(54, 54);
             this.picPlayer23.TabIndex = 128;
             this.picPlayer23.TabStop = false;
             this.picPlayer23.Tag = "EnemyCell23";
@@ -1198,9 +1272,10 @@
             // picPlayer24
             // 
             this.picPlayer24.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer24.Image")));
-            this.picPlayer24.Location = new System.Drawing.Point(275, 223);
+            this.picPlayer24.Location = new System.Drawing.Point(234, 185);
+            this.picPlayer24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer24.Name = "picPlayer24";
-            this.picPlayer24.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer24.Size = new System.Drawing.Size(54, 54);
             this.picPlayer24.TabIndex = 127;
             this.picPlayer24.TabStop = false;
             this.picPlayer24.Tag = "EnemyCell24";
@@ -1209,9 +1284,10 @@
             // picPlayer30
             // 
             this.picPlayer30.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer30.Image")));
-            this.picPlayer30.Location = new System.Drawing.Point(743, 223);
+            this.picPlayer30.Location = new System.Drawing.Point(585, 185);
+            this.picPlayer30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer30.Name = "picPlayer30";
-            this.picPlayer30.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer30.Size = new System.Drawing.Size(54, 54);
             this.picPlayer30.TabIndex = 126;
             this.picPlayer30.TabStop = false;
             this.picPlayer30.Tag = "EnemyCell30";
@@ -1220,9 +1296,10 @@
             // picPlayer29
             // 
             this.picPlayer29.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer29.Image")));
-            this.picPlayer29.Location = new System.Drawing.Point(665, 223);
+            this.picPlayer29.Location = new System.Drawing.Point(527, 185);
+            this.picPlayer29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer29.Name = "picPlayer29";
-            this.picPlayer29.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer29.Size = new System.Drawing.Size(54, 54);
             this.picPlayer29.TabIndex = 125;
             this.picPlayer29.TabStop = false;
             this.picPlayer29.Tag = "EnemyCell29";
@@ -1231,9 +1308,10 @@
             // picPlayer28
             // 
             this.picPlayer28.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer28.Image")));
-            this.picPlayer28.Location = new System.Drawing.Point(587, 223);
+            this.picPlayer28.Location = new System.Drawing.Point(468, 185);
+            this.picPlayer28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer28.Name = "picPlayer28";
-            this.picPlayer28.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer28.Size = new System.Drawing.Size(54, 54);
             this.picPlayer28.TabIndex = 124;
             this.picPlayer28.TabStop = false;
             this.picPlayer28.Tag = "EnemyCell28";
@@ -1242,9 +1320,10 @@
             // picPlayer27
             // 
             this.picPlayer27.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer27.Image")));
-            this.picPlayer27.Location = new System.Drawing.Point(509, 223);
+            this.picPlayer27.Location = new System.Drawing.Point(410, 185);
+            this.picPlayer27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer27.Name = "picPlayer27";
-            this.picPlayer27.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer27.Size = new System.Drawing.Size(54, 54);
             this.picPlayer27.TabIndex = 123;
             this.picPlayer27.TabStop = false;
             this.picPlayer27.Tag = "EnemyCell27";
@@ -1253,9 +1332,10 @@
             // picPlayer26
             // 
             this.picPlayer26.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer26.Image")));
-            this.picPlayer26.Location = new System.Drawing.Point(431, 223);
+            this.picPlayer26.Location = new System.Drawing.Point(351, 185);
+            this.picPlayer26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer26.Name = "picPlayer26";
-            this.picPlayer26.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer26.Size = new System.Drawing.Size(54, 54);
             this.picPlayer26.TabIndex = 122;
             this.picPlayer26.TabStop = false;
             this.picPlayer26.Tag = "EnemyCell26";
@@ -1264,9 +1344,10 @@
             // picPlayer25
             // 
             this.picPlayer25.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer25.Image")));
-            this.picPlayer25.Location = new System.Drawing.Point(353, 223);
+            this.picPlayer25.Location = new System.Drawing.Point(293, 185);
+            this.picPlayer25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer25.Name = "picPlayer25";
-            this.picPlayer25.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer25.Size = new System.Drawing.Size(54, 54);
             this.picPlayer25.TabIndex = 121;
             this.picPlayer25.TabStop = false;
             this.picPlayer25.Tag = "EnemyCell25";
@@ -1275,9 +1356,10 @@
             // picPlayer11
             // 
             this.picPlayer11.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer11.Image")));
-            this.picPlayer11.Location = new System.Drawing.Point(41, 150);
+            this.picPlayer11.Location = new System.Drawing.Point(59, 126);
+            this.picPlayer11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer11.Name = "picPlayer11";
-            this.picPlayer11.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer11.Size = new System.Drawing.Size(54, 54);
             this.picPlayer11.TabIndex = 120;
             this.picPlayer11.TabStop = false;
             this.picPlayer11.Tag = "EnemyCell11";
@@ -1286,9 +1368,10 @@
             // picPlayer12
             // 
             this.picPlayer12.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer12.Image")));
-            this.picPlayer12.Location = new System.Drawing.Point(119, 150);
+            this.picPlayer12.Location = new System.Drawing.Point(117, 126);
+            this.picPlayer12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer12.Name = "picPlayer12";
-            this.picPlayer12.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer12.Size = new System.Drawing.Size(54, 54);
             this.picPlayer12.TabIndex = 119;
             this.picPlayer12.TabStop = false;
             this.picPlayer12.Tag = "EnemyCell12";
@@ -1297,9 +1380,10 @@
             // picPlayer13
             // 
             this.picPlayer13.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer13.Image")));
-            this.picPlayer13.Location = new System.Drawing.Point(197, 150);
+            this.picPlayer13.Location = new System.Drawing.Point(176, 126);
+            this.picPlayer13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer13.Name = "picPlayer13";
-            this.picPlayer13.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer13.Size = new System.Drawing.Size(54, 54);
             this.picPlayer13.TabIndex = 118;
             this.picPlayer13.TabStop = false;
             this.picPlayer13.Tag = "EnemyCell13";
@@ -1308,9 +1392,10 @@
             // picPlayer14
             // 
             this.picPlayer14.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer14.Image")));
-            this.picPlayer14.Location = new System.Drawing.Point(275, 150);
+            this.picPlayer14.Location = new System.Drawing.Point(234, 126);
+            this.picPlayer14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer14.Name = "picPlayer14";
-            this.picPlayer14.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer14.Size = new System.Drawing.Size(54, 54);
             this.picPlayer14.TabIndex = 117;
             this.picPlayer14.TabStop = false;
             this.picPlayer14.Tag = "EnemyCell14";
@@ -1319,9 +1404,10 @@
             // picPlayer20
             // 
             this.picPlayer20.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer20.Image")));
-            this.picPlayer20.Location = new System.Drawing.Point(743, 150);
+            this.picPlayer20.Location = new System.Drawing.Point(585, 126);
+            this.picPlayer20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer20.Name = "picPlayer20";
-            this.picPlayer20.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer20.Size = new System.Drawing.Size(54, 54);
             this.picPlayer20.TabIndex = 116;
             this.picPlayer20.TabStop = false;
             this.picPlayer20.Tag = "EnemyCell20";
@@ -1330,9 +1416,10 @@
             // picPlayer19
             // 
             this.picPlayer19.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer19.Image")));
-            this.picPlayer19.Location = new System.Drawing.Point(665, 150);
+            this.picPlayer19.Location = new System.Drawing.Point(527, 126);
+            this.picPlayer19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer19.Name = "picPlayer19";
-            this.picPlayer19.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer19.Size = new System.Drawing.Size(54, 54);
             this.picPlayer19.TabIndex = 115;
             this.picPlayer19.TabStop = false;
             this.picPlayer19.Tag = "EnemyCell19";
@@ -1341,9 +1428,10 @@
             // picPlayer18
             // 
             this.picPlayer18.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer18.Image")));
-            this.picPlayer18.Location = new System.Drawing.Point(587, 150);
+            this.picPlayer18.Location = new System.Drawing.Point(468, 126);
+            this.picPlayer18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer18.Name = "picPlayer18";
-            this.picPlayer18.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer18.Size = new System.Drawing.Size(54, 54);
             this.picPlayer18.TabIndex = 114;
             this.picPlayer18.TabStop = false;
             this.picPlayer18.Tag = "EnemyCell18";
@@ -1352,9 +1440,10 @@
             // picPlayer17
             // 
             this.picPlayer17.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer17.Image")));
-            this.picPlayer17.Location = new System.Drawing.Point(509, 150);
+            this.picPlayer17.Location = new System.Drawing.Point(410, 126);
+            this.picPlayer17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer17.Name = "picPlayer17";
-            this.picPlayer17.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer17.Size = new System.Drawing.Size(54, 54);
             this.picPlayer17.TabIndex = 113;
             this.picPlayer17.TabStop = false;
             this.picPlayer17.Tag = "EnemyCell17";
@@ -1363,9 +1452,10 @@
             // picPlayer16
             // 
             this.picPlayer16.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer16.Image")));
-            this.picPlayer16.Location = new System.Drawing.Point(431, 150);
+            this.picPlayer16.Location = new System.Drawing.Point(351, 126);
+            this.picPlayer16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer16.Name = "picPlayer16";
-            this.picPlayer16.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer16.Size = new System.Drawing.Size(54, 54);
             this.picPlayer16.TabIndex = 112;
             this.picPlayer16.TabStop = false;
             this.picPlayer16.Tag = "EnemyCell16";
@@ -1374,9 +1464,10 @@
             // picPlayer15
             // 
             this.picPlayer15.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer15.Image")));
-            this.picPlayer15.Location = new System.Drawing.Point(353, 150);
+            this.picPlayer15.Location = new System.Drawing.Point(293, 126);
+            this.picPlayer15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer15.Name = "picPlayer15";
-            this.picPlayer15.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer15.Size = new System.Drawing.Size(54, 54);
             this.picPlayer15.TabIndex = 111;
             this.picPlayer15.TabStop = false;
             this.picPlayer15.Tag = "EnemyCell15";
@@ -1385,9 +1476,10 @@
             // picPlayer01
             // 
             this.picPlayer01.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer01.Image")));
-            this.picPlayer01.Location = new System.Drawing.Point(41, 77);
+            this.picPlayer01.Location = new System.Drawing.Point(59, 67);
+            this.picPlayer01.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer01.Name = "picPlayer01";
-            this.picPlayer01.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer01.Size = new System.Drawing.Size(54, 54);
             this.picPlayer01.TabIndex = 110;
             this.picPlayer01.TabStop = false;
             this.picPlayer01.Tag = "EnemyCell1";
@@ -1396,9 +1488,10 @@
             // picPlayer02
             // 
             this.picPlayer02.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer02.Image")));
-            this.picPlayer02.Location = new System.Drawing.Point(119, 77);
+            this.picPlayer02.Location = new System.Drawing.Point(117, 67);
+            this.picPlayer02.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer02.Name = "picPlayer02";
-            this.picPlayer02.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer02.Size = new System.Drawing.Size(54, 54);
             this.picPlayer02.TabIndex = 109;
             this.picPlayer02.TabStop = false;
             this.picPlayer02.Tag = "EnemyCell2";
@@ -1407,9 +1500,10 @@
             // picPlayer03
             // 
             this.picPlayer03.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer03.Image")));
-            this.picPlayer03.Location = new System.Drawing.Point(197, 77);
+            this.picPlayer03.Location = new System.Drawing.Point(176, 67);
+            this.picPlayer03.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer03.Name = "picPlayer03";
-            this.picPlayer03.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer03.Size = new System.Drawing.Size(54, 54);
             this.picPlayer03.TabIndex = 108;
             this.picPlayer03.TabStop = false;
             this.picPlayer03.Tag = "EnemyCell3";
@@ -1418,9 +1512,10 @@
             // picPlayer04
             // 
             this.picPlayer04.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer04.Image")));
-            this.picPlayer04.Location = new System.Drawing.Point(275, 77);
+            this.picPlayer04.Location = new System.Drawing.Point(234, 67);
+            this.picPlayer04.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer04.Name = "picPlayer04";
-            this.picPlayer04.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer04.Size = new System.Drawing.Size(54, 54);
             this.picPlayer04.TabIndex = 107;
             this.picPlayer04.TabStop = false;
             this.picPlayer04.Tag = "EnemyCell4";
@@ -1429,9 +1524,10 @@
             // picPlayer10
             // 
             this.picPlayer10.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer10.Image")));
-            this.picPlayer10.Location = new System.Drawing.Point(743, 77);
+            this.picPlayer10.Location = new System.Drawing.Point(585, 67);
+            this.picPlayer10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer10.Name = "picPlayer10";
-            this.picPlayer10.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer10.Size = new System.Drawing.Size(54, 54);
             this.picPlayer10.TabIndex = 106;
             this.picPlayer10.TabStop = false;
             this.picPlayer10.Tag = "EnemyCell10";
@@ -1440,9 +1536,10 @@
             // picPlayer09
             // 
             this.picPlayer09.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer09.Image")));
-            this.picPlayer09.Location = new System.Drawing.Point(665, 77);
+            this.picPlayer09.Location = new System.Drawing.Point(527, 67);
+            this.picPlayer09.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer09.Name = "picPlayer09";
-            this.picPlayer09.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer09.Size = new System.Drawing.Size(54, 54);
             this.picPlayer09.TabIndex = 105;
             this.picPlayer09.TabStop = false;
             this.picPlayer09.Tag = "EnemyCell9";
@@ -1451,9 +1548,10 @@
             // picPlayer08
             // 
             this.picPlayer08.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer08.Image")));
-            this.picPlayer08.Location = new System.Drawing.Point(587, 77);
+            this.picPlayer08.Location = new System.Drawing.Point(468, 67);
+            this.picPlayer08.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer08.Name = "picPlayer08";
-            this.picPlayer08.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer08.Size = new System.Drawing.Size(54, 54);
             this.picPlayer08.TabIndex = 104;
             this.picPlayer08.TabStop = false;
             this.picPlayer08.Tag = "EnemyCell8";
@@ -1462,9 +1560,10 @@
             // picPlayer07
             // 
             this.picPlayer07.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer07.Image")));
-            this.picPlayer07.Location = new System.Drawing.Point(509, 77);
+            this.picPlayer07.Location = new System.Drawing.Point(410, 67);
+            this.picPlayer07.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer07.Name = "picPlayer07";
-            this.picPlayer07.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer07.Size = new System.Drawing.Size(54, 54);
             this.picPlayer07.TabIndex = 103;
             this.picPlayer07.TabStop = false;
             this.picPlayer07.Tag = "EnemyCell7";
@@ -1473,9 +1572,10 @@
             // picPlayer06
             // 
             this.picPlayer06.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer06.Image")));
-            this.picPlayer06.Location = new System.Drawing.Point(431, 77);
+            this.picPlayer06.Location = new System.Drawing.Point(351, 67);
+            this.picPlayer06.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer06.Name = "picPlayer06";
-            this.picPlayer06.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer06.Size = new System.Drawing.Size(54, 54);
             this.picPlayer06.TabIndex = 102;
             this.picPlayer06.TabStop = false;
             this.picPlayer06.Tag = "EnemyCell6";
@@ -1484,9 +1584,10 @@
             // picPlayer05
             // 
             this.picPlayer05.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer05.Image")));
-            this.picPlayer05.Location = new System.Drawing.Point(353, 77);
+            this.picPlayer05.Location = new System.Drawing.Point(293, 67);
+            this.picPlayer05.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picPlayer05.Name = "picPlayer05";
-            this.picPlayer05.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer05.Size = new System.Drawing.Size(54, 54);
             this.picPlayer05.TabIndex = 101;
             this.picPlayer05.TabStop = false;
             this.picPlayer05.Tag = "EnemyCell5";
@@ -1495,99 +1596,110 @@
             // picEnemy91
             // 
             this.picEnemy91.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy91.Location = new System.Drawing.Point(1005, 746);
+            this.picEnemy91.Location = new System.Drawing.Point(784, 600);
+            this.picEnemy91.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy91.Name = "picEnemy91";
-            this.picEnemy91.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy91.Size = new System.Drawing.Size(54, 54);
             this.picEnemy91.TabIndex = 99;
             this.picEnemy91.TabStop = false;
             // 
             // picEnemy92
             // 
             this.picEnemy92.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy92.Location = new System.Drawing.Point(1083, 746);
+            this.picEnemy92.Location = new System.Drawing.Point(842, 600);
+            this.picEnemy92.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy92.Name = "picEnemy92";
-            this.picEnemy92.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy92.Size = new System.Drawing.Size(54, 54);
             this.picEnemy92.TabIndex = 98;
             this.picEnemy92.TabStop = false;
             // 
             // picEnemy93
             // 
             this.picEnemy93.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy93.Location = new System.Drawing.Point(1161, 746);
+            this.picEnemy93.Location = new System.Drawing.Point(901, 600);
+            this.picEnemy93.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy93.Name = "picEnemy93";
-            this.picEnemy93.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy93.Size = new System.Drawing.Size(54, 54);
             this.picEnemy93.TabIndex = 97;
             this.picEnemy93.TabStop = false;
             // 
             // picEnemy94
             // 
             this.picEnemy94.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy94.Location = new System.Drawing.Point(1239, 746);
+            this.picEnemy94.Location = new System.Drawing.Point(959, 600);
+            this.picEnemy94.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy94.Name = "picEnemy94";
-            this.picEnemy94.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy94.Size = new System.Drawing.Size(54, 54);
             this.picEnemy94.TabIndex = 96;
             this.picEnemy94.TabStop = false;
             // 
             // picEnemy100
             // 
             this.picEnemy100.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy100.Location = new System.Drawing.Point(1707, 746);
+            this.picEnemy100.Location = new System.Drawing.Point(1310, 600);
+            this.picEnemy100.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy100.Name = "picEnemy100";
-            this.picEnemy100.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy100.Size = new System.Drawing.Size(54, 54);
             this.picEnemy100.TabIndex = 95;
             this.picEnemy100.TabStop = false;
             // 
             // pictureBox99
             // 
             this.pictureBox99.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.pictureBox99.Location = new System.Drawing.Point(1629, 746);
+            this.pictureBox99.Location = new System.Drawing.Point(1252, 600);
+            this.pictureBox99.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox99.Name = "pictureBox99";
-            this.pictureBox99.Size = new System.Drawing.Size(72, 67);
+            this.pictureBox99.Size = new System.Drawing.Size(54, 54);
             this.pictureBox99.TabIndex = 94;
             this.pictureBox99.TabStop = false;
             // 
             // picEnemy98
             // 
             this.picEnemy98.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy98.Location = new System.Drawing.Point(1551, 746);
+            this.picEnemy98.Location = new System.Drawing.Point(1193, 600);
+            this.picEnemy98.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy98.Name = "picEnemy98";
-            this.picEnemy98.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy98.Size = new System.Drawing.Size(54, 54);
             this.picEnemy98.TabIndex = 93;
             this.picEnemy98.TabStop = false;
             // 
             // picEnemy97
             // 
             this.picEnemy97.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy97.Location = new System.Drawing.Point(1473, 746);
+            this.picEnemy97.Location = new System.Drawing.Point(1135, 600);
+            this.picEnemy97.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy97.Name = "picEnemy97";
-            this.picEnemy97.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy97.Size = new System.Drawing.Size(54, 54);
             this.picEnemy97.TabIndex = 92;
             this.picEnemy97.TabStop = false;
             // 
             // picEnemy96
             // 
             this.picEnemy96.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy96.Location = new System.Drawing.Point(1395, 746);
+            this.picEnemy96.Location = new System.Drawing.Point(1076, 600);
+            this.picEnemy96.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy96.Name = "picEnemy96";
-            this.picEnemy96.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy96.Size = new System.Drawing.Size(54, 54);
             this.picEnemy96.TabIndex = 91;
             this.picEnemy96.TabStop = false;
             // 
             // picEnemy95
             // 
             this.picEnemy95.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy95.Location = new System.Drawing.Point(1317, 746);
+            this.picEnemy95.Location = new System.Drawing.Point(1018, 600);
+            this.picEnemy95.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy95.Name = "picEnemy95";
-            this.picEnemy95.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy95.Size = new System.Drawing.Size(54, 54);
             this.picEnemy95.TabIndex = 90;
             this.picEnemy95.TabStop = false;
             // 
             // picEnemy81
             // 
             this.picEnemy81.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy81.Location = new System.Drawing.Point(1005, 674);
+            this.picEnemy81.Location = new System.Drawing.Point(784, 542);
+            this.picEnemy81.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy81.Name = "picEnemy81";
-            this.picEnemy81.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy81.Size = new System.Drawing.Size(54, 54);
             this.picEnemy81.TabIndex = 89;
             this.picEnemy81.TabStop = false;
             this.picEnemy81.Click += new System.EventHandler(this.ClickCell);
@@ -1595,9 +1707,10 @@
             // picEnemy82
             // 
             this.picEnemy82.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy82.Location = new System.Drawing.Point(1083, 674);
+            this.picEnemy82.Location = new System.Drawing.Point(842, 542);
+            this.picEnemy82.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy82.Name = "picEnemy82";
-            this.picEnemy82.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy82.Size = new System.Drawing.Size(54, 54);
             this.picEnemy82.TabIndex = 88;
             this.picEnemy82.TabStop = false;
             this.picEnemy82.Click += new System.EventHandler(this.ClickCell);
@@ -1605,9 +1718,10 @@
             // picEnemy83
             // 
             this.picEnemy83.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy83.Location = new System.Drawing.Point(1161, 674);
+            this.picEnemy83.Location = new System.Drawing.Point(901, 542);
+            this.picEnemy83.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy83.Name = "picEnemy83";
-            this.picEnemy83.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy83.Size = new System.Drawing.Size(54, 54);
             this.picEnemy83.TabIndex = 87;
             this.picEnemy83.TabStop = false;
             this.picEnemy83.Click += new System.EventHandler(this.ClickCell);
@@ -1615,9 +1729,10 @@
             // picEnemy84
             // 
             this.picEnemy84.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy84.Location = new System.Drawing.Point(1239, 674);
+            this.picEnemy84.Location = new System.Drawing.Point(959, 542);
+            this.picEnemy84.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy84.Name = "picEnemy84";
-            this.picEnemy84.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy84.Size = new System.Drawing.Size(54, 54);
             this.picEnemy84.TabIndex = 86;
             this.picEnemy84.TabStop = false;
             this.picEnemy84.Click += new System.EventHandler(this.ClickCell);
@@ -1625,9 +1740,10 @@
             // picEnemy90
             // 
             this.picEnemy90.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy90.Location = new System.Drawing.Point(1707, 674);
+            this.picEnemy90.Location = new System.Drawing.Point(1310, 542);
+            this.picEnemy90.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy90.Name = "picEnemy90";
-            this.picEnemy90.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy90.Size = new System.Drawing.Size(54, 54);
             this.picEnemy90.TabIndex = 85;
             this.picEnemy90.TabStop = false;
             this.picEnemy90.Click += new System.EventHandler(this.ClickCell);
@@ -1635,9 +1751,10 @@
             // picEnemy89
             // 
             this.picEnemy89.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy89.Location = new System.Drawing.Point(1629, 674);
+            this.picEnemy89.Location = new System.Drawing.Point(1252, 542);
+            this.picEnemy89.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy89.Name = "picEnemy89";
-            this.picEnemy89.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy89.Size = new System.Drawing.Size(54, 54);
             this.picEnemy89.TabIndex = 84;
             this.picEnemy89.TabStop = false;
             this.picEnemy89.Click += new System.EventHandler(this.ClickCell);
@@ -1645,9 +1762,10 @@
             // picEnemy88
             // 
             this.picEnemy88.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy88.Location = new System.Drawing.Point(1551, 674);
+            this.picEnemy88.Location = new System.Drawing.Point(1193, 542);
+            this.picEnemy88.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy88.Name = "picEnemy88";
-            this.picEnemy88.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy88.Size = new System.Drawing.Size(54, 54);
             this.picEnemy88.TabIndex = 83;
             this.picEnemy88.TabStop = false;
             this.picEnemy88.Click += new System.EventHandler(this.ClickCell);
@@ -1655,9 +1773,10 @@
             // picEnemy87
             // 
             this.picEnemy87.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy87.Location = new System.Drawing.Point(1473, 674);
+            this.picEnemy87.Location = new System.Drawing.Point(1135, 542);
+            this.picEnemy87.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy87.Name = "picEnemy87";
-            this.picEnemy87.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy87.Size = new System.Drawing.Size(54, 54);
             this.picEnemy87.TabIndex = 82;
             this.picEnemy87.TabStop = false;
             this.picEnemy87.Click += new System.EventHandler(this.ClickCell);
@@ -1665,9 +1784,10 @@
             // picEnemy86
             // 
             this.picEnemy86.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy86.Location = new System.Drawing.Point(1395, 674);
+            this.picEnemy86.Location = new System.Drawing.Point(1076, 542);
+            this.picEnemy86.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy86.Name = "picEnemy86";
-            this.picEnemy86.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy86.Size = new System.Drawing.Size(54, 54);
             this.picEnemy86.TabIndex = 81;
             this.picEnemy86.TabStop = false;
             this.picEnemy86.Click += new System.EventHandler(this.ClickCell);
@@ -1675,9 +1795,10 @@
             // picEnemy85
             // 
             this.picEnemy85.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy85.Location = new System.Drawing.Point(1317, 674);
+            this.picEnemy85.Location = new System.Drawing.Point(1018, 542);
+            this.picEnemy85.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy85.Name = "picEnemy85";
-            this.picEnemy85.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy85.Size = new System.Drawing.Size(54, 54);
             this.picEnemy85.TabIndex = 80;
             this.picEnemy85.TabStop = false;
             this.picEnemy85.Click += new System.EventHandler(this.ClickCell);
@@ -1685,9 +1806,10 @@
             // picEnemy71
             // 
             this.picEnemy71.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy71.Location = new System.Drawing.Point(1005, 601);
+            this.picEnemy71.Location = new System.Drawing.Point(784, 482);
+            this.picEnemy71.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy71.Name = "picEnemy71";
-            this.picEnemy71.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy71.Size = new System.Drawing.Size(54, 54);
             this.picEnemy71.TabIndex = 79;
             this.picEnemy71.TabStop = false;
             this.picEnemy71.Click += new System.EventHandler(this.ClickCell);
@@ -1695,9 +1817,10 @@
             // picEnemy72
             // 
             this.picEnemy72.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy72.Location = new System.Drawing.Point(1083, 601);
+            this.picEnemy72.Location = new System.Drawing.Point(842, 482);
+            this.picEnemy72.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy72.Name = "picEnemy72";
-            this.picEnemy72.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy72.Size = new System.Drawing.Size(54, 54);
             this.picEnemy72.TabIndex = 78;
             this.picEnemy72.TabStop = false;
             this.picEnemy72.Click += new System.EventHandler(this.ClickCell);
@@ -1705,9 +1828,10 @@
             // picEnemy73
             // 
             this.picEnemy73.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy73.Location = new System.Drawing.Point(1161, 601);
+            this.picEnemy73.Location = new System.Drawing.Point(901, 482);
+            this.picEnemy73.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy73.Name = "picEnemy73";
-            this.picEnemy73.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy73.Size = new System.Drawing.Size(54, 54);
             this.picEnemy73.TabIndex = 77;
             this.picEnemy73.TabStop = false;
             this.picEnemy73.Click += new System.EventHandler(this.ClickCell);
@@ -1715,9 +1839,10 @@
             // picEnemy74
             // 
             this.picEnemy74.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy74.Location = new System.Drawing.Point(1239, 601);
+            this.picEnemy74.Location = new System.Drawing.Point(959, 482);
+            this.picEnemy74.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy74.Name = "picEnemy74";
-            this.picEnemy74.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy74.Size = new System.Drawing.Size(54, 54);
             this.picEnemy74.TabIndex = 76;
             this.picEnemy74.TabStop = false;
             this.picEnemy74.Click += new System.EventHandler(this.ClickCell);
@@ -1725,9 +1850,10 @@
             // picEnemy80
             // 
             this.picEnemy80.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy80.Location = new System.Drawing.Point(1707, 601);
+            this.picEnemy80.Location = new System.Drawing.Point(1310, 482);
+            this.picEnemy80.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy80.Name = "picEnemy80";
-            this.picEnemy80.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy80.Size = new System.Drawing.Size(54, 54);
             this.picEnemy80.TabIndex = 75;
             this.picEnemy80.TabStop = false;
             this.picEnemy80.Click += new System.EventHandler(this.ClickCell);
@@ -1735,9 +1861,10 @@
             // picEnemy79
             // 
             this.picEnemy79.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy79.Location = new System.Drawing.Point(1629, 601);
+            this.picEnemy79.Location = new System.Drawing.Point(1252, 482);
+            this.picEnemy79.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy79.Name = "picEnemy79";
-            this.picEnemy79.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy79.Size = new System.Drawing.Size(54, 54);
             this.picEnemy79.TabIndex = 74;
             this.picEnemy79.TabStop = false;
             this.picEnemy79.Click += new System.EventHandler(this.ClickCell);
@@ -1745,9 +1872,10 @@
             // picEnemy78
             // 
             this.picEnemy78.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy78.Location = new System.Drawing.Point(1551, 601);
+            this.picEnemy78.Location = new System.Drawing.Point(1193, 482);
+            this.picEnemy78.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy78.Name = "picEnemy78";
-            this.picEnemy78.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy78.Size = new System.Drawing.Size(54, 54);
             this.picEnemy78.TabIndex = 73;
             this.picEnemy78.TabStop = false;
             this.picEnemy78.Click += new System.EventHandler(this.ClickCell);
@@ -1755,9 +1883,10 @@
             // picEnemy77
             // 
             this.picEnemy77.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy77.Location = new System.Drawing.Point(1473, 601);
+            this.picEnemy77.Location = new System.Drawing.Point(1135, 482);
+            this.picEnemy77.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy77.Name = "picEnemy77";
-            this.picEnemy77.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy77.Size = new System.Drawing.Size(54, 54);
             this.picEnemy77.TabIndex = 72;
             this.picEnemy77.TabStop = false;
             this.picEnemy77.Click += new System.EventHandler(this.ClickCell);
@@ -1765,9 +1894,10 @@
             // picEnemy76
             // 
             this.picEnemy76.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy76.Location = new System.Drawing.Point(1395, 601);
+            this.picEnemy76.Location = new System.Drawing.Point(1076, 482);
+            this.picEnemy76.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy76.Name = "picEnemy76";
-            this.picEnemy76.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy76.Size = new System.Drawing.Size(54, 54);
             this.picEnemy76.TabIndex = 71;
             this.picEnemy76.TabStop = false;
             this.picEnemy76.Click += new System.EventHandler(this.ClickCell);
@@ -1775,9 +1905,10 @@
             // picEnemy75
             // 
             this.picEnemy75.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy75.Location = new System.Drawing.Point(1317, 601);
+            this.picEnemy75.Location = new System.Drawing.Point(1018, 482);
+            this.picEnemy75.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy75.Name = "picEnemy75";
-            this.picEnemy75.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy75.Size = new System.Drawing.Size(54, 54);
             this.picEnemy75.TabIndex = 70;
             this.picEnemy75.TabStop = false;
             this.picEnemy75.Click += new System.EventHandler(this.ClickCell);
@@ -1785,9 +1916,10 @@
             // picEnemy61
             // 
             this.picEnemy61.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy61.Location = new System.Drawing.Point(1005, 528);
+            this.picEnemy61.Location = new System.Drawing.Point(784, 423);
+            this.picEnemy61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy61.Name = "picEnemy61";
-            this.picEnemy61.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy61.Size = new System.Drawing.Size(54, 54);
             this.picEnemy61.TabIndex = 69;
             this.picEnemy61.TabStop = false;
             this.picEnemy61.Click += new System.EventHandler(this.ClickCell);
@@ -1795,9 +1927,10 @@
             // picEnemy62
             // 
             this.picEnemy62.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy62.Location = new System.Drawing.Point(1083, 528);
+            this.picEnemy62.Location = new System.Drawing.Point(842, 423);
+            this.picEnemy62.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy62.Name = "picEnemy62";
-            this.picEnemy62.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy62.Size = new System.Drawing.Size(54, 54);
             this.picEnemy62.TabIndex = 68;
             this.picEnemy62.TabStop = false;
             this.picEnemy62.Click += new System.EventHandler(this.ClickCell);
@@ -1805,9 +1938,10 @@
             // picEnemy63
             // 
             this.picEnemy63.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy63.Location = new System.Drawing.Point(1161, 528);
+            this.picEnemy63.Location = new System.Drawing.Point(901, 423);
+            this.picEnemy63.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy63.Name = "picEnemy63";
-            this.picEnemy63.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy63.Size = new System.Drawing.Size(54, 54);
             this.picEnemy63.TabIndex = 67;
             this.picEnemy63.TabStop = false;
             this.picEnemy63.Click += new System.EventHandler(this.ClickCell);
@@ -1815,9 +1949,10 @@
             // picEnemy64
             // 
             this.picEnemy64.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy64.Location = new System.Drawing.Point(1239, 528);
+            this.picEnemy64.Location = new System.Drawing.Point(959, 423);
+            this.picEnemy64.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy64.Name = "picEnemy64";
-            this.picEnemy64.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy64.Size = new System.Drawing.Size(54, 54);
             this.picEnemy64.TabIndex = 66;
             this.picEnemy64.TabStop = false;
             this.picEnemy64.Click += new System.EventHandler(this.ClickCell);
@@ -1825,9 +1960,10 @@
             // picEnemy70
             // 
             this.picEnemy70.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy70.Location = new System.Drawing.Point(1707, 528);
+            this.picEnemy70.Location = new System.Drawing.Point(1310, 423);
+            this.picEnemy70.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy70.Name = "picEnemy70";
-            this.picEnemy70.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy70.Size = new System.Drawing.Size(54, 54);
             this.picEnemy70.TabIndex = 65;
             this.picEnemy70.TabStop = false;
             this.picEnemy70.Click += new System.EventHandler(this.ClickCell);
@@ -1835,9 +1971,10 @@
             // picEnemy69
             // 
             this.picEnemy69.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy69.Location = new System.Drawing.Point(1629, 528);
+            this.picEnemy69.Location = new System.Drawing.Point(1252, 423);
+            this.picEnemy69.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy69.Name = "picEnemy69";
-            this.picEnemy69.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy69.Size = new System.Drawing.Size(54, 54);
             this.picEnemy69.TabIndex = 64;
             this.picEnemy69.TabStop = false;
             this.picEnemy69.Click += new System.EventHandler(this.ClickCell);
@@ -1845,9 +1982,10 @@
             // picEnemy68
             // 
             this.picEnemy68.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy68.Location = new System.Drawing.Point(1551, 528);
+            this.picEnemy68.Location = new System.Drawing.Point(1193, 423);
+            this.picEnemy68.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy68.Name = "picEnemy68";
-            this.picEnemy68.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy68.Size = new System.Drawing.Size(54, 54);
             this.picEnemy68.TabIndex = 63;
             this.picEnemy68.TabStop = false;
             this.picEnemy68.Click += new System.EventHandler(this.ClickCell);
@@ -1855,9 +1993,10 @@
             // picEnemy67
             // 
             this.picEnemy67.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy67.Location = new System.Drawing.Point(1473, 528);
+            this.picEnemy67.Location = new System.Drawing.Point(1135, 423);
+            this.picEnemy67.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy67.Name = "picEnemy67";
-            this.picEnemy67.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy67.Size = new System.Drawing.Size(54, 54);
             this.picEnemy67.TabIndex = 62;
             this.picEnemy67.TabStop = false;
             this.picEnemy67.Click += new System.EventHandler(this.ClickCell);
@@ -1865,9 +2004,10 @@
             // picEnemy66
             // 
             this.picEnemy66.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy66.Location = new System.Drawing.Point(1395, 528);
+            this.picEnemy66.Location = new System.Drawing.Point(1076, 423);
+            this.picEnemy66.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy66.Name = "picEnemy66";
-            this.picEnemy66.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy66.Size = new System.Drawing.Size(54, 54);
             this.picEnemy66.TabIndex = 61;
             this.picEnemy66.TabStop = false;
             this.picEnemy66.Click += new System.EventHandler(this.ClickCell);
@@ -1875,9 +2015,10 @@
             // picEnemy65
             // 
             this.picEnemy65.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy65.Location = new System.Drawing.Point(1317, 528);
+            this.picEnemy65.Location = new System.Drawing.Point(1018, 423);
+            this.picEnemy65.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy65.Name = "picEnemy65";
-            this.picEnemy65.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy65.Size = new System.Drawing.Size(54, 54);
             this.picEnemy65.TabIndex = 60;
             this.picEnemy65.TabStop = false;
             this.picEnemy65.Click += new System.EventHandler(this.ClickCell);
@@ -1885,9 +2026,10 @@
             // picEnemy51
             // 
             this.picEnemy51.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy51.Location = new System.Drawing.Point(1005, 455);
+            this.picEnemy51.Location = new System.Drawing.Point(784, 364);
+            this.picEnemy51.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy51.Name = "picEnemy51";
-            this.picEnemy51.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy51.Size = new System.Drawing.Size(54, 54);
             this.picEnemy51.TabIndex = 59;
             this.picEnemy51.TabStop = false;
             this.picEnemy51.Click += new System.EventHandler(this.ClickCell);
@@ -1895,9 +2037,10 @@
             // picEnemy52
             // 
             this.picEnemy52.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy52.Location = new System.Drawing.Point(1083, 455);
+            this.picEnemy52.Location = new System.Drawing.Point(842, 364);
+            this.picEnemy52.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy52.Name = "picEnemy52";
-            this.picEnemy52.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy52.Size = new System.Drawing.Size(54, 54);
             this.picEnemy52.TabIndex = 58;
             this.picEnemy52.TabStop = false;
             this.picEnemy52.Click += new System.EventHandler(this.ClickCell);
@@ -1905,9 +2048,10 @@
             // picEnemy53
             // 
             this.picEnemy53.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy53.Location = new System.Drawing.Point(1161, 455);
+            this.picEnemy53.Location = new System.Drawing.Point(901, 364);
+            this.picEnemy53.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy53.Name = "picEnemy53";
-            this.picEnemy53.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy53.Size = new System.Drawing.Size(54, 54);
             this.picEnemy53.TabIndex = 57;
             this.picEnemy53.TabStop = false;
             this.picEnemy53.Click += new System.EventHandler(this.ClickCell);
@@ -1915,9 +2059,10 @@
             // picEnemy54
             // 
             this.picEnemy54.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy54.Location = new System.Drawing.Point(1239, 455);
+            this.picEnemy54.Location = new System.Drawing.Point(959, 364);
+            this.picEnemy54.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy54.Name = "picEnemy54";
-            this.picEnemy54.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy54.Size = new System.Drawing.Size(54, 54);
             this.picEnemy54.TabIndex = 56;
             this.picEnemy54.TabStop = false;
             this.picEnemy54.Click += new System.EventHandler(this.ClickCell);
@@ -1925,9 +2070,10 @@
             // picEnemy60
             // 
             this.picEnemy60.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy60.Location = new System.Drawing.Point(1707, 455);
+            this.picEnemy60.Location = new System.Drawing.Point(1310, 364);
+            this.picEnemy60.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy60.Name = "picEnemy60";
-            this.picEnemy60.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy60.Size = new System.Drawing.Size(54, 54);
             this.picEnemy60.TabIndex = 55;
             this.picEnemy60.TabStop = false;
             this.picEnemy60.Click += new System.EventHandler(this.ClickCell);
@@ -1935,9 +2081,10 @@
             // picEnemy59
             // 
             this.picEnemy59.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy59.Location = new System.Drawing.Point(1629, 455);
+            this.picEnemy59.Location = new System.Drawing.Point(1252, 364);
+            this.picEnemy59.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy59.Name = "picEnemy59";
-            this.picEnemy59.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy59.Size = new System.Drawing.Size(54, 54);
             this.picEnemy59.TabIndex = 54;
             this.picEnemy59.TabStop = false;
             this.picEnemy59.Click += new System.EventHandler(this.ClickCell);
@@ -1945,9 +2092,10 @@
             // picEnemy58
             // 
             this.picEnemy58.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy58.Location = new System.Drawing.Point(1551, 455);
+            this.picEnemy58.Location = new System.Drawing.Point(1193, 364);
+            this.picEnemy58.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy58.Name = "picEnemy58";
-            this.picEnemy58.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy58.Size = new System.Drawing.Size(54, 54);
             this.picEnemy58.TabIndex = 53;
             this.picEnemy58.TabStop = false;
             this.picEnemy58.Click += new System.EventHandler(this.ClickCell);
@@ -1955,9 +2103,10 @@
             // picEnemy57
             // 
             this.picEnemy57.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy57.Location = new System.Drawing.Point(1473, 455);
+            this.picEnemy57.Location = new System.Drawing.Point(1135, 364);
+            this.picEnemy57.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy57.Name = "picEnemy57";
-            this.picEnemy57.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy57.Size = new System.Drawing.Size(54, 54);
             this.picEnemy57.TabIndex = 52;
             this.picEnemy57.TabStop = false;
             this.picEnemy57.Click += new System.EventHandler(this.ClickCell);
@@ -1965,9 +2114,10 @@
             // picEnemy56
             // 
             this.picEnemy56.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy56.Location = new System.Drawing.Point(1395, 455);
+            this.picEnemy56.Location = new System.Drawing.Point(1076, 364);
+            this.picEnemy56.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy56.Name = "picEnemy56";
-            this.picEnemy56.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy56.Size = new System.Drawing.Size(54, 54);
             this.picEnemy56.TabIndex = 51;
             this.picEnemy56.TabStop = false;
             this.picEnemy56.Click += new System.EventHandler(this.ClickCell);
@@ -1975,9 +2125,10 @@
             // picEnemy55
             // 
             this.picEnemy55.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy55.Location = new System.Drawing.Point(1317, 455);
+            this.picEnemy55.Location = new System.Drawing.Point(1018, 364);
+            this.picEnemy55.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy55.Name = "picEnemy55";
-            this.picEnemy55.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy55.Size = new System.Drawing.Size(54, 54);
             this.picEnemy55.TabIndex = 50;
             this.picEnemy55.TabStop = false;
             this.picEnemy55.Click += new System.EventHandler(this.ClickCell);
@@ -1985,9 +2136,10 @@
             // picEnemy41
             // 
             this.picEnemy41.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy41.Location = new System.Drawing.Point(1005, 382);
+            this.picEnemy41.Location = new System.Drawing.Point(784, 304);
+            this.picEnemy41.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy41.Name = "picEnemy41";
-            this.picEnemy41.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy41.Size = new System.Drawing.Size(54, 54);
             this.picEnemy41.TabIndex = 49;
             this.picEnemy41.TabStop = false;
             this.picEnemy41.Tag = "EnemyCell40";
@@ -1996,9 +2148,10 @@
             // picEnemy42
             // 
             this.picEnemy42.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy42.Location = new System.Drawing.Point(1083, 382);
+            this.picEnemy42.Location = new System.Drawing.Point(842, 304);
+            this.picEnemy42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy42.Name = "picEnemy42";
-            this.picEnemy42.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy42.Size = new System.Drawing.Size(54, 54);
             this.picEnemy42.TabIndex = 48;
             this.picEnemy42.TabStop = false;
             this.picEnemy42.Tag = "EnemyCell41";
@@ -2007,9 +2160,10 @@
             // picEnemy43
             // 
             this.picEnemy43.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy43.Location = new System.Drawing.Point(1161, 382);
+            this.picEnemy43.Location = new System.Drawing.Point(901, 304);
+            this.picEnemy43.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy43.Name = "picEnemy43";
-            this.picEnemy43.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy43.Size = new System.Drawing.Size(54, 54);
             this.picEnemy43.TabIndex = 47;
             this.picEnemy43.TabStop = false;
             this.picEnemy43.Click += new System.EventHandler(this.ClickCell);
@@ -2017,9 +2171,10 @@
             // picEnemy44
             // 
             this.picEnemy44.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy44.Location = new System.Drawing.Point(1239, 382);
+            this.picEnemy44.Location = new System.Drawing.Point(959, 304);
+            this.picEnemy44.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy44.Name = "picEnemy44";
-            this.picEnemy44.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy44.Size = new System.Drawing.Size(54, 54);
             this.picEnemy44.TabIndex = 46;
             this.picEnemy44.TabStop = false;
             this.picEnemy44.Click += new System.EventHandler(this.ClickCell);
@@ -2027,9 +2182,10 @@
             // picEnemy50
             // 
             this.picEnemy50.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy50.Location = new System.Drawing.Point(1707, 382);
+            this.picEnemy50.Location = new System.Drawing.Point(1310, 304);
+            this.picEnemy50.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy50.Name = "picEnemy50";
-            this.picEnemy50.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy50.Size = new System.Drawing.Size(54, 54);
             this.picEnemy50.TabIndex = 45;
             this.picEnemy50.TabStop = false;
             this.picEnemy50.Click += new System.EventHandler(this.ClickCell);
@@ -2037,9 +2193,10 @@
             // picEnemy49
             // 
             this.picEnemy49.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy49.Location = new System.Drawing.Point(1629, 382);
+            this.picEnemy49.Location = new System.Drawing.Point(1252, 304);
+            this.picEnemy49.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy49.Name = "picEnemy49";
-            this.picEnemy49.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy49.Size = new System.Drawing.Size(54, 54);
             this.picEnemy49.TabIndex = 44;
             this.picEnemy49.TabStop = false;
             this.picEnemy49.Click += new System.EventHandler(this.ClickCell);
@@ -2047,9 +2204,10 @@
             // picEnemy48
             // 
             this.picEnemy48.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy48.Location = new System.Drawing.Point(1551, 382);
+            this.picEnemy48.Location = new System.Drawing.Point(1193, 304);
+            this.picEnemy48.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy48.Name = "picEnemy48";
-            this.picEnemy48.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy48.Size = new System.Drawing.Size(54, 54);
             this.picEnemy48.TabIndex = 43;
             this.picEnemy48.TabStop = false;
             this.picEnemy48.Click += new System.EventHandler(this.ClickCell);
@@ -2057,9 +2215,10 @@
             // picEnemy47
             // 
             this.picEnemy47.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy47.Location = new System.Drawing.Point(1473, 382);
+            this.picEnemy47.Location = new System.Drawing.Point(1135, 304);
+            this.picEnemy47.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy47.Name = "picEnemy47";
-            this.picEnemy47.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy47.Size = new System.Drawing.Size(54, 54);
             this.picEnemy47.TabIndex = 42;
             this.picEnemy47.TabStop = false;
             this.picEnemy47.Click += new System.EventHandler(this.ClickCell);
@@ -2067,9 +2226,10 @@
             // picEnemy46
             // 
             this.picEnemy46.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy46.Location = new System.Drawing.Point(1395, 382);
+            this.picEnemy46.Location = new System.Drawing.Point(1076, 304);
+            this.picEnemy46.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy46.Name = "picEnemy46";
-            this.picEnemy46.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy46.Size = new System.Drawing.Size(54, 54);
             this.picEnemy46.TabIndex = 41;
             this.picEnemy46.TabStop = false;
             this.picEnemy46.Click += new System.EventHandler(this.ClickCell);
@@ -2077,9 +2237,10 @@
             // picEnemy45
             // 
             this.picEnemy45.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy45.Location = new System.Drawing.Point(1317, 382);
+            this.picEnemy45.Location = new System.Drawing.Point(1018, 304);
+            this.picEnemy45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy45.Name = "picEnemy45";
-            this.picEnemy45.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy45.Size = new System.Drawing.Size(54, 54);
             this.picEnemy45.TabIndex = 40;
             this.picEnemy45.TabStop = false;
             this.picEnemy45.Click += new System.EventHandler(this.ClickCell);
@@ -2087,9 +2248,10 @@
             // picEnemy31
             // 
             this.picEnemy31.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy31.Location = new System.Drawing.Point(1005, 309);
+            this.picEnemy31.Location = new System.Drawing.Point(784, 245);
+            this.picEnemy31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy31.Name = "picEnemy31";
-            this.picEnemy31.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy31.Size = new System.Drawing.Size(54, 54);
             this.picEnemy31.TabIndex = 39;
             this.picEnemy31.TabStop = false;
             this.picEnemy31.Tag = "EnemyCell31";
@@ -2098,9 +2260,10 @@
             // picEnemy32
             // 
             this.picEnemy32.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy32.Location = new System.Drawing.Point(1083, 309);
+            this.picEnemy32.Location = new System.Drawing.Point(842, 245);
+            this.picEnemy32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy32.Name = "picEnemy32";
-            this.picEnemy32.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy32.Size = new System.Drawing.Size(54, 54);
             this.picEnemy32.TabIndex = 38;
             this.picEnemy32.TabStop = false;
             this.picEnemy32.Tag = "EnemyCell32";
@@ -2109,9 +2272,10 @@
             // picEnemy33
             // 
             this.picEnemy33.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy33.Location = new System.Drawing.Point(1161, 309);
+            this.picEnemy33.Location = new System.Drawing.Point(901, 245);
+            this.picEnemy33.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy33.Name = "picEnemy33";
-            this.picEnemy33.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy33.Size = new System.Drawing.Size(54, 54);
             this.picEnemy33.TabIndex = 37;
             this.picEnemy33.TabStop = false;
             this.picEnemy33.Tag = "EnemyCell33";
@@ -2120,9 +2284,10 @@
             // picEnemy34
             // 
             this.picEnemy34.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy34.Location = new System.Drawing.Point(1239, 309);
+            this.picEnemy34.Location = new System.Drawing.Point(959, 245);
+            this.picEnemy34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy34.Name = "picEnemy34";
-            this.picEnemy34.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy34.Size = new System.Drawing.Size(54, 54);
             this.picEnemy34.TabIndex = 36;
             this.picEnemy34.TabStop = false;
             this.picEnemy34.Tag = "EnemyCell34";
@@ -2131,9 +2296,10 @@
             // picEnemy40
             // 
             this.picEnemy40.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy40.Location = new System.Drawing.Point(1707, 309);
+            this.picEnemy40.Location = new System.Drawing.Point(1310, 245);
+            this.picEnemy40.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy40.Name = "picEnemy40";
-            this.picEnemy40.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy40.Size = new System.Drawing.Size(54, 54);
             this.picEnemy40.TabIndex = 35;
             this.picEnemy40.TabStop = false;
             this.picEnemy40.Tag = "EnemyCell40";
@@ -2142,9 +2308,10 @@
             // picEnemy39
             // 
             this.picEnemy39.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy39.Location = new System.Drawing.Point(1629, 309);
+            this.picEnemy39.Location = new System.Drawing.Point(1252, 245);
+            this.picEnemy39.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy39.Name = "picEnemy39";
-            this.picEnemy39.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy39.Size = new System.Drawing.Size(54, 54);
             this.picEnemy39.TabIndex = 34;
             this.picEnemy39.TabStop = false;
             this.picEnemy39.Tag = "EnemyCell39";
@@ -2153,9 +2320,10 @@
             // picEnemy38
             // 
             this.picEnemy38.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy38.Location = new System.Drawing.Point(1551, 309);
+            this.picEnemy38.Location = new System.Drawing.Point(1193, 245);
+            this.picEnemy38.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy38.Name = "picEnemy38";
-            this.picEnemy38.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy38.Size = new System.Drawing.Size(54, 54);
             this.picEnemy38.TabIndex = 33;
             this.picEnemy38.TabStop = false;
             this.picEnemy38.Tag = "EnemyCell38";
@@ -2164,9 +2332,10 @@
             // picEnemy37
             // 
             this.picEnemy37.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy37.Location = new System.Drawing.Point(1473, 309);
+            this.picEnemy37.Location = new System.Drawing.Point(1135, 245);
+            this.picEnemy37.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy37.Name = "picEnemy37";
-            this.picEnemy37.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy37.Size = new System.Drawing.Size(54, 54);
             this.picEnemy37.TabIndex = 32;
             this.picEnemy37.TabStop = false;
             this.picEnemy37.Tag = "EnemyCell37";
@@ -2175,9 +2344,10 @@
             // picEnemy36
             // 
             this.picEnemy36.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy36.Location = new System.Drawing.Point(1395, 309);
+            this.picEnemy36.Location = new System.Drawing.Point(1076, 245);
+            this.picEnemy36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy36.Name = "picEnemy36";
-            this.picEnemy36.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy36.Size = new System.Drawing.Size(54, 54);
             this.picEnemy36.TabIndex = 31;
             this.picEnemy36.TabStop = false;
             this.picEnemy36.Tag = "EnemyCell36";
@@ -2186,9 +2356,10 @@
             // picEnemy35
             // 
             this.picEnemy35.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy35.Location = new System.Drawing.Point(1317, 309);
+            this.picEnemy35.Location = new System.Drawing.Point(1018, 245);
+            this.picEnemy35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy35.Name = "picEnemy35";
-            this.picEnemy35.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy35.Size = new System.Drawing.Size(54, 54);
             this.picEnemy35.TabIndex = 30;
             this.picEnemy35.TabStop = false;
             this.picEnemy35.Tag = "EnemyCell35";
@@ -2197,9 +2368,10 @@
             // picEnemy21
             // 
             this.picEnemy21.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy21.Location = new System.Drawing.Point(1005, 236);
+            this.picEnemy21.Location = new System.Drawing.Point(784, 186);
+            this.picEnemy21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy21.Name = "picEnemy21";
-            this.picEnemy21.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy21.Size = new System.Drawing.Size(54, 54);
             this.picEnemy21.TabIndex = 29;
             this.picEnemy21.TabStop = false;
             this.picEnemy21.Tag = "EnemyCell21";
@@ -2208,9 +2380,10 @@
             // picEnemy22
             // 
             this.picEnemy22.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy22.Location = new System.Drawing.Point(1083, 236);
+            this.picEnemy22.Location = new System.Drawing.Point(842, 186);
+            this.picEnemy22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy22.Name = "picEnemy22";
-            this.picEnemy22.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy22.Size = new System.Drawing.Size(54, 54);
             this.picEnemy22.TabIndex = 28;
             this.picEnemy22.TabStop = false;
             this.picEnemy22.Tag = "EnemyCell22";
@@ -2219,9 +2392,10 @@
             // picEnemy23
             // 
             this.picEnemy23.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy23.Location = new System.Drawing.Point(1161, 236);
+            this.picEnemy23.Location = new System.Drawing.Point(901, 186);
+            this.picEnemy23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy23.Name = "picEnemy23";
-            this.picEnemy23.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy23.Size = new System.Drawing.Size(54, 54);
             this.picEnemy23.TabIndex = 27;
             this.picEnemy23.TabStop = false;
             this.picEnemy23.Tag = "EnemyCell23";
@@ -2230,9 +2404,10 @@
             // picEnemy24
             // 
             this.picEnemy24.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy24.Location = new System.Drawing.Point(1239, 236);
+            this.picEnemy24.Location = new System.Drawing.Point(959, 186);
+            this.picEnemy24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy24.Name = "picEnemy24";
-            this.picEnemy24.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy24.Size = new System.Drawing.Size(54, 54);
             this.picEnemy24.TabIndex = 26;
             this.picEnemy24.TabStop = false;
             this.picEnemy24.Tag = "EnemyCell24";
@@ -2241,9 +2416,10 @@
             // picEnemy30
             // 
             this.picEnemy30.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy30.Location = new System.Drawing.Point(1707, 236);
+            this.picEnemy30.Location = new System.Drawing.Point(1310, 186);
+            this.picEnemy30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy30.Name = "picEnemy30";
-            this.picEnemy30.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy30.Size = new System.Drawing.Size(54, 54);
             this.picEnemy30.TabIndex = 25;
             this.picEnemy30.TabStop = false;
             this.picEnemy30.Tag = "EnemyCell30";
@@ -2252,9 +2428,10 @@
             // picEnemy29
             // 
             this.picEnemy29.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy29.Location = new System.Drawing.Point(1629, 236);
+            this.picEnemy29.Location = new System.Drawing.Point(1252, 186);
+            this.picEnemy29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy29.Name = "picEnemy29";
-            this.picEnemy29.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy29.Size = new System.Drawing.Size(54, 54);
             this.picEnemy29.TabIndex = 24;
             this.picEnemy29.TabStop = false;
             this.picEnemy29.Tag = "EnemyCell29";
@@ -2263,9 +2440,10 @@
             // picEnemy28
             // 
             this.picEnemy28.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy28.Location = new System.Drawing.Point(1551, 236);
+            this.picEnemy28.Location = new System.Drawing.Point(1193, 186);
+            this.picEnemy28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy28.Name = "picEnemy28";
-            this.picEnemy28.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy28.Size = new System.Drawing.Size(54, 54);
             this.picEnemy28.TabIndex = 23;
             this.picEnemy28.TabStop = false;
             this.picEnemy28.Tag = "EnemyCell28";
@@ -2274,9 +2452,10 @@
             // picEnemy27
             // 
             this.picEnemy27.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy27.Location = new System.Drawing.Point(1473, 236);
+            this.picEnemy27.Location = new System.Drawing.Point(1135, 186);
+            this.picEnemy27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy27.Name = "picEnemy27";
-            this.picEnemy27.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy27.Size = new System.Drawing.Size(54, 54);
             this.picEnemy27.TabIndex = 22;
             this.picEnemy27.TabStop = false;
             this.picEnemy27.Tag = "EnemyCell27";
@@ -2285,9 +2464,10 @@
             // picEnemy26
             // 
             this.picEnemy26.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy26.Location = new System.Drawing.Point(1395, 236);
+            this.picEnemy26.Location = new System.Drawing.Point(1076, 186);
+            this.picEnemy26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy26.Name = "picEnemy26";
-            this.picEnemy26.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy26.Size = new System.Drawing.Size(54, 54);
             this.picEnemy26.TabIndex = 21;
             this.picEnemy26.TabStop = false;
             this.picEnemy26.Tag = "EnemyCell26";
@@ -2296,9 +2476,10 @@
             // picEnemy25
             // 
             this.picEnemy25.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy25.Location = new System.Drawing.Point(1317, 236);
+            this.picEnemy25.Location = new System.Drawing.Point(1018, 186);
+            this.picEnemy25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy25.Name = "picEnemy25";
-            this.picEnemy25.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy25.Size = new System.Drawing.Size(54, 54);
             this.picEnemy25.TabIndex = 20;
             this.picEnemy25.TabStop = false;
             this.picEnemy25.Tag = "EnemyCell25";
@@ -2307,9 +2488,10 @@
             // picEnemy11
             // 
             this.picEnemy11.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy11.Location = new System.Drawing.Point(1005, 163);
+            this.picEnemy11.Location = new System.Drawing.Point(784, 126);
+            this.picEnemy11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy11.Name = "picEnemy11";
-            this.picEnemy11.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy11.Size = new System.Drawing.Size(54, 54);
             this.picEnemy11.TabIndex = 19;
             this.picEnemy11.TabStop = false;
             this.picEnemy11.Tag = "EnemyCell11";
@@ -2318,9 +2500,10 @@
             // picEnemy12
             // 
             this.picEnemy12.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy12.Location = new System.Drawing.Point(1083, 163);
+            this.picEnemy12.Location = new System.Drawing.Point(842, 126);
+            this.picEnemy12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy12.Name = "picEnemy12";
-            this.picEnemy12.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy12.Size = new System.Drawing.Size(54, 54);
             this.picEnemy12.TabIndex = 18;
             this.picEnemy12.TabStop = false;
             this.picEnemy12.Tag = "EnemyCell12";
@@ -2329,9 +2512,10 @@
             // picEnemy13
             // 
             this.picEnemy13.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy13.Location = new System.Drawing.Point(1161, 163);
+            this.picEnemy13.Location = new System.Drawing.Point(901, 126);
+            this.picEnemy13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy13.Name = "picEnemy13";
-            this.picEnemy13.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy13.Size = new System.Drawing.Size(54, 54);
             this.picEnemy13.TabIndex = 17;
             this.picEnemy13.TabStop = false;
             this.picEnemy13.Tag = "EnemyCell13";
@@ -2340,9 +2524,10 @@
             // picEnemy14
             // 
             this.picEnemy14.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy14.Location = new System.Drawing.Point(1239, 163);
+            this.picEnemy14.Location = new System.Drawing.Point(959, 126);
+            this.picEnemy14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy14.Name = "picEnemy14";
-            this.picEnemy14.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy14.Size = new System.Drawing.Size(54, 54);
             this.picEnemy14.TabIndex = 16;
             this.picEnemy14.TabStop = false;
             this.picEnemy14.Tag = "EnemyCell14";
@@ -2351,9 +2536,10 @@
             // picEnemy20
             // 
             this.picEnemy20.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy20.Location = new System.Drawing.Point(1707, 163);
+            this.picEnemy20.Location = new System.Drawing.Point(1310, 126);
+            this.picEnemy20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy20.Name = "picEnemy20";
-            this.picEnemy20.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy20.Size = new System.Drawing.Size(54, 54);
             this.picEnemy20.TabIndex = 15;
             this.picEnemy20.TabStop = false;
             this.picEnemy20.Tag = "EnemyCell20";
@@ -2362,9 +2548,10 @@
             // picEnemy19
             // 
             this.picEnemy19.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy19.Location = new System.Drawing.Point(1629, 163);
+            this.picEnemy19.Location = new System.Drawing.Point(1252, 126);
+            this.picEnemy19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy19.Name = "picEnemy19";
-            this.picEnemy19.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy19.Size = new System.Drawing.Size(54, 54);
             this.picEnemy19.TabIndex = 14;
             this.picEnemy19.TabStop = false;
             this.picEnemy19.Tag = "EnemyCell19";
@@ -2373,9 +2560,10 @@
             // picEnemy18
             // 
             this.picEnemy18.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy18.Location = new System.Drawing.Point(1551, 163);
+            this.picEnemy18.Location = new System.Drawing.Point(1193, 126);
+            this.picEnemy18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy18.Name = "picEnemy18";
-            this.picEnemy18.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy18.Size = new System.Drawing.Size(54, 54);
             this.picEnemy18.TabIndex = 13;
             this.picEnemy18.TabStop = false;
             this.picEnemy18.Tag = "EnemyCell18";
@@ -2384,9 +2572,10 @@
             // picEnemy17
             // 
             this.picEnemy17.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy17.Location = new System.Drawing.Point(1473, 163);
+            this.picEnemy17.Location = new System.Drawing.Point(1135, 126);
+            this.picEnemy17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy17.Name = "picEnemy17";
-            this.picEnemy17.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy17.Size = new System.Drawing.Size(54, 54);
             this.picEnemy17.TabIndex = 12;
             this.picEnemy17.TabStop = false;
             this.picEnemy17.Tag = "EnemyCell17";
@@ -2395,9 +2584,10 @@
             // picEnemy16
             // 
             this.picEnemy16.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy16.Location = new System.Drawing.Point(1395, 163);
+            this.picEnemy16.Location = new System.Drawing.Point(1076, 126);
+            this.picEnemy16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy16.Name = "picEnemy16";
-            this.picEnemy16.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy16.Size = new System.Drawing.Size(54, 54);
             this.picEnemy16.TabIndex = 11;
             this.picEnemy16.TabStop = false;
             this.picEnemy16.Tag = "EnemyCell16";
@@ -2406,9 +2596,10 @@
             // picEnemy15
             // 
             this.picEnemy15.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy15.Location = new System.Drawing.Point(1317, 163);
+            this.picEnemy15.Location = new System.Drawing.Point(1018, 126);
+            this.picEnemy15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy15.Name = "picEnemy15";
-            this.picEnemy15.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy15.Size = new System.Drawing.Size(54, 54);
             this.picEnemy15.TabIndex = 10;
             this.picEnemy15.TabStop = false;
             this.picEnemy15.Tag = "EnemyCell15";
@@ -2417,9 +2608,10 @@
             // picEnemy01
             // 
             this.picEnemy01.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy01.Location = new System.Drawing.Point(1005, 90);
+            this.picEnemy01.Location = new System.Drawing.Point(784, 67);
+            this.picEnemy01.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy01.Name = "picEnemy01";
-            this.picEnemy01.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy01.Size = new System.Drawing.Size(54, 54);
             this.picEnemy01.TabIndex = 9;
             this.picEnemy01.TabStop = false;
             this.picEnemy01.Tag = "EnemyCell1";
@@ -2428,9 +2620,10 @@
             // picEnemy02
             // 
             this.picEnemy02.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy02.Location = new System.Drawing.Point(1083, 90);
+            this.picEnemy02.Location = new System.Drawing.Point(842, 67);
+            this.picEnemy02.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy02.Name = "picEnemy02";
-            this.picEnemy02.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy02.Size = new System.Drawing.Size(54, 54);
             this.picEnemy02.TabIndex = 8;
             this.picEnemy02.TabStop = false;
             this.picEnemy02.Tag = "EnemyCell2";
@@ -2439,9 +2632,10 @@
             // picEnemy03
             // 
             this.picEnemy03.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy03.Location = new System.Drawing.Point(1161, 90);
+            this.picEnemy03.Location = new System.Drawing.Point(901, 67);
+            this.picEnemy03.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy03.Name = "picEnemy03";
-            this.picEnemy03.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy03.Size = new System.Drawing.Size(54, 54);
             this.picEnemy03.TabIndex = 7;
             this.picEnemy03.TabStop = false;
             this.picEnemy03.Tag = "EnemyCell3";
@@ -2450,9 +2644,10 @@
             // picEnemy04
             // 
             this.picEnemy04.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy04.Location = new System.Drawing.Point(1239, 90);
+            this.picEnemy04.Location = new System.Drawing.Point(959, 67);
+            this.picEnemy04.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy04.Name = "picEnemy04";
-            this.picEnemy04.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy04.Size = new System.Drawing.Size(54, 54);
             this.picEnemy04.TabIndex = 6;
             this.picEnemy04.TabStop = false;
             this.picEnemy04.Tag = "EnemyCell4";
@@ -2461,9 +2656,10 @@
             // picEnemy10
             // 
             this.picEnemy10.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy10.Location = new System.Drawing.Point(1707, 90);
+            this.picEnemy10.Location = new System.Drawing.Point(1310, 67);
+            this.picEnemy10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy10.Name = "picEnemy10";
-            this.picEnemy10.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy10.Size = new System.Drawing.Size(54, 54);
             this.picEnemy10.TabIndex = 5;
             this.picEnemy10.TabStop = false;
             this.picEnemy10.Tag = "EnemyCell10";
@@ -2472,9 +2668,10 @@
             // picEnemy09
             // 
             this.picEnemy09.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy09.Location = new System.Drawing.Point(1629, 90);
+            this.picEnemy09.Location = new System.Drawing.Point(1252, 67);
+            this.picEnemy09.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy09.Name = "picEnemy09";
-            this.picEnemy09.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy09.Size = new System.Drawing.Size(54, 54);
             this.picEnemy09.TabIndex = 4;
             this.picEnemy09.TabStop = false;
             this.picEnemy09.Tag = "EnemyCell9";
@@ -2483,9 +2680,10 @@
             // picEnemy08
             // 
             this.picEnemy08.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy08.Location = new System.Drawing.Point(1551, 90);
+            this.picEnemy08.Location = new System.Drawing.Point(1193, 67);
+            this.picEnemy08.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy08.Name = "picEnemy08";
-            this.picEnemy08.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy08.Size = new System.Drawing.Size(54, 54);
             this.picEnemy08.TabIndex = 3;
             this.picEnemy08.TabStop = false;
             this.picEnemy08.Tag = "EnemyCell8";
@@ -2494,9 +2692,10 @@
             // picEnemy07
             // 
             this.picEnemy07.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy07.Location = new System.Drawing.Point(1473, 90);
+            this.picEnemy07.Location = new System.Drawing.Point(1135, 67);
+            this.picEnemy07.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy07.Name = "picEnemy07";
-            this.picEnemy07.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy07.Size = new System.Drawing.Size(54, 54);
             this.picEnemy07.TabIndex = 2;
             this.picEnemy07.TabStop = false;
             this.picEnemy07.Tag = "EnemyCell7";
@@ -2505,9 +2704,10 @@
             // picEnemy06
             // 
             this.picEnemy06.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy06.Location = new System.Drawing.Point(1395, 90);
+            this.picEnemy06.Location = new System.Drawing.Point(1076, 67);
+            this.picEnemy06.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy06.Name = "picEnemy06";
-            this.picEnemy06.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy06.Size = new System.Drawing.Size(54, 54);
             this.picEnemy06.TabIndex = 1;
             this.picEnemy06.TabStop = false;
             this.picEnemy06.Tag = "EnemyCell6";
@@ -2516,9 +2716,10 @@
             // picEnemy05
             // 
             this.picEnemy05.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy05.Location = new System.Drawing.Point(1317, 90);
+            this.picEnemy05.Location = new System.Drawing.Point(1018, 67);
+            this.picEnemy05.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picEnemy05.Name = "picEnemy05";
-            this.picEnemy05.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy05.Size = new System.Drawing.Size(54, 54);
             this.picEnemy05.TabIndex = 0;
             this.picEnemy05.TabStop = false;
             this.picEnemy05.Tag = "EnemyCell5";
@@ -2526,10 +2727,10 @@
             // 
             // GameScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(1815, 825);
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.picPlayer91);
             this.Controls.Add(this.picPlayer92);
             this.Controls.Add(this.picPlayer93);
@@ -2731,6 +2932,7 @@
             this.Controls.Add(this.picEnemy07);
             this.Controls.Add(this.picEnemy06);
             this.Controls.Add(this.picEnemy05);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "GameScreen";
             this.Text = "Game";
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).EndInit();
