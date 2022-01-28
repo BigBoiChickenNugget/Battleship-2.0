@@ -124,22 +124,25 @@
   <data name="PlayerEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayerEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="available" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="miss" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\miss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayerTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayerTaken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="H2x1_NSwitchDS_Battleship_image1600w" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\H2x1_NSwitchDS_Battleship_image1600w.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img_272299" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img_272299.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="available" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PlayerHit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayerHit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PlayerTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlayerTaken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="img_272299" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_272299.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="106033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\106033.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
