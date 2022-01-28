@@ -13,7 +13,7 @@ namespace Battleship_2._0
     public partial class GameScreen : Form
     {
 
-        // Variable's that stores the enemy's and the player's cells on the board that have a boat on them.
+        // Variable's that stores the enemy's and the player's cells on the board that have a boat on them. yeah
         bool[] isHit = new bool[100];
         bool[] playerBoats = new bool[100];
 
@@ -135,6 +135,7 @@ namespace Battleship_2._0
                 playerMiss[move] = true;
 
                 // Change the picture of the cell.
+                cell.Image = Properties.Resources.miss;
             }
 
             turn = true;
