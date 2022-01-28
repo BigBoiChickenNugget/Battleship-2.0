@@ -39,7 +39,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Army Expanded", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("ARMY RUST", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(413, 308);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(274, 109);
@@ -50,7 +50,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Army Expanded", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("ARMY RUST", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(710, 309);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(274, 109);
@@ -60,7 +60,7 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Army Expanded", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("ARMY RUST", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(413, 436);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(274, 109);
@@ -70,7 +70,7 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Army Expanded", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("ARMY RUST", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(710, 436);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(274, 109);
@@ -83,7 +83,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Battleship_2._0.Properties.Resources.img_272299;
-            this.pictureBox1.Location = new System.Drawing.Point(1288, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(1346, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(66, 59);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
