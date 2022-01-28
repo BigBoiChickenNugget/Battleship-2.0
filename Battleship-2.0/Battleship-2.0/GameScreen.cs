@@ -188,11 +188,5 @@ namespace Battleship_2._0
                 numBoats++;
             }
         }
-
-        private void GameScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

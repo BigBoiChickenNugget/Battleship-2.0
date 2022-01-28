@@ -32,6 +32,48 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameScreen));
             this.lblMoves = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
+            this.gridY1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.picPlayer1 = new System.Windows.Forms.PictureBox();
             this.picPlayer91 = new System.Windows.Forms.PictureBox();
             this.picPlayer92 = new System.Windows.Forms.PictureBox();
             this.picPlayer93 = new System.Windows.Forms.PictureBox();
@@ -122,7 +164,6 @@
             this.picPlayer17 = new System.Windows.Forms.PictureBox();
             this.picPlayer16 = new System.Windows.Forms.PictureBox();
             this.picPlayer15 = new System.Windows.Forms.PictureBox();
-            this.picPlayer1 = new System.Windows.Forms.PictureBox();
             this.picPlayer2 = new System.Windows.Forms.PictureBox();
             this.picPlayer3 = new System.Windows.Forms.PictureBox();
             this.picPlayer4 = new System.Windows.Forms.PictureBox();
@@ -232,47 +273,7 @@
             this.picEnemy07 = new System.Windows.Forms.PictureBox();
             this.picEnemy06 = new System.Windows.Forms.PictureBox();
             this.picEnemy05 = new System.Windows.Forms.PictureBox();
-            this.gridY1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer93)).BeginInit();
@@ -363,7 +364,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
@@ -491,6 +491,420 @@
             // gameTimer
             // 
             this.gameTimer.Tick += new System.EventHandler(this.Tick);
+            // 
+            // gridY1
+            // 
+            this.gridY1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridY1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gridY1.Location = new System.Drawing.Point(8, 742);
+            this.gridY1.Name = "gridY1";
+            this.gridY1.Size = new System.Drawing.Size(52, 69);
+            this.gridY1.TabIndex = 0;
+            this.gridY1.Text = "1";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(8, 669);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 73);
+            this.label1.TabIndex = 201;
+            this.label1.Text = "2";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(8, 596);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 84);
+            this.label2.TabIndex = 202;
+            this.label2.Text = "3";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(8, 523);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 73);
+            this.label3.TabIndex = 203;
+            this.label3.Text = "4";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(8, 450);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 72);
+            this.label4.TabIndex = 204;
+            this.label4.Text = "5";
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(8, 377);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(52, 73);
+            this.label5.TabIndex = 205;
+            this.label5.Text = "6";
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(8, 304);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 73);
+            this.label6.TabIndex = 206;
+            this.label6.Text = "7";
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Location = new System.Drawing.Point(8, 230);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 60);
+            this.label7.TabIndex = 207;
+            this.label7.Text = "8";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(8, 157);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(52, 73);
+            this.label8.TabIndex = 208;
+            this.label8.Text = "9";
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(-3, 87);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 70);
+            this.label9.TabIndex = 209;
+            this.label9.Text = "10";
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(77, 15);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(52, 73);
+            this.label10.TabIndex = 210;
+            this.label10.Text = "A";
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Location = new System.Drawing.Point(158, 15);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 73);
+            this.label11.TabIndex = 211;
+            this.label11.Text = "B";
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Location = new System.Drawing.Point(235, 15);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(52, 73);
+            this.label12.TabIndex = 212;
+            this.label12.Text = "C";
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Location = new System.Drawing.Point(315, 15);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(52, 73);
+            this.label13.TabIndex = 213;
+            this.label13.Text = "D";
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(391, 15);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(52, 73);
+            this.label14.TabIndex = 214;
+            this.label14.Text = "E";
+            // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Location = new System.Drawing.Point(469, 15);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(52, 73);
+            this.label15.TabIndex = 215;
+            this.label15.Text = "F";
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Location = new System.Drawing.Point(548, 15);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(52, 73);
+            this.label16.TabIndex = 216;
+            this.label16.Text = "G";
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(624, 15);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(52, 73);
+            this.label17.TabIndex = 217;
+            this.label17.Text = "H";
+            // 
+            // label18
+            // 
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(703, 15);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 73);
+            this.label18.TabIndex = 218;
+            this.label18.Text = "I";
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(783, 15);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(52, 73);
+            this.label19.TabIndex = 219;
+            this.label19.Text = "J";
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(1720, 16);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(52, 73);
+            this.label20.TabIndex = 239;
+            this.label20.Text = "J";
+            // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.Location = new System.Drawing.Point(1640, 16);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(52, 73);
+            this.label21.TabIndex = 238;
+            this.label21.Text = "I";
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label22.Location = new System.Drawing.Point(1561, 16);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(52, 73);
+            this.label22.TabIndex = 237;
+            this.label22.Text = "H";
+            // 
+            // label23
+            // 
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label23.Location = new System.Drawing.Point(1485, 16);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(52, 73);
+            this.label23.TabIndex = 236;
+            this.label23.Text = "G";
+            // 
+            // label24
+            // 
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label24.Location = new System.Drawing.Point(1406, 16);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(52, 73);
+            this.label24.TabIndex = 235;
+            this.label24.Text = "F";
+            // 
+            // label25
+            // 
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label25.Location = new System.Drawing.Point(1328, 16);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(52, 73);
+            this.label25.TabIndex = 234;
+            this.label25.Text = "E";
+            // 
+            // label26
+            // 
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label26.Location = new System.Drawing.Point(1252, 16);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(52, 73);
+            this.label26.TabIndex = 233;
+            this.label26.Text = "D";
+            // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label27.Location = new System.Drawing.Point(1172, 16);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(52, 73);
+            this.label27.TabIndex = 232;
+            this.label27.Text = "C";
+            // 
+            // label28
+            // 
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label28.Location = new System.Drawing.Point(1095, 16);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(52, 73);
+            this.label28.TabIndex = 231;
+            this.label28.Text = "B";
+            // 
+            // label29
+            // 
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label29.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label29.Location = new System.Drawing.Point(945, 158);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(52, 73);
+            this.label29.TabIndex = 228;
+            this.label29.Text = "9";
+            // 
+            // label30
+            // 
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label30.Location = new System.Drawing.Point(945, 231);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(52, 60);
+            this.label30.TabIndex = 227;
+            this.label30.Text = "8";
+            // 
+            // label31
+            // 
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label31.Location = new System.Drawing.Point(945, 305);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(52, 73);
+            this.label31.TabIndex = 226;
+            this.label31.Text = "7";
+            // 
+            // label32
+            // 
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label32.Location = new System.Drawing.Point(945, 378);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(52, 73);
+            this.label32.TabIndex = 225;
+            this.label32.Text = "6";
+            // 
+            // label33
+            // 
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label33.Location = new System.Drawing.Point(945, 451);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(52, 72);
+            this.label33.TabIndex = 224;
+            this.label33.Text = "5";
+            // 
+            // label34
+            // 
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label34.Location = new System.Drawing.Point(945, 524);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(52, 73);
+            this.label34.TabIndex = 223;
+            this.label34.Text = "4";
+            // 
+            // label35
+            // 
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label35.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label35.Location = new System.Drawing.Point(945, 597);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(52, 84);
+            this.label35.TabIndex = 222;
+            this.label35.Text = "3";
+            // 
+            // label36
+            // 
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label36.Location = new System.Drawing.Point(945, 670);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(52, 73);
+            this.label36.TabIndex = 221;
+            this.label36.Text = "2";
+            // 
+            // label37
+            // 
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label37.Location = new System.Drawing.Point(945, 743);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(52, 69);
+            this.label37.TabIndex = 220;
+            this.label37.Text = "1";
+            // 
+            // label38
+            // 
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label38.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label38.Location = new System.Drawing.Point(934, 88);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(86, 70);
+            this.label38.TabIndex = 229;
+            this.label38.Text = "10";
+            // 
+            // label39
+            // 
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label39.Location = new System.Drawing.Point(1014, 16);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(52, 73);
+            this.label39.TabIndex = 230;
+            this.label39.Text = "A";
+            // 
+            // picPlayer1
+            // 
+            this.picPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer1.Image")));
+            this.picPlayer1.Location = new System.Drawing.Point(70, 91);
+            this.picPlayer1.Name = "picPlayer1";
+            this.picPlayer1.Size = new System.Drawing.Size(72, 67);
+            this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer1.TabIndex = 110;
+            this.picPlayer1.TabStop = false;
+            this.picPlayer1.Tag = "EnemyCell1";
+            this.picPlayer1.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
             // picPlayer91
             // 
@@ -1514,18 +1928,6 @@
             this.picPlayer15.Tag = "EnemyCell15";
             this.picPlayer15.Click += new System.EventHandler(this.ClickPlayerCell);
             // 
-            // picPlayer1
-            // 
-            this.picPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer1.Image")));
-            this.picPlayer1.Location = new System.Drawing.Point(70, 91);
-            this.picPlayer1.Name = "picPlayer1";
-            this.picPlayer1.Size = new System.Drawing.Size(72, 67);
-            this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer1.TabIndex = 110;
-            this.picPlayer1.TabStop = false;
-            this.picPlayer1.Tag = "EnemyCell1";
-            this.picPlayer1.Click += new System.EventHandler(this.ClickPlayerCell);
-            // 
             // picPlayer2
             // 
             this.picPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer2.Image")));
@@ -1642,6 +2044,7 @@
             this.picEnemy91.Size = new System.Drawing.Size(72, 67);
             this.picEnemy91.TabIndex = 99;
             this.picEnemy91.TabStop = false;
+            this.picEnemy91.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy92
             // 
@@ -1651,6 +2054,7 @@
             this.picEnemy92.Size = new System.Drawing.Size(72, 67);
             this.picEnemy92.TabIndex = 98;
             this.picEnemy92.TabStop = false;
+            this.picEnemy92.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy93
             // 
@@ -1660,6 +2064,7 @@
             this.picEnemy93.Size = new System.Drawing.Size(72, 67);
             this.picEnemy93.TabIndex = 97;
             this.picEnemy93.TabStop = false;
+            this.picEnemy93.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy94
             // 
@@ -1669,6 +2074,7 @@
             this.picEnemy94.Size = new System.Drawing.Size(72, 67);
             this.picEnemy94.TabIndex = 96;
             this.picEnemy94.TabStop = false;
+            this.picEnemy94.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy100
             // 
@@ -1678,6 +2084,7 @@
             this.picEnemy100.Size = new System.Drawing.Size(72, 67);
             this.picEnemy100.TabIndex = 95;
             this.picEnemy100.TabStop = false;
+            this.picEnemy100.Click += new System.EventHandler(this.ClickCell);
             // 
             // pictureBox99
             // 
@@ -1687,6 +2094,7 @@
             this.pictureBox99.Size = new System.Drawing.Size(72, 67);
             this.pictureBox99.TabIndex = 94;
             this.pictureBox99.TabStop = false;
+            this.pictureBox99.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy98
             // 
@@ -1696,6 +2104,7 @@
             this.picEnemy98.Size = new System.Drawing.Size(72, 67);
             this.picEnemy98.TabIndex = 93;
             this.picEnemy98.TabStop = false;
+            this.picEnemy98.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy97
             // 
@@ -1705,6 +2114,7 @@
             this.picEnemy97.Size = new System.Drawing.Size(72, 67);
             this.picEnemy97.TabIndex = 92;
             this.picEnemy97.TabStop = false;
+            this.picEnemy97.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy96
             // 
@@ -1714,6 +2124,7 @@
             this.picEnemy96.Size = new System.Drawing.Size(72, 67);
             this.picEnemy96.TabIndex = 91;
             this.picEnemy96.TabStop = false;
+            this.picEnemy96.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy95
             // 
@@ -1723,6 +2134,7 @@
             this.picEnemy95.Size = new System.Drawing.Size(72, 67);
             this.picEnemy95.TabIndex = 90;
             this.picEnemy95.TabStop = false;
+            this.picEnemy95.Click += new System.EventHandler(this.ClickCell);
             // 
             // picEnemy81
             // 
@@ -2666,408 +3078,6 @@
             this.picEnemy05.Tag = "EnemyCell5";
             this.picEnemy05.Click += new System.EventHandler(this.ClickCell);
             // 
-            // gridY1
-            // 
-            this.gridY1.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridY1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.gridY1.Location = new System.Drawing.Point(8, 742);
-            this.gridY1.Name = "gridY1";
-            this.gridY1.Size = new System.Drawing.Size(52, 69);
-            this.gridY1.TabIndex = 0;
-            this.gridY1.Text = "1";
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(8, 669);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 73);
-            this.label1.TabIndex = 201;
-            this.label1.Text = "2";
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(8, 596);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 84);
-            this.label2.TabIndex = 202;
-            this.label2.Text = "3";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(8, 523);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 73);
-            this.label3.TabIndex = 203;
-            this.label3.Text = "4";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(8, 450);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 72);
-            this.label4.TabIndex = 204;
-            this.label4.Text = "5";
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(8, 377);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 73);
-            this.label5.TabIndex = 205;
-            this.label5.Text = "6";
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(8, 304);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 73);
-            this.label6.TabIndex = 206;
-            this.label6.Text = "7";
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(8, 230);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 60);
-            this.label7.TabIndex = 207;
-            this.label7.Text = "8";
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(8, 157);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 73);
-            this.label8.TabIndex = 208;
-            this.label8.Text = "9";
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(-3, 87);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 70);
-            this.label9.TabIndex = 209;
-            this.label9.Text = "10";
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(77, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 73);
-            this.label10.TabIndex = 210;
-            this.label10.Text = "A";
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(158, 15);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 73);
-            this.label11.TabIndex = 211;
-            this.label11.Text = "B";
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(235, 15);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 73);
-            this.label12.TabIndex = 212;
-            this.label12.Text = "C";
-            // 
-            // label13
-            // 
-            this.label13.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(315, 15);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(52, 73);
-            this.label13.TabIndex = 213;
-            this.label13.Text = "D";
-            // 
-            // label14
-            // 
-            this.label14.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(391, 15);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(52, 73);
-            this.label14.TabIndex = 214;
-            this.label14.Text = "E";
-            // 
-            // label15
-            // 
-            this.label15.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(469, 15);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(52, 73);
-            this.label15.TabIndex = 215;
-            this.label15.Text = "F";
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Location = new System.Drawing.Point(548, 15);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(52, 73);
-            this.label16.TabIndex = 216;
-            this.label16.Text = "G";
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Location = new System.Drawing.Point(624, 15);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(52, 73);
-            this.label17.TabIndex = 217;
-            this.label17.Text = "H";
-            // 
-            // label18
-            // 
-            this.label18.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(703, 15);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 73);
-            this.label18.TabIndex = 218;
-            this.label18.Text = "I";
-            // 
-            // label19
-            // 
-            this.label19.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(783, 15);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(52, 73);
-            this.label19.TabIndex = 219;
-            this.label19.Text = "J";
-            // 
-            // label20
-            // 
-            this.label20.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(1720, 16);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(52, 73);
-            this.label20.TabIndex = 239;
-            this.label20.Text = "J";
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label21.Location = new System.Drawing.Point(1640, 16);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(52, 73);
-            this.label21.TabIndex = 238;
-            this.label21.Text = "I";
-            // 
-            // label22
-            // 
-            this.label22.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(1561, 16);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(52, 73);
-            this.label22.TabIndex = 237;
-            this.label22.Text = "H";
-            // 
-            // label23
-            // 
-            this.label23.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.Location = new System.Drawing.Point(1485, 16);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 73);
-            this.label23.TabIndex = 236;
-            this.label23.Text = "G";
-            // 
-            // label24
-            // 
-            this.label24.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label24.Location = new System.Drawing.Point(1406, 16);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(52, 73);
-            this.label24.TabIndex = 235;
-            this.label24.Text = "F";
-            // 
-            // label25
-            // 
-            this.label25.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label25.Location = new System.Drawing.Point(1328, 16);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(52, 73);
-            this.label25.TabIndex = 234;
-            this.label25.Text = "E";
-            // 
-            // label26
-            // 
-            this.label26.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label26.Location = new System.Drawing.Point(1252, 16);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(52, 73);
-            this.label26.TabIndex = 233;
-            this.label26.Text = "D";
-            // 
-            // label27
-            // 
-            this.label27.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label27.Location = new System.Drawing.Point(1172, 16);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(52, 73);
-            this.label27.TabIndex = 232;
-            this.label27.Text = "C";
-            // 
-            // label28
-            // 
-            this.label28.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label28.Location = new System.Drawing.Point(1095, 16);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(52, 73);
-            this.label28.TabIndex = 231;
-            this.label28.Text = "B";
-            // 
-            // label29
-            // 
-            this.label29.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label29.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label29.Location = new System.Drawing.Point(945, 158);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(52, 73);
-            this.label29.TabIndex = 228;
-            this.label29.Text = "9";
-            // 
-            // label30
-            // 
-            this.label30.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label30.Location = new System.Drawing.Point(945, 231);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(52, 60);
-            this.label30.TabIndex = 227;
-            this.label30.Text = "8";
-            // 
-            // label31
-            // 
-            this.label31.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(945, 305);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(52, 73);
-            this.label31.TabIndex = 226;
-            this.label31.Text = "7";
-            // 
-            // label32
-            // 
-            this.label32.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label32.Location = new System.Drawing.Point(945, 378);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(52, 73);
-            this.label32.TabIndex = 225;
-            this.label32.Text = "6";
-            // 
-            // label33
-            // 
-            this.label33.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.Location = new System.Drawing.Point(945, 451);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(52, 72);
-            this.label33.TabIndex = 224;
-            this.label33.Text = "5";
-            // 
-            // label34
-            // 
-            this.label34.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label34.Location = new System.Drawing.Point(945, 524);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(52, 73);
-            this.label34.TabIndex = 223;
-            this.label34.Text = "4";
-            // 
-            // label35
-            // 
-            this.label35.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label35.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label35.Location = new System.Drawing.Point(945, 597);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(52, 84);
-            this.label35.TabIndex = 222;
-            this.label35.Text = "3";
-            // 
-            // label36
-            // 
-            this.label36.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label36.Location = new System.Drawing.Point(945, 670);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(52, 73);
-            this.label36.TabIndex = 221;
-            this.label36.Text = "2";
-            // 
-            // label37
-            // 
-            this.label37.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label37.Location = new System.Drawing.Point(945, 743);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(52, 69);
-            this.label37.TabIndex = 220;
-            this.label37.Text = "1";
-            // 
-            // label38
-            // 
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label38.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label38.Location = new System.Drawing.Point(934, 88);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(86, 70);
-            this.label38.TabIndex = 229;
-            this.label38.Text = "10";
-            // 
-            // label39
-            // 
-            this.label39.Font = new System.Drawing.Font("Kozuka Gothic Pr6N M", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label39.Location = new System.Drawing.Point(1014, 16);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(52, 73);
-            this.label39.TabIndex = 230;
-            this.label39.Text = "A";
-            // 
             // GameScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3317,7 +3327,7 @@
             this.Controls.Add(this.label39);
             this.Name = "GameScreen";
             this.Text = "Game";
-            this.Load += new System.EventHandler(this.GameScreen_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer93)).EndInit();
@@ -3408,7 +3418,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();

@@ -154,5 +154,8 @@
   <ItemGroup>
     <None Include="Resources\106033.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainTheme.wav.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
