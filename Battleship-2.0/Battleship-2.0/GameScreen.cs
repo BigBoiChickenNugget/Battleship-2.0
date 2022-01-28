@@ -94,7 +94,7 @@ namespace Battleship_2._0
                 cell.Image = Properties.Resources.miss;
             }
 
-            // Add this cell to the isClicked array.
+            // Add this cell to the isClicked array. This makes it so program doesn't allow the user to click on this cell again.
             isClicked[index] = true;
 
             // Increment the move counter by one.
