@@ -46,7 +46,7 @@ namespace Battleship_2._0
         private void Tick(object sender, EventArgs e)
         {
             // If there are more than 20 spots entered, set the enterBoats bool to false. Meaning that boats are no longer required to be entered.
-            if (numBoats == 20)
+            if (numBoats == 17)
             {
                 enterBoats = false;
             }
@@ -90,7 +90,7 @@ namespace Battleship_2._0
             {
                 SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
                 simpleSound.Play();
-                cell.Image = Properties.Resources.PlayerHit;
+                cell.Image = Properties.Resources.hit;
             }
 
             else
@@ -163,10 +163,21 @@ namespace Battleship_2._0
         // Function to restart game, or start it. Basically a function that sets up the game.
         private void RestartGame()
         {
+
+            // Make moves 0, set the turn to the player, and make it so that the user can deploy their boats.
             moves = 0;
             turn = true;
             enterBoats = true;
 
+            // Get the computer to choose its ship locations.
+            AI computer = new AI();
+
+            // Make the computer choose 17 cells.
+            for (int numEnemyShips = 0; numEnemyShips < 17; numEnemyShips++)
+            {
+                computer.ships = isHit;
+                isHit[computer.EasyShip()] = true;
+            }
         }
 
         // Function that runs if the player clicks one of their own cells.
@@ -181,10 +192,16 @@ namespace Battleship_2._0
             // If this cell is not taken and if the user is still process in the process of entering, otherwise, do nothing.
             if (playerBoats[index-1] == false && enterBoats == true)
             {
+
+                // Play sound effect.
                 SoundPlayer simpleSound = new SoundPlayer(@"shipplace.wav");
                 simpleSound.Play();
+
+                // Set the playeres boat position to this cell and change the picture of the cell to display that it's taken
                 playerBoats[index - 1] = true;
                 cell.Image = Properties.Resources.PlayerTaken;
+
+                // Increase the number of boats the player has placed.
                 numBoats++;
             }
         }
