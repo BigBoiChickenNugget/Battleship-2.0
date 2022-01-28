@@ -182,6 +182,5 @@ namespace Battleship_2._0
 
         }
 
-
     }
 }
