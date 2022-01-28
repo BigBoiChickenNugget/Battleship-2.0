@@ -63,6 +63,16 @@ namespace Battleship_2._0.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _106033 {
+            get {
+                object obj = ResourceManager.GetObject("106033", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap available {
             get {
                 object obj = ResourceManager.GetObject("available", resourceCulture);

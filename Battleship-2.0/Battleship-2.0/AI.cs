@@ -24,15 +24,13 @@ namespace Battleship_2._0
             // Generate a random number until it's a number that hasn't been played yet.
             while (true)
             {
-                move = randNum.Next(1, 100);
-                for (int index = 0; index < 100; index++)
+                move = randNum.Next(1, 100)-1;
+                while (hits[move] == true || misses[move] == true) 
                 {
-                    if (misses[index] == true || hits[index] == true)
-                    {
-                        continue;
-                    }
+
                 }
-                return move-1;
+
+                return move;
             }
         }
     }

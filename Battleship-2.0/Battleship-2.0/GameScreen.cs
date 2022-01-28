@@ -19,6 +19,9 @@ namespace Battleship_2._0
         bool[] isHit = new bool[100];
         bool[] playerBoats = new bool[100];
 
+        // Variable that stores the cells the player has clicked.
+        bool[] isClicked = new bool[100];
+
         // Variable's that stores the places where the player has either been hit or missed.
         bool[] playerHits = new bool[100];
         bool[] playerMiss = new bool[100];
@@ -74,10 +77,16 @@ namespace Battleship_2._0
             PictureBox cell = (PictureBox)sender;
 
             // Get the number at the end of the picture box's name. This makes it so that we can index the appropriate cell.
-            int index = int.Parse(((string)cell.Name).Substring(8));
+            int index = int.Parse(((string)cell.Name).Substring(8))-1;
+
+            // If cell has already been clicked, quit function.
+            if (isClicked[index] == true)
+            {
+                return;
+            }
 
             // If there's a boat sitting on the part the user clicks, then color the cell the hit color, otherwise, color it the miss color.
-            if (isHit[index-1] == true)
+            if (isHit[index] == true)
             {
                 SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
                 simpleSound.Play();
@@ -90,6 +99,9 @@ namespace Battleship_2._0
                 simpleSound.Play();
                 cell.Image = Properties.Resources.miss;
             }
+
+            // Add this cell to the isClicked array. This makes it so program doesn't allow the user to click on this cell again.
+            isClicked[index] = true;
 
             // Increment the move counter by one.
             moves++;
