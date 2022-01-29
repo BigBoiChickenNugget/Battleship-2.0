@@ -73,9 +73,9 @@
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picCarrier = new System.Windows.Forms.PictureBox();
+            this.picBattleship = new System.Windows.Forms.PictureBox();
+            this.picCruiser = new System.Windows.Forms.PictureBox();
             this.picPlayer1 = new System.Windows.Forms.PictureBox();
             this.picPlayer91 = new System.Windows.Forms.PictureBox();
             this.picPlayer92 = new System.Windows.Forms.PictureBox();
@@ -276,11 +276,11 @@
             this.picEnemy7 = new System.Windows.Forms.PictureBox();
             this.picEnemy6 = new System.Windows.Forms.PictureBox();
             this.picEnemy5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.picSubmarine = new System.Windows.Forms.PictureBox();
+            this.picDestroyer = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picCarrier)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBattleship)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCruiser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).BeginInit();
@@ -481,8 +481,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSubmarine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDestroyer)).BeginInit();
             this.SuspendLayout();
             // 
             // lblMoves
@@ -702,6 +702,7 @@
             this.label19.Size = new System.Drawing.Size(52, 73);
             this.label19.TabIndex = 219;
             this.label19.Text = "J";
+            this.label19.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
             // 
             // label20
             // 
@@ -904,41 +905,44 @@
             this.label39.TabIndex = 230;
             this.label39.Text = "A";
             // 
-            // pictureBox3
+            // picCarrier
             // 
-            this.pictureBox3.Image = global::Battleship_2._0.Properties.Resources.carrier;
-            this.pictureBox3.Location = new System.Drawing.Point(609, 203);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(250, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 242;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
-            this.pictureBox3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picCarrier.Image = ((System.Drawing.Image)(resources.GetObject("picCarrier.Image")));
+            this.picCarrier.Location = new System.Drawing.Point(609, 203);
+            this.picCarrier.Name = "picCarrier";
+            this.picCarrier.Size = new System.Drawing.Size(250, 50);
+            this.picCarrier.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCarrier.TabIndex = 242;
+            this.picCarrier.TabStop = false;
+            this.picCarrier.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
+            this.picCarrier.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picCarrier.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
             // 
-            // pictureBox2
+            // picBattleship
             // 
-            this.pictureBox2.Image = global::Battleship_2._0.Properties.Resources.battleship;
-            this.pictureBox2.Location = new System.Drawing.Point(609, 146);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(200, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 241;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
-            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picBattleship.Image = global::Battleship_2._0.Properties.Resources.battleshipLeft;
+            this.picBattleship.Location = new System.Drawing.Point(609, 146);
+            this.picBattleship.Name = "picBattleship";
+            this.picBattleship.Size = new System.Drawing.Size(200, 50);
+            this.picBattleship.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBattleship.TabIndex = 241;
+            this.picBattleship.TabStop = false;
+            this.picBattleship.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
+            this.picBattleship.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picBattleship.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
             // 
-            // pictureBox1
+            // picCruiser
             // 
-            this.pictureBox1.Image = global::Battleship_2._0.Properties.Resources.cruiser;
-            this.pictureBox1.Location = new System.Drawing.Point(610, 91);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 240;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
-            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picCruiser.Image = global::Battleship_2._0.Properties.Resources.cruiserLeft;
+            this.picCruiser.Location = new System.Drawing.Point(610, 91);
+            this.picCruiser.Name = "picCruiser";
+            this.picCruiser.Size = new System.Drawing.Size(150, 50);
+            this.picCruiser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCruiser.TabIndex = 240;
+            this.picCruiser.TabStop = false;
+            this.picCruiser.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
+            this.picCruiser.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picCruiser.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
             // 
             // picPlayer1
             // 
@@ -3224,29 +3228,31 @@
             this.picEnemy5.Tag = "EnemyCell5";
             this.picEnemy5.Click += new System.EventHandler(this.ClickCell);
             // 
-            // pictureBox4
+            // picSubmarine
             // 
-            this.pictureBox4.Image = global::Battleship_2._0.Properties.Resources.submarine;
-            this.pictureBox4.Location = new System.Drawing.Point(610, 259);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(150, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 243;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
-            this.pictureBox4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picSubmarine.Image = global::Battleship_2._0.Properties.Resources.submarineLeft;
+            this.picSubmarine.Location = new System.Drawing.Point(610, 259);
+            this.picSubmarine.Name = "picSubmarine";
+            this.picSubmarine.Size = new System.Drawing.Size(150, 50);
+            this.picSubmarine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSubmarine.TabIndex = 243;
+            this.picSubmarine.TabStop = false;
+            this.picSubmarine.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
+            this.picSubmarine.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picSubmarine.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
             // 
-            // pictureBox5
+            // picDestroyer
             // 
-            this.pictureBox5.Image = global::Battleship_2._0.Properties.Resources.destroyer;
-            this.pictureBox5.Location = new System.Drawing.Point(610, 315);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 244;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
-            this.pictureBox5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picDestroyer.Image = global::Battleship_2._0.Properties.Resources.destroyerLeft;
+            this.picDestroyer.Location = new System.Drawing.Point(610, 315);
+            this.picDestroyer.Name = "picDestroyer";
+            this.picDestroyer.Size = new System.Drawing.Size(100, 50);
+            this.picDestroyer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picDestroyer.TabIndex = 244;
+            this.picDestroyer.TabStop = false;
+            this.picDestroyer.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HoldShip);
+            this.picDestroyer.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MoveShip);
+            this.picDestroyer.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
             // 
             // GameScreen
             // 
@@ -3254,11 +3260,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(1834, 843);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picDestroyer);
+            this.Controls.Add(this.picSubmarine);
+            this.Controls.Add(this.picCarrier);
+            this.Controls.Add(this.picBattleship);
+            this.Controls.Add(this.picCruiser);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -3502,9 +3508,10 @@
             this.Controls.Add(this.label39);
             this.Name = "GameScreen";
             this.Text = "Game";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.RotateShip);
+            ((System.ComponentModel.ISupportInitialize)(this.picCarrier)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBattleship)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picCruiser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).EndInit();
@@ -3705,8 +3712,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSubmarine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDestroyer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3957,10 +3964,10 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox picCruiser;
+        private System.Windows.Forms.PictureBox picBattleship;
+        private System.Windows.Forms.PictureBox picCarrier;
+        private System.Windows.Forms.PictureBox picSubmarine;
+        private System.Windows.Forms.PictureBox picDestroyer;
     }
 }

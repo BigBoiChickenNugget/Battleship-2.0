@@ -172,5 +172,68 @@
   <ItemGroup>
     <None Include="Resources\carrier.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrierLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleshipDown.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleshipLeft.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleshipRight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleshipUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrierDown.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrierLeft.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrierRight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrierUp.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruiserDown.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruiserLeft.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruiserRight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cruiserUp.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroyerDown.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroyerLeft.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroyerRight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destroyerUp.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submarineDown.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submarineLeft.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submarineRight.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\submarineUp.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

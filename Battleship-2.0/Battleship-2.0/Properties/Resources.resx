@@ -121,12 +121,6 @@
   <data name="PlayerEmpty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayerEmpty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="destroyer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\destroyer.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="submarine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\submarine.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="miss" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\miss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,12 +129,6 @@
   </data>
   <data name="PlayerTaken" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlayerTaken.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="battleship" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\battleship.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cruiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cruiser.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,7 +145,64 @@
   <data name="available" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="carrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\carrier.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="battleshipDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battleshipDown.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battleshipLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battleshipLeft.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battleshipRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battleshipRight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battleshipUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battleshipUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrierDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrierDown.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrierLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrierLeft.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrierRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrierRight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrierUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrierUp.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cruiserDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cruiserDown.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cruiserLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cruiserLeft.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cruiserRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cruiserRight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cruiserUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cruiserUp.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="destroyerDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\destroyerDown.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="destroyerLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\destroyerLeft.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="destroyerRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\destroyerRight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="destroyerUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\destroyerUp.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="submarineDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\submarineDown.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="submarineLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\submarineLeft.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="submarineRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\submarineRight.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="submarineUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\submarineUp.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

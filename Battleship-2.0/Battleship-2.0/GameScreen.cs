@@ -43,6 +43,9 @@ namespace Battleship_2._0
         // Boolean to see if a ship is being moved or not.
         bool shipMoving = false;
 
+        // Variable that stores the picture box of the ship that's being pressed on.
+        PictureBox mouseShip;
+
         public GameScreen()
         {
             InitializeComponent();
@@ -134,6 +137,7 @@ namespace Battleship_2._0
             PictureBox cell = picPlayer1;
             string cellName = "picPlayer" + (move + 1);
 
+            // Iterate through all the controls and look for the one that has a name matching the one cell chosen by the computer.
             foreach (Control x in this.Controls)
             {
                 if (x is PictureBox && x.Name == cellName)
@@ -213,23 +217,128 @@ namespace Battleship_2._0
             }
         }
 
-       
-
+        // If the mouse button is pressed over one of the ships, set the shipMoving variable to true, and get 
         private void HoldShip(object sender, MouseEventArgs e)
         {
+
+            // Set the shipMoving variable to true, which means that the ship is being moved.
             shipMoving = true;
+
+            // Store the ships initial location in the shipX and shipY variable.
             shipX = e.X;
             shipY = e.Y; 
         }
 
+        // Function that moves the ship while the mouse is moving over it.
         private void MoveShip(object sender, MouseEventArgs e)
         {
-            PictureBox ship = (PictureBox)sender;
 
+            // Store the ship cell in a variable.
+            mouseShip = (PictureBox)sender;
+
+            // If the mouse is held down on the ship, move the ship.
             if (shipMoving == true)
             {
-                ship.Top = ship.Top + (e.Y - shipY);
-                ship.Left = ship.Left + (e.X - shipX);
+
+                // Move the ship to the location of the mouse.
+                mouseShip.Top = mouseShip.Top + (e.Y - shipY);
+                mouseShip.Left = mouseShip.Left + (e.X - shipX);
+            }
+        }
+
+        // If the mouse is let go of on the MouseShip, stop moving the MouseShip and snap it to its nearest grid.
+        private void DropShip(object sender, MouseEventArgs e)
+        {
+
+            // Set the MouseShipMoving variable to false signifying that the MouseShip is no longer moving.
+            shipMoving = false;
+        }
+
+        private void RotateShip(object sender, KeyEventArgs e)
+        {
+            // Variable that will store what kind of ship it is.
+            string shipType = (mouseShip.Name).Substring(3).ToLower();
+
+            // Variable that will store the ship's orientation.
+            string orientation = "Left";
+
+            if (mouseShip.Size.Height > mouseShip.Size.Width)
+            {
+                orientation = "Up";
+            }
+
+            // If the ship is being held down by the mouse.
+            if (shipMoving == true)
+            {
+               // If the user presses left arrow key, change the picture to the left version of the boat and resize the picture box.
+               if (e.KeyCode == Keys.Left)
+               {
+                    // Picture name.
+                    string picName = shipType + "Left";
+
+                    // Show new picture.
+                    mouseShip.Image = (Bitmap) Properties.Resources.ResourceManager.GetObject(picName);
+
+                    // Resize picture box if the picture box was previous up or down.
+                    if (orientation == "Up")
+                    {
+                        Size size = new Size(mouseShip.Size.Height, mouseShip.Size.Width);
+                        mouseShip.Size = size;
+                    }
+               }
+
+               // If the user presses right arrow key, change the picture to the right version of the boat and resize the picture box.
+               if (e.KeyCode == Keys.Right)
+               {
+                    // Picture name.
+                    string picName = shipType + "Right";
+
+                    // Show new picture
+                    mouseShip.Image = (Bitmap)Properties.Resources.ResourceManager.GetObject(picName);
+
+                    // Resize picture box if the picture box was previous up or down.
+                    if (orientation == "Up")
+                    {
+                        Size size = new Size(mouseShip.Size.Height, mouseShip.Size.Width);
+                        mouseShip.Size = size;
+                    }
+               }
+
+
+               // If the user presses down arrow key. 
+               if (e.KeyCode == Keys.Down)
+               {
+                    // Picture name.
+                    string picName = shipType + "Down";
+
+                    // Apply new picture.
+                    mouseShip.Image = (Bitmap)Properties.Resources.ResourceManager.GetObject(picName);
+
+                    // Resize picture box if the picturebox was previous left or right.
+                    if (orientation == "Left")
+                    {
+                        Size size = new Size(mouseShip.Size.Height, mouseShip.Size.Width);
+                        mouseShip.Size = size;
+                    }
+               }
+
+               // If the user presses up arrow key. 
+               if (e.KeyCode == Keys.Up)
+               {
+
+                    // Picture name.
+                    string picName = shipType + "Up";
+
+                    // Apply new picture.
+                    mouseShip.Image = (Bitmap)Properties.Resources.ResourceManager.GetObject(picName);
+
+                    // Resize picture box if the picturebox was previous left or right.
+                    if (orientation == "Left")
+                    {
+                        Size size = new Size(mouseShip.Size.Height, mouseShip.Size.Width);
+                        mouseShip.Size = size;
+                    }
+               }
             }
         }
     }
