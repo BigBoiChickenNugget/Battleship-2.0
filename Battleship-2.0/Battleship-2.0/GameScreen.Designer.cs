@@ -910,7 +910,7 @@
             this.picCarrier.Image = ((System.Drawing.Image)(resources.GetObject("picCarrier.Image")));
             this.picCarrier.Location = new System.Drawing.Point(609, 203);
             this.picCarrier.Name = "picCarrier";
-            this.picCarrier.Size = new System.Drawing.Size(250, 50);
+            this.picCarrier.Size = new System.Drawing.Size(280, 50);
             this.picCarrier.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCarrier.TabIndex = 242;
             this.picCarrier.TabStop = false;
@@ -923,7 +923,7 @@
             this.picBattleship.Image = global::Battleship_2._0.Properties.Resources.battleshipLeft;
             this.picBattleship.Location = new System.Drawing.Point(609, 146);
             this.picBattleship.Name = "picBattleship";
-            this.picBattleship.Size = new System.Drawing.Size(200, 50);
+            this.picBattleship.Size = new System.Drawing.Size(220, 50);
             this.picBattleship.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBattleship.TabIndex = 241;
             this.picBattleship.TabStop = false;
@@ -947,7 +947,7 @@
             // picPlayer1
             // 
             this.picPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer1.Image")));
-            this.picPlayer1.Location = new System.Drawing.Point(70, 91);
+            this.picPlayer1.Location = new System.Drawing.Point(70, 90);
             this.picPlayer1.Name = "picPlayer1";
             this.picPlayer1.Size = new System.Drawing.Size(50, 50);
             this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1981,7 +1981,7 @@
             // picPlayer2
             // 
             this.picPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer2.Image")));
-            this.picPlayer2.Location = new System.Drawing.Point(123, 91);
+            this.picPlayer2.Location = new System.Drawing.Point(123, 90);
             this.picPlayer2.Name = "picPlayer2";
             this.picPlayer2.Size = new System.Drawing.Size(50, 50);
             this.picPlayer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1993,7 +1993,7 @@
             // picPlayer3
             // 
             this.picPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer3.Image")));
-            this.picPlayer3.Location = new System.Drawing.Point(176, 91);
+            this.picPlayer3.Location = new System.Drawing.Point(176, 90);
             this.picPlayer3.Name = "picPlayer3";
             this.picPlayer3.Size = new System.Drawing.Size(50, 50);
             this.picPlayer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2005,7 +2005,7 @@
             // picPlayer4
             // 
             this.picPlayer4.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer4.Image")));
-            this.picPlayer4.Location = new System.Drawing.Point(228, 91);
+            this.picPlayer4.Location = new System.Drawing.Point(228, 90);
             this.picPlayer4.Name = "picPlayer4";
             this.picPlayer4.Size = new System.Drawing.Size(50, 50);
             this.picPlayer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2041,7 +2041,7 @@
             // picPlayer8
             // 
             this.picPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer8.Image")));
-            this.picPlayer8.Location = new System.Drawing.Point(442, 89);
+            this.picPlayer8.Location = new System.Drawing.Point(442, 90);
             this.picPlayer8.Name = "picPlayer8";
             this.picPlayer8.Size = new System.Drawing.Size(50, 50);
             this.picPlayer8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -2077,7 +2077,7 @@
             // picPlayer5
             // 
             this.picPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer5.Image")));
-            this.picPlayer5.Location = new System.Drawing.Point(281, 91);
+            this.picPlayer5.Location = new System.Drawing.Point(281, 90);
             this.picPlayer5.Name = "picPlayer5";
             this.picPlayer5.Size = new System.Drawing.Size(50, 50);
             this.picPlayer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

@@ -40,6 +40,13 @@ namespace Battleship_2._0
         bool enterBoats = false;
         int numBoats = 0;
 
+        // Boolean that's meant to see if all the ships that the player has are placed properly.
+        bool carrier = false;
+        bool battleship = false;
+        bool cruiser = false;
+        bool submarine = false;
+        bool destroyer = false;
+
         // Boolean to see if a ship is being moved or not.
         bool shipMoving = false;
 
@@ -229,7 +236,7 @@ namespace Battleship_2._0
             shipY = e.Y; 
         }
 
-        // Function that moves the ship while the mouse is moving over it.
+        // Function that moves the ship while the mouse is moving over it and holding down.
         private void MoveShip(object sender, MouseEventArgs e)
         {
 
@@ -252,6 +259,153 @@ namespace Battleship_2._0
 
             // Set the MouseShipMoving variable to false signifying that the MouseShip is no longer moving.
             shipMoving = false;
+
+            // Get the picturebox nearest to the mouse.
+            PictureBox snappedCell = null;
+            int minimumLeft = 100000000;
+            int minimumTop = 100000000;
+
+            // Iterate through all the controls.
+            foreach (Control x in this.Controls)
+            {
+
+                // If the control is a picture box and it's one of the pictureboxes where the user places their boats.
+                if (x is PictureBox && ((PictureBox)x).Name.Substring(0, 9) == "picPlayer")
+                {
+
+                    // If the picturebox is the closest to the user, make it the snappedCell.
+                    PictureBox tmpCell = (PictureBox)x;
+                    if (minimumLeft + minimumTop > Math.Abs(tmpCell.Left-mouseShip.Left) + Math.Abs(tmpCell.Top-mouseShip.Top))//minimumLeft > Math.Abs(tmpCell.Left-mouseShip.Left) && minimumTop > Math.Abs(tmpCell.Top-mouseShip.Top))
+                    {
+                        minimumLeft = Math.Abs(tmpCell.Left - mouseShip.Left);
+                        minimumTop = Math.Abs(tmpCell.Top - mouseShip.Top);
+
+                        snappedCell = tmpCell;
+                    }
+                }
+            }
+
+            // Set the position for the ship that user is dragging equal to the picture box that is closest to it.
+            mouseShip.Left = snappedCell.Left;
+            mouseShip.Top = snappedCell.Top;
+
+            // Get the type and orientation of the boat.
+            string shipType = (mouseShip.Name).Substring(3).ToLower();
+            int size = 0;
+            string orientation = "Left";
+
+            if (mouseShip.Size.Height > mouseShip.Size.Width)
+            {
+                orientation = "Up";
+            }
+
+            // Get the size of the ship based on its size.
+            if (shipType == "carrier")
+                size = 5;
+            else if (shipType == "battleship")
+                size = 4;
+            else if (shipType == "submarine")
+                size = 3;
+            else if (shipType == "cruiser")
+                size = 3;
+            else if (shipType == "destroyer")
+                size = 2;
+
+            // See if the ship is in an invalid location.
+            int cell = int.Parse(snappedCell.Name.Substring(9));
+            if (orientation == "Left")
+            {
+
+                // If the ship's size causes it to hang of the edge.
+                if ((cell > 11-size && cell < 11) || (cell > 21-size && cell < 21) || (cell > 31-size && cell < 31) || (cell > 41-size && cell < 41) || (cell > 51-size && cell < 51) || (cell > 61-size && cell < 61) || (cell > 71-size && cell < 71) || (cell > 81-size && cell < 81) || (cell > 91-size && cell < 91) || cell > 101-size)
+                {
+
+                    // Inform the player that it's an invalid position.
+                    MessageBox.Show("Invalid position");
+
+                    // Set the booleans for whatever ship the user is moving to false, signifying that this ship hasn't been successfully placed.
+                    if (shipType == "battleship")
+                        battleship = false;
+                    else if (shipType == "carrier")
+                        carrier = false;
+                    else if (shipType == "cruiser")
+                        cruiser = false;
+                    else if (shipType == "submarine")
+                        submarine = false;
+                    else if (shipType == "destroyer")
+                        destroyer = false;
+                }
+
+                // Otherwise, the ship is valid, so set this ship's boolean value to true, signifying that it is properly placed.
+                else
+                {
+                    if (shipType == "battleship")
+                        battleship = true;
+                    else if (shipType == "carrier")
+                        carrier = true;
+                    else if (shipType == "cruiser")
+                        cruiser = true;
+                    else if (shipType == "submarine")
+                        submarine = true;
+                    else if (shipType == "destroyer")
+                        destroyer = true;
+                }
+            }
+
+            // If the ship is up or down, run this code to check for an invalid position.
+            else if (orientation == "Up")
+            {
+
+                // Create the row variable and set it equal to cell. The purpose of the row variable is to see what the last cell in the user's column is.
+                int column = cell;
+                while (column < 100)
+                {
+                    column += 10;
+                }
+                column -= 10;
+
+                // Iterate through the column numbers that are in the column chosen above.
+                for (int index = column; index >= (column - (10 * (size-2))); index -= 10)
+                {
+
+                    // If the ship is on one of these cells, it means that the ship is not in a valid position.
+                    if (cell == index)
+                    {
+
+                        // Tell the user that their position is invalid.
+                        MessageBox.Show("Invalid position");
+
+                        // Set the ship's own variable to false. And brek the loop.
+                        if (shipType == "battleship")
+                            battleship = false;
+                        else if (shipType == "carrier")
+                            carrier = false;
+                        else if (shipType == "cruiser")
+                            cruiser = false;
+                        else if (shipType == "submarine")
+                            submarine = false;
+                        else if (shipType == "destroyer")
+                            destroyer = false;
+
+                        break;
+                    }
+
+                    // Otherwise, set the ship's variable to true.
+                    else
+                    {
+                        if (shipType == "battleship")
+                            battleship = true;
+                        else if (shipType == "carrier")
+                            carrier = true;
+                        else if (shipType == "cruiser")
+                            cruiser = true;
+                        else if (shipType == "submarine")
+                            submarine = true;
+                        else if (shipType == "destroyer")
+                            destroyer = true;
+                    }
+                }
+            }
         }
 
         private void RotateShip(object sender, KeyEventArgs e)
