@@ -47,6 +47,7 @@ namespace Battleship_2._0
             // Variable to see if the submarine has been placed yet.
             bool submarinePlaced = false;
 
+            // Iterate through all the ship sizees starting from the biggest and generate their positions.
             while (size > 1)
             {
                 // Get positions for the battleship ship. Must be in a while loop because it's possible that the position it's placed on is already taken.
