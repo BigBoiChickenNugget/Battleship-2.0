@@ -16,7 +16,7 @@ namespace Battleship_2._0
     {
 
         // Variable's that stores the enemy's and the player's cells on the board that have a boat on them. 
-        bool[] isHit = new bool[100];
+        bool[] computerBoats = new bool[100];
         bool[] playerBoats = new bool[100];
 
         // Variable that stores the cells the player has clicked.
@@ -109,7 +109,7 @@ namespace Battleship_2._0
             }
 
             // If there's a boat sitting on the part the user clicks, then color the cell the hit color, otherwise, color it the miss color.
-            if (isHit[index] == true)
+            if (computerBoats[index] == true)
             {
                 SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
                 simpleSound.Play();
@@ -599,6 +599,11 @@ namespace Battleship_2._0
             }
 
             // Make the computer select their positions.
+            AI computer = new AI();
+
+            // Generate the computers position for their game.
+            computer.GenerateShip();
+            computerBoats = computer.ships;
         }
     }
 }
