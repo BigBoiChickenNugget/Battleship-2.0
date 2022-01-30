@@ -37,8 +37,7 @@ namespace Battleship_2._0
         int shipY;
 
         // Boolean that checks if the user is permitted to input their boat spots.
-        bool enterBoats = false;
-        int numBoats = 0;
+        bool gameStart = false;
 
         // Boolean that's meant to see if all the ships that the player has are placed properly.
         bool carrier = false;
@@ -56,20 +55,27 @@ namespace Battleship_2._0
         public GameScreen()
         {
             InitializeComponent();
-            RestartGame();
+            //RestartGame();
             gameTimer.Start();
         }
 
         private void Tick(object sender, EventArgs e)
         {
-            // If there are more than 20 spots entered, set the enterBoats bool to false. Meaning that boats are no longer required to be entered.
-            if (numBoats == 17)
+
+            // If all the ships have been placed, allow the user to start the game.
+            if (battleship == true && carrier == true && cruiser == true && submarine == true && destroyer == true)
             {
-                enterBoats = false;
+                btnStart.Visible = true;
             }
 
-            // If the user is still in the process of entering boats, don't allow the program to go any further.
-            if (enterBoats == true)
+            // If all the ships haven't been placed, don't allow the user to start the game.
+            else
+            {
+                btnStart.Visible = false;
+            }
+
+            // If the game hasn't been started yet, don't allow the user to place any boats.
+            if (gameStart == false)
             {
                 return;
             }
@@ -85,7 +91,7 @@ namespace Battleship_2._0
         private void ClickCell(object sender, EventArgs e)
         {
             // If the player hasn't entered their ships yet, or if it's not the users turn quit the function.
-            if (enterBoats == true || turn == false)
+            if (gameStart == false || turn == false)
             {
                 return;
             }
@@ -152,6 +158,7 @@ namespace Battleship_2._0
                     cell = (PictureBox)x;
                 }
             }
+
             // If the AI's move is a hit, color the cell appropriately.
             if (playerBoats[move] == true)
             {
@@ -179,13 +186,13 @@ namespace Battleship_2._0
         }
 
         // Function to restart game, or start it. Basically a function that sets up the game.
-        private void RestartGame()
+        /*private void RestartGame()
         {
 
             // Make moves 0, set the turn to the player, and make it so that the user can deploy their boats.
             moves = 0;
             turn = true;
-            enterBoats = true;
+            gameStart = false;
 
             // Get the computer to choose its ship locations.
             AI computer = new AI();
@@ -196,33 +203,7 @@ namespace Battleship_2._0
                 computer.ships = isHit;
                 isHit[computer.EasyShip()] = true;
             }
-        }
-
-        // Function that runs if the player clicks one of their own cells.
-        private void ClickPlayerCell(object sender, EventArgs e)
-        {
-             // Store the cell clicked as a PictureBox object.
-            PictureBox cell = (PictureBox)sender;
-
-            // Get the number at the end of the picture box's name. This makes it so that we can index the appropriate cell.
-            int index = int.Parse(((string)cell.Name).Substring(9));
-
-            // If this cell is not taken and if the user is still process in the process of entering, otherwise, do nothing.
-            if (playerBoats[index-1] == false && enterBoats == true)
-            {
-
-                // Play sound effect.
-                SoundPlayer simpleSound = new SoundPlayer(@"shipplace.wav");
-                simpleSound.Play();
-
-                // Set the playeres boat position to this cell and change the picture of the cell to display that it's taken
-                playerBoats[index - 1] = true;
-                cell.Image = Properties.Resources.PlayerTaken;
-
-                // Increase the number of boats the player has placed.
-                numBoats++;
-            }
-        }
+        }*/
 
         // If the mouse button is pressed over one of the ships, set the shipMoving variable to true, and get 
         private void HoldShip(object sender, MouseEventArgs e)
@@ -262,6 +243,8 @@ namespace Battleship_2._0
 
             // Get the picturebox nearest to the mouse.
             PictureBox snappedCell = null;
+
+            // Variables that store the distance to the nearest cell.
             int minimumLeft = 100000000;
             int minimumTop = 100000000;
 
@@ -406,6 +389,9 @@ namespace Battleship_2._0
                     }
                 }
             }
+
+            // Set the shipMoving variable to false, signifying that no ship is in the process of being moved currently.
+            shipMoving = false;
         }
 
         private void RotateShip(object sender, KeyEventArgs e)
@@ -494,6 +480,125 @@ namespace Battleship_2._0
                     }
                }
             }
+        }
+
+        // If the user clicks the start game button.
+        private void StartGame(object sender, EventArgs e)
+        {
+            gameStart = true;
+
+            // Look for the ship pictures.
+            foreach (Control x in this.Controls)
+            {
+
+                // If the control is one of the boat pictures, go ahead and add it to the gameboard.
+                if (x is PictureBox && (((PictureBox)x).Name == "picCarrier" || ((PictureBox)x).Name == "picBattleship" || ((PictureBox)x).Name == "picCruiser" || ((PictureBox)x).Name == "picSubmarine" || ((PictureBox)x).Name == "picDestroyer"))
+                {
+
+                    // Keep the ship picture in the ship variable.
+                    PictureBox ship = (PictureBox)x;
+
+                    // Get the ship type, and then find the size of the ship.
+                    string shipType = (ship.Name).Substring(3).ToLower();
+                    int size = 0;
+
+                    // Get the size of the ship based on its size.
+                    if (shipType == "carrier")
+                        size = 5;
+                    else if (shipType == "battleship")
+                        size = 4;
+                    else if (shipType == "submarine")
+                        size = 3;
+                    else if (shipType == "cruiser")
+                        size = 3;
+                    else if (shipType == "destroyer")
+                        size = 2;
+
+                    // Get the cell the ship is on.
+                    PictureBox cell = null;
+
+                    // Look for the player cell that the ship is on.
+                    foreach (Control y in this.Controls)
+                    {
+
+                        // If the control object is a picture box and starts with picPlayer, it means it is a player cell.
+                        if (y is PictureBox && ((PictureBox)y).Name.Substring(0, 9) == "picPlayer")
+                        {
+
+                            // If the player cell is in the same position as the ship picture, break the loop and set cell equal to this.
+                            PictureBox tmpCell = (PictureBox)y;
+                            if (tmpCell.Left == ship.Left && tmpCell.Top == ship.Top)
+                            {
+                                cell = tmpCell;
+                                break;
+                            }
+                        }
+                    }
+
+                    // If the ship is placed right or left, run this code.
+                    if (ship.Size.Height < ship.Size.Width)
+                    {
+
+                        // Get the cell number of the cell the ship is on.
+                        int cellNum = int.Parse(cell.Name.Substring(9));
+
+                        // Iterate through all the cells the ship should be over.
+                        for (int index = cellNum; index < cellNum+size; index++)
+                        {
+
+                            // Look for pictureboxes that the ship is on.
+                            foreach (Control z in this.Controls)
+                            {
+                                if (z is PictureBox && ((PictureBox)z).Name == "picPlayer" + index)
+                                {
+                                    cell = (PictureBox)z;
+                                    break;
+                                }
+                            }
+
+                            // Set the index on which is cell is on to true, signifying that the ship is there.
+                            playerBoats[index-1] = true;
+
+                            // Change the picture on the cell picture box.
+                            cell.Image = Properties.Resources.PlayerTaken;
+                        }
+                    }
+
+                    // Else if the ship is placed vertically, run this code.
+                    else if (ship.Size.Height > ship.Size.Width)
+                    {
+
+                        // Get the cell number that the ship is on.
+                        int cellNum = int.Parse(cell.Name.Substring(9));
+
+                        // Iterate through all the cells the ship is placed on.
+                        for (int index = cellNum; index < cellNum + (size * 10); index += 10)
+                        {
+
+                            // Iterate through all the user controls.
+                            foreach (Control z in this.Controls)
+                            {
+
+                                // If the control is one of the cells that the ship is on, set the cell variable equal to it and break the loop.
+                                if (z is PictureBox && ((PictureBox)z).Name == "picPlayer" + index)
+                                {
+                                    cell = (PictureBox)z;
+                                    break;
+                                }
+                            }
+
+                            // Set this cell equal to true, and change the picture on it.
+                            playerBoats[index-1] = true;
+                            cell.Image = Properties.Resources.PlayerTaken;
+                        }
+                    }
+
+                    // Hide the ship picture.
+                    ship.Visible = false;
+                }
+            }
+
+            // Make the computer select their positions.
         }
     }
 }
