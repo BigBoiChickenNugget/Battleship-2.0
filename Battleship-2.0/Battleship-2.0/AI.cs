@@ -16,6 +16,9 @@ namespace Battleship_2._0
         // Store all the AI's own ships in a variable.
         public bool[] ships = new bool[100];
 
+        // Array that stores the probabilities of a specific cell having a boat.
+        private bool[] probabilities = new bool[100];
+
         public int EasyBot()
         {
             // Create a random object.
@@ -138,6 +141,62 @@ namespace Battleship_2._0
 
                 size--;
             }
+        }
+
+        public int MediumBot()
+        {
+            bool hunt = true;
+
+            int[] possibleTargets = new int[0];
+
+            for (int index = 0; index < 100; index++)
+            {
+                if (hits[index] == true)
+                {
+                    hunt = false;
+
+                    Array.Resize(ref possibleTargets, possibleTargets.Length + 1);
+                    possibleTargets[possibleTargets.Length - 1] = index;
+                }
+            }
+
+            if (hunt == false)
+            {
+                for (int index = 0; index < possibleTargets.Length; index++)
+                {
+                    bool borderNorth = false;
+                    bool borderSouth = false;
+                    bool borderEast = false;
+                    bool borderWest = false;
+                    for (int i = 9; i < 100; i += 10)
+                        if (possibleTargets[index] == i)
+                            borderEast = true;
+                    for (int i = 90; i < 100; i++)
+                        if (possibleTargets[index] == i)
+                            borderSouth = true;
+                    for (int i = 0; i < 10; i++)
+                        if (possibleTargets[index] == i)
+                            borderNorth = true;
+                    for (int i = 0; i < 100; i += 10)
+                        if (possibleTargets[index] == i)
+                            borderWest = true;
+
+                    if (borderEast == false)
+                        if (hits[possibleTargets[index] + 1] == false && misses[possibleTargets[index] + 1] == false)
+                            return possibleTargets[index] + 1;
+                    if (borderWest == false)
+                        if (hits[possibleTargets[index] - 1] == false && misses[possibleTargets[index] - 1] == false)
+                            return possibleTargets[index] - 1;
+                    if (borderSouth == false)
+                        if (hits[possibleTargets[index] + 10] == false && misses[possibleTargets[index] + 10] == false)
+                            return possibleTargets[index] + 10;
+                    if (borderNorth == false)
+                        if (hits[possibleTargets[index] - 10] == false && misses[possibleTargets[index] - 10] == false)
+                            return possibleTargets[index] - 10;
+                }
+            }
+
+            return EasyBot();
         }
     }
 }

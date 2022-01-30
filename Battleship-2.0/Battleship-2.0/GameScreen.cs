@@ -22,7 +22,7 @@ namespace Battleship_2._0
         // Variable that stores the cells the player has clicked.
         bool[] isClicked = new bool[100];
 
-        // Variable's that stores the places where the player has either been hit or missed.
+        // Variable's that stores the places where the player has either been hit or missed by the AI. Basically stores the AI's moves.
         bool[] playerHits = new bool[100];
         bool[] playerMiss = new bool[100];
 
@@ -49,13 +49,16 @@ namespace Battleship_2._0
         // Boolean to see if a ship is being moved or not.
         bool shipMoving = false;
 
+        // Variables that store the number of cells remaining for the player and AI. Initially 17 because all the cells added together add up to 17.
+        int playerCells = 17;
+        int computerCells = 17;
+
         // Variable that stores the picture box of the ship that's being pressed on.
         PictureBox mouseShip;
 
         public GameScreen()
         {
             InitializeComponent();
-            //RestartGame();
             gameTimer.Start();
         }
 
@@ -85,6 +88,17 @@ namespace Battleship_2._0
             {
                 ComputerMove();
             }
+
+            // Check if the game has been won by either party.
+            if (computerCells == 0)
+            {
+                GameWon();
+            }
+
+            else if (playerCells == 0)
+            {
+                GameLost();
+            }
         }
 
         // If the player clicks one of the enemy's cells.
@@ -111,15 +125,26 @@ namespace Battleship_2._0
             // If there's a boat sitting on the part the user clicks, then color the cell the hit color, otherwise, color it the miss color.
             if (computerBoats[index] == true)
             {
+
+                // Play the sound that comes with hitting a succesful place.
                 SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
                 simpleSound.Play();
+
+                // Change the image of the hit cell.
                 cell.Image = Properties.Resources.hit;
+
+                // Reduce 1 from the number of enemy cells.
+                computerCells--;
             }
 
             else
             {
+
+                // Play the sound associated with missing a shot.
                 SoundPlayer simpleSound = new SoundPlayer(@"missile.wav");
                 simpleSound.Play();
+
+                // Change the picture to display one that means a miss.
                 cell.Image = Properties.Resources.miss;
             }
 
@@ -144,7 +169,7 @@ namespace Battleship_2._0
             computer.hits = playerHits;
 
             // Get a move made by the computer.
-            int move = computer.EasyBot();
+            int move = computer.MediumBot();
 
             // Get the cell that the computer made a move on.
             PictureBox cell = picPlayer1;
@@ -162,13 +187,18 @@ namespace Battleship_2._0
             // If the AI's move is a hit, color the cell appropriately.
             if (playerBoats[move] == true)
             {
+                // Play the sound associated with hitting a player's ship.
                 SoundPlayer simpleSound = new SoundPlayer(@"allyshipsunk.wav");
                 simpleSound.Play();
+
                 // Set the playerHits cell to true.
                 playerHits[move] = true;
 
                 // Change the picture of the cell.
                 cell.Image = Properties.Resources.PlayerHit;
+
+                // Reduce the player's cell count by one.
+                playerCells--;
             }
 
             // If the AI's move misses, colour the cell apprpriately.
@@ -184,26 +214,6 @@ namespace Battleship_2._0
 
             turn = true;
         }
-
-        // Function to restart game, or start it. Basically a function that sets up the game.
-        /*private void RestartGame()
-        {
-
-            // Make moves 0, set the turn to the player, and make it so that the user can deploy their boats.
-            moves = 0;
-            turn = true;
-            gameStart = false;
-
-            // Get the computer to choose its ship locations.
-            AI computer = new AI();
-
-            // Make the computer choose 17 cells.
-            for (int numEnemyShips = 0; numEnemyShips < 17; numEnemyShips++)
-            {
-                computer.ships = isHit;
-                isHit[computer.EasyShip()] = true;
-            }
-        }*/
 
         // If the mouse button is pressed over one of the ships, set the shipMoving variable to true, and get 
         private void HoldShip(object sender, MouseEventArgs e)
@@ -604,6 +614,37 @@ namespace Battleship_2._0
             // Generate the computers position for their game.
             computer.GenerateShip();
             computerBoats = computer.ships;
+
+            // Make the start game button invisible.
+            btnStart.Visible = false;
+        }
+
+        // If the player wins the game.
+        private void GameWon()
+        {
+            // Set the gameStart variable to false, signifying that the game is over.
+            gameStart = false;
+
+            // Stop the game timer.
+            gameTimer.Stop();
+
+            // Display a winning message to the player and allow the user to restart the game.
+            DialogResult restartGame = MessageBox.Show("CONGRATULATIONS", "You've won! Would you like to play again?", MessageBoxButtons.YesNo);
+        }
+
+        // If the AI wins.
+        private void GameLost()
+        {
+            // Stop the game timer.
+            gameTimer.Stop();
+
+            // Display a lose message to the player.
+            MessageBox.Show("You've lost!");
+        }
+
+        private void RestartGame()
+        {
+
         }
     }
 }
