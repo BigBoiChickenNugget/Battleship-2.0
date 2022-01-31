@@ -286,7 +286,10 @@ namespace Battleship_2._0
 
                     for (int index = 1; index < 5; index++)
                     {
-                        if (cell + index % 10 != 9 && endEast == false)
+                        if (endEast == true && endWest == true)
+                            break;
+
+                        if (cell + (index - 1) % 10 != 9 && endEast == false)
                         {
                             if (hits[cell + index] == true)
                             {
@@ -301,10 +304,10 @@ namespace Battleship_2._0
                                 return (cell+index);
                         }
 
-                        else if (cell + index % 10 == 9)
+                        else if (cell + (index - 1) % 10 == 9)
                             endEast = true;
 
-                        if (cell - index % 10 != 0 && endWest == false)
+                        if (cell - (index + 1) % 10 != 0 && endWest == false)
                         {
                             if (hits[cell + index] == true)
                             {
@@ -319,12 +322,12 @@ namespace Battleship_2._0
                                 return (cell - index);
                         }
 
-                        else if (cell + index % 10 == 0)
+                        else if (cell + (index + 1) % 10 == 0)
                             endWest = true;
 
                     }
 
-                    if (orientation == null || (endEast == true && endWest == true))
+                    if (orientation == null)
                     {
                         size = 1;
                         for (int index = 10; index < 50; index += 10)
@@ -370,9 +373,9 @@ namespace Battleship_2._0
 
                     if (orientation == null)
                     {
-                        if (cell + 1 % 10 != 9 && misses[cell + 1] != true)
+                        if (cell % 10 != 9 && misses[cell + 1] != true)
                             return cell + 1;
-                        if (cell - 1 % 10 != 0 && misses[cell - 1] != true)
+                        if (cell % 10 != 0 && misses[cell - 1] != true)
                             return cell - 1;
                         if (cell + 10 < 100 && misses[cell + 10] != true)
                             return cell + 10;
@@ -429,7 +432,7 @@ namespace Battleship_2._0
                 bool possible = true;
                 for (int index = cell; index < cell + size; index++)
                 {
-                    if (misses[index] == true || cell % 10 >= 6)
+                    if (misses[index] == true || hits[index] || cell % 10 > 10 - size)
                     {
                         possible = false;
                         break;
@@ -454,7 +457,7 @@ namespace Battleship_2._0
                 bool possible = true;
                 for (int index = cell; index < cell + (size * 10); index += 10)
                 {
-                    if (misses[index] == true || cell >= 60)
+                    if (misses[index] == true || hits[index] == true || cell >= 100 - (10 * (size-1)))
                     {
                         possible = false;
                         break;

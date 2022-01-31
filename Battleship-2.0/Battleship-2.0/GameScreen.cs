@@ -191,7 +191,7 @@ namespace Battleship_2._0
             computer.destroyer = destroyerSunk;
 
             // Get a move made by the computer.
-            int move = computer.MediumBot();
+            int move = computer.HardBot();
 
 
             // Get the cell that the computer made a move on.
@@ -436,7 +436,7 @@ namespace Battleship_2._0
 
                 // Create the row variable and set it equal to cell. The purpose of the row variable is to see what the last cell in the user's column is.
                 int column = cell;
-                while (column < 100)
+                while (column < 101)
                 {
                     column += 10;
                 }
