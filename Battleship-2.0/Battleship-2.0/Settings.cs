@@ -15,6 +15,12 @@ namespace Battleship_2._0
         public Settings()
         {
             InitializeComponent();
+
+        }
+
+        private void MenuVolume(object sender, EventArgs e)
+        {
+            
         }
     }
 }

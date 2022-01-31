@@ -32,150 +32,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameScreen));
             this.lblMoves = new System.Windows.Forms.Label();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
-            this.gridY1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
             this.picCarrier = new System.Windows.Forms.PictureBox();
             this.picBattleship = new System.Windows.Forms.PictureBox();
             this.picCruiser = new System.Windows.Forms.PictureBox();
             this.picPlayer1 = new System.Windows.Forms.PictureBox();
             this.picPlayer91 = new System.Windows.Forms.PictureBox();
-            this.picPlayer92 = new System.Windows.Forms.PictureBox();
-            this.picPlayer93 = new System.Windows.Forms.PictureBox();
-            this.picPlayer94 = new System.Windows.Forms.PictureBox();
-            this.picPlayer100 = new System.Windows.Forms.PictureBox();
-            this.picPlayer99 = new System.Windows.Forms.PictureBox();
-            this.picPlayer98 = new System.Windows.Forms.PictureBox();
-            this.picPlayer97 = new System.Windows.Forms.PictureBox();
-            this.picPlayer96 = new System.Windows.Forms.PictureBox();
-            this.picPlayer95 = new System.Windows.Forms.PictureBox();
             this.picPlayer81 = new System.Windows.Forms.PictureBox();
-            this.picPlayer82 = new System.Windows.Forms.PictureBox();
-            this.picPlayer83 = new System.Windows.Forms.PictureBox();
-            this.picPlayer84 = new System.Windows.Forms.PictureBox();
-            this.picPlayer90 = new System.Windows.Forms.PictureBox();
-            this.picPlayer89 = new System.Windows.Forms.PictureBox();
-            this.picPlayer88 = new System.Windows.Forms.PictureBox();
-            this.picPlayer87 = new System.Windows.Forms.PictureBox();
-            this.picPlayer86 = new System.Windows.Forms.PictureBox();
-            this.picPlayer85 = new System.Windows.Forms.PictureBox();
             this.picPlayer71 = new System.Windows.Forms.PictureBox();
-            this.picPlayer72 = new System.Windows.Forms.PictureBox();
-            this.picPlayer73 = new System.Windows.Forms.PictureBox();
-            this.picPlayer74 = new System.Windows.Forms.PictureBox();
-            this.picPlayer80 = new System.Windows.Forms.PictureBox();
-            this.picPlayer79 = new System.Windows.Forms.PictureBox();
-            this.picPlayer78 = new System.Windows.Forms.PictureBox();
-            this.picPlayer77 = new System.Windows.Forms.PictureBox();
-            this.picPlayer76 = new System.Windows.Forms.PictureBox();
-            this.picPlayer75 = new System.Windows.Forms.PictureBox();
             this.picPlayer61 = new System.Windows.Forms.PictureBox();
-            this.picPlayer62 = new System.Windows.Forms.PictureBox();
-            this.picPlayer63 = new System.Windows.Forms.PictureBox();
-            this.picPlayer64 = new System.Windows.Forms.PictureBox();
-            this.picPlayer70 = new System.Windows.Forms.PictureBox();
-            this.picPlayer69 = new System.Windows.Forms.PictureBox();
-            this.picPlayer68 = new System.Windows.Forms.PictureBox();
-            this.picPlayer67 = new System.Windows.Forms.PictureBox();
-            this.picPlayer66 = new System.Windows.Forms.PictureBox();
-            this.picPlayer65 = new System.Windows.Forms.PictureBox();
             this.picPlayer51 = new System.Windows.Forms.PictureBox();
-            this.picPlayer52 = new System.Windows.Forms.PictureBox();
-            this.picPlayer53 = new System.Windows.Forms.PictureBox();
-            this.picPlayer54 = new System.Windows.Forms.PictureBox();
-            this.picPlayer60 = new System.Windows.Forms.PictureBox();
-            this.picPlayer59 = new System.Windows.Forms.PictureBox();
-            this.picPlayer58 = new System.Windows.Forms.PictureBox();
-            this.picPlayer57 = new System.Windows.Forms.PictureBox();
-            this.picPlayer56 = new System.Windows.Forms.PictureBox();
-            this.picPlayer55 = new System.Windows.Forms.PictureBox();
             this.picPlayer41 = new System.Windows.Forms.PictureBox();
-            this.picPlayer42 = new System.Windows.Forms.PictureBox();
-            this.picPlayer43 = new System.Windows.Forms.PictureBox();
-            this.picPlayer44 = new System.Windows.Forms.PictureBox();
-            this.picPlayer50 = new System.Windows.Forms.PictureBox();
-            this.picPlayer49 = new System.Windows.Forms.PictureBox();
-            this.picPlayer48 = new System.Windows.Forms.PictureBox();
-            this.picPlayer47 = new System.Windows.Forms.PictureBox();
-            this.picPlayer46 = new System.Windows.Forms.PictureBox();
-            this.picPlayer45 = new System.Windows.Forms.PictureBox();
             this.picPlayer31 = new System.Windows.Forms.PictureBox();
-            this.picPlayer32 = new System.Windows.Forms.PictureBox();
-            this.picPlayer33 = new System.Windows.Forms.PictureBox();
-            this.picPlayer34 = new System.Windows.Forms.PictureBox();
-            this.picPlayer40 = new System.Windows.Forms.PictureBox();
-            this.picPlayer39 = new System.Windows.Forms.PictureBox();
-            this.picPlayer38 = new System.Windows.Forms.PictureBox();
-            this.picPlayer37 = new System.Windows.Forms.PictureBox();
-            this.picPlayer36 = new System.Windows.Forms.PictureBox();
-            this.picPlayer35 = new System.Windows.Forms.PictureBox();
             this.picPlayer21 = new System.Windows.Forms.PictureBox();
-            this.picPlayer22 = new System.Windows.Forms.PictureBox();
-            this.picPlayer23 = new System.Windows.Forms.PictureBox();
-            this.picPlayer24 = new System.Windows.Forms.PictureBox();
-            this.picPlayer30 = new System.Windows.Forms.PictureBox();
-            this.picPlayer29 = new System.Windows.Forms.PictureBox();
-            this.picPlayer28 = new System.Windows.Forms.PictureBox();
-            this.picPlayer27 = new System.Windows.Forms.PictureBox();
-            this.picPlayer26 = new System.Windows.Forms.PictureBox();
-            this.picPlayer25 = new System.Windows.Forms.PictureBox();
             this.picPlayer11 = new System.Windows.Forms.PictureBox();
-            this.picPlayer12 = new System.Windows.Forms.PictureBox();
-            this.picPlayer13 = new System.Windows.Forms.PictureBox();
-            this.picPlayer14 = new System.Windows.Forms.PictureBox();
-            this.picPlayer20 = new System.Windows.Forms.PictureBox();
-            this.picPlayer19 = new System.Windows.Forms.PictureBox();
-            this.picPlayer18 = new System.Windows.Forms.PictureBox();
-            this.picPlayer17 = new System.Windows.Forms.PictureBox();
-            this.picPlayer16 = new System.Windows.Forms.PictureBox();
-            this.picPlayer15 = new System.Windows.Forms.PictureBox();
-            this.picPlayer2 = new System.Windows.Forms.PictureBox();
-            this.picPlayer3 = new System.Windows.Forms.PictureBox();
-            this.picPlayer4 = new System.Windows.Forms.PictureBox();
-            this.picPlayer10 = new System.Windows.Forms.PictureBox();
-            this.picPlayer9 = new System.Windows.Forms.PictureBox();
-            this.picPlayer8 = new System.Windows.Forms.PictureBox();
-            this.picPlayer7 = new System.Windows.Forms.PictureBox();
-            this.picPlayer6 = new System.Windows.Forms.PictureBox();
-            this.picPlayer5 = new System.Windows.Forms.PictureBox();
             this.picEnemy91 = new System.Windows.Forms.PictureBox();
             this.picEnemy92 = new System.Windows.Forms.PictureBox();
             this.picEnemy93 = new System.Windows.Forms.PictureBox();
@@ -279,109 +149,109 @@
             this.picSubmarine = new System.Windows.Forms.PictureBox();
             this.picDestroyer = new System.Windows.Forms.PictureBox();
             this.btnStart = new System.Windows.Forms.Button();
+            this.picPlayer2 = new System.Windows.Forms.PictureBox();
+            this.picPlayer92 = new System.Windows.Forms.PictureBox();
+            this.picPlayer82 = new System.Windows.Forms.PictureBox();
+            this.picPlayer72 = new System.Windows.Forms.PictureBox();
+            this.picPlayer62 = new System.Windows.Forms.PictureBox();
+            this.picPlayer52 = new System.Windows.Forms.PictureBox();
+            this.picPlayer42 = new System.Windows.Forms.PictureBox();
+            this.picPlayer32 = new System.Windows.Forms.PictureBox();
+            this.picPlayer22 = new System.Windows.Forms.PictureBox();
+            this.picPlayer12 = new System.Windows.Forms.PictureBox();
+            this.picPlayer3 = new System.Windows.Forms.PictureBox();
+            this.picPlayer93 = new System.Windows.Forms.PictureBox();
+            this.picPlayer83 = new System.Windows.Forms.PictureBox();
+            this.picPlayer73 = new System.Windows.Forms.PictureBox();
+            this.picPlayer63 = new System.Windows.Forms.PictureBox();
+            this.picPlayer53 = new System.Windows.Forms.PictureBox();
+            this.picPlayer43 = new System.Windows.Forms.PictureBox();
+            this.picPlayer33 = new System.Windows.Forms.PictureBox();
+            this.picPlayer23 = new System.Windows.Forms.PictureBox();
+            this.picPlayer13 = new System.Windows.Forms.PictureBox();
+            this.picPlayer4 = new System.Windows.Forms.PictureBox();
+            this.picPlayer94 = new System.Windows.Forms.PictureBox();
+            this.picPlayer84 = new System.Windows.Forms.PictureBox();
+            this.picPlayer74 = new System.Windows.Forms.PictureBox();
+            this.picPlayer64 = new System.Windows.Forms.PictureBox();
+            this.picPlayer54 = new System.Windows.Forms.PictureBox();
+            this.picPlayer44 = new System.Windows.Forms.PictureBox();
+            this.picPlayer34 = new System.Windows.Forms.PictureBox();
+            this.picPlayer24 = new System.Windows.Forms.PictureBox();
+            this.picPlayer14 = new System.Windows.Forms.PictureBox();
+            this.picPlayer5 = new System.Windows.Forms.PictureBox();
+            this.picPlayer95 = new System.Windows.Forms.PictureBox();
+            this.picPlayer85 = new System.Windows.Forms.PictureBox();
+            this.picPlayer75 = new System.Windows.Forms.PictureBox();
+            this.picPlayer65 = new System.Windows.Forms.PictureBox();
+            this.picPlayer55 = new System.Windows.Forms.PictureBox();
+            this.picPlayer45 = new System.Windows.Forms.PictureBox();
+            this.picPlayer35 = new System.Windows.Forms.PictureBox();
+            this.picPlayer25 = new System.Windows.Forms.PictureBox();
+            this.picPlayer15 = new System.Windows.Forms.PictureBox();
+            this.picPlayer6 = new System.Windows.Forms.PictureBox();
+            this.picPlayer96 = new System.Windows.Forms.PictureBox();
+            this.picPlayer86 = new System.Windows.Forms.PictureBox();
+            this.picPlayer76 = new System.Windows.Forms.PictureBox();
+            this.picPlayer66 = new System.Windows.Forms.PictureBox();
+            this.picPlayer56 = new System.Windows.Forms.PictureBox();
+            this.picPlayer46 = new System.Windows.Forms.PictureBox();
+            this.picPlayer36 = new System.Windows.Forms.PictureBox();
+            this.picPlayer26 = new System.Windows.Forms.PictureBox();
+            this.picPlayer16 = new System.Windows.Forms.PictureBox();
+            this.picPlayer7 = new System.Windows.Forms.PictureBox();
+            this.picPlayer97 = new System.Windows.Forms.PictureBox();
+            this.picPlayer87 = new System.Windows.Forms.PictureBox();
+            this.picPlayer77 = new System.Windows.Forms.PictureBox();
+            this.picPlayer67 = new System.Windows.Forms.PictureBox();
+            this.picPlayer57 = new System.Windows.Forms.PictureBox();
+            this.picPlayer47 = new System.Windows.Forms.PictureBox();
+            this.picPlayer37 = new System.Windows.Forms.PictureBox();
+            this.picPlayer27 = new System.Windows.Forms.PictureBox();
+            this.picPlayer17 = new System.Windows.Forms.PictureBox();
+            this.picPlayer8 = new System.Windows.Forms.PictureBox();
+            this.picPlayer98 = new System.Windows.Forms.PictureBox();
+            this.picPlayer88 = new System.Windows.Forms.PictureBox();
+            this.picPlayer78 = new System.Windows.Forms.PictureBox();
+            this.picPlayer68 = new System.Windows.Forms.PictureBox();
+            this.picPlayer58 = new System.Windows.Forms.PictureBox();
+            this.picPlayer48 = new System.Windows.Forms.PictureBox();
+            this.picPlayer38 = new System.Windows.Forms.PictureBox();
+            this.picPlayer28 = new System.Windows.Forms.PictureBox();
+            this.picPlayer18 = new System.Windows.Forms.PictureBox();
+            this.picPlayer9 = new System.Windows.Forms.PictureBox();
+            this.picPlayer99 = new System.Windows.Forms.PictureBox();
+            this.picPlayer89 = new System.Windows.Forms.PictureBox();
+            this.picPlayer79 = new System.Windows.Forms.PictureBox();
+            this.picPlayer69 = new System.Windows.Forms.PictureBox();
+            this.picPlayer59 = new System.Windows.Forms.PictureBox();
+            this.picPlayer49 = new System.Windows.Forms.PictureBox();
+            this.picPlayer39 = new System.Windows.Forms.PictureBox();
+            this.picPlayer29 = new System.Windows.Forms.PictureBox();
+            this.picPlayer19 = new System.Windows.Forms.PictureBox();
+            this.picPlayer10 = new System.Windows.Forms.PictureBox();
+            this.picPlayer100 = new System.Windows.Forms.PictureBox();
+            this.picPlayer90 = new System.Windows.Forms.PictureBox();
+            this.picPlayer80 = new System.Windows.Forms.PictureBox();
+            this.picPlayer70 = new System.Windows.Forms.PictureBox();
+            this.picPlayer60 = new System.Windows.Forms.PictureBox();
+            this.picPlayer50 = new System.Windows.Forms.PictureBox();
+            this.picPlayer40 = new System.Windows.Forms.PictureBox();
+            this.picPlayer30 = new System.Windows.Forms.PictureBox();
+            this.picPlayer20 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCarrier)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBattleship)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCruiser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer93)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer94)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer100)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer99)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer98)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer97)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer96)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer95)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer81)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer82)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer83)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer84)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer90)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer89)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer88)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer87)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer86)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer85)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer71)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer72)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer73)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer80)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer79)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer78)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer76)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer75)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer61)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer67)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer66)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer65)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer54)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer60)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer59)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer58)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer56)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer55)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer49)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer48)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer47)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer46)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy91)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy92)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy93)).BeginInit();
@@ -484,6 +354,96 @@
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSubmarine)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestroyer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer82)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer52)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer42)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer93)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer83)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer73)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer63)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer53)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer94)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer84)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer74)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer64)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer54)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer44)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer95)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer85)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer55)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer45)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer96)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer86)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer76)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer66)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer46)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer97)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer87)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer77)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer67)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer57)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer98)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer88)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer68)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer58)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer48)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer99)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer89)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer59)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer49)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer100)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer90)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer60)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer50)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer20)).BeginInit();
             this.SuspendLayout();
             // 
             // lblMoves
@@ -493,9 +453,10 @@
             this.lblMoves.CausesValidation = false;
             this.lblMoves.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMoves.ForeColor = System.Drawing.Color.White;
-            this.lblMoves.Location = new System.Drawing.Point(841, -2);
+            this.lblMoves.Location = new System.Drawing.Point(647, 9);
+            this.lblMoves.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMoves.Name = "lblMoves";
-            this.lblMoves.Size = new System.Drawing.Size(169, 44);
+            this.lblMoves.Size = new System.Drawing.Size(139, 36);
             this.lblMoves.TabIndex = 100;
             this.lblMoves.Text = "Moves: 0";
             // 
@@ -503,415 +464,13 @@
             // 
             this.gameTimer.Tick += new System.EventHandler(this.Tick);
             // 
-            // gridY1
-            // 
-            this.gridY1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridY1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.gridY1.Location = new System.Drawing.Point(8, 742);
-            this.gridY1.Name = "gridY1";
-            this.gridY1.Size = new System.Drawing.Size(52, 69);
-            this.gridY1.TabIndex = 0;
-            this.gridY1.Text = "1";
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(8, 669);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 73);
-            this.label1.TabIndex = 201;
-            this.label1.Text = "2";
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(8, 596);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 84);
-            this.label2.TabIndex = 202;
-            this.label2.Text = "3";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(8, 523);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 73);
-            this.label3.TabIndex = 203;
-            this.label3.Text = "4";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(8, 450);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 72);
-            this.label4.TabIndex = 204;
-            this.label4.Text = "5";
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(8, 377);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 73);
-            this.label5.TabIndex = 205;
-            this.label5.Text = "6";
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(8, 304);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 73);
-            this.label6.TabIndex = 206;
-            this.label6.Text = "7";
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(8, 230);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 60);
-            this.label7.TabIndex = 207;
-            this.label7.Text = "8";
-            // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(8, 157);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 73);
-            this.label8.TabIndex = 208;
-            this.label8.Text = "9";
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(-3, 87);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 70);
-            this.label9.TabIndex = 209;
-            this.label9.Text = "10";
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(77, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 73);
-            this.label10.TabIndex = 210;
-            this.label10.Text = "A";
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(133, 15);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 73);
-            this.label11.TabIndex = 211;
-            this.label11.Text = "B";
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(185, 15);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 73);
-            this.label12.TabIndex = 212;
-            this.label12.Text = "C";
-            // 
-            // label13
-            // 
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(239, 15);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(52, 73);
-            this.label13.TabIndex = 213;
-            this.label13.Text = "D";
-            // 
-            // label14
-            // 
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(315, 15);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(52, 73);
-            this.label14.TabIndex = 214;
-            this.label14.Text = "E";
-            // 
-            // label15
-            // 
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Location = new System.Drawing.Point(393, 15);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(52, 73);
-            this.label15.TabIndex = 215;
-            this.label15.Text = "F";
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Location = new System.Drawing.Point(447, 13);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(52, 73);
-            this.label16.TabIndex = 216;
-            this.label16.Text = "G";
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Location = new System.Drawing.Point(523, 13);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(52, 73);
-            this.label17.TabIndex = 217;
-            this.label17.Text = "H";
-            // 
-            // label18
-            // 
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(602, 13);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 73);
-            this.label18.TabIndex = 218;
-            this.label18.Text = "I";
-            // 
-            // label19
-            // 
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Location = new System.Drawing.Point(707, 15);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(52, 73);
-            this.label19.TabIndex = 219;
-            this.label19.Text = "J";
-            this.label19.MouseUp += new System.Windows.Forms.MouseEventHandler(this.DropShip);
-            // 
-            // label20
-            // 
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(1720, 16);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(52, 73);
-            this.label20.TabIndex = 239;
-            this.label20.Text = "J";
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label21.Location = new System.Drawing.Point(1640, 16);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(52, 73);
-            this.label21.TabIndex = 238;
-            this.label21.Text = "I";
-            // 
-            // label22
-            // 
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(1561, 16);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(52, 73);
-            this.label22.TabIndex = 237;
-            this.label22.Text = "H";
-            // 
-            // label23
-            // 
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.Location = new System.Drawing.Point(1485, 16);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 73);
-            this.label23.TabIndex = 236;
-            this.label23.Text = "G";
-            // 
-            // label24
-            // 
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label24.Location = new System.Drawing.Point(1406, 16);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(52, 73);
-            this.label24.TabIndex = 235;
-            this.label24.Text = "F";
-            // 
-            // label25
-            // 
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label25.Location = new System.Drawing.Point(1328, 16);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(52, 73);
-            this.label25.TabIndex = 234;
-            this.label25.Text = "E";
-            // 
-            // label26
-            // 
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label26.Location = new System.Drawing.Point(1252, 16);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(52, 73);
-            this.label26.TabIndex = 233;
-            this.label26.Text = "D";
-            // 
-            // label27
-            // 
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label27.Location = new System.Drawing.Point(1172, 16);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(52, 73);
-            this.label27.TabIndex = 232;
-            this.label27.Text = "C";
-            // 
-            // label28
-            // 
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label28.Location = new System.Drawing.Point(1095, 16);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(52, 73);
-            this.label28.TabIndex = 231;
-            this.label28.Text = "B";
-            // 
-            // label29
-            // 
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label29.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label29.Location = new System.Drawing.Point(945, 158);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(52, 73);
-            this.label29.TabIndex = 228;
-            this.label29.Text = "9";
-            // 
-            // label30
-            // 
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label30.Location = new System.Drawing.Point(945, 231);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(52, 60);
-            this.label30.TabIndex = 227;
-            this.label30.Text = "8";
-            // 
-            // label31
-            // 
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(945, 305);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(52, 73);
-            this.label31.TabIndex = 226;
-            this.label31.Text = "7";
-            // 
-            // label32
-            // 
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label32.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label32.Location = new System.Drawing.Point(945, 378);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(52, 73);
-            this.label32.TabIndex = 225;
-            this.label32.Text = "6";
-            // 
-            // label33
-            // 
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.Location = new System.Drawing.Point(945, 451);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(52, 72);
-            this.label33.TabIndex = 224;
-            this.label33.Text = "5";
-            // 
-            // label34
-            // 
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label34.Location = new System.Drawing.Point(945, 524);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(52, 73);
-            this.label34.TabIndex = 223;
-            this.label34.Text = "4";
-            // 
-            // label35
-            // 
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label35.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label35.Location = new System.Drawing.Point(945, 597);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(52, 84);
-            this.label35.TabIndex = 222;
-            this.label35.Text = "3";
-            // 
-            // label36
-            // 
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label36.Location = new System.Drawing.Point(945, 670);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(52, 73);
-            this.label36.TabIndex = 221;
-            this.label36.Text = "2";
-            // 
-            // label37
-            // 
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label37.Location = new System.Drawing.Point(945, 743);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(52, 69);
-            this.label37.TabIndex = 220;
-            this.label37.Text = "1";
-            // 
-            // label38
-            // 
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label38.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label38.Location = new System.Drawing.Point(934, 88);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(86, 70);
-            this.label38.TabIndex = 229;
-            this.label38.Text = "10";
-            // 
-            // label39
-            // 
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label39.Location = new System.Drawing.Point(1014, 16);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(52, 73);
-            this.label39.TabIndex = 230;
-            this.label39.Text = "A";
-            // 
             // picCarrier
             // 
             this.picCarrier.Image = ((System.Drawing.Image)(resources.GetObject("picCarrier.Image")));
-            this.picCarrier.Location = new System.Drawing.Point(609, 203);
+            this.picCarrier.Location = new System.Drawing.Point(359, 702);
+            this.picCarrier.Margin = new System.Windows.Forms.Padding(2);
             this.picCarrier.Name = "picCarrier";
-            this.picCarrier.Size = new System.Drawing.Size(280, 50);
+            this.picCarrier.Size = new System.Drawing.Size(286, 54);
             this.picCarrier.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCarrier.TabIndex = 242;
             this.picCarrier.TabStop = false;
@@ -922,9 +481,10 @@
             // picBattleship
             // 
             this.picBattleship.Image = global::Battleship_2._0.Properties.Resources.battleshipLeft;
-            this.picBattleship.Location = new System.Drawing.Point(609, 146);
+            this.picBattleship.Location = new System.Drawing.Point(69, 702);
+            this.picBattleship.Margin = new System.Windows.Forms.Padding(2);
             this.picBattleship.Name = "picBattleship";
-            this.picBattleship.Size = new System.Drawing.Size(220, 50);
+            this.picBattleship.Size = new System.Drawing.Size(228, 54);
             this.picBattleship.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBattleship.TabIndex = 241;
             this.picBattleship.TabStop = false;
@@ -935,9 +495,10 @@
             // picCruiser
             // 
             this.picCruiser.Image = global::Battleship_2._0.Properties.Resources.cruiserLeft;
-            this.picCruiser.Location = new System.Drawing.Point(610, 91);
+            this.picCruiser.Location = new System.Drawing.Point(952, 702);
+            this.picCruiser.Margin = new System.Windows.Forms.Padding(2);
             this.picCruiser.Name = "picCruiser";
-            this.picCruiser.Size = new System.Drawing.Size(150, 50);
+            this.picCruiser.Size = new System.Drawing.Size(170, 54);
             this.picCruiser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCruiser.TabIndex = 240;
             this.picCruiser.TabStop = false;
@@ -948,9 +509,10 @@
             // picPlayer1
             // 
             this.picPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer1.Image")));
-            this.picPlayer1.Location = new System.Drawing.Point(70, 90);
+            this.picPlayer1.Location = new System.Drawing.Point(11, 61);
+            this.picPlayer1.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer1.Name = "picPlayer1";
-            this.picPlayer1.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer1.Size = new System.Drawing.Size(54, 54);
             this.picPlayer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer1.TabIndex = 110;
             this.picPlayer1.TabStop = false;
@@ -959,1040 +521,113 @@
             // picPlayer91
             // 
             this.picPlayer91.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer91.Image")));
-            this.picPlayer91.Location = new System.Drawing.Point(70, 594);
+            this.picPlayer91.Location = new System.Drawing.Point(11, 583);
+            this.picPlayer91.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer91.Name = "picPlayer91";
-            this.picPlayer91.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer91.Size = new System.Drawing.Size(54, 54);
             this.picPlayer91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer91.TabIndex = 200;
             this.picPlayer91.TabStop = false;
             // 
-            // picPlayer92
-            // 
-            this.picPlayer92.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer92.Image")));
-            this.picPlayer92.Location = new System.Drawing.Point(123, 594);
-            this.picPlayer92.Name = "picPlayer92";
-            this.picPlayer92.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer92.TabIndex = 199;
-            this.picPlayer92.TabStop = false;
-            // 
-            // picPlayer93
-            // 
-            this.picPlayer93.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer93.Image")));
-            this.picPlayer93.Location = new System.Drawing.Point(176, 594);
-            this.picPlayer93.Name = "picPlayer93";
-            this.picPlayer93.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer93.TabIndex = 198;
-            this.picPlayer93.TabStop = false;
-            // 
-            // picPlayer94
-            // 
-            this.picPlayer94.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer94.Image")));
-            this.picPlayer94.Location = new System.Drawing.Point(228, 594);
-            this.picPlayer94.Name = "picPlayer94";
-            this.picPlayer94.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer94.TabIndex = 197;
-            this.picPlayer94.TabStop = false;
-            // 
-            // picPlayer100
-            // 
-            this.picPlayer100.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer100.Image")));
-            this.picPlayer100.Location = new System.Drawing.Point(552, 593);
-            this.picPlayer100.Name = "picPlayer100";
-            this.picPlayer100.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer100.TabIndex = 196;
-            this.picPlayer100.TabStop = false;
-            // 
-            // picPlayer99
-            // 
-            this.picPlayer99.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer99.Image")));
-            this.picPlayer99.Location = new System.Drawing.Point(496, 593);
-            this.picPlayer99.Name = "picPlayer99";
-            this.picPlayer99.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer99.TabIndex = 195;
-            this.picPlayer99.TabStop = false;
-            // 
-            // picPlayer98
-            // 
-            this.picPlayer98.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer98.Image")));
-            this.picPlayer98.Location = new System.Drawing.Point(442, 592);
-            this.picPlayer98.Name = "picPlayer98";
-            this.picPlayer98.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer98.TabIndex = 194;
-            this.picPlayer98.TabStop = false;
-            // 
-            // picPlayer97
-            // 
-            this.picPlayer97.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer97.Image")));
-            this.picPlayer97.Location = new System.Drawing.Point(386, 593);
-            this.picPlayer97.Name = "picPlayer97";
-            this.picPlayer97.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer97.TabIndex = 193;
-            this.picPlayer97.TabStop = false;
-            // 
-            // picPlayer96
-            // 
-            this.picPlayer96.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer96.Image")));
-            this.picPlayer96.Location = new System.Drawing.Point(334, 593);
-            this.picPlayer96.Name = "picPlayer96";
-            this.picPlayer96.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer96.TabIndex = 192;
-            this.picPlayer96.TabStop = false;
-            // 
-            // picPlayer95
-            // 
-            this.picPlayer95.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer95.Image")));
-            this.picPlayer95.Location = new System.Drawing.Point(281, 594);
-            this.picPlayer95.Name = "picPlayer95";
-            this.picPlayer95.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer95.TabIndex = 191;
-            this.picPlayer95.TabStop = false;
-            // 
             // picPlayer81
             // 
             this.picPlayer81.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer81.Image")));
-            this.picPlayer81.Location = new System.Drawing.Point(70, 538);
+            this.picPlayer81.Location = new System.Drawing.Point(11, 525);
+            this.picPlayer81.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer81.Name = "picPlayer81";
-            this.picPlayer81.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer81.Size = new System.Drawing.Size(54, 54);
             this.picPlayer81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer81.TabIndex = 190;
             this.picPlayer81.TabStop = false;
             // 
-            // picPlayer82
-            // 
-            this.picPlayer82.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer82.Image")));
-            this.picPlayer82.Location = new System.Drawing.Point(123, 538);
-            this.picPlayer82.Name = "picPlayer82";
-            this.picPlayer82.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer82.TabIndex = 189;
-            this.picPlayer82.TabStop = false;
-            // 
-            // picPlayer83
-            // 
-            this.picPlayer83.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer83.Image")));
-            this.picPlayer83.Location = new System.Drawing.Point(176, 538);
-            this.picPlayer83.Name = "picPlayer83";
-            this.picPlayer83.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer83.TabIndex = 188;
-            this.picPlayer83.TabStop = false;
-            // 
-            // picPlayer84
-            // 
-            this.picPlayer84.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer84.Image")));
-            this.picPlayer84.Location = new System.Drawing.Point(228, 538);
-            this.picPlayer84.Name = "picPlayer84";
-            this.picPlayer84.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer84.TabIndex = 187;
-            this.picPlayer84.TabStop = false;
-            // 
-            // picPlayer90
-            // 
-            this.picPlayer90.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer90.Image")));
-            this.picPlayer90.Location = new System.Drawing.Point(552, 537);
-            this.picPlayer90.Name = "picPlayer90";
-            this.picPlayer90.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer90.TabIndex = 186;
-            this.picPlayer90.TabStop = false;
-            // 
-            // picPlayer89
-            // 
-            this.picPlayer89.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer89.Image")));
-            this.picPlayer89.Location = new System.Drawing.Point(496, 537);
-            this.picPlayer89.Name = "picPlayer89";
-            this.picPlayer89.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer89.TabIndex = 185;
-            this.picPlayer89.TabStop = false;
-            // 
-            // picPlayer88
-            // 
-            this.picPlayer88.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer88.Image")));
-            this.picPlayer88.Location = new System.Drawing.Point(442, 536);
-            this.picPlayer88.Name = "picPlayer88";
-            this.picPlayer88.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer88.TabIndex = 184;
-            this.picPlayer88.TabStop = false;
-            // 
-            // picPlayer87
-            // 
-            this.picPlayer87.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer87.Image")));
-            this.picPlayer87.Location = new System.Drawing.Point(386, 537);
-            this.picPlayer87.Name = "picPlayer87";
-            this.picPlayer87.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer87.TabIndex = 183;
-            this.picPlayer87.TabStop = false;
-            // 
-            // picPlayer86
-            // 
-            this.picPlayer86.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer86.Image")));
-            this.picPlayer86.Location = new System.Drawing.Point(334, 537);
-            this.picPlayer86.Name = "picPlayer86";
-            this.picPlayer86.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer86.TabIndex = 182;
-            this.picPlayer86.TabStop = false;
-            // 
-            // picPlayer85
-            // 
-            this.picPlayer85.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer85.Image")));
-            this.picPlayer85.Location = new System.Drawing.Point(281, 538);
-            this.picPlayer85.Name = "picPlayer85";
-            this.picPlayer85.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer85.TabIndex = 181;
-            this.picPlayer85.TabStop = false;
-            // 
             // picPlayer71
             // 
             this.picPlayer71.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer71.Image")));
-            this.picPlayer71.Location = new System.Drawing.Point(70, 483);
+            this.picPlayer71.Location = new System.Drawing.Point(11, 467);
+            this.picPlayer71.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer71.Name = "picPlayer71";
-            this.picPlayer71.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer71.Size = new System.Drawing.Size(54, 54);
             this.picPlayer71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer71.TabIndex = 180;
             this.picPlayer71.TabStop = false;
             // 
-            // picPlayer72
-            // 
-            this.picPlayer72.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer72.Image")));
-            this.picPlayer72.Location = new System.Drawing.Point(123, 483);
-            this.picPlayer72.Name = "picPlayer72";
-            this.picPlayer72.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer72.TabIndex = 179;
-            this.picPlayer72.TabStop = false;
-            // 
-            // picPlayer73
-            // 
-            this.picPlayer73.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer73.Image")));
-            this.picPlayer73.Location = new System.Drawing.Point(176, 483);
-            this.picPlayer73.Name = "picPlayer73";
-            this.picPlayer73.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer73.TabIndex = 178;
-            this.picPlayer73.TabStop = false;
-            // 
-            // picPlayer74
-            // 
-            this.picPlayer74.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer74.Image")));
-            this.picPlayer74.Location = new System.Drawing.Point(228, 483);
-            this.picPlayer74.Name = "picPlayer74";
-            this.picPlayer74.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer74.TabIndex = 177;
-            this.picPlayer74.TabStop = false;
-            // 
-            // picPlayer80
-            // 
-            this.picPlayer80.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer80.Image")));
-            this.picPlayer80.Location = new System.Drawing.Point(552, 482);
-            this.picPlayer80.Name = "picPlayer80";
-            this.picPlayer80.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer80.TabIndex = 176;
-            this.picPlayer80.TabStop = false;
-            // 
-            // picPlayer79
-            // 
-            this.picPlayer79.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer79.Image")));
-            this.picPlayer79.Location = new System.Drawing.Point(496, 482);
-            this.picPlayer79.Name = "picPlayer79";
-            this.picPlayer79.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer79.TabIndex = 175;
-            this.picPlayer79.TabStop = false;
-            // 
-            // picPlayer78
-            // 
-            this.picPlayer78.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer78.Image")));
-            this.picPlayer78.Location = new System.Drawing.Point(442, 481);
-            this.picPlayer78.Name = "picPlayer78";
-            this.picPlayer78.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer78.TabIndex = 174;
-            this.picPlayer78.TabStop = false;
-            // 
-            // picPlayer77
-            // 
-            this.picPlayer77.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer77.Image")));
-            this.picPlayer77.Location = new System.Drawing.Point(386, 482);
-            this.picPlayer77.Name = "picPlayer77";
-            this.picPlayer77.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer77.TabIndex = 173;
-            this.picPlayer77.TabStop = false;
-            // 
-            // picPlayer76
-            // 
-            this.picPlayer76.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer76.Image")));
-            this.picPlayer76.Location = new System.Drawing.Point(334, 482);
-            this.picPlayer76.Name = "picPlayer76";
-            this.picPlayer76.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer76.TabIndex = 172;
-            this.picPlayer76.TabStop = false;
-            // 
-            // picPlayer75
-            // 
-            this.picPlayer75.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer75.Image")));
-            this.picPlayer75.Location = new System.Drawing.Point(281, 483);
-            this.picPlayer75.Name = "picPlayer75";
-            this.picPlayer75.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer75.TabIndex = 171;
-            this.picPlayer75.TabStop = false;
-            // 
             // picPlayer61
             // 
             this.picPlayer61.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer61.Image")));
-            this.picPlayer61.Location = new System.Drawing.Point(70, 427);
+            this.picPlayer61.Location = new System.Drawing.Point(11, 409);
+            this.picPlayer61.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer61.Name = "picPlayer61";
-            this.picPlayer61.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer61.Size = new System.Drawing.Size(54, 54);
             this.picPlayer61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer61.TabIndex = 170;
             this.picPlayer61.TabStop = false;
             // 
-            // picPlayer62
-            // 
-            this.picPlayer62.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer62.Image")));
-            this.picPlayer62.Location = new System.Drawing.Point(123, 427);
-            this.picPlayer62.Name = "picPlayer62";
-            this.picPlayer62.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer62.TabIndex = 169;
-            this.picPlayer62.TabStop = false;
-            // 
-            // picPlayer63
-            // 
-            this.picPlayer63.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer63.Image")));
-            this.picPlayer63.Location = new System.Drawing.Point(176, 427);
-            this.picPlayer63.Name = "picPlayer63";
-            this.picPlayer63.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer63.TabIndex = 168;
-            this.picPlayer63.TabStop = false;
-            // 
-            // picPlayer64
-            // 
-            this.picPlayer64.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer64.Image")));
-            this.picPlayer64.Location = new System.Drawing.Point(228, 427);
-            this.picPlayer64.Name = "picPlayer64";
-            this.picPlayer64.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer64.TabIndex = 167;
-            this.picPlayer64.TabStop = false;
-            // 
-            // picPlayer70
-            // 
-            this.picPlayer70.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer70.Image")));
-            this.picPlayer70.Location = new System.Drawing.Point(552, 426);
-            this.picPlayer70.Name = "picPlayer70";
-            this.picPlayer70.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer70.TabIndex = 166;
-            this.picPlayer70.TabStop = false;
-            // 
-            // picPlayer69
-            // 
-            this.picPlayer69.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer69.Image")));
-            this.picPlayer69.Location = new System.Drawing.Point(496, 426);
-            this.picPlayer69.Name = "picPlayer69";
-            this.picPlayer69.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer69.TabIndex = 165;
-            this.picPlayer69.TabStop = false;
-            // 
-            // picPlayer68
-            // 
-            this.picPlayer68.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer68.Image")));
-            this.picPlayer68.Location = new System.Drawing.Point(442, 425);
-            this.picPlayer68.Name = "picPlayer68";
-            this.picPlayer68.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer68.TabIndex = 164;
-            this.picPlayer68.TabStop = false;
-            // 
-            // picPlayer67
-            // 
-            this.picPlayer67.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer67.Image")));
-            this.picPlayer67.Location = new System.Drawing.Point(386, 426);
-            this.picPlayer67.Name = "picPlayer67";
-            this.picPlayer67.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer67.TabIndex = 163;
-            this.picPlayer67.TabStop = false;
-            // 
-            // picPlayer66
-            // 
-            this.picPlayer66.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer66.Image")));
-            this.picPlayer66.Location = new System.Drawing.Point(334, 426);
-            this.picPlayer66.Name = "picPlayer66";
-            this.picPlayer66.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer66.TabIndex = 162;
-            this.picPlayer66.TabStop = false;
-            // 
-            // picPlayer65
-            // 
-            this.picPlayer65.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer65.Image")));
-            this.picPlayer65.Location = new System.Drawing.Point(281, 427);
-            this.picPlayer65.Name = "picPlayer65";
-            this.picPlayer65.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer65.TabIndex = 161;
-            this.picPlayer65.TabStop = false;
-            // 
             // picPlayer51
             // 
             this.picPlayer51.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer51.Image")));
-            this.picPlayer51.Location = new System.Drawing.Point(70, 371);
+            this.picPlayer51.Location = new System.Drawing.Point(11, 351);
+            this.picPlayer51.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer51.Name = "picPlayer51";
-            this.picPlayer51.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer51.Size = new System.Drawing.Size(54, 54);
             this.picPlayer51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer51.TabIndex = 160;
             this.picPlayer51.TabStop = false;
             // 
-            // picPlayer52
-            // 
-            this.picPlayer52.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer52.Image")));
-            this.picPlayer52.Location = new System.Drawing.Point(123, 371);
-            this.picPlayer52.Name = "picPlayer52";
-            this.picPlayer52.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer52.TabIndex = 159;
-            this.picPlayer52.TabStop = false;
-            // 
-            // picPlayer53
-            // 
-            this.picPlayer53.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer53.Image")));
-            this.picPlayer53.Location = new System.Drawing.Point(176, 371);
-            this.picPlayer53.Name = "picPlayer53";
-            this.picPlayer53.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer53.TabIndex = 158;
-            this.picPlayer53.TabStop = false;
-            // 
-            // picPlayer54
-            // 
-            this.picPlayer54.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer54.Image")));
-            this.picPlayer54.Location = new System.Drawing.Point(228, 371);
-            this.picPlayer54.Name = "picPlayer54";
-            this.picPlayer54.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer54.TabIndex = 157;
-            this.picPlayer54.TabStop = false;
-            // 
-            // picPlayer60
-            // 
-            this.picPlayer60.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer60.Image")));
-            this.picPlayer60.Location = new System.Drawing.Point(552, 370);
-            this.picPlayer60.Name = "picPlayer60";
-            this.picPlayer60.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer60.TabIndex = 156;
-            this.picPlayer60.TabStop = false;
-            // 
-            // picPlayer59
-            // 
-            this.picPlayer59.Image = global::Battleship_2._0.Properties.Resources.PlayerEmpty;
-            this.picPlayer59.Location = new System.Drawing.Point(496, 370);
-            this.picPlayer59.Name = "picPlayer59";
-            this.picPlayer59.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer59.TabIndex = 155;
-            this.picPlayer59.TabStop = false;
-            // 
-            // picPlayer58
-            // 
-            this.picPlayer58.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer58.Image")));
-            this.picPlayer58.Location = new System.Drawing.Point(442, 369);
-            this.picPlayer58.Name = "picPlayer58";
-            this.picPlayer58.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer58.TabIndex = 154;
-            this.picPlayer58.TabStop = false;
-            // 
-            // picPlayer57
-            // 
-            this.picPlayer57.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer57.Image")));
-            this.picPlayer57.Location = new System.Drawing.Point(386, 370);
-            this.picPlayer57.Name = "picPlayer57";
-            this.picPlayer57.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer57.TabIndex = 153;
-            this.picPlayer57.TabStop = false;
-            // 
-            // picPlayer56
-            // 
-            this.picPlayer56.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer56.Image")));
-            this.picPlayer56.Location = new System.Drawing.Point(334, 370);
-            this.picPlayer56.Name = "picPlayer56";
-            this.picPlayer56.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer56.TabIndex = 152;
-            this.picPlayer56.TabStop = false;
-            // 
-            // picPlayer55
-            // 
-            this.picPlayer55.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer55.Image")));
-            this.picPlayer55.Location = new System.Drawing.Point(281, 371);
-            this.picPlayer55.Name = "picPlayer55";
-            this.picPlayer55.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer55.TabIndex = 151;
-            this.picPlayer55.TabStop = false;
-            // 
             // picPlayer41
             // 
             this.picPlayer41.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer41.Image")));
-            this.picPlayer41.Location = new System.Drawing.Point(70, 315);
+            this.picPlayer41.Location = new System.Drawing.Point(11, 293);
+            this.picPlayer41.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer41.Name = "picPlayer41";
-            this.picPlayer41.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer41.Size = new System.Drawing.Size(54, 54);
             this.picPlayer41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer41.TabIndex = 150;
             this.picPlayer41.TabStop = false;
             this.picPlayer41.Tag = "EnemyCell40";
             // 
-            // picPlayer42
-            // 
-            this.picPlayer42.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer42.Image")));
-            this.picPlayer42.Location = new System.Drawing.Point(123, 315);
-            this.picPlayer42.Name = "picPlayer42";
-            this.picPlayer42.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer42.TabIndex = 149;
-            this.picPlayer42.TabStop = false;
-            this.picPlayer42.Tag = "EnemyCell41";
-            // 
-            // picPlayer43
-            // 
-            this.picPlayer43.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer43.Image")));
-            this.picPlayer43.Location = new System.Drawing.Point(176, 315);
-            this.picPlayer43.Name = "picPlayer43";
-            this.picPlayer43.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer43.TabIndex = 148;
-            this.picPlayer43.TabStop = false;
-            // 
-            // picPlayer44
-            // 
-            this.picPlayer44.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer44.Image")));
-            this.picPlayer44.Location = new System.Drawing.Point(228, 315);
-            this.picPlayer44.Name = "picPlayer44";
-            this.picPlayer44.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer44.TabIndex = 147;
-            this.picPlayer44.TabStop = false;
-            // 
-            // picPlayer50
-            // 
-            this.picPlayer50.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer50.Image")));
-            this.picPlayer50.Location = new System.Drawing.Point(552, 314);
-            this.picPlayer50.Name = "picPlayer50";
-            this.picPlayer50.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer50.TabIndex = 146;
-            this.picPlayer50.TabStop = false;
-            // 
-            // picPlayer49
-            // 
-            this.picPlayer49.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer49.Image")));
-            this.picPlayer49.Location = new System.Drawing.Point(496, 314);
-            this.picPlayer49.Name = "picPlayer49";
-            this.picPlayer49.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer49.TabIndex = 145;
-            this.picPlayer49.TabStop = false;
-            // 
-            // picPlayer48
-            // 
-            this.picPlayer48.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer48.Image")));
-            this.picPlayer48.Location = new System.Drawing.Point(442, 313);
-            this.picPlayer48.Name = "picPlayer48";
-            this.picPlayer48.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer48.TabIndex = 144;
-            this.picPlayer48.TabStop = false;
-            // 
-            // picPlayer47
-            // 
-            this.picPlayer47.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer47.Image")));
-            this.picPlayer47.Location = new System.Drawing.Point(386, 314);
-            this.picPlayer47.Name = "picPlayer47";
-            this.picPlayer47.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer47.TabIndex = 143;
-            this.picPlayer47.TabStop = false;
-            // 
-            // picPlayer46
-            // 
-            this.picPlayer46.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer46.Image")));
-            this.picPlayer46.Location = new System.Drawing.Point(334, 314);
-            this.picPlayer46.Name = "picPlayer46";
-            this.picPlayer46.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer46.TabIndex = 142;
-            this.picPlayer46.TabStop = false;
-            // 
-            // picPlayer45
-            // 
-            this.picPlayer45.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer45.Image")));
-            this.picPlayer45.Location = new System.Drawing.Point(281, 315);
-            this.picPlayer45.Name = "picPlayer45";
-            this.picPlayer45.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer45.TabIndex = 141;
-            this.picPlayer45.TabStop = false;
-            // 
             // picPlayer31
             // 
             this.picPlayer31.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer31.Image")));
-            this.picPlayer31.Location = new System.Drawing.Point(70, 259);
+            this.picPlayer31.Location = new System.Drawing.Point(11, 235);
+            this.picPlayer31.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer31.Name = "picPlayer31";
-            this.picPlayer31.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer31.Size = new System.Drawing.Size(54, 54);
             this.picPlayer31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer31.TabIndex = 140;
             this.picPlayer31.TabStop = false;
             this.picPlayer31.Tag = "EnemyCell31";
             // 
-            // picPlayer32
-            // 
-            this.picPlayer32.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer32.Image")));
-            this.picPlayer32.Location = new System.Drawing.Point(123, 259);
-            this.picPlayer32.Name = "picPlayer32";
-            this.picPlayer32.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer32.TabIndex = 139;
-            this.picPlayer32.TabStop = false;
-            this.picPlayer32.Tag = "EnemyCell32";
-            // 
-            // picPlayer33
-            // 
-            this.picPlayer33.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer33.Image")));
-            this.picPlayer33.Location = new System.Drawing.Point(176, 259);
-            this.picPlayer33.Name = "picPlayer33";
-            this.picPlayer33.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer33.TabIndex = 138;
-            this.picPlayer33.TabStop = false;
-            this.picPlayer33.Tag = "EnemyCell33";
-            // 
-            // picPlayer34
-            // 
-            this.picPlayer34.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer34.Image")));
-            this.picPlayer34.Location = new System.Drawing.Point(228, 259);
-            this.picPlayer34.Name = "picPlayer34";
-            this.picPlayer34.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer34.TabIndex = 137;
-            this.picPlayer34.TabStop = false;
-            this.picPlayer34.Tag = "EnemyCell34";
-            // 
-            // picPlayer40
-            // 
-            this.picPlayer40.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer40.Image")));
-            this.picPlayer40.Location = new System.Drawing.Point(552, 258);
-            this.picPlayer40.Name = "picPlayer40";
-            this.picPlayer40.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer40.TabIndex = 136;
-            this.picPlayer40.TabStop = false;
-            this.picPlayer40.Tag = "EnemyCell40";
-            // 
-            // picPlayer39
-            // 
-            this.picPlayer39.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer39.Image")));
-            this.picPlayer39.Location = new System.Drawing.Point(496, 258);
-            this.picPlayer39.Name = "picPlayer39";
-            this.picPlayer39.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer39.TabIndex = 135;
-            this.picPlayer39.TabStop = false;
-            this.picPlayer39.Tag = "EnemyCell39";
-            // 
-            // picPlayer38
-            // 
-            this.picPlayer38.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer38.Image")));
-            this.picPlayer38.Location = new System.Drawing.Point(442, 257);
-            this.picPlayer38.Name = "picPlayer38";
-            this.picPlayer38.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer38.TabIndex = 134;
-            this.picPlayer38.TabStop = false;
-            this.picPlayer38.Tag = "EnemyCell38";
-            // 
-            // picPlayer37
-            // 
-            this.picPlayer37.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer37.Image")));
-            this.picPlayer37.Location = new System.Drawing.Point(386, 258);
-            this.picPlayer37.Name = "picPlayer37";
-            this.picPlayer37.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer37.TabIndex = 133;
-            this.picPlayer37.TabStop = false;
-            this.picPlayer37.Tag = "EnemyCell37";
-            // 
-            // picPlayer36
-            // 
-            this.picPlayer36.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer36.Image")));
-            this.picPlayer36.Location = new System.Drawing.Point(334, 258);
-            this.picPlayer36.Name = "picPlayer36";
-            this.picPlayer36.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer36.TabIndex = 132;
-            this.picPlayer36.TabStop = false;
-            this.picPlayer36.Tag = "EnemyCell36";
-            // 
-            // picPlayer35
-            // 
-            this.picPlayer35.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer35.Image")));
-            this.picPlayer35.Location = new System.Drawing.Point(281, 259);
-            this.picPlayer35.Name = "picPlayer35";
-            this.picPlayer35.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer35.TabIndex = 131;
-            this.picPlayer35.TabStop = false;
-            this.picPlayer35.Tag = "EnemyCell35";
-            // 
             // picPlayer21
             // 
             this.picPlayer21.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer21.Image")));
-            this.picPlayer21.Location = new System.Drawing.Point(70, 203);
+            this.picPlayer21.Location = new System.Drawing.Point(11, 177);
+            this.picPlayer21.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer21.Name = "picPlayer21";
-            this.picPlayer21.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer21.Size = new System.Drawing.Size(54, 54);
             this.picPlayer21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer21.TabIndex = 130;
             this.picPlayer21.TabStop = false;
             this.picPlayer21.Tag = "EnemyCell21";
             // 
-            // picPlayer22
-            // 
-            this.picPlayer22.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer22.Image")));
-            this.picPlayer22.Location = new System.Drawing.Point(123, 203);
-            this.picPlayer22.Name = "picPlayer22";
-            this.picPlayer22.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer22.TabIndex = 129;
-            this.picPlayer22.TabStop = false;
-            this.picPlayer22.Tag = "EnemyCell22";
-            // 
-            // picPlayer23
-            // 
-            this.picPlayer23.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer23.Image")));
-            this.picPlayer23.Location = new System.Drawing.Point(176, 203);
-            this.picPlayer23.Name = "picPlayer23";
-            this.picPlayer23.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer23.TabIndex = 128;
-            this.picPlayer23.TabStop = false;
-            this.picPlayer23.Tag = "EnemyCell23";
-            // 
-            // picPlayer24
-            // 
-            this.picPlayer24.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer24.Image")));
-            this.picPlayer24.Location = new System.Drawing.Point(228, 203);
-            this.picPlayer24.Name = "picPlayer24";
-            this.picPlayer24.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer24.TabIndex = 127;
-            this.picPlayer24.TabStop = false;
-            this.picPlayer24.Tag = "EnemyCell24";
-            // 
-            // picPlayer30
-            // 
-            this.picPlayer30.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer30.Image")));
-            this.picPlayer30.Location = new System.Drawing.Point(552, 202);
-            this.picPlayer30.Name = "picPlayer30";
-            this.picPlayer30.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer30.TabIndex = 126;
-            this.picPlayer30.TabStop = false;
-            this.picPlayer30.Tag = "EnemyCell30";
-            // 
-            // picPlayer29
-            // 
-            this.picPlayer29.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer29.Image")));
-            this.picPlayer29.Location = new System.Drawing.Point(496, 202);
-            this.picPlayer29.Name = "picPlayer29";
-            this.picPlayer29.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer29.TabIndex = 125;
-            this.picPlayer29.TabStop = false;
-            this.picPlayer29.Tag = "EnemyCell29";
-            // 
-            // picPlayer28
-            // 
-            this.picPlayer28.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer28.Image")));
-            this.picPlayer28.Location = new System.Drawing.Point(442, 201);
-            this.picPlayer28.Name = "picPlayer28";
-            this.picPlayer28.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer28.TabIndex = 124;
-            this.picPlayer28.TabStop = false;
-            this.picPlayer28.Tag = "EnemyCell28";
-            // 
-            // picPlayer27
-            // 
-            this.picPlayer27.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer27.Image")));
-            this.picPlayer27.Location = new System.Drawing.Point(386, 202);
-            this.picPlayer27.Name = "picPlayer27";
-            this.picPlayer27.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer27.TabIndex = 123;
-            this.picPlayer27.TabStop = false;
-            this.picPlayer27.Tag = "EnemyCell27";
-            // 
-            // picPlayer26
-            // 
-            this.picPlayer26.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer26.Image")));
-            this.picPlayer26.Location = new System.Drawing.Point(334, 202);
-            this.picPlayer26.Name = "picPlayer26";
-            this.picPlayer26.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer26.TabIndex = 122;
-            this.picPlayer26.TabStop = false;
-            this.picPlayer26.Tag = "EnemyCell26";
-            // 
-            // picPlayer25
-            // 
-            this.picPlayer25.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer25.Image")));
-            this.picPlayer25.Location = new System.Drawing.Point(281, 203);
-            this.picPlayer25.Name = "picPlayer25";
-            this.picPlayer25.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer25.TabIndex = 121;
-            this.picPlayer25.TabStop = false;
-            this.picPlayer25.Tag = "EnemyCell25";
-            // 
             // picPlayer11
             // 
             this.picPlayer11.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer11.Image")));
-            this.picPlayer11.Location = new System.Drawing.Point(70, 147);
+            this.picPlayer11.Location = new System.Drawing.Point(11, 119);
+            this.picPlayer11.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer11.Name = "picPlayer11";
-            this.picPlayer11.Size = new System.Drawing.Size(50, 50);
+            this.picPlayer11.Size = new System.Drawing.Size(54, 54);
             this.picPlayer11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picPlayer11.TabIndex = 120;
             this.picPlayer11.TabStop = false;
             this.picPlayer11.Tag = "EnemyCell11";
             // 
-            // picPlayer12
-            // 
-            this.picPlayer12.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer12.Image")));
-            this.picPlayer12.Location = new System.Drawing.Point(123, 147);
-            this.picPlayer12.Name = "picPlayer12";
-            this.picPlayer12.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer12.TabIndex = 119;
-            this.picPlayer12.TabStop = false;
-            this.picPlayer12.Tag = "EnemyCell12";
-            // 
-            // picPlayer13
-            // 
-            this.picPlayer13.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer13.Image")));
-            this.picPlayer13.Location = new System.Drawing.Point(176, 147);
-            this.picPlayer13.Name = "picPlayer13";
-            this.picPlayer13.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer13.TabIndex = 118;
-            this.picPlayer13.TabStop = false;
-            this.picPlayer13.Tag = "EnemyCell13";
-            // 
-            // picPlayer14
-            // 
-            this.picPlayer14.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer14.Image")));
-            this.picPlayer14.Location = new System.Drawing.Point(228, 147);
-            this.picPlayer14.Name = "picPlayer14";
-            this.picPlayer14.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer14.TabIndex = 117;
-            this.picPlayer14.TabStop = false;
-            this.picPlayer14.Tag = "EnemyCell14";
-            // 
-            // picPlayer20
-            // 
-            this.picPlayer20.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer20.Image")));
-            this.picPlayer20.Location = new System.Drawing.Point(552, 146);
-            this.picPlayer20.Name = "picPlayer20";
-            this.picPlayer20.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer20.TabIndex = 116;
-            this.picPlayer20.TabStop = false;
-            this.picPlayer20.Tag = "EnemyCell20";
-            // 
-            // picPlayer19
-            // 
-            this.picPlayer19.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer19.Image")));
-            this.picPlayer19.Location = new System.Drawing.Point(496, 146);
-            this.picPlayer19.Name = "picPlayer19";
-            this.picPlayer19.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer19.TabIndex = 115;
-            this.picPlayer19.TabStop = false;
-            this.picPlayer19.Tag = "EnemyCell19";
-            // 
-            // picPlayer18
-            // 
-            this.picPlayer18.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer18.Image")));
-            this.picPlayer18.Location = new System.Drawing.Point(442, 144);
-            this.picPlayer18.Name = "picPlayer18";
-            this.picPlayer18.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer18.TabIndex = 114;
-            this.picPlayer18.TabStop = false;
-            this.picPlayer18.Tag = "EnemyCell18";
-            // 
-            // picPlayer17
-            // 
-            this.picPlayer17.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer17.Image")));
-            this.picPlayer17.Location = new System.Drawing.Point(386, 146);
-            this.picPlayer17.Name = "picPlayer17";
-            this.picPlayer17.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer17.TabIndex = 113;
-            this.picPlayer17.TabStop = false;
-            this.picPlayer17.Tag = "EnemyCell17";
-            // 
-            // picPlayer16
-            // 
-            this.picPlayer16.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer16.Image")));
-            this.picPlayer16.Location = new System.Drawing.Point(334, 146);
-            this.picPlayer16.Name = "picPlayer16";
-            this.picPlayer16.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer16.TabIndex = 112;
-            this.picPlayer16.TabStop = false;
-            this.picPlayer16.Tag = "EnemyCell16";
-            // 
-            // picPlayer15
-            // 
-            this.picPlayer15.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer15.Image")));
-            this.picPlayer15.Location = new System.Drawing.Point(281, 147);
-            this.picPlayer15.Name = "picPlayer15";
-            this.picPlayer15.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer15.TabIndex = 111;
-            this.picPlayer15.TabStop = false;
-            this.picPlayer15.Tag = "EnemyCell15";
-            // 
-            // picPlayer2
-            // 
-            this.picPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer2.Image")));
-            this.picPlayer2.Location = new System.Drawing.Point(123, 90);
-            this.picPlayer2.Name = "picPlayer2";
-            this.picPlayer2.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer2.TabIndex = 109;
-            this.picPlayer2.TabStop = false;
-            this.picPlayer2.Tag = "EnemyCell2";
-            // 
-            // picPlayer3
-            // 
-            this.picPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer3.Image")));
-            this.picPlayer3.Location = new System.Drawing.Point(176, 90);
-            this.picPlayer3.Name = "picPlayer3";
-            this.picPlayer3.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer3.TabIndex = 108;
-            this.picPlayer3.TabStop = false;
-            this.picPlayer3.Tag = "EnemyCell3";
-            // 
-            // picPlayer4
-            // 
-            this.picPlayer4.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer4.Image")));
-            this.picPlayer4.Location = new System.Drawing.Point(228, 90);
-            this.picPlayer4.Name = "picPlayer4";
-            this.picPlayer4.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer4.TabIndex = 107;
-            this.picPlayer4.TabStop = false;
-            this.picPlayer4.Tag = "EnemyCell4";
-            // 
-            // picPlayer10
-            // 
-            this.picPlayer10.Image = global::Battleship_2._0.Properties.Resources.PlayerEmpty;
-            this.picPlayer10.Location = new System.Drawing.Point(552, 90);
-            this.picPlayer10.Name = "picPlayer10";
-            this.picPlayer10.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer10.TabIndex = 106;
-            this.picPlayer10.TabStop = false;
-            this.picPlayer10.Tag = "EnemyCell10";
-            // 
-            // picPlayer9
-            // 
-            this.picPlayer9.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer9.Image")));
-            this.picPlayer9.Location = new System.Drawing.Point(496, 90);
-            this.picPlayer9.Name = "picPlayer9";
-            this.picPlayer9.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer9.TabIndex = 105;
-            this.picPlayer9.TabStop = false;
-            this.picPlayer9.Tag = "EnemyCell9";
-            // 
-            // picPlayer8
-            // 
-            this.picPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer8.Image")));
-            this.picPlayer8.Location = new System.Drawing.Point(442, 90);
-            this.picPlayer8.Name = "picPlayer8";
-            this.picPlayer8.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer8.TabIndex = 104;
-            this.picPlayer8.TabStop = false;
-            this.picPlayer8.Tag = "EnemyCell8";
-            // 
-            // picPlayer7
-            // 
-            this.picPlayer7.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer7.Image")));
-            this.picPlayer7.Location = new System.Drawing.Point(386, 90);
-            this.picPlayer7.Name = "picPlayer7";
-            this.picPlayer7.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer7.TabIndex = 103;
-            this.picPlayer7.TabStop = false;
-            this.picPlayer7.Tag = "EnemyCell7";
-            // 
-            // picPlayer6
-            // 
-            this.picPlayer6.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer6.Image")));
-            this.picPlayer6.Location = new System.Drawing.Point(334, 90);
-            this.picPlayer6.Name = "picPlayer6";
-            this.picPlayer6.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer6.TabIndex = 102;
-            this.picPlayer6.TabStop = false;
-            this.picPlayer6.Tag = "EnemyCell6";
-            // 
-            // picPlayer5
-            // 
-            this.picPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer5.Image")));
-            this.picPlayer5.Location = new System.Drawing.Point(281, 90);
-            this.picPlayer5.Name = "picPlayer5";
-            this.picPlayer5.Size = new System.Drawing.Size(50, 50);
-            this.picPlayer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picPlayer5.TabIndex = 101;
-            this.picPlayer5.TabStop = false;
-            this.picPlayer5.Tag = "EnemyCell5";
-            // 
             // picEnemy91
             // 
             this.picEnemy91.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy91.Location = new System.Drawing.Point(1005, 746);
+            this.picEnemy91.Location = new System.Drawing.Point(836, 583);
+            this.picEnemy91.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy91.Name = "picEnemy91";
-            this.picEnemy91.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy91.Size = new System.Drawing.Size(54, 54);
             this.picEnemy91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy91.TabIndex = 99;
             this.picEnemy91.TabStop = false;
@@ -2001,9 +636,10 @@
             // picEnemy92
             // 
             this.picEnemy92.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy92.Location = new System.Drawing.Point(1083, 746);
+            this.picEnemy92.Location = new System.Drawing.Point(894, 583);
+            this.picEnemy92.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy92.Name = "picEnemy92";
-            this.picEnemy92.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy92.Size = new System.Drawing.Size(54, 54);
             this.picEnemy92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy92.TabIndex = 98;
             this.picEnemy92.TabStop = false;
@@ -2012,9 +648,10 @@
             // picEnemy93
             // 
             this.picEnemy93.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy93.Location = new System.Drawing.Point(1161, 746);
+            this.picEnemy93.Location = new System.Drawing.Point(953, 583);
+            this.picEnemy93.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy93.Name = "picEnemy93";
-            this.picEnemy93.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy93.Size = new System.Drawing.Size(54, 54);
             this.picEnemy93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy93.TabIndex = 97;
             this.picEnemy93.TabStop = false;
@@ -2023,9 +660,10 @@
             // picEnemy94
             // 
             this.picEnemy94.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy94.Location = new System.Drawing.Point(1239, 746);
+            this.picEnemy94.Location = new System.Drawing.Point(1011, 583);
+            this.picEnemy94.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy94.Name = "picEnemy94";
-            this.picEnemy94.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy94.Size = new System.Drawing.Size(54, 54);
             this.picEnemy94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy94.TabIndex = 96;
             this.picEnemy94.TabStop = false;
@@ -2034,9 +672,10 @@
             // picEnemy100
             // 
             this.picEnemy100.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy100.Location = new System.Drawing.Point(1707, 746);
+            this.picEnemy100.Location = new System.Drawing.Point(1359, 583);
+            this.picEnemy100.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy100.Name = "picEnemy100";
-            this.picEnemy100.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy100.Size = new System.Drawing.Size(54, 54);
             this.picEnemy100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy100.TabIndex = 95;
             this.picEnemy100.TabStop = false;
@@ -2045,9 +684,10 @@
             // picEnemy99
             // 
             this.picEnemy99.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy99.Location = new System.Drawing.Point(1629, 746);
+            this.picEnemy99.Location = new System.Drawing.Point(1301, 583);
+            this.picEnemy99.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy99.Name = "picEnemy99";
-            this.picEnemy99.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy99.Size = new System.Drawing.Size(54, 54);
             this.picEnemy99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy99.TabIndex = 94;
             this.picEnemy99.TabStop = false;
@@ -2056,9 +696,10 @@
             // picEnemy98
             // 
             this.picEnemy98.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy98.Location = new System.Drawing.Point(1551, 746);
+            this.picEnemy98.Location = new System.Drawing.Point(1243, 583);
+            this.picEnemy98.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy98.Name = "picEnemy98";
-            this.picEnemy98.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy98.Size = new System.Drawing.Size(54, 54);
             this.picEnemy98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy98.TabIndex = 93;
             this.picEnemy98.TabStop = false;
@@ -2067,9 +708,10 @@
             // picEnemy97
             // 
             this.picEnemy97.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy97.Location = new System.Drawing.Point(1473, 746);
+            this.picEnemy97.Location = new System.Drawing.Point(1185, 583);
+            this.picEnemy97.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy97.Name = "picEnemy97";
-            this.picEnemy97.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy97.Size = new System.Drawing.Size(54, 54);
             this.picEnemy97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy97.TabIndex = 92;
             this.picEnemy97.TabStop = false;
@@ -2078,9 +720,10 @@
             // picEnemy96
             // 
             this.picEnemy96.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy96.Location = new System.Drawing.Point(1395, 746);
+            this.picEnemy96.Location = new System.Drawing.Point(1126, 583);
+            this.picEnemy96.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy96.Name = "picEnemy96";
-            this.picEnemy96.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy96.Size = new System.Drawing.Size(54, 54);
             this.picEnemy96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy96.TabIndex = 91;
             this.picEnemy96.TabStop = false;
@@ -2089,9 +732,10 @@
             // picEnemy95
             // 
             this.picEnemy95.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy95.Location = new System.Drawing.Point(1317, 746);
+            this.picEnemy95.Location = new System.Drawing.Point(1068, 583);
+            this.picEnemy95.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy95.Name = "picEnemy95";
-            this.picEnemy95.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy95.Size = new System.Drawing.Size(54, 54);
             this.picEnemy95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy95.TabIndex = 90;
             this.picEnemy95.TabStop = false;
@@ -2100,9 +744,10 @@
             // picEnemy81
             // 
             this.picEnemy81.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy81.Location = new System.Drawing.Point(1005, 674);
+            this.picEnemy81.Location = new System.Drawing.Point(836, 525);
+            this.picEnemy81.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy81.Name = "picEnemy81";
-            this.picEnemy81.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy81.Size = new System.Drawing.Size(54, 54);
             this.picEnemy81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy81.TabIndex = 89;
             this.picEnemy81.TabStop = false;
@@ -2111,9 +756,10 @@
             // picEnemy82
             // 
             this.picEnemy82.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy82.Location = new System.Drawing.Point(1083, 674);
+            this.picEnemy82.Location = new System.Drawing.Point(894, 525);
+            this.picEnemy82.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy82.Name = "picEnemy82";
-            this.picEnemy82.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy82.Size = new System.Drawing.Size(54, 54);
             this.picEnemy82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy82.TabIndex = 88;
             this.picEnemy82.TabStop = false;
@@ -2122,9 +768,10 @@
             // picEnemy83
             // 
             this.picEnemy83.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy83.Location = new System.Drawing.Point(1161, 674);
+            this.picEnemy83.Location = new System.Drawing.Point(953, 525);
+            this.picEnemy83.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy83.Name = "picEnemy83";
-            this.picEnemy83.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy83.Size = new System.Drawing.Size(54, 54);
             this.picEnemy83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy83.TabIndex = 87;
             this.picEnemy83.TabStop = false;
@@ -2133,9 +780,10 @@
             // picEnemy84
             // 
             this.picEnemy84.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy84.Location = new System.Drawing.Point(1239, 674);
+            this.picEnemy84.Location = new System.Drawing.Point(1011, 525);
+            this.picEnemy84.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy84.Name = "picEnemy84";
-            this.picEnemy84.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy84.Size = new System.Drawing.Size(54, 54);
             this.picEnemy84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy84.TabIndex = 86;
             this.picEnemy84.TabStop = false;
@@ -2144,9 +792,10 @@
             // picEnemy90
             // 
             this.picEnemy90.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy90.Location = new System.Drawing.Point(1707, 674);
+            this.picEnemy90.Location = new System.Drawing.Point(1359, 525);
+            this.picEnemy90.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy90.Name = "picEnemy90";
-            this.picEnemy90.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy90.Size = new System.Drawing.Size(54, 54);
             this.picEnemy90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy90.TabIndex = 85;
             this.picEnemy90.TabStop = false;
@@ -2155,9 +804,10 @@
             // picEnemy89
             // 
             this.picEnemy89.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy89.Location = new System.Drawing.Point(1629, 674);
+            this.picEnemy89.Location = new System.Drawing.Point(1301, 525);
+            this.picEnemy89.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy89.Name = "picEnemy89";
-            this.picEnemy89.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy89.Size = new System.Drawing.Size(54, 54);
             this.picEnemy89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy89.TabIndex = 84;
             this.picEnemy89.TabStop = false;
@@ -2166,9 +816,10 @@
             // picEnemy88
             // 
             this.picEnemy88.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy88.Location = new System.Drawing.Point(1551, 674);
+            this.picEnemy88.Location = new System.Drawing.Point(1243, 525);
+            this.picEnemy88.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy88.Name = "picEnemy88";
-            this.picEnemy88.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy88.Size = new System.Drawing.Size(54, 54);
             this.picEnemy88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy88.TabIndex = 83;
             this.picEnemy88.TabStop = false;
@@ -2177,9 +828,10 @@
             // picEnemy87
             // 
             this.picEnemy87.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy87.Location = new System.Drawing.Point(1473, 674);
+            this.picEnemy87.Location = new System.Drawing.Point(1185, 525);
+            this.picEnemy87.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy87.Name = "picEnemy87";
-            this.picEnemy87.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy87.Size = new System.Drawing.Size(54, 54);
             this.picEnemy87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy87.TabIndex = 82;
             this.picEnemy87.TabStop = false;
@@ -2188,9 +840,10 @@
             // picEnemy86
             // 
             this.picEnemy86.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy86.Location = new System.Drawing.Point(1395, 674);
+            this.picEnemy86.Location = new System.Drawing.Point(1126, 525);
+            this.picEnemy86.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy86.Name = "picEnemy86";
-            this.picEnemy86.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy86.Size = new System.Drawing.Size(54, 54);
             this.picEnemy86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy86.TabIndex = 81;
             this.picEnemy86.TabStop = false;
@@ -2199,9 +852,10 @@
             // picEnemy85
             // 
             this.picEnemy85.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy85.Location = new System.Drawing.Point(1317, 674);
+            this.picEnemy85.Location = new System.Drawing.Point(1069, 525);
+            this.picEnemy85.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy85.Name = "picEnemy85";
-            this.picEnemy85.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy85.Size = new System.Drawing.Size(54, 54);
             this.picEnemy85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy85.TabIndex = 80;
             this.picEnemy85.TabStop = false;
@@ -2210,9 +864,10 @@
             // picEnemy71
             // 
             this.picEnemy71.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy71.Location = new System.Drawing.Point(1005, 601);
+            this.picEnemy71.Location = new System.Drawing.Point(836, 467);
+            this.picEnemy71.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy71.Name = "picEnemy71";
-            this.picEnemy71.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy71.Size = new System.Drawing.Size(54, 54);
             this.picEnemy71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy71.TabIndex = 79;
             this.picEnemy71.TabStop = false;
@@ -2221,9 +876,10 @@
             // picEnemy72
             // 
             this.picEnemy72.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy72.Location = new System.Drawing.Point(1083, 601);
+            this.picEnemy72.Location = new System.Drawing.Point(894, 467);
+            this.picEnemy72.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy72.Name = "picEnemy72";
-            this.picEnemy72.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy72.Size = new System.Drawing.Size(54, 54);
             this.picEnemy72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy72.TabIndex = 78;
             this.picEnemy72.TabStop = false;
@@ -2232,9 +888,10 @@
             // picEnemy73
             // 
             this.picEnemy73.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy73.Location = new System.Drawing.Point(1161, 601);
+            this.picEnemy73.Location = new System.Drawing.Point(953, 467);
+            this.picEnemy73.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy73.Name = "picEnemy73";
-            this.picEnemy73.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy73.Size = new System.Drawing.Size(54, 54);
             this.picEnemy73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy73.TabIndex = 77;
             this.picEnemy73.TabStop = false;
@@ -2243,9 +900,10 @@
             // picEnemy74
             // 
             this.picEnemy74.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy74.Location = new System.Drawing.Point(1239, 601);
+            this.picEnemy74.Location = new System.Drawing.Point(1011, 467);
+            this.picEnemy74.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy74.Name = "picEnemy74";
-            this.picEnemy74.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy74.Size = new System.Drawing.Size(54, 54);
             this.picEnemy74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy74.TabIndex = 76;
             this.picEnemy74.TabStop = false;
@@ -2254,9 +912,10 @@
             // picEnemy80
             // 
             this.picEnemy80.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy80.Location = new System.Drawing.Point(1707, 601);
+            this.picEnemy80.Location = new System.Drawing.Point(1359, 467);
+            this.picEnemy80.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy80.Name = "picEnemy80";
-            this.picEnemy80.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy80.Size = new System.Drawing.Size(54, 54);
             this.picEnemy80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy80.TabIndex = 75;
             this.picEnemy80.TabStop = false;
@@ -2265,9 +924,10 @@
             // picEnemy79
             // 
             this.picEnemy79.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy79.Location = new System.Drawing.Point(1629, 601);
+            this.picEnemy79.Location = new System.Drawing.Point(1301, 467);
+            this.picEnemy79.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy79.Name = "picEnemy79";
-            this.picEnemy79.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy79.Size = new System.Drawing.Size(54, 54);
             this.picEnemy79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy79.TabIndex = 74;
             this.picEnemy79.TabStop = false;
@@ -2276,9 +936,10 @@
             // picEnemy78
             // 
             this.picEnemy78.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy78.Location = new System.Drawing.Point(1551, 601);
+            this.picEnemy78.Location = new System.Drawing.Point(1243, 467);
+            this.picEnemy78.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy78.Name = "picEnemy78";
-            this.picEnemy78.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy78.Size = new System.Drawing.Size(54, 54);
             this.picEnemy78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy78.TabIndex = 73;
             this.picEnemy78.TabStop = false;
@@ -2287,9 +948,10 @@
             // picEnemy77
             // 
             this.picEnemy77.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy77.Location = new System.Drawing.Point(1473, 601);
+            this.picEnemy77.Location = new System.Drawing.Point(1185, 467);
+            this.picEnemy77.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy77.Name = "picEnemy77";
-            this.picEnemy77.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy77.Size = new System.Drawing.Size(54, 54);
             this.picEnemy77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy77.TabIndex = 72;
             this.picEnemy77.TabStop = false;
@@ -2298,9 +960,10 @@
             // picEnemy76
             // 
             this.picEnemy76.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy76.Location = new System.Drawing.Point(1395, 601);
+            this.picEnemy76.Location = new System.Drawing.Point(1126, 467);
+            this.picEnemy76.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy76.Name = "picEnemy76";
-            this.picEnemy76.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy76.Size = new System.Drawing.Size(54, 54);
             this.picEnemy76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy76.TabIndex = 71;
             this.picEnemy76.TabStop = false;
@@ -2309,9 +972,10 @@
             // picEnemy75
             // 
             this.picEnemy75.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy75.Location = new System.Drawing.Point(1317, 601);
+            this.picEnemy75.Location = new System.Drawing.Point(1068, 467);
+            this.picEnemy75.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy75.Name = "picEnemy75";
-            this.picEnemy75.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy75.Size = new System.Drawing.Size(54, 54);
             this.picEnemy75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy75.TabIndex = 70;
             this.picEnemy75.TabStop = false;
@@ -2320,9 +984,10 @@
             // picEnemy61
             // 
             this.picEnemy61.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy61.Location = new System.Drawing.Point(1005, 528);
+            this.picEnemy61.Location = new System.Drawing.Point(836, 409);
+            this.picEnemy61.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy61.Name = "picEnemy61";
-            this.picEnemy61.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy61.Size = new System.Drawing.Size(54, 54);
             this.picEnemy61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy61.TabIndex = 69;
             this.picEnemy61.TabStop = false;
@@ -2331,9 +996,10 @@
             // picEnemy62
             // 
             this.picEnemy62.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy62.Location = new System.Drawing.Point(1083, 528);
+            this.picEnemy62.Location = new System.Drawing.Point(894, 409);
+            this.picEnemy62.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy62.Name = "picEnemy62";
-            this.picEnemy62.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy62.Size = new System.Drawing.Size(54, 54);
             this.picEnemy62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy62.TabIndex = 68;
             this.picEnemy62.TabStop = false;
@@ -2342,9 +1008,10 @@
             // picEnemy63
             // 
             this.picEnemy63.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy63.Location = new System.Drawing.Point(1161, 528);
+            this.picEnemy63.Location = new System.Drawing.Point(953, 409);
+            this.picEnemy63.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy63.Name = "picEnemy63";
-            this.picEnemy63.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy63.Size = new System.Drawing.Size(54, 54);
             this.picEnemy63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy63.TabIndex = 67;
             this.picEnemy63.TabStop = false;
@@ -2353,9 +1020,10 @@
             // picEnemy64
             // 
             this.picEnemy64.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy64.Location = new System.Drawing.Point(1239, 528);
+            this.picEnemy64.Location = new System.Drawing.Point(1011, 409);
+            this.picEnemy64.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy64.Name = "picEnemy64";
-            this.picEnemy64.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy64.Size = new System.Drawing.Size(54, 54);
             this.picEnemy64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy64.TabIndex = 66;
             this.picEnemy64.TabStop = false;
@@ -2364,9 +1032,10 @@
             // picEnemy70
             // 
             this.picEnemy70.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy70.Location = new System.Drawing.Point(1707, 528);
+            this.picEnemy70.Location = new System.Drawing.Point(1359, 409);
+            this.picEnemy70.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy70.Name = "picEnemy70";
-            this.picEnemy70.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy70.Size = new System.Drawing.Size(54, 54);
             this.picEnemy70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy70.TabIndex = 65;
             this.picEnemy70.TabStop = false;
@@ -2375,9 +1044,10 @@
             // picEnemy69
             // 
             this.picEnemy69.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy69.Location = new System.Drawing.Point(1629, 528);
+            this.picEnemy69.Location = new System.Drawing.Point(1301, 409);
+            this.picEnemy69.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy69.Name = "picEnemy69";
-            this.picEnemy69.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy69.Size = new System.Drawing.Size(54, 54);
             this.picEnemy69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy69.TabIndex = 64;
             this.picEnemy69.TabStop = false;
@@ -2386,9 +1056,10 @@
             // picEnemy68
             // 
             this.picEnemy68.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy68.Location = new System.Drawing.Point(1551, 528);
+            this.picEnemy68.Location = new System.Drawing.Point(1243, 409);
+            this.picEnemy68.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy68.Name = "picEnemy68";
-            this.picEnemy68.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy68.Size = new System.Drawing.Size(54, 54);
             this.picEnemy68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy68.TabIndex = 63;
             this.picEnemy68.TabStop = false;
@@ -2397,9 +1068,10 @@
             // picEnemy67
             // 
             this.picEnemy67.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy67.Location = new System.Drawing.Point(1473, 528);
+            this.picEnemy67.Location = new System.Drawing.Point(1185, 409);
+            this.picEnemy67.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy67.Name = "picEnemy67";
-            this.picEnemy67.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy67.Size = new System.Drawing.Size(54, 54);
             this.picEnemy67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy67.TabIndex = 62;
             this.picEnemy67.TabStop = false;
@@ -2408,9 +1080,10 @@
             // picEnemy66
             // 
             this.picEnemy66.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy66.Location = new System.Drawing.Point(1395, 528);
+            this.picEnemy66.Location = new System.Drawing.Point(1126, 409);
+            this.picEnemy66.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy66.Name = "picEnemy66";
-            this.picEnemy66.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy66.Size = new System.Drawing.Size(54, 54);
             this.picEnemy66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy66.TabIndex = 61;
             this.picEnemy66.TabStop = false;
@@ -2419,9 +1092,10 @@
             // picEnemy65
             // 
             this.picEnemy65.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy65.Location = new System.Drawing.Point(1317, 528);
+            this.picEnemy65.Location = new System.Drawing.Point(1068, 409);
+            this.picEnemy65.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy65.Name = "picEnemy65";
-            this.picEnemy65.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy65.Size = new System.Drawing.Size(54, 54);
             this.picEnemy65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy65.TabIndex = 60;
             this.picEnemy65.TabStop = false;
@@ -2430,9 +1104,10 @@
             // picEnemy51
             // 
             this.picEnemy51.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy51.Location = new System.Drawing.Point(1005, 455);
+            this.picEnemy51.Location = new System.Drawing.Point(836, 351);
+            this.picEnemy51.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy51.Name = "picEnemy51";
-            this.picEnemy51.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy51.Size = new System.Drawing.Size(54, 54);
             this.picEnemy51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy51.TabIndex = 59;
             this.picEnemy51.TabStop = false;
@@ -2441,9 +1116,10 @@
             // picEnemy52
             // 
             this.picEnemy52.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy52.Location = new System.Drawing.Point(1083, 455);
+            this.picEnemy52.Location = new System.Drawing.Point(894, 351);
+            this.picEnemy52.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy52.Name = "picEnemy52";
-            this.picEnemy52.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy52.Size = new System.Drawing.Size(54, 54);
             this.picEnemy52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy52.TabIndex = 58;
             this.picEnemy52.TabStop = false;
@@ -2452,9 +1128,10 @@
             // picEnemy53
             // 
             this.picEnemy53.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy53.Location = new System.Drawing.Point(1161, 455);
+            this.picEnemy53.Location = new System.Drawing.Point(953, 351);
+            this.picEnemy53.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy53.Name = "picEnemy53";
-            this.picEnemy53.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy53.Size = new System.Drawing.Size(54, 54);
             this.picEnemy53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy53.TabIndex = 57;
             this.picEnemy53.TabStop = false;
@@ -2463,9 +1140,10 @@
             // picEnemy54
             // 
             this.picEnemy54.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy54.Location = new System.Drawing.Point(1239, 455);
+            this.picEnemy54.Location = new System.Drawing.Point(1011, 351);
+            this.picEnemy54.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy54.Name = "picEnemy54";
-            this.picEnemy54.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy54.Size = new System.Drawing.Size(54, 54);
             this.picEnemy54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy54.TabIndex = 56;
             this.picEnemy54.TabStop = false;
@@ -2474,9 +1152,10 @@
             // picEnemy60
             // 
             this.picEnemy60.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy60.Location = new System.Drawing.Point(1707, 455);
+            this.picEnemy60.Location = new System.Drawing.Point(1359, 351);
+            this.picEnemy60.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy60.Name = "picEnemy60";
-            this.picEnemy60.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy60.Size = new System.Drawing.Size(54, 54);
             this.picEnemy60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy60.TabIndex = 55;
             this.picEnemy60.TabStop = false;
@@ -2485,9 +1164,10 @@
             // picEnemy59
             // 
             this.picEnemy59.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy59.Location = new System.Drawing.Point(1629, 455);
+            this.picEnemy59.Location = new System.Drawing.Point(1301, 351);
+            this.picEnemy59.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy59.Name = "picEnemy59";
-            this.picEnemy59.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy59.Size = new System.Drawing.Size(54, 54);
             this.picEnemy59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy59.TabIndex = 54;
             this.picEnemy59.TabStop = false;
@@ -2496,9 +1176,10 @@
             // picEnemy58
             // 
             this.picEnemy58.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy58.Location = new System.Drawing.Point(1551, 455);
+            this.picEnemy58.Location = new System.Drawing.Point(1243, 351);
+            this.picEnemy58.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy58.Name = "picEnemy58";
-            this.picEnemy58.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy58.Size = new System.Drawing.Size(54, 54);
             this.picEnemy58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy58.TabIndex = 53;
             this.picEnemy58.TabStop = false;
@@ -2507,9 +1188,10 @@
             // picEnemy57
             // 
             this.picEnemy57.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy57.Location = new System.Drawing.Point(1473, 455);
+            this.picEnemy57.Location = new System.Drawing.Point(1185, 351);
+            this.picEnemy57.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy57.Name = "picEnemy57";
-            this.picEnemy57.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy57.Size = new System.Drawing.Size(54, 54);
             this.picEnemy57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy57.TabIndex = 52;
             this.picEnemy57.TabStop = false;
@@ -2518,9 +1200,10 @@
             // picEnemy56
             // 
             this.picEnemy56.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy56.Location = new System.Drawing.Point(1395, 455);
+            this.picEnemy56.Location = new System.Drawing.Point(1126, 351);
+            this.picEnemy56.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy56.Name = "picEnemy56";
-            this.picEnemy56.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy56.Size = new System.Drawing.Size(54, 54);
             this.picEnemy56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy56.TabIndex = 51;
             this.picEnemy56.TabStop = false;
@@ -2529,9 +1212,10 @@
             // picEnemy55
             // 
             this.picEnemy55.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy55.Location = new System.Drawing.Point(1317, 455);
+            this.picEnemy55.Location = new System.Drawing.Point(1068, 351);
+            this.picEnemy55.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy55.Name = "picEnemy55";
-            this.picEnemy55.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy55.Size = new System.Drawing.Size(54, 54);
             this.picEnemy55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy55.TabIndex = 50;
             this.picEnemy55.TabStop = false;
@@ -2540,9 +1224,10 @@
             // picEnemy41
             // 
             this.picEnemy41.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy41.Location = new System.Drawing.Point(1005, 382);
+            this.picEnemy41.Location = new System.Drawing.Point(836, 293);
+            this.picEnemy41.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy41.Name = "picEnemy41";
-            this.picEnemy41.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy41.Size = new System.Drawing.Size(54, 54);
             this.picEnemy41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy41.TabIndex = 49;
             this.picEnemy41.TabStop = false;
@@ -2552,9 +1237,10 @@
             // picEnemy42
             // 
             this.picEnemy42.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy42.Location = new System.Drawing.Point(1083, 382);
+            this.picEnemy42.Location = new System.Drawing.Point(894, 293);
+            this.picEnemy42.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy42.Name = "picEnemy42";
-            this.picEnemy42.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy42.Size = new System.Drawing.Size(54, 54);
             this.picEnemy42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy42.TabIndex = 48;
             this.picEnemy42.TabStop = false;
@@ -2564,9 +1250,10 @@
             // picEnemy43
             // 
             this.picEnemy43.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy43.Location = new System.Drawing.Point(1161, 382);
+            this.picEnemy43.Location = new System.Drawing.Point(953, 293);
+            this.picEnemy43.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy43.Name = "picEnemy43";
-            this.picEnemy43.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy43.Size = new System.Drawing.Size(54, 54);
             this.picEnemy43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy43.TabIndex = 47;
             this.picEnemy43.TabStop = false;
@@ -2575,9 +1262,10 @@
             // picEnemy44
             // 
             this.picEnemy44.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy44.Location = new System.Drawing.Point(1239, 382);
+            this.picEnemy44.Location = new System.Drawing.Point(1011, 293);
+            this.picEnemy44.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy44.Name = "picEnemy44";
-            this.picEnemy44.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy44.Size = new System.Drawing.Size(54, 54);
             this.picEnemy44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy44.TabIndex = 46;
             this.picEnemy44.TabStop = false;
@@ -2586,9 +1274,10 @@
             // picEnemy50
             // 
             this.picEnemy50.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy50.Location = new System.Drawing.Point(1707, 382);
+            this.picEnemy50.Location = new System.Drawing.Point(1359, 293);
+            this.picEnemy50.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy50.Name = "picEnemy50";
-            this.picEnemy50.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy50.Size = new System.Drawing.Size(54, 54);
             this.picEnemy50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy50.TabIndex = 45;
             this.picEnemy50.TabStop = false;
@@ -2597,9 +1286,10 @@
             // picEnemy49
             // 
             this.picEnemy49.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy49.Location = new System.Drawing.Point(1629, 382);
+            this.picEnemy49.Location = new System.Drawing.Point(1301, 293);
+            this.picEnemy49.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy49.Name = "picEnemy49";
-            this.picEnemy49.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy49.Size = new System.Drawing.Size(54, 54);
             this.picEnemy49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy49.TabIndex = 44;
             this.picEnemy49.TabStop = false;
@@ -2608,9 +1298,10 @@
             // picEnemy48
             // 
             this.picEnemy48.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy48.Location = new System.Drawing.Point(1551, 382);
+            this.picEnemy48.Location = new System.Drawing.Point(1243, 293);
+            this.picEnemy48.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy48.Name = "picEnemy48";
-            this.picEnemy48.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy48.Size = new System.Drawing.Size(54, 54);
             this.picEnemy48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy48.TabIndex = 43;
             this.picEnemy48.TabStop = false;
@@ -2619,9 +1310,10 @@
             // picEnemy47
             // 
             this.picEnemy47.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy47.Location = new System.Drawing.Point(1473, 382);
+            this.picEnemy47.Location = new System.Drawing.Point(1185, 293);
+            this.picEnemy47.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy47.Name = "picEnemy47";
-            this.picEnemy47.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy47.Size = new System.Drawing.Size(54, 54);
             this.picEnemy47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy47.TabIndex = 42;
             this.picEnemy47.TabStop = false;
@@ -2630,9 +1322,10 @@
             // picEnemy46
             // 
             this.picEnemy46.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy46.Location = new System.Drawing.Point(1395, 382);
+            this.picEnemy46.Location = new System.Drawing.Point(1126, 293);
+            this.picEnemy46.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy46.Name = "picEnemy46";
-            this.picEnemy46.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy46.Size = new System.Drawing.Size(54, 54);
             this.picEnemy46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy46.TabIndex = 41;
             this.picEnemy46.TabStop = false;
@@ -2641,9 +1334,10 @@
             // picEnemy45
             // 
             this.picEnemy45.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy45.Location = new System.Drawing.Point(1317, 382);
+            this.picEnemy45.Location = new System.Drawing.Point(1069, 293);
+            this.picEnemy45.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy45.Name = "picEnemy45";
-            this.picEnemy45.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy45.Size = new System.Drawing.Size(54, 54);
             this.picEnemy45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy45.TabIndex = 40;
             this.picEnemy45.TabStop = false;
@@ -2652,9 +1346,10 @@
             // picEnemy31
             // 
             this.picEnemy31.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy31.Location = new System.Drawing.Point(1005, 309);
+            this.picEnemy31.Location = new System.Drawing.Point(836, 235);
+            this.picEnemy31.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy31.Name = "picEnemy31";
-            this.picEnemy31.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy31.Size = new System.Drawing.Size(54, 54);
             this.picEnemy31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy31.TabIndex = 39;
             this.picEnemy31.TabStop = false;
@@ -2664,9 +1359,10 @@
             // picEnemy32
             // 
             this.picEnemy32.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy32.Location = new System.Drawing.Point(1083, 309);
+            this.picEnemy32.Location = new System.Drawing.Point(894, 235);
+            this.picEnemy32.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy32.Name = "picEnemy32";
-            this.picEnemy32.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy32.Size = new System.Drawing.Size(54, 54);
             this.picEnemy32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy32.TabIndex = 38;
             this.picEnemy32.TabStop = false;
@@ -2676,9 +1372,10 @@
             // picEnemy33
             // 
             this.picEnemy33.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy33.Location = new System.Drawing.Point(1161, 309);
+            this.picEnemy33.Location = new System.Drawing.Point(953, 235);
+            this.picEnemy33.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy33.Name = "picEnemy33";
-            this.picEnemy33.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy33.Size = new System.Drawing.Size(54, 54);
             this.picEnemy33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy33.TabIndex = 37;
             this.picEnemy33.TabStop = false;
@@ -2688,9 +1385,10 @@
             // picEnemy34
             // 
             this.picEnemy34.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy34.Location = new System.Drawing.Point(1239, 309);
+            this.picEnemy34.Location = new System.Drawing.Point(1011, 235);
+            this.picEnemy34.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy34.Name = "picEnemy34";
-            this.picEnemy34.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy34.Size = new System.Drawing.Size(54, 54);
             this.picEnemy34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy34.TabIndex = 36;
             this.picEnemy34.TabStop = false;
@@ -2700,9 +1398,10 @@
             // picEnemy40
             // 
             this.picEnemy40.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy40.Location = new System.Drawing.Point(1707, 309);
+            this.picEnemy40.Location = new System.Drawing.Point(1359, 235);
+            this.picEnemy40.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy40.Name = "picEnemy40";
-            this.picEnemy40.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy40.Size = new System.Drawing.Size(54, 54);
             this.picEnemy40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy40.TabIndex = 35;
             this.picEnemy40.TabStop = false;
@@ -2712,9 +1411,10 @@
             // picEnemy39
             // 
             this.picEnemy39.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy39.Location = new System.Drawing.Point(1629, 309);
+            this.picEnemy39.Location = new System.Drawing.Point(1301, 235);
+            this.picEnemy39.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy39.Name = "picEnemy39";
-            this.picEnemy39.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy39.Size = new System.Drawing.Size(54, 54);
             this.picEnemy39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy39.TabIndex = 34;
             this.picEnemy39.TabStop = false;
@@ -2724,9 +1424,10 @@
             // picEnemy38
             // 
             this.picEnemy38.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy38.Location = new System.Drawing.Point(1551, 309);
+            this.picEnemy38.Location = new System.Drawing.Point(1243, 235);
+            this.picEnemy38.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy38.Name = "picEnemy38";
-            this.picEnemy38.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy38.Size = new System.Drawing.Size(54, 54);
             this.picEnemy38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy38.TabIndex = 33;
             this.picEnemy38.TabStop = false;
@@ -2736,9 +1437,10 @@
             // picEnemy37
             // 
             this.picEnemy37.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy37.Location = new System.Drawing.Point(1473, 309);
+            this.picEnemy37.Location = new System.Drawing.Point(1185, 235);
+            this.picEnemy37.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy37.Name = "picEnemy37";
-            this.picEnemy37.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy37.Size = new System.Drawing.Size(54, 54);
             this.picEnemy37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy37.TabIndex = 32;
             this.picEnemy37.TabStop = false;
@@ -2748,9 +1450,10 @@
             // picEnemy36
             // 
             this.picEnemy36.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy36.Location = new System.Drawing.Point(1395, 309);
+            this.picEnemy36.Location = new System.Drawing.Point(1126, 235);
+            this.picEnemy36.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy36.Name = "picEnemy36";
-            this.picEnemy36.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy36.Size = new System.Drawing.Size(54, 54);
             this.picEnemy36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy36.TabIndex = 31;
             this.picEnemy36.TabStop = false;
@@ -2760,9 +1463,10 @@
             // picEnemy35
             // 
             this.picEnemy35.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy35.Location = new System.Drawing.Point(1317, 309);
+            this.picEnemy35.Location = new System.Drawing.Point(1068, 235);
+            this.picEnemy35.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy35.Name = "picEnemy35";
-            this.picEnemy35.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy35.Size = new System.Drawing.Size(54, 54);
             this.picEnemy35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy35.TabIndex = 30;
             this.picEnemy35.TabStop = false;
@@ -2772,9 +1476,10 @@
             // picEnemy21
             // 
             this.picEnemy21.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy21.Location = new System.Drawing.Point(1005, 236);
+            this.picEnemy21.Location = new System.Drawing.Point(836, 177);
+            this.picEnemy21.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy21.Name = "picEnemy21";
-            this.picEnemy21.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy21.Size = new System.Drawing.Size(54, 54);
             this.picEnemy21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy21.TabIndex = 29;
             this.picEnemy21.TabStop = false;
@@ -2784,9 +1489,10 @@
             // picEnemy22
             // 
             this.picEnemy22.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy22.Location = new System.Drawing.Point(1083, 236);
+            this.picEnemy22.Location = new System.Drawing.Point(894, 177);
+            this.picEnemy22.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy22.Name = "picEnemy22";
-            this.picEnemy22.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy22.Size = new System.Drawing.Size(54, 54);
             this.picEnemy22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy22.TabIndex = 28;
             this.picEnemy22.TabStop = false;
@@ -2796,9 +1502,10 @@
             // picEnemy23
             // 
             this.picEnemy23.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy23.Location = new System.Drawing.Point(1161, 236);
+            this.picEnemy23.Location = new System.Drawing.Point(953, 177);
+            this.picEnemy23.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy23.Name = "picEnemy23";
-            this.picEnemy23.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy23.Size = new System.Drawing.Size(54, 54);
             this.picEnemy23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy23.TabIndex = 27;
             this.picEnemy23.TabStop = false;
@@ -2808,9 +1515,10 @@
             // picEnemy24
             // 
             this.picEnemy24.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy24.Location = new System.Drawing.Point(1239, 236);
+            this.picEnemy24.Location = new System.Drawing.Point(1011, 177);
+            this.picEnemy24.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy24.Name = "picEnemy24";
-            this.picEnemy24.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy24.Size = new System.Drawing.Size(54, 54);
             this.picEnemy24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy24.TabIndex = 26;
             this.picEnemy24.TabStop = false;
@@ -2820,9 +1528,10 @@
             // picEnemy30
             // 
             this.picEnemy30.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy30.Location = new System.Drawing.Point(1707, 236);
+            this.picEnemy30.Location = new System.Drawing.Point(1359, 177);
+            this.picEnemy30.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy30.Name = "picEnemy30";
-            this.picEnemy30.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy30.Size = new System.Drawing.Size(54, 54);
             this.picEnemy30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy30.TabIndex = 25;
             this.picEnemy30.TabStop = false;
@@ -2832,9 +1541,10 @@
             // picEnemy29
             // 
             this.picEnemy29.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy29.Location = new System.Drawing.Point(1629, 236);
+            this.picEnemy29.Location = new System.Drawing.Point(1301, 177);
+            this.picEnemy29.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy29.Name = "picEnemy29";
-            this.picEnemy29.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy29.Size = new System.Drawing.Size(54, 54);
             this.picEnemy29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy29.TabIndex = 24;
             this.picEnemy29.TabStop = false;
@@ -2844,9 +1554,10 @@
             // picEnemy28
             // 
             this.picEnemy28.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy28.Location = new System.Drawing.Point(1551, 236);
+            this.picEnemy28.Location = new System.Drawing.Point(1243, 177);
+            this.picEnemy28.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy28.Name = "picEnemy28";
-            this.picEnemy28.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy28.Size = new System.Drawing.Size(54, 54);
             this.picEnemy28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy28.TabIndex = 23;
             this.picEnemy28.TabStop = false;
@@ -2856,9 +1567,10 @@
             // picEnemy27
             // 
             this.picEnemy27.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy27.Location = new System.Drawing.Point(1473, 236);
+            this.picEnemy27.Location = new System.Drawing.Point(1185, 177);
+            this.picEnemy27.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy27.Name = "picEnemy27";
-            this.picEnemy27.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy27.Size = new System.Drawing.Size(54, 54);
             this.picEnemy27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy27.TabIndex = 22;
             this.picEnemy27.TabStop = false;
@@ -2868,9 +1580,10 @@
             // picEnemy26
             // 
             this.picEnemy26.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy26.Location = new System.Drawing.Point(1395, 236);
+            this.picEnemy26.Location = new System.Drawing.Point(1126, 177);
+            this.picEnemy26.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy26.Name = "picEnemy26";
-            this.picEnemy26.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy26.Size = new System.Drawing.Size(54, 54);
             this.picEnemy26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy26.TabIndex = 21;
             this.picEnemy26.TabStop = false;
@@ -2880,9 +1593,10 @@
             // picEnemy25
             // 
             this.picEnemy25.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy25.Location = new System.Drawing.Point(1317, 236);
+            this.picEnemy25.Location = new System.Drawing.Point(1069, 177);
+            this.picEnemy25.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy25.Name = "picEnemy25";
-            this.picEnemy25.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy25.Size = new System.Drawing.Size(54, 54);
             this.picEnemy25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy25.TabIndex = 20;
             this.picEnemy25.TabStop = false;
@@ -2892,9 +1606,10 @@
             // picEnemy11
             // 
             this.picEnemy11.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy11.Location = new System.Drawing.Point(1005, 163);
+            this.picEnemy11.Location = new System.Drawing.Point(836, 119);
+            this.picEnemy11.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy11.Name = "picEnemy11";
-            this.picEnemy11.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy11.Size = new System.Drawing.Size(54, 54);
             this.picEnemy11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy11.TabIndex = 19;
             this.picEnemy11.TabStop = false;
@@ -2904,9 +1619,10 @@
             // picEnemy12
             // 
             this.picEnemy12.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy12.Location = new System.Drawing.Point(1083, 163);
+            this.picEnemy12.Location = new System.Drawing.Point(894, 119);
+            this.picEnemy12.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy12.Name = "picEnemy12";
-            this.picEnemy12.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy12.Size = new System.Drawing.Size(54, 54);
             this.picEnemy12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy12.TabIndex = 18;
             this.picEnemy12.TabStop = false;
@@ -2916,9 +1632,10 @@
             // picEnemy13
             // 
             this.picEnemy13.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy13.Location = new System.Drawing.Point(1161, 163);
+            this.picEnemy13.Location = new System.Drawing.Point(953, 119);
+            this.picEnemy13.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy13.Name = "picEnemy13";
-            this.picEnemy13.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy13.Size = new System.Drawing.Size(54, 54);
             this.picEnemy13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy13.TabIndex = 17;
             this.picEnemy13.TabStop = false;
@@ -2928,9 +1645,10 @@
             // picEnemy14
             // 
             this.picEnemy14.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy14.Location = new System.Drawing.Point(1239, 163);
+            this.picEnemy14.Location = new System.Drawing.Point(1011, 119);
+            this.picEnemy14.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy14.Name = "picEnemy14";
-            this.picEnemy14.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy14.Size = new System.Drawing.Size(54, 54);
             this.picEnemy14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy14.TabIndex = 16;
             this.picEnemy14.TabStop = false;
@@ -2940,9 +1658,10 @@
             // picEnemy20
             // 
             this.picEnemy20.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy20.Location = new System.Drawing.Point(1707, 163);
+            this.picEnemy20.Location = new System.Drawing.Point(1359, 119);
+            this.picEnemy20.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy20.Name = "picEnemy20";
-            this.picEnemy20.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy20.Size = new System.Drawing.Size(54, 54);
             this.picEnemy20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy20.TabIndex = 15;
             this.picEnemy20.TabStop = false;
@@ -2952,9 +1671,10 @@
             // picEnemy19
             // 
             this.picEnemy19.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy19.Location = new System.Drawing.Point(1629, 163);
+            this.picEnemy19.Location = new System.Drawing.Point(1301, 119);
+            this.picEnemy19.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy19.Name = "picEnemy19";
-            this.picEnemy19.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy19.Size = new System.Drawing.Size(54, 54);
             this.picEnemy19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy19.TabIndex = 14;
             this.picEnemy19.TabStop = false;
@@ -2964,9 +1684,10 @@
             // picEnemy18
             // 
             this.picEnemy18.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy18.Location = new System.Drawing.Point(1551, 163);
+            this.picEnemy18.Location = new System.Drawing.Point(1243, 119);
+            this.picEnemy18.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy18.Name = "picEnemy18";
-            this.picEnemy18.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy18.Size = new System.Drawing.Size(54, 54);
             this.picEnemy18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy18.TabIndex = 13;
             this.picEnemy18.TabStop = false;
@@ -2976,9 +1697,10 @@
             // picEnemy17
             // 
             this.picEnemy17.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy17.Location = new System.Drawing.Point(1473, 163);
+            this.picEnemy17.Location = new System.Drawing.Point(1185, 119);
+            this.picEnemy17.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy17.Name = "picEnemy17";
-            this.picEnemy17.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy17.Size = new System.Drawing.Size(54, 54);
             this.picEnemy17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy17.TabIndex = 12;
             this.picEnemy17.TabStop = false;
@@ -2988,9 +1710,10 @@
             // picEnemy16
             // 
             this.picEnemy16.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy16.Location = new System.Drawing.Point(1395, 163);
+            this.picEnemy16.Location = new System.Drawing.Point(1126, 119);
+            this.picEnemy16.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy16.Name = "picEnemy16";
-            this.picEnemy16.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy16.Size = new System.Drawing.Size(54, 54);
             this.picEnemy16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy16.TabIndex = 11;
             this.picEnemy16.TabStop = false;
@@ -3000,9 +1723,10 @@
             // picEnemy15
             // 
             this.picEnemy15.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy15.Location = new System.Drawing.Point(1317, 163);
+            this.picEnemy15.Location = new System.Drawing.Point(1068, 119);
+            this.picEnemy15.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy15.Name = "picEnemy15";
-            this.picEnemy15.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy15.Size = new System.Drawing.Size(54, 54);
             this.picEnemy15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy15.TabIndex = 10;
             this.picEnemy15.TabStop = false;
@@ -3012,9 +1736,10 @@
             // picEnemy1
             // 
             this.picEnemy1.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy1.Location = new System.Drawing.Point(1005, 90);
+            this.picEnemy1.Location = new System.Drawing.Point(836, 61);
+            this.picEnemy1.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy1.Name = "picEnemy1";
-            this.picEnemy1.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy1.Size = new System.Drawing.Size(54, 54);
             this.picEnemy1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy1.TabIndex = 9;
             this.picEnemy1.TabStop = false;
@@ -3024,9 +1749,10 @@
             // picEnemy2
             // 
             this.picEnemy2.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy2.Location = new System.Drawing.Point(1083, 90);
+            this.picEnemy2.Location = new System.Drawing.Point(894, 61);
+            this.picEnemy2.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy2.Name = "picEnemy2";
-            this.picEnemy2.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy2.Size = new System.Drawing.Size(54, 54);
             this.picEnemy2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy2.TabIndex = 8;
             this.picEnemy2.TabStop = false;
@@ -3036,9 +1762,10 @@
             // picEnemy3
             // 
             this.picEnemy3.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy3.Location = new System.Drawing.Point(1161, 90);
+            this.picEnemy3.Location = new System.Drawing.Point(953, 61);
+            this.picEnemy3.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy3.Name = "picEnemy3";
-            this.picEnemy3.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy3.Size = new System.Drawing.Size(54, 54);
             this.picEnemy3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy3.TabIndex = 7;
             this.picEnemy3.TabStop = false;
@@ -3048,9 +1775,10 @@
             // picEnemy4
             // 
             this.picEnemy4.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy4.Location = new System.Drawing.Point(1239, 90);
+            this.picEnemy4.Location = new System.Drawing.Point(1011, 61);
+            this.picEnemy4.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy4.Name = "picEnemy4";
-            this.picEnemy4.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy4.Size = new System.Drawing.Size(54, 54);
             this.picEnemy4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy4.TabIndex = 6;
             this.picEnemy4.TabStop = false;
@@ -3060,9 +1788,10 @@
             // picEnemy10
             // 
             this.picEnemy10.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy10.Location = new System.Drawing.Point(1707, 90);
+            this.picEnemy10.Location = new System.Drawing.Point(1359, 61);
+            this.picEnemy10.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy10.Name = "picEnemy10";
-            this.picEnemy10.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy10.Size = new System.Drawing.Size(54, 54);
             this.picEnemy10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy10.TabIndex = 5;
             this.picEnemy10.TabStop = false;
@@ -3072,9 +1801,10 @@
             // picEnemy9
             // 
             this.picEnemy9.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy9.Location = new System.Drawing.Point(1629, 90);
+            this.picEnemy9.Location = new System.Drawing.Point(1301, 61);
+            this.picEnemy9.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy9.Name = "picEnemy9";
-            this.picEnemy9.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy9.Size = new System.Drawing.Size(54, 54);
             this.picEnemy9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy9.TabIndex = 4;
             this.picEnemy9.TabStop = false;
@@ -3084,9 +1814,10 @@
             // picEnemy8
             // 
             this.picEnemy8.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy8.Location = new System.Drawing.Point(1551, 90);
+            this.picEnemy8.Location = new System.Drawing.Point(1243, 61);
+            this.picEnemy8.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy8.Name = "picEnemy8";
-            this.picEnemy8.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy8.Size = new System.Drawing.Size(54, 54);
             this.picEnemy8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy8.TabIndex = 3;
             this.picEnemy8.TabStop = false;
@@ -3096,9 +1827,10 @@
             // picEnemy7
             // 
             this.picEnemy7.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy7.Location = new System.Drawing.Point(1473, 90);
+            this.picEnemy7.Location = new System.Drawing.Point(1185, 61);
+            this.picEnemy7.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy7.Name = "picEnemy7";
-            this.picEnemy7.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy7.Size = new System.Drawing.Size(54, 54);
             this.picEnemy7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy7.TabIndex = 2;
             this.picEnemy7.TabStop = false;
@@ -3108,9 +1840,10 @@
             // picEnemy6
             // 
             this.picEnemy6.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy6.Location = new System.Drawing.Point(1395, 90);
+            this.picEnemy6.Location = new System.Drawing.Point(1126, 61);
+            this.picEnemy6.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy6.Name = "picEnemy6";
-            this.picEnemy6.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy6.Size = new System.Drawing.Size(54, 54);
             this.picEnemy6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy6.TabIndex = 1;
             this.picEnemy6.TabStop = false;
@@ -3120,9 +1853,10 @@
             // picEnemy5
             // 
             this.picEnemy5.Image = global::Battleship_2._0.Properties.Resources.available;
-            this.picEnemy5.Location = new System.Drawing.Point(1317, 90);
+            this.picEnemy5.Location = new System.Drawing.Point(1068, 61);
+            this.picEnemy5.Margin = new System.Windows.Forms.Padding(2);
             this.picEnemy5.Name = "picEnemy5";
-            this.picEnemy5.Size = new System.Drawing.Size(72, 67);
+            this.picEnemy5.Size = new System.Drawing.Size(54, 54);
             this.picEnemy5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picEnemy5.TabIndex = 0;
             this.picEnemy5.TabStop = false;
@@ -3132,9 +1866,10 @@
             // picSubmarine
             // 
             this.picSubmarine.Image = global::Battleship_2._0.Properties.Resources.submarineLeft;
-            this.picSubmarine.Location = new System.Drawing.Point(610, 259);
+            this.picSubmarine.Location = new System.Drawing.Point(711, 702);
+            this.picSubmarine.Margin = new System.Windows.Forms.Padding(2);
             this.picSubmarine.Name = "picSubmarine";
-            this.picSubmarine.Size = new System.Drawing.Size(150, 50);
+            this.picSubmarine.Size = new System.Drawing.Size(170, 54);
             this.picSubmarine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picSubmarine.TabIndex = 243;
             this.picSubmarine.TabStop = false;
@@ -3145,9 +1880,10 @@
             // picDestroyer
             // 
             this.picDestroyer.Image = global::Battleship_2._0.Properties.Resources.destroyerLeft;
-            this.picDestroyer.Location = new System.Drawing.Point(610, 315);
+            this.picDestroyer.Location = new System.Drawing.Point(1202, 702);
+            this.picDestroyer.Margin = new System.Windows.Forms.Padding(2);
             this.picDestroyer.Name = "picDestroyer";
-            this.picDestroyer.Size = new System.Drawing.Size(100, 50);
+            this.picDestroyer.Size = new System.Drawing.Size(112, 54);
             this.picDestroyer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picDestroyer.TabIndex = 244;
             this.picDestroyer.TabStop = false;
@@ -3157,146 +1893,1062 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(292, 658);
+            this.btnStart.Location = new System.Drawing.Point(649, 583);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.Size = new System.Drawing.Size(125, 54);
             this.btnStart.TabIndex = 245;
             this.btnStart.Text = "Start Game";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Visible = false;
             this.btnStart.Click += new System.EventHandler(this.StartGame);
             // 
+            // picPlayer2
+            // 
+            this.picPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer2.Image")));
+            this.picPlayer2.Location = new System.Drawing.Point(69, 61);
+            this.picPlayer2.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer2.Name = "picPlayer2";
+            this.picPlayer2.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer2.TabIndex = 246;
+            this.picPlayer2.TabStop = false;
+            this.picPlayer2.Tag = "EnemyCell1";
+            // 
+            // picPlayer92
+            // 
+            this.picPlayer92.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer92.Image")));
+            this.picPlayer92.Location = new System.Drawing.Point(69, 583);
+            this.picPlayer92.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer92.Name = "picPlayer92";
+            this.picPlayer92.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer92.TabIndex = 255;
+            this.picPlayer92.TabStop = false;
+            // 
+            // picPlayer82
+            // 
+            this.picPlayer82.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer82.Image")));
+            this.picPlayer82.Location = new System.Drawing.Point(69, 525);
+            this.picPlayer82.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer82.Name = "picPlayer82";
+            this.picPlayer82.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer82.TabIndex = 254;
+            this.picPlayer82.TabStop = false;
+            // 
+            // picPlayer72
+            // 
+            this.picPlayer72.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer72.Image")));
+            this.picPlayer72.Location = new System.Drawing.Point(69, 467);
+            this.picPlayer72.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer72.Name = "picPlayer72";
+            this.picPlayer72.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer72.TabIndex = 253;
+            this.picPlayer72.TabStop = false;
+            // 
+            // picPlayer62
+            // 
+            this.picPlayer62.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer62.Image")));
+            this.picPlayer62.Location = new System.Drawing.Point(69, 409);
+            this.picPlayer62.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer62.Name = "picPlayer62";
+            this.picPlayer62.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer62.TabIndex = 252;
+            this.picPlayer62.TabStop = false;
+            // 
+            // picPlayer52
+            // 
+            this.picPlayer52.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer52.Image")));
+            this.picPlayer52.Location = new System.Drawing.Point(69, 351);
+            this.picPlayer52.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer52.Name = "picPlayer52";
+            this.picPlayer52.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer52.TabIndex = 251;
+            this.picPlayer52.TabStop = false;
+            // 
+            // picPlayer42
+            // 
+            this.picPlayer42.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer42.Image")));
+            this.picPlayer42.Location = new System.Drawing.Point(69, 293);
+            this.picPlayer42.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer42.Name = "picPlayer42";
+            this.picPlayer42.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer42.TabIndex = 250;
+            this.picPlayer42.TabStop = false;
+            this.picPlayer42.Tag = "EnemyCell40";
+            // 
+            // picPlayer32
+            // 
+            this.picPlayer32.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer32.Image")));
+            this.picPlayer32.Location = new System.Drawing.Point(69, 235);
+            this.picPlayer32.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer32.Name = "picPlayer32";
+            this.picPlayer32.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer32.TabIndex = 249;
+            this.picPlayer32.TabStop = false;
+            this.picPlayer32.Tag = "EnemyCell31";
+            // 
+            // picPlayer22
+            // 
+            this.picPlayer22.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer22.Image")));
+            this.picPlayer22.Location = new System.Drawing.Point(69, 177);
+            this.picPlayer22.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer22.Name = "picPlayer22";
+            this.picPlayer22.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer22.TabIndex = 248;
+            this.picPlayer22.TabStop = false;
+            this.picPlayer22.Tag = "EnemyCell21";
+            // 
+            // picPlayer12
+            // 
+            this.picPlayer12.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer12.Image")));
+            this.picPlayer12.Location = new System.Drawing.Point(69, 119);
+            this.picPlayer12.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer12.Name = "picPlayer12";
+            this.picPlayer12.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer12.TabIndex = 247;
+            this.picPlayer12.TabStop = false;
+            this.picPlayer12.Tag = "EnemyCell11";
+            // 
+            // picPlayer3
+            // 
+            this.picPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer3.Image")));
+            this.picPlayer3.Location = new System.Drawing.Point(127, 61);
+            this.picPlayer3.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer3.Name = "picPlayer3";
+            this.picPlayer3.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer3.TabIndex = 256;
+            this.picPlayer3.TabStop = false;
+            this.picPlayer3.Tag = "EnemyCell1";
+            // 
+            // picPlayer93
+            // 
+            this.picPlayer93.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer93.Image")));
+            this.picPlayer93.Location = new System.Drawing.Point(127, 583);
+            this.picPlayer93.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer93.Name = "picPlayer93";
+            this.picPlayer93.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer93.TabIndex = 265;
+            this.picPlayer93.TabStop = false;
+            // 
+            // picPlayer83
+            // 
+            this.picPlayer83.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer83.Image")));
+            this.picPlayer83.Location = new System.Drawing.Point(127, 525);
+            this.picPlayer83.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer83.Name = "picPlayer83";
+            this.picPlayer83.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer83.TabIndex = 264;
+            this.picPlayer83.TabStop = false;
+            // 
+            // picPlayer73
+            // 
+            this.picPlayer73.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer73.Image")));
+            this.picPlayer73.Location = new System.Drawing.Point(127, 467);
+            this.picPlayer73.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer73.Name = "picPlayer73";
+            this.picPlayer73.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer73.TabIndex = 263;
+            this.picPlayer73.TabStop = false;
+            // 
+            // picPlayer63
+            // 
+            this.picPlayer63.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer63.Image")));
+            this.picPlayer63.Location = new System.Drawing.Point(127, 409);
+            this.picPlayer63.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer63.Name = "picPlayer63";
+            this.picPlayer63.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer63.TabIndex = 262;
+            this.picPlayer63.TabStop = false;
+            // 
+            // picPlayer53
+            // 
+            this.picPlayer53.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer53.Image")));
+            this.picPlayer53.Location = new System.Drawing.Point(127, 351);
+            this.picPlayer53.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer53.Name = "picPlayer53";
+            this.picPlayer53.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer53.TabIndex = 261;
+            this.picPlayer53.TabStop = false;
+            // 
+            // picPlayer43
+            // 
+            this.picPlayer43.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer43.Image")));
+            this.picPlayer43.Location = new System.Drawing.Point(127, 293);
+            this.picPlayer43.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer43.Name = "picPlayer43";
+            this.picPlayer43.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer43.TabIndex = 260;
+            this.picPlayer43.TabStop = false;
+            this.picPlayer43.Tag = "EnemyCell40";
+            // 
+            // picPlayer33
+            // 
+            this.picPlayer33.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer33.Image")));
+            this.picPlayer33.Location = new System.Drawing.Point(127, 235);
+            this.picPlayer33.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer33.Name = "picPlayer33";
+            this.picPlayer33.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer33.TabIndex = 259;
+            this.picPlayer33.TabStop = false;
+            this.picPlayer33.Tag = "EnemyCell31";
+            // 
+            // picPlayer23
+            // 
+            this.picPlayer23.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer23.Image")));
+            this.picPlayer23.Location = new System.Drawing.Point(127, 177);
+            this.picPlayer23.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer23.Name = "picPlayer23";
+            this.picPlayer23.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer23.TabIndex = 258;
+            this.picPlayer23.TabStop = false;
+            this.picPlayer23.Tag = "EnemyCell21";
+            // 
+            // picPlayer13
+            // 
+            this.picPlayer13.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer13.Image")));
+            this.picPlayer13.Location = new System.Drawing.Point(127, 119);
+            this.picPlayer13.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer13.Name = "picPlayer13";
+            this.picPlayer13.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer13.TabIndex = 257;
+            this.picPlayer13.TabStop = false;
+            this.picPlayer13.Tag = "EnemyCell11";
+            // 
+            // picPlayer4
+            // 
+            this.picPlayer4.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer4.Image")));
+            this.picPlayer4.Location = new System.Drawing.Point(185, 61);
+            this.picPlayer4.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer4.Name = "picPlayer4";
+            this.picPlayer4.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer4.TabIndex = 266;
+            this.picPlayer4.TabStop = false;
+            this.picPlayer4.Tag = "EnemyCell1";
+            // 
+            // picPlayer94
+            // 
+            this.picPlayer94.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer94.Image")));
+            this.picPlayer94.Location = new System.Drawing.Point(185, 583);
+            this.picPlayer94.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer94.Name = "picPlayer94";
+            this.picPlayer94.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer94.TabIndex = 275;
+            this.picPlayer94.TabStop = false;
+            // 
+            // picPlayer84
+            // 
+            this.picPlayer84.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer84.Image")));
+            this.picPlayer84.Location = new System.Drawing.Point(185, 525);
+            this.picPlayer84.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer84.Name = "picPlayer84";
+            this.picPlayer84.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer84.TabIndex = 274;
+            this.picPlayer84.TabStop = false;
+            // 
+            // picPlayer74
+            // 
+            this.picPlayer74.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer74.Image")));
+            this.picPlayer74.Location = new System.Drawing.Point(185, 467);
+            this.picPlayer74.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer74.Name = "picPlayer74";
+            this.picPlayer74.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer74.TabIndex = 273;
+            this.picPlayer74.TabStop = false;
+            // 
+            // picPlayer64
+            // 
+            this.picPlayer64.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer64.Image")));
+            this.picPlayer64.Location = new System.Drawing.Point(185, 409);
+            this.picPlayer64.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer64.Name = "picPlayer64";
+            this.picPlayer64.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer64.TabIndex = 272;
+            this.picPlayer64.TabStop = false;
+            // 
+            // picPlayer54
+            // 
+            this.picPlayer54.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer54.Image")));
+            this.picPlayer54.Location = new System.Drawing.Point(185, 351);
+            this.picPlayer54.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer54.Name = "picPlayer54";
+            this.picPlayer54.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer54.TabIndex = 271;
+            this.picPlayer54.TabStop = false;
+            // 
+            // picPlayer44
+            // 
+            this.picPlayer44.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer44.Image")));
+            this.picPlayer44.Location = new System.Drawing.Point(185, 293);
+            this.picPlayer44.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer44.Name = "picPlayer44";
+            this.picPlayer44.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer44.TabIndex = 270;
+            this.picPlayer44.TabStop = false;
+            this.picPlayer44.Tag = "EnemyCell40";
+            // 
+            // picPlayer34
+            // 
+            this.picPlayer34.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer34.Image")));
+            this.picPlayer34.Location = new System.Drawing.Point(185, 235);
+            this.picPlayer34.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer34.Name = "picPlayer34";
+            this.picPlayer34.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer34.TabIndex = 269;
+            this.picPlayer34.TabStop = false;
+            this.picPlayer34.Tag = "EnemyCell31";
+            // 
+            // picPlayer24
+            // 
+            this.picPlayer24.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer24.Image")));
+            this.picPlayer24.Location = new System.Drawing.Point(185, 177);
+            this.picPlayer24.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer24.Name = "picPlayer24";
+            this.picPlayer24.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer24.TabIndex = 268;
+            this.picPlayer24.TabStop = false;
+            this.picPlayer24.Tag = "EnemyCell21";
+            // 
+            // picPlayer14
+            // 
+            this.picPlayer14.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer14.Image")));
+            this.picPlayer14.Location = new System.Drawing.Point(185, 119);
+            this.picPlayer14.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer14.Name = "picPlayer14";
+            this.picPlayer14.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer14.TabIndex = 267;
+            this.picPlayer14.TabStop = false;
+            this.picPlayer14.Tag = "EnemyCell11";
+            // 
+            // picPlayer5
+            // 
+            this.picPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer5.Image")));
+            this.picPlayer5.Location = new System.Drawing.Point(243, 61);
+            this.picPlayer5.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer5.Name = "picPlayer5";
+            this.picPlayer5.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer5.TabIndex = 276;
+            this.picPlayer5.TabStop = false;
+            this.picPlayer5.Tag = "EnemyCell1";
+            // 
+            // picPlayer95
+            // 
+            this.picPlayer95.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer95.Image")));
+            this.picPlayer95.Location = new System.Drawing.Point(243, 583);
+            this.picPlayer95.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer95.Name = "picPlayer95";
+            this.picPlayer95.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer95.TabIndex = 285;
+            this.picPlayer95.TabStop = false;
+            // 
+            // picPlayer85
+            // 
+            this.picPlayer85.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer85.Image")));
+            this.picPlayer85.Location = new System.Drawing.Point(243, 525);
+            this.picPlayer85.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer85.Name = "picPlayer85";
+            this.picPlayer85.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer85.TabIndex = 284;
+            this.picPlayer85.TabStop = false;
+            // 
+            // picPlayer75
+            // 
+            this.picPlayer75.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer75.Image")));
+            this.picPlayer75.Location = new System.Drawing.Point(243, 467);
+            this.picPlayer75.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer75.Name = "picPlayer75";
+            this.picPlayer75.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer75.TabIndex = 283;
+            this.picPlayer75.TabStop = false;
+            // 
+            // picPlayer65
+            // 
+            this.picPlayer65.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer65.Image")));
+            this.picPlayer65.Location = new System.Drawing.Point(243, 409);
+            this.picPlayer65.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer65.Name = "picPlayer65";
+            this.picPlayer65.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer65.TabIndex = 282;
+            this.picPlayer65.TabStop = false;
+            // 
+            // picPlayer55
+            // 
+            this.picPlayer55.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer55.Image")));
+            this.picPlayer55.Location = new System.Drawing.Point(243, 351);
+            this.picPlayer55.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer55.Name = "picPlayer55";
+            this.picPlayer55.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer55.TabIndex = 281;
+            this.picPlayer55.TabStop = false;
+            // 
+            // picPlayer45
+            // 
+            this.picPlayer45.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer45.Image")));
+            this.picPlayer45.Location = new System.Drawing.Point(243, 293);
+            this.picPlayer45.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer45.Name = "picPlayer45";
+            this.picPlayer45.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer45.TabIndex = 280;
+            this.picPlayer45.TabStop = false;
+            this.picPlayer45.Tag = "EnemyCell40";
+            // 
+            // picPlayer35
+            // 
+            this.picPlayer35.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer35.Image")));
+            this.picPlayer35.Location = new System.Drawing.Point(243, 235);
+            this.picPlayer35.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer35.Name = "picPlayer35";
+            this.picPlayer35.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer35.TabIndex = 279;
+            this.picPlayer35.TabStop = false;
+            this.picPlayer35.Tag = "EnemyCell31";
+            // 
+            // picPlayer25
+            // 
+            this.picPlayer25.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer25.Image")));
+            this.picPlayer25.Location = new System.Drawing.Point(243, 177);
+            this.picPlayer25.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer25.Name = "picPlayer25";
+            this.picPlayer25.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer25.TabIndex = 278;
+            this.picPlayer25.TabStop = false;
+            this.picPlayer25.Tag = "EnemyCell21";
+            // 
+            // picPlayer15
+            // 
+            this.picPlayer15.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer15.Image")));
+            this.picPlayer15.Location = new System.Drawing.Point(243, 119);
+            this.picPlayer15.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer15.Name = "picPlayer15";
+            this.picPlayer15.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer15.TabIndex = 277;
+            this.picPlayer15.TabStop = false;
+            this.picPlayer15.Tag = "EnemyCell11";
+            // 
+            // picPlayer6
+            // 
+            this.picPlayer6.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer6.Image")));
+            this.picPlayer6.Location = new System.Drawing.Point(301, 61);
+            this.picPlayer6.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer6.Name = "picPlayer6";
+            this.picPlayer6.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer6.TabIndex = 286;
+            this.picPlayer6.TabStop = false;
+            this.picPlayer6.Tag = "EnemyCell1";
+            // 
+            // picPlayer96
+            // 
+            this.picPlayer96.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer96.Image")));
+            this.picPlayer96.Location = new System.Drawing.Point(301, 583);
+            this.picPlayer96.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer96.Name = "picPlayer96";
+            this.picPlayer96.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer96.TabIndex = 295;
+            this.picPlayer96.TabStop = false;
+            // 
+            // picPlayer86
+            // 
+            this.picPlayer86.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer86.Image")));
+            this.picPlayer86.Location = new System.Drawing.Point(301, 525);
+            this.picPlayer86.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer86.Name = "picPlayer86";
+            this.picPlayer86.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer86.TabIndex = 294;
+            this.picPlayer86.TabStop = false;
+            // 
+            // picPlayer76
+            // 
+            this.picPlayer76.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer76.Image")));
+            this.picPlayer76.Location = new System.Drawing.Point(301, 467);
+            this.picPlayer76.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer76.Name = "picPlayer76";
+            this.picPlayer76.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer76.TabIndex = 293;
+            this.picPlayer76.TabStop = false;
+            // 
+            // picPlayer66
+            // 
+            this.picPlayer66.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer66.Image")));
+            this.picPlayer66.Location = new System.Drawing.Point(301, 409);
+            this.picPlayer66.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer66.Name = "picPlayer66";
+            this.picPlayer66.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer66.TabIndex = 292;
+            this.picPlayer66.TabStop = false;
+            // 
+            // picPlayer56
+            // 
+            this.picPlayer56.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer56.Image")));
+            this.picPlayer56.Location = new System.Drawing.Point(301, 351);
+            this.picPlayer56.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer56.Name = "picPlayer56";
+            this.picPlayer56.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer56.TabIndex = 291;
+            this.picPlayer56.TabStop = false;
+            // 
+            // picPlayer46
+            // 
+            this.picPlayer46.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer46.Image")));
+            this.picPlayer46.Location = new System.Drawing.Point(301, 293);
+            this.picPlayer46.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer46.Name = "picPlayer46";
+            this.picPlayer46.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer46.TabIndex = 290;
+            this.picPlayer46.TabStop = false;
+            this.picPlayer46.Tag = "EnemyCell40";
+            // 
+            // picPlayer36
+            // 
+            this.picPlayer36.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer36.Image")));
+            this.picPlayer36.Location = new System.Drawing.Point(301, 235);
+            this.picPlayer36.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer36.Name = "picPlayer36";
+            this.picPlayer36.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer36.TabIndex = 289;
+            this.picPlayer36.TabStop = false;
+            this.picPlayer36.Tag = "EnemyCell31";
+            // 
+            // picPlayer26
+            // 
+            this.picPlayer26.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer26.Image")));
+            this.picPlayer26.Location = new System.Drawing.Point(301, 177);
+            this.picPlayer26.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer26.Name = "picPlayer26";
+            this.picPlayer26.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer26.TabIndex = 288;
+            this.picPlayer26.TabStop = false;
+            this.picPlayer26.Tag = "EnemyCell21";
+            // 
+            // picPlayer16
+            // 
+            this.picPlayer16.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer16.Image")));
+            this.picPlayer16.Location = new System.Drawing.Point(301, 119);
+            this.picPlayer16.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer16.Name = "picPlayer16";
+            this.picPlayer16.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer16.TabIndex = 287;
+            this.picPlayer16.TabStop = false;
+            this.picPlayer16.Tag = "EnemyCell11";
+            // 
+            // picPlayer7
+            // 
+            this.picPlayer7.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer7.Image")));
+            this.picPlayer7.Location = new System.Drawing.Point(359, 61);
+            this.picPlayer7.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer7.Name = "picPlayer7";
+            this.picPlayer7.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer7.TabIndex = 296;
+            this.picPlayer7.TabStop = false;
+            this.picPlayer7.Tag = "EnemyCell1";
+            // 
+            // picPlayer97
+            // 
+            this.picPlayer97.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer97.Image")));
+            this.picPlayer97.Location = new System.Drawing.Point(359, 583);
+            this.picPlayer97.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer97.Name = "picPlayer97";
+            this.picPlayer97.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer97.TabIndex = 305;
+            this.picPlayer97.TabStop = false;
+            // 
+            // picPlayer87
+            // 
+            this.picPlayer87.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer87.Image")));
+            this.picPlayer87.Location = new System.Drawing.Point(359, 525);
+            this.picPlayer87.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer87.Name = "picPlayer87";
+            this.picPlayer87.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer87.TabIndex = 304;
+            this.picPlayer87.TabStop = false;
+            // 
+            // picPlayer77
+            // 
+            this.picPlayer77.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer77.Image")));
+            this.picPlayer77.Location = new System.Drawing.Point(359, 467);
+            this.picPlayer77.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer77.Name = "picPlayer77";
+            this.picPlayer77.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer77.TabIndex = 303;
+            this.picPlayer77.TabStop = false;
+            // 
+            // picPlayer67
+            // 
+            this.picPlayer67.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer67.Image")));
+            this.picPlayer67.Location = new System.Drawing.Point(359, 409);
+            this.picPlayer67.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer67.Name = "picPlayer67";
+            this.picPlayer67.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer67.TabIndex = 302;
+            this.picPlayer67.TabStop = false;
+            // 
+            // picPlayer57
+            // 
+            this.picPlayer57.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer57.Image")));
+            this.picPlayer57.Location = new System.Drawing.Point(359, 351);
+            this.picPlayer57.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer57.Name = "picPlayer57";
+            this.picPlayer57.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer57.TabIndex = 301;
+            this.picPlayer57.TabStop = false;
+            // 
+            // picPlayer47
+            // 
+            this.picPlayer47.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer47.Image")));
+            this.picPlayer47.Location = new System.Drawing.Point(359, 293);
+            this.picPlayer47.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer47.Name = "picPlayer47";
+            this.picPlayer47.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer47.TabIndex = 300;
+            this.picPlayer47.TabStop = false;
+            this.picPlayer47.Tag = "EnemyCell40";
+            // 
+            // picPlayer37
+            // 
+            this.picPlayer37.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer37.Image")));
+            this.picPlayer37.Location = new System.Drawing.Point(359, 235);
+            this.picPlayer37.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer37.Name = "picPlayer37";
+            this.picPlayer37.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer37.TabIndex = 299;
+            this.picPlayer37.TabStop = false;
+            this.picPlayer37.Tag = "EnemyCell31";
+            // 
+            // picPlayer27
+            // 
+            this.picPlayer27.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer27.Image")));
+            this.picPlayer27.Location = new System.Drawing.Point(359, 177);
+            this.picPlayer27.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer27.Name = "picPlayer27";
+            this.picPlayer27.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer27.TabIndex = 298;
+            this.picPlayer27.TabStop = false;
+            this.picPlayer27.Tag = "EnemyCell21";
+            // 
+            // picPlayer17
+            // 
+            this.picPlayer17.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer17.Image")));
+            this.picPlayer17.Location = new System.Drawing.Point(359, 119);
+            this.picPlayer17.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer17.Name = "picPlayer17";
+            this.picPlayer17.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer17.TabIndex = 297;
+            this.picPlayer17.TabStop = false;
+            this.picPlayer17.Tag = "EnemyCell11";
+            // 
+            // picPlayer8
+            // 
+            this.picPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer8.Image")));
+            this.picPlayer8.Location = new System.Drawing.Point(417, 61);
+            this.picPlayer8.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer8.Name = "picPlayer8";
+            this.picPlayer8.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer8.TabIndex = 306;
+            this.picPlayer8.TabStop = false;
+            this.picPlayer8.Tag = "EnemyCell1";
+            // 
+            // picPlayer98
+            // 
+            this.picPlayer98.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer98.Image")));
+            this.picPlayer98.Location = new System.Drawing.Point(417, 583);
+            this.picPlayer98.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer98.Name = "picPlayer98";
+            this.picPlayer98.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer98.TabIndex = 315;
+            this.picPlayer98.TabStop = false;
+            // 
+            // picPlayer88
+            // 
+            this.picPlayer88.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer88.Image")));
+            this.picPlayer88.Location = new System.Drawing.Point(417, 525);
+            this.picPlayer88.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer88.Name = "picPlayer88";
+            this.picPlayer88.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer88.TabIndex = 314;
+            this.picPlayer88.TabStop = false;
+            // 
+            // picPlayer78
+            // 
+            this.picPlayer78.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer78.Image")));
+            this.picPlayer78.Location = new System.Drawing.Point(417, 467);
+            this.picPlayer78.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer78.Name = "picPlayer78";
+            this.picPlayer78.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer78.TabIndex = 313;
+            this.picPlayer78.TabStop = false;
+            // 
+            // picPlayer68
+            // 
+            this.picPlayer68.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer68.Image")));
+            this.picPlayer68.Location = new System.Drawing.Point(417, 409);
+            this.picPlayer68.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer68.Name = "picPlayer68";
+            this.picPlayer68.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer68.TabIndex = 312;
+            this.picPlayer68.TabStop = false;
+            // 
+            // picPlayer58
+            // 
+            this.picPlayer58.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer58.Image")));
+            this.picPlayer58.Location = new System.Drawing.Point(417, 351);
+            this.picPlayer58.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer58.Name = "picPlayer58";
+            this.picPlayer58.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer58.TabIndex = 311;
+            this.picPlayer58.TabStop = false;
+            // 
+            // picPlayer48
+            // 
+            this.picPlayer48.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer48.Image")));
+            this.picPlayer48.Location = new System.Drawing.Point(417, 293);
+            this.picPlayer48.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer48.Name = "picPlayer48";
+            this.picPlayer48.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer48.TabIndex = 310;
+            this.picPlayer48.TabStop = false;
+            this.picPlayer48.Tag = "EnemyCell40";
+            // 
+            // picPlayer38
+            // 
+            this.picPlayer38.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer38.Image")));
+            this.picPlayer38.Location = new System.Drawing.Point(417, 235);
+            this.picPlayer38.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer38.Name = "picPlayer38";
+            this.picPlayer38.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer38.TabIndex = 309;
+            this.picPlayer38.TabStop = false;
+            this.picPlayer38.Tag = "EnemyCell31";
+            // 
+            // picPlayer28
+            // 
+            this.picPlayer28.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer28.Image")));
+            this.picPlayer28.Location = new System.Drawing.Point(417, 177);
+            this.picPlayer28.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer28.Name = "picPlayer28";
+            this.picPlayer28.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer28.TabIndex = 308;
+            this.picPlayer28.TabStop = false;
+            this.picPlayer28.Tag = "EnemyCell21";
+            // 
+            // picPlayer18
+            // 
+            this.picPlayer18.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer18.Image")));
+            this.picPlayer18.Location = new System.Drawing.Point(417, 119);
+            this.picPlayer18.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer18.Name = "picPlayer18";
+            this.picPlayer18.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer18.TabIndex = 307;
+            this.picPlayer18.TabStop = false;
+            this.picPlayer18.Tag = "EnemyCell11";
+            // 
+            // picPlayer9
+            // 
+            this.picPlayer9.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer9.Image")));
+            this.picPlayer9.Location = new System.Drawing.Point(475, 61);
+            this.picPlayer9.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer9.Name = "picPlayer9";
+            this.picPlayer9.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer9.TabIndex = 316;
+            this.picPlayer9.TabStop = false;
+            this.picPlayer9.Tag = "EnemyCell1";
+            // 
+            // picPlayer99
+            // 
+            this.picPlayer99.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer99.Image")));
+            this.picPlayer99.Location = new System.Drawing.Point(475, 583);
+            this.picPlayer99.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer99.Name = "picPlayer99";
+            this.picPlayer99.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer99.TabIndex = 325;
+            this.picPlayer99.TabStop = false;
+            // 
+            // picPlayer89
+            // 
+            this.picPlayer89.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer89.Image")));
+            this.picPlayer89.Location = new System.Drawing.Point(475, 525);
+            this.picPlayer89.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer89.Name = "picPlayer89";
+            this.picPlayer89.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer89.TabIndex = 324;
+            this.picPlayer89.TabStop = false;
+            // 
+            // picPlayer79
+            // 
+            this.picPlayer79.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer79.Image")));
+            this.picPlayer79.Location = new System.Drawing.Point(475, 467);
+            this.picPlayer79.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer79.Name = "picPlayer79";
+            this.picPlayer79.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer79.TabIndex = 323;
+            this.picPlayer79.TabStop = false;
+            // 
+            // picPlayer69
+            // 
+            this.picPlayer69.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer69.Image")));
+            this.picPlayer69.Location = new System.Drawing.Point(475, 409);
+            this.picPlayer69.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer69.Name = "picPlayer69";
+            this.picPlayer69.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer69.TabIndex = 322;
+            this.picPlayer69.TabStop = false;
+            // 
+            // picPlayer59
+            // 
+            this.picPlayer59.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer59.Image")));
+            this.picPlayer59.Location = new System.Drawing.Point(475, 351);
+            this.picPlayer59.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer59.Name = "picPlayer59";
+            this.picPlayer59.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer59.TabIndex = 321;
+            this.picPlayer59.TabStop = false;
+            // 
+            // picPlayer49
+            // 
+            this.picPlayer49.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer49.Image")));
+            this.picPlayer49.Location = new System.Drawing.Point(475, 293);
+            this.picPlayer49.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer49.Name = "picPlayer49";
+            this.picPlayer49.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer49.TabIndex = 320;
+            this.picPlayer49.TabStop = false;
+            this.picPlayer49.Tag = "EnemyCell40";
+            // 
+            // picPlayer39
+            // 
+            this.picPlayer39.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer39.Image")));
+            this.picPlayer39.Location = new System.Drawing.Point(475, 235);
+            this.picPlayer39.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer39.Name = "picPlayer39";
+            this.picPlayer39.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer39.TabIndex = 319;
+            this.picPlayer39.TabStop = false;
+            this.picPlayer39.Tag = "EnemyCell31";
+            // 
+            // picPlayer29
+            // 
+            this.picPlayer29.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer29.Image")));
+            this.picPlayer29.Location = new System.Drawing.Point(475, 177);
+            this.picPlayer29.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer29.Name = "picPlayer29";
+            this.picPlayer29.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer29.TabIndex = 318;
+            this.picPlayer29.TabStop = false;
+            this.picPlayer29.Tag = "EnemyCell21";
+            // 
+            // picPlayer19
+            // 
+            this.picPlayer19.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer19.Image")));
+            this.picPlayer19.Location = new System.Drawing.Point(475, 119);
+            this.picPlayer19.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer19.Name = "picPlayer19";
+            this.picPlayer19.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer19.TabIndex = 317;
+            this.picPlayer19.TabStop = false;
+            this.picPlayer19.Tag = "EnemyCell11";
+            // 
+            // picPlayer10
+            // 
+            this.picPlayer10.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer10.Image")));
+            this.picPlayer10.Location = new System.Drawing.Point(533, 61);
+            this.picPlayer10.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer10.Name = "picPlayer10";
+            this.picPlayer10.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer10.TabIndex = 326;
+            this.picPlayer10.TabStop = false;
+            this.picPlayer10.Tag = "EnemyCell1";
+            // 
+            // picPlayer100
+            // 
+            this.picPlayer100.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer100.Image")));
+            this.picPlayer100.Location = new System.Drawing.Point(533, 583);
+            this.picPlayer100.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer100.Name = "picPlayer100";
+            this.picPlayer100.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer100.TabIndex = 335;
+            this.picPlayer100.TabStop = false;
+            // 
+            // picPlayer90
+            // 
+            this.picPlayer90.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer90.Image")));
+            this.picPlayer90.Location = new System.Drawing.Point(533, 525);
+            this.picPlayer90.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer90.Name = "picPlayer90";
+            this.picPlayer90.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer90.TabIndex = 334;
+            this.picPlayer90.TabStop = false;
+            // 
+            // picPlayer80
+            // 
+            this.picPlayer80.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer80.Image")));
+            this.picPlayer80.Location = new System.Drawing.Point(533, 467);
+            this.picPlayer80.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer80.Name = "picPlayer80";
+            this.picPlayer80.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer80.TabIndex = 333;
+            this.picPlayer80.TabStop = false;
+            // 
+            // picPlayer70
+            // 
+            this.picPlayer70.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer70.Image")));
+            this.picPlayer70.Location = new System.Drawing.Point(533, 409);
+            this.picPlayer70.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer70.Name = "picPlayer70";
+            this.picPlayer70.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer70.TabIndex = 332;
+            this.picPlayer70.TabStop = false;
+            // 
+            // picPlayer60
+            // 
+            this.picPlayer60.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer60.Image")));
+            this.picPlayer60.Location = new System.Drawing.Point(533, 351);
+            this.picPlayer60.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer60.Name = "picPlayer60";
+            this.picPlayer60.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer60.TabIndex = 331;
+            this.picPlayer60.TabStop = false;
+            // 
+            // picPlayer50
+            // 
+            this.picPlayer50.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer50.Image")));
+            this.picPlayer50.Location = new System.Drawing.Point(533, 293);
+            this.picPlayer50.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer50.Name = "picPlayer50";
+            this.picPlayer50.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer50.TabIndex = 330;
+            this.picPlayer50.TabStop = false;
+            this.picPlayer50.Tag = "EnemyCell40";
+            // 
+            // picPlayer40
+            // 
+            this.picPlayer40.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer40.Image")));
+            this.picPlayer40.Location = new System.Drawing.Point(533, 235);
+            this.picPlayer40.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer40.Name = "picPlayer40";
+            this.picPlayer40.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer40.TabIndex = 329;
+            this.picPlayer40.TabStop = false;
+            this.picPlayer40.Tag = "EnemyCell31";
+            // 
+            // picPlayer30
+            // 
+            this.picPlayer30.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer30.Image")));
+            this.picPlayer30.Location = new System.Drawing.Point(533, 177);
+            this.picPlayer30.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer30.Name = "picPlayer30";
+            this.picPlayer30.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer30.TabIndex = 328;
+            this.picPlayer30.TabStop = false;
+            this.picPlayer30.Tag = "EnemyCell21";
+            // 
+            // picPlayer20
+            // 
+            this.picPlayer20.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer20.Image")));
+            this.picPlayer20.Location = new System.Drawing.Point(533, 119);
+            this.picPlayer20.Margin = new System.Windows.Forms.Padding(2);
+            this.picPlayer20.Name = "picPlayer20";
+            this.picPlayer20.Size = new System.Drawing.Size(54, 54);
+            this.picPlayer20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picPlayer20.TabIndex = 327;
+            this.picPlayer20.TabStop = false;
+            this.picPlayer20.Tag = "EnemyCell11";
+            // 
             // GameScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(1834, 843);
-            this.Controls.Add(this.btnStart);
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.picDestroyer);
-            this.Controls.Add(this.picSubmarine);
-            this.Controls.Add(this.picCarrier);
-            this.Controls.Add(this.picBattleship);
             this.Controls.Add(this.picCruiser);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.picPlayer1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.gridY1);
-            this.Controls.Add(this.picPlayer91);
-            this.Controls.Add(this.picPlayer92);
-            this.Controls.Add(this.picPlayer93);
-            this.Controls.Add(this.picPlayer94);
-            this.Controls.Add(this.picPlayer100);
-            this.Controls.Add(this.picPlayer99);
-            this.Controls.Add(this.picPlayer98);
-            this.Controls.Add(this.picPlayer97);
-            this.Controls.Add(this.picPlayer96);
-            this.Controls.Add(this.picPlayer95);
-            this.Controls.Add(this.picPlayer81);
-            this.Controls.Add(this.picPlayer82);
-            this.Controls.Add(this.picPlayer83);
-            this.Controls.Add(this.picPlayer84);
-            this.Controls.Add(this.picPlayer90);
-            this.Controls.Add(this.picPlayer89);
-            this.Controls.Add(this.picPlayer88);
-            this.Controls.Add(this.picPlayer87);
-            this.Controls.Add(this.picPlayer86);
-            this.Controls.Add(this.picPlayer85);
-            this.Controls.Add(this.picPlayer71);
-            this.Controls.Add(this.picPlayer72);
-            this.Controls.Add(this.picPlayer73);
-            this.Controls.Add(this.picPlayer74);
-            this.Controls.Add(this.picPlayer80);
-            this.Controls.Add(this.picPlayer79);
-            this.Controls.Add(this.picPlayer78);
-            this.Controls.Add(this.picPlayer77);
-            this.Controls.Add(this.picPlayer76);
-            this.Controls.Add(this.picPlayer75);
-            this.Controls.Add(this.picPlayer61);
-            this.Controls.Add(this.picPlayer62);
-            this.Controls.Add(this.picPlayer63);
-            this.Controls.Add(this.picPlayer64);
-            this.Controls.Add(this.picPlayer70);
-            this.Controls.Add(this.picPlayer69);
-            this.Controls.Add(this.picPlayer68);
-            this.Controls.Add(this.picPlayer67);
-            this.Controls.Add(this.picPlayer66);
-            this.Controls.Add(this.picPlayer65);
-            this.Controls.Add(this.picPlayer51);
-            this.Controls.Add(this.picPlayer52);
-            this.Controls.Add(this.picPlayer53);
-            this.Controls.Add(this.picPlayer54);
-            this.Controls.Add(this.picPlayer60);
-            this.Controls.Add(this.picPlayer59);
-            this.Controls.Add(this.picPlayer58);
-            this.Controls.Add(this.picPlayer57);
-            this.Controls.Add(this.picPlayer56);
-            this.Controls.Add(this.picPlayer55);
-            this.Controls.Add(this.picPlayer41);
-            this.Controls.Add(this.picPlayer42);
-            this.Controls.Add(this.picPlayer43);
-            this.Controls.Add(this.picPlayer44);
-            this.Controls.Add(this.picPlayer50);
-            this.Controls.Add(this.picPlayer49);
-            this.Controls.Add(this.picPlayer48);
-            this.Controls.Add(this.picPlayer47);
-            this.Controls.Add(this.picPlayer46);
-            this.Controls.Add(this.picPlayer45);
-            this.Controls.Add(this.picPlayer31);
-            this.Controls.Add(this.picPlayer32);
-            this.Controls.Add(this.picPlayer33);
-            this.Controls.Add(this.picPlayer34);
-            this.Controls.Add(this.picPlayer40);
-            this.Controls.Add(this.picPlayer39);
-            this.Controls.Add(this.picPlayer38);
-            this.Controls.Add(this.picPlayer37);
-            this.Controls.Add(this.picPlayer36);
-            this.Controls.Add(this.picPlayer35);
-            this.Controls.Add(this.picPlayer21);
-            this.Controls.Add(this.picPlayer22);
-            this.Controls.Add(this.picPlayer23);
-            this.Controls.Add(this.picPlayer24);
-            this.Controls.Add(this.picPlayer30);
-            this.Controls.Add(this.picPlayer29);
-            this.Controls.Add(this.picPlayer28);
-            this.Controls.Add(this.picPlayer27);
-            this.Controls.Add(this.picPlayer26);
-            this.Controls.Add(this.picPlayer25);
-            this.Controls.Add(this.picPlayer11);
-            this.Controls.Add(this.picPlayer12);
-            this.Controls.Add(this.picPlayer13);
-            this.Controls.Add(this.picPlayer14);
-            this.Controls.Add(this.picPlayer20);
-            this.Controls.Add(this.picPlayer19);
-            this.Controls.Add(this.picPlayer18);
-            this.Controls.Add(this.picPlayer17);
-            this.Controls.Add(this.picPlayer16);
-            this.Controls.Add(this.picPlayer15);
-            this.Controls.Add(this.picPlayer2);
-            this.Controls.Add(this.picPlayer3);
-            this.Controls.Add(this.picPlayer4);
-            this.Controls.Add(this.picPlayer10);
-            this.Controls.Add(this.picPlayer9);
-            this.Controls.Add(this.picPlayer8);
-            this.Controls.Add(this.picPlayer7);
-            this.Controls.Add(this.picPlayer6);
-            this.Controls.Add(this.picPlayer5);
-            this.Controls.Add(this.lblMoves);
+            this.Controls.Add(this.picSubmarine);
+            this.Controls.Add(this.picBattleship);
+            this.Controls.Add(this.picCarrier);
             this.Controls.Add(this.picEnemy91);
             this.Controls.Add(this.picEnemy92);
             this.Controls.Add(this.picEnemy93);
@@ -3397,28 +3049,109 @@
             this.Controls.Add(this.picEnemy7);
             this.Controls.Add(this.picEnemy6);
             this.Controls.Add(this.picEnemy5);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label39);
+            this.Controls.Add(this.picPlayer10);
+            this.Controls.Add(this.picPlayer100);
+            this.Controls.Add(this.picPlayer90);
+            this.Controls.Add(this.picPlayer80);
+            this.Controls.Add(this.picPlayer70);
+            this.Controls.Add(this.picPlayer60);
+            this.Controls.Add(this.picPlayer50);
+            this.Controls.Add(this.picPlayer40);
+            this.Controls.Add(this.picPlayer30);
+            this.Controls.Add(this.picPlayer20);
+            this.Controls.Add(this.picPlayer9);
+            this.Controls.Add(this.picPlayer99);
+            this.Controls.Add(this.picPlayer89);
+            this.Controls.Add(this.picPlayer79);
+            this.Controls.Add(this.picPlayer69);
+            this.Controls.Add(this.picPlayer59);
+            this.Controls.Add(this.picPlayer49);
+            this.Controls.Add(this.picPlayer39);
+            this.Controls.Add(this.picPlayer29);
+            this.Controls.Add(this.picPlayer19);
+            this.Controls.Add(this.picPlayer8);
+            this.Controls.Add(this.picPlayer98);
+            this.Controls.Add(this.picPlayer88);
+            this.Controls.Add(this.picPlayer78);
+            this.Controls.Add(this.picPlayer68);
+            this.Controls.Add(this.picPlayer58);
+            this.Controls.Add(this.picPlayer48);
+            this.Controls.Add(this.picPlayer38);
+            this.Controls.Add(this.picPlayer28);
+            this.Controls.Add(this.picPlayer18);
+            this.Controls.Add(this.picPlayer7);
+            this.Controls.Add(this.picPlayer97);
+            this.Controls.Add(this.picPlayer87);
+            this.Controls.Add(this.picPlayer77);
+            this.Controls.Add(this.picPlayer67);
+            this.Controls.Add(this.picPlayer57);
+            this.Controls.Add(this.picPlayer47);
+            this.Controls.Add(this.picPlayer37);
+            this.Controls.Add(this.picPlayer27);
+            this.Controls.Add(this.picPlayer17);
+            this.Controls.Add(this.picPlayer6);
+            this.Controls.Add(this.picPlayer96);
+            this.Controls.Add(this.picPlayer86);
+            this.Controls.Add(this.picPlayer76);
+            this.Controls.Add(this.picPlayer66);
+            this.Controls.Add(this.picPlayer56);
+            this.Controls.Add(this.picPlayer46);
+            this.Controls.Add(this.picPlayer36);
+            this.Controls.Add(this.picPlayer26);
+            this.Controls.Add(this.picPlayer16);
+            this.Controls.Add(this.picPlayer5);
+            this.Controls.Add(this.picPlayer95);
+            this.Controls.Add(this.picPlayer85);
+            this.Controls.Add(this.picPlayer75);
+            this.Controls.Add(this.picPlayer65);
+            this.Controls.Add(this.picPlayer55);
+            this.Controls.Add(this.picPlayer45);
+            this.Controls.Add(this.picPlayer35);
+            this.Controls.Add(this.picPlayer25);
+            this.Controls.Add(this.picPlayer15);
+            this.Controls.Add(this.picPlayer4);
+            this.Controls.Add(this.picPlayer94);
+            this.Controls.Add(this.picPlayer84);
+            this.Controls.Add(this.picPlayer74);
+            this.Controls.Add(this.picPlayer64);
+            this.Controls.Add(this.picPlayer54);
+            this.Controls.Add(this.picPlayer44);
+            this.Controls.Add(this.picPlayer34);
+            this.Controls.Add(this.picPlayer24);
+            this.Controls.Add(this.picPlayer14);
+            this.Controls.Add(this.picPlayer3);
+            this.Controls.Add(this.picPlayer93);
+            this.Controls.Add(this.picPlayer83);
+            this.Controls.Add(this.picPlayer73);
+            this.Controls.Add(this.picPlayer63);
+            this.Controls.Add(this.picPlayer53);
+            this.Controls.Add(this.picPlayer43);
+            this.Controls.Add(this.picPlayer33);
+            this.Controls.Add(this.picPlayer23);
+            this.Controls.Add(this.picPlayer13);
+            this.Controls.Add(this.picPlayer2);
+            this.Controls.Add(this.picPlayer92);
+            this.Controls.Add(this.picPlayer82);
+            this.Controls.Add(this.picPlayer72);
+            this.Controls.Add(this.picPlayer62);
+            this.Controls.Add(this.picPlayer52);
+            this.Controls.Add(this.picPlayer42);
+            this.Controls.Add(this.picPlayer32);
+            this.Controls.Add(this.picPlayer22);
+            this.Controls.Add(this.picPlayer12);
+            this.Controls.Add(this.picPlayer1);
+            this.Controls.Add(this.picPlayer91);
+            this.Controls.Add(this.picPlayer81);
+            this.Controls.Add(this.picPlayer71);
+            this.Controls.Add(this.picPlayer61);
+            this.Controls.Add(this.picPlayer51);
+            this.Controls.Add(this.picPlayer41);
+            this.Controls.Add(this.picPlayer31);
+            this.Controls.Add(this.picPlayer21);
+            this.Controls.Add(this.picPlayer11);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.lblMoves);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GameScreen";
             this.Text = "Game";
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.RotateShip);
@@ -3427,104 +3160,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.picCruiser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer91)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer93)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer94)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer100)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer99)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer98)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer97)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer96)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer95)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer81)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer82)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer83)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer84)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer90)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer89)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer88)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer87)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer86)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer85)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer71)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer72)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer73)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer80)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer79)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer78)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer76)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer75)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer61)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer67)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer66)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer65)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer54)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer60)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer59)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer58)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer56)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer55)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer49)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer48)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer47)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer46)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer45)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy91)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy92)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy93)).EndInit();
@@ -3627,6 +3270,96 @@
             ((System.ComponentModel.ISupportInitialize)(this.picEnemy5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSubmarine)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestroyer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer92)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer82)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer52)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer42)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer93)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer83)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer73)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer53)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer94)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer84)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer74)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer64)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer54)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer44)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer95)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer85)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer55)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer45)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer96)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer86)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer76)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer66)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer46)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer97)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer87)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer77)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer67)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer57)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer98)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer88)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer68)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer58)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer48)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer99)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer89)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer59)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer49)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer100)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer90)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer50)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picPlayer20)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3736,152 +3469,112 @@
         private System.Windows.Forms.PictureBox picEnemy95;
         private System.Windows.Forms.Label lblMoves;
         private System.Windows.Forms.PictureBox picPlayer91;
-        private System.Windows.Forms.PictureBox picPlayer92;
-        private System.Windows.Forms.PictureBox picPlayer93;
-        private System.Windows.Forms.PictureBox picPlayer94;
-        private System.Windows.Forms.PictureBox picPlayer100;
-        private System.Windows.Forms.PictureBox picPlayer99;
-        private System.Windows.Forms.PictureBox picPlayer98;
-        private System.Windows.Forms.PictureBox picPlayer97;
-        private System.Windows.Forms.PictureBox picPlayer96;
-        private System.Windows.Forms.PictureBox picPlayer95;
         private System.Windows.Forms.PictureBox picPlayer81;
-        private System.Windows.Forms.PictureBox picPlayer82;
-        private System.Windows.Forms.PictureBox picPlayer83;
-        private System.Windows.Forms.PictureBox picPlayer84;
-        private System.Windows.Forms.PictureBox picPlayer90;
-        private System.Windows.Forms.PictureBox picPlayer89;
-        private System.Windows.Forms.PictureBox picPlayer88;
-        private System.Windows.Forms.PictureBox picPlayer87;
-        private System.Windows.Forms.PictureBox picPlayer86;
-        private System.Windows.Forms.PictureBox picPlayer85;
         private System.Windows.Forms.PictureBox picPlayer71;
-        private System.Windows.Forms.PictureBox picPlayer72;
-        private System.Windows.Forms.PictureBox picPlayer73;
-        private System.Windows.Forms.PictureBox picPlayer74;
-        private System.Windows.Forms.PictureBox picPlayer80;
-        private System.Windows.Forms.PictureBox picPlayer79;
-        private System.Windows.Forms.PictureBox picPlayer78;
-        private System.Windows.Forms.PictureBox picPlayer77;
-        private System.Windows.Forms.PictureBox picPlayer76;
-        private System.Windows.Forms.PictureBox picPlayer75;
         private System.Windows.Forms.PictureBox picPlayer61;
-        private System.Windows.Forms.PictureBox picPlayer62;
-        private System.Windows.Forms.PictureBox picPlayer63;
-        private System.Windows.Forms.PictureBox picPlayer64;
-        private System.Windows.Forms.PictureBox picPlayer70;
-        private System.Windows.Forms.PictureBox picPlayer69;
-        private System.Windows.Forms.PictureBox picPlayer68;
-        private System.Windows.Forms.PictureBox picPlayer67;
-        private System.Windows.Forms.PictureBox picPlayer66;
-        private System.Windows.Forms.PictureBox picPlayer65;
         private System.Windows.Forms.PictureBox picPlayer51;
-        private System.Windows.Forms.PictureBox picPlayer52;
-        private System.Windows.Forms.PictureBox picPlayer53;
-        private System.Windows.Forms.PictureBox picPlayer54;
-        private System.Windows.Forms.PictureBox picPlayer60;
-        private System.Windows.Forms.PictureBox picPlayer59;
-        private System.Windows.Forms.PictureBox picPlayer58;
-        private System.Windows.Forms.PictureBox picPlayer57;
-        private System.Windows.Forms.PictureBox picPlayer56;
-        private System.Windows.Forms.PictureBox picPlayer55;
         private System.Windows.Forms.PictureBox picPlayer41;
-        private System.Windows.Forms.PictureBox picPlayer42;
-        private System.Windows.Forms.PictureBox picPlayer43;
-        private System.Windows.Forms.PictureBox picPlayer44;
-        private System.Windows.Forms.PictureBox picPlayer50;
-        private System.Windows.Forms.PictureBox picPlayer49;
-        private System.Windows.Forms.PictureBox picPlayer48;
-        private System.Windows.Forms.PictureBox picPlayer47;
-        private System.Windows.Forms.PictureBox picPlayer46;
-        private System.Windows.Forms.PictureBox picPlayer45;
         private System.Windows.Forms.PictureBox picPlayer31;
-        private System.Windows.Forms.PictureBox picPlayer32;
-        private System.Windows.Forms.PictureBox picPlayer33;
-        private System.Windows.Forms.PictureBox picPlayer34;
-        private System.Windows.Forms.PictureBox picPlayer40;
-        private System.Windows.Forms.PictureBox picPlayer39;
-        private System.Windows.Forms.PictureBox picPlayer38;
-        private System.Windows.Forms.PictureBox picPlayer37;
-        private System.Windows.Forms.PictureBox picPlayer36;
-        private System.Windows.Forms.PictureBox picPlayer35;
         private System.Windows.Forms.PictureBox picPlayer21;
-        private System.Windows.Forms.PictureBox picPlayer22;
-        private System.Windows.Forms.PictureBox picPlayer23;
-        private System.Windows.Forms.PictureBox picPlayer24;
-        private System.Windows.Forms.PictureBox picPlayer30;
-        private System.Windows.Forms.PictureBox picPlayer29;
-        private System.Windows.Forms.PictureBox picPlayer28;
-        private System.Windows.Forms.PictureBox picPlayer27;
-        private System.Windows.Forms.PictureBox picPlayer26;
-        private System.Windows.Forms.PictureBox picPlayer25;
         private System.Windows.Forms.PictureBox picPlayer11;
-        private System.Windows.Forms.PictureBox picPlayer12;
-        private System.Windows.Forms.PictureBox picPlayer13;
-        private System.Windows.Forms.PictureBox picPlayer14;
-        private System.Windows.Forms.PictureBox picPlayer20;
-        private System.Windows.Forms.PictureBox picPlayer19;
-        private System.Windows.Forms.PictureBox picPlayer18;
-        private System.Windows.Forms.PictureBox picPlayer17;
-        private System.Windows.Forms.PictureBox picPlayer16;
-        private System.Windows.Forms.PictureBox picPlayer15;
         private System.Windows.Forms.PictureBox picPlayer1;
-        private System.Windows.Forms.PictureBox picPlayer2;
-        private System.Windows.Forms.PictureBox picPlayer3;
-        private System.Windows.Forms.PictureBox picPlayer4;
-        private System.Windows.Forms.PictureBox picPlayer10;
-        private System.Windows.Forms.PictureBox picPlayer9;
-        private System.Windows.Forms.PictureBox picPlayer8;
-        private System.Windows.Forms.PictureBox picPlayer7;
-        private System.Windows.Forms.PictureBox picPlayer6;
-        private System.Windows.Forms.PictureBox picPlayer5;
         private System.Windows.Forms.Timer gameTimer;
-        private System.Windows.Forms.Label gridY1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
         private System.Windows.Forms.PictureBox picCruiser;
         private System.Windows.Forms.PictureBox picBattleship;
         private System.Windows.Forms.PictureBox picCarrier;
         private System.Windows.Forms.PictureBox picSubmarine;
         private System.Windows.Forms.PictureBox picDestroyer;
         private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.PictureBox picPlayer2;
+        private System.Windows.Forms.PictureBox picPlayer92;
+        private System.Windows.Forms.PictureBox picPlayer82;
+        private System.Windows.Forms.PictureBox picPlayer72;
+        private System.Windows.Forms.PictureBox picPlayer62;
+        private System.Windows.Forms.PictureBox picPlayer52;
+        private System.Windows.Forms.PictureBox picPlayer42;
+        private System.Windows.Forms.PictureBox picPlayer32;
+        private System.Windows.Forms.PictureBox picPlayer22;
+        private System.Windows.Forms.PictureBox picPlayer12;
+        private System.Windows.Forms.PictureBox picPlayer3;
+        private System.Windows.Forms.PictureBox picPlayer93;
+        private System.Windows.Forms.PictureBox picPlayer83;
+        private System.Windows.Forms.PictureBox picPlayer73;
+        private System.Windows.Forms.PictureBox picPlayer63;
+        private System.Windows.Forms.PictureBox picPlayer53;
+        private System.Windows.Forms.PictureBox picPlayer43;
+        private System.Windows.Forms.PictureBox picPlayer33;
+        private System.Windows.Forms.PictureBox picPlayer23;
+        private System.Windows.Forms.PictureBox picPlayer13;
+        private System.Windows.Forms.PictureBox picPlayer4;
+        private System.Windows.Forms.PictureBox picPlayer94;
+        private System.Windows.Forms.PictureBox picPlayer84;
+        private System.Windows.Forms.PictureBox picPlayer74;
+        private System.Windows.Forms.PictureBox picPlayer64;
+        private System.Windows.Forms.PictureBox picPlayer54;
+        private System.Windows.Forms.PictureBox picPlayer44;
+        private System.Windows.Forms.PictureBox picPlayer34;
+        private System.Windows.Forms.PictureBox picPlayer24;
+        private System.Windows.Forms.PictureBox picPlayer14;
+        private System.Windows.Forms.PictureBox picPlayer5;
+        private System.Windows.Forms.PictureBox picPlayer95;
+        private System.Windows.Forms.PictureBox picPlayer85;
+        private System.Windows.Forms.PictureBox picPlayer75;
+        private System.Windows.Forms.PictureBox picPlayer65;
+        private System.Windows.Forms.PictureBox picPlayer55;
+        private System.Windows.Forms.PictureBox picPlayer45;
+        private System.Windows.Forms.PictureBox picPlayer35;
+        private System.Windows.Forms.PictureBox picPlayer25;
+        private System.Windows.Forms.PictureBox picPlayer15;
+        private System.Windows.Forms.PictureBox picPlayer6;
+        private System.Windows.Forms.PictureBox picPlayer96;
+        private System.Windows.Forms.PictureBox picPlayer86;
+        private System.Windows.Forms.PictureBox picPlayer76;
+        private System.Windows.Forms.PictureBox picPlayer66;
+        private System.Windows.Forms.PictureBox picPlayer56;
+        private System.Windows.Forms.PictureBox picPlayer46;
+        private System.Windows.Forms.PictureBox picPlayer36;
+        private System.Windows.Forms.PictureBox picPlayer26;
+        private System.Windows.Forms.PictureBox picPlayer16;
+        private System.Windows.Forms.PictureBox picPlayer7;
+        private System.Windows.Forms.PictureBox picPlayer97;
+        private System.Windows.Forms.PictureBox picPlayer87;
+        private System.Windows.Forms.PictureBox picPlayer77;
+        private System.Windows.Forms.PictureBox picPlayer67;
+        private System.Windows.Forms.PictureBox picPlayer57;
+        private System.Windows.Forms.PictureBox picPlayer47;
+        private System.Windows.Forms.PictureBox picPlayer37;
+        private System.Windows.Forms.PictureBox picPlayer27;
+        private System.Windows.Forms.PictureBox picPlayer17;
+        private System.Windows.Forms.PictureBox picPlayer8;
+        private System.Windows.Forms.PictureBox picPlayer98;
+        private System.Windows.Forms.PictureBox picPlayer88;
+        private System.Windows.Forms.PictureBox picPlayer78;
+        private System.Windows.Forms.PictureBox picPlayer68;
+        private System.Windows.Forms.PictureBox picPlayer58;
+        private System.Windows.Forms.PictureBox picPlayer48;
+        private System.Windows.Forms.PictureBox picPlayer38;
+        private System.Windows.Forms.PictureBox picPlayer28;
+        private System.Windows.Forms.PictureBox picPlayer18;
+        private System.Windows.Forms.PictureBox picPlayer9;
+        private System.Windows.Forms.PictureBox picPlayer99;
+        private System.Windows.Forms.PictureBox picPlayer89;
+        private System.Windows.Forms.PictureBox picPlayer79;
+        private System.Windows.Forms.PictureBox picPlayer69;
+        private System.Windows.Forms.PictureBox picPlayer59;
+        private System.Windows.Forms.PictureBox picPlayer49;
+        private System.Windows.Forms.PictureBox picPlayer39;
+        private System.Windows.Forms.PictureBox picPlayer29;
+        private System.Windows.Forms.PictureBox picPlayer19;
+        private System.Windows.Forms.PictureBox picPlayer10;
+        private System.Windows.Forms.PictureBox picPlayer100;
+        private System.Windows.Forms.PictureBox picPlayer90;
+        private System.Windows.Forms.PictureBox picPlayer80;
+        private System.Windows.Forms.PictureBox picPlayer70;
+        private System.Windows.Forms.PictureBox picPlayer60;
+        private System.Windows.Forms.PictureBox picPlayer50;
+        private System.Windows.Forms.PictureBox picPlayer40;
+        private System.Windows.Forms.PictureBox picPlayer30;
+        private System.Windows.Forms.PictureBox picPlayer20;
     }
 }

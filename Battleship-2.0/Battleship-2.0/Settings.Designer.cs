@@ -36,11 +36,12 @@
             // trackBar1
             // 
             this.trackBar1.BackColor = System.Drawing.Color.Gray;
-            this.trackBar1.Location = new System.Drawing.Point(207, 207);
+            this.trackBar1.Location = new System.Drawing.Point(224, 215);
             this.trackBar1.Maximum = 20;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(974, 45);
             this.trackBar1.TabIndex = 0;
+            this.trackBar1.Scroll += new System.EventHandler(this.MenuVolume);
             // 
             // label1
             // 
@@ -48,11 +49,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("ARMY RUST", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(560, 9);
+            this.label1.Location = new System.Drawing.Point(547, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(339, 75);
+            this.label1.Size = new System.Drawing.Size(60, 75);
             this.label1.TabIndex = 1;
-            this.label1.Text = "SETTINGS";
+            this.label1.Text = " ";
             // 
             // Settings
             // 
