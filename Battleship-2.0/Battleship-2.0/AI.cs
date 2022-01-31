@@ -17,7 +17,14 @@ namespace Battleship_2._0
         public bool[] ships = new bool[100];
 
         // Array that stores the probabilities of a specific cell having a boat.
-        private bool[] probabilities = new bool[100];
+        private int[] probabilities = new int[100];
+
+        // Booleans that store whether or not a ship as been sunk.
+        public bool carrier;
+        public bool battleship;
+        public bool cruiser;
+        public bool submarine;
+        public bool destroyer;
 
         public int EasyBot()
         {
@@ -25,12 +32,12 @@ namespace Battleship_2._0
             Random randNum = new Random();
 
             // Integer that will be the move played by the computer.
-            int move = randNum.Next(1, 101)-1;
+            int move = randNum.Next(1, 101) - 1;
 
             // Generate a random number until it's a number that hasn't been played yet.
             while (hits[move] == true || misses[move] == true)
             {
-                move = randNum.Next(1, 101)-1;
+                move = randNum.Next(1, 101) - 1;
             }
 
             // Return the move.
@@ -64,14 +71,14 @@ namespace Battleship_2._0
                     {
                         // Randomly generate the row and the column that the left-most cell will be on.
                         int row = randomGenerator.Next(1, 11);
-                        int column = randomGenerator.Next(1, 11-(size-1));
+                        int column = randomGenerator.Next(1, 11 - (size - 1));
                         int startingCell = column + (10 * (row - 1));
 
                         // Variable to see if the position played is valid (cells aren't taken by another cell).
                         bool validPosition = true;
 
                         // Check to see if another ship lies in the cells.
-                        for (int index = startingCell; index < startingCell+size; index++)
+                        for (int index = startingCell; index < startingCell + size; index++)
                         {
                             if (ships[index - 1] == true)
                             {
@@ -85,7 +92,7 @@ namespace Battleship_2._0
                             continue;
 
                         // Set the cells the ship lies on to true, signifying that there're ships in those cells.
-                        for (int index = startingCell; index < startingCell+size; index++)
+                        for (int index = startingCell; index < startingCell + size; index++)
                         {
                             ships[index - 1] = true;
                         }
@@ -98,7 +105,7 @@ namespace Battleship_2._0
                     else if (orientation == 2)
                     {
                         // Randomly generate the row and the column that the top-most cell will be on.
-                        int row = randomGenerator.Next(1, 11-(size-1));
+                        int row = randomGenerator.Next(1, 11 - (size - 1));
                         int column = randomGenerator.Next(1, 11);
                         int startingCell = column + (10 * (row - 1));
 
@@ -119,7 +126,7 @@ namespace Battleship_2._0
                         // If validPosition is false, start the while loop again.
                         if (validPosition == false)
                             continue;
-                        
+
                         // If validPosition is true, set the cells to true.
                         for (int index = startingCell; index < startingCell + (10 * (size - 1)) + 1; index += 10)
                         {
@@ -143,60 +150,213 @@ namespace Battleship_2._0
             }
         }
 
+        // The medium level AI employs the "Hunt and Target" algorithm.
+        // The way this algorithm works is that it initially "hunts" for a cell that has a boat on it, and then it switches to "target" mode.
+        // In "target" mode the algorithm looks all around the blocks that are hit, and then it switches back to "hunt" mode.
         public int MediumBot()
         {
-            bool hunt = true;
-
+            // Array that stores the indexes for all the cells that are found to be hit by the AI.
             int[] possibleTargets = new int[0];
 
+            // Iterate through all the cells of the player and check if any of them have a hit made on them by the AI.
             for (int index = 0; index < 100; index++)
             {
+
+                // If the user has made a hit on position.
                 if (hits[index] == true)
                 {
-                    hunt = false;
 
+                    // Resize the array and add the hit cell's index to the array.
                     Array.Resize(ref possibleTargets, possibleTargets.Length + 1);
                     possibleTargets[possibleTargets.Length - 1] = index;
                 }
             }
 
-            if (hunt == false)
+            // If the possibleTargets is not empty, it means that it is possible for this code to be in target mode.
+            if (possibleTargets.Length != 0)
             {
+
+                // Iterate through all the items in the possibleTargets array.
                 for (int index = 0; index < possibleTargets.Length; index++)
                 {
+
+                    // Booleans that check if the cell is bordering any borders.
                     bool borderNorth = false;
                     bool borderSouth = false;
                     bool borderEast = false;
                     bool borderWest = false;
+
+                    // If the cell is on the right-most column, then it borders on the East side.
                     for (int i = 9; i < 100; i += 10)
                         if (possibleTargets[index] == i)
                             borderEast = true;
+
+                    // If the cell is on the bottom row, then it borders on the South side.
                     for (int i = 90; i < 100; i++)
                         if (possibleTargets[index] == i)
                             borderSouth = true;
+
+                    // If the cell is on the top row, then it borders on the North side.
                     for (int i = 0; i < 10; i++)
                         if (possibleTargets[index] == i)
                             borderNorth = true;
+
+                    // If the cell is on the left-most column, then it borders on the West side.
                     for (int i = 0; i < 100; i += 10)
                         if (possibleTargets[index] == i)
                             borderWest = true;
 
+                    // Return the cell that is East of the target cell if there is no border and that cell hasn't been hit or missed yet.
                     if (borderEast == false)
                         if (hits[possibleTargets[index] + 1] == false && misses[possibleTargets[index] + 1] == false)
                             return possibleTargets[index] + 1;
+
+                    // Return the cell that is West of the target cell if there is no border and that cell hasn't been hit or missed yet.
                     if (borderWest == false)
                         if (hits[possibleTargets[index] - 1] == false && misses[possibleTargets[index] - 1] == false)
                             return possibleTargets[index] - 1;
+
+                    // Return the cell that is South of the target cell if there is no border and that cell hasn't been hit or missed yet.
                     if (borderSouth == false)
                         if (hits[possibleTargets[index] + 10] == false && misses[possibleTargets[index] + 10] == false)
                             return possibleTargets[index] + 10;
+
+                    // Return teh cell that is North of the target cell if there is no border and that cell hasn't been hit or missed yet.
                     if (borderNorth == false)
                         if (hits[possibleTargets[index] - 10] == false && misses[possibleTargets[index] - 10] == false)
                             return possibleTargets[index] - 10;
                 }
             }
 
-            return EasyBot();
+            // If no value has been returned yet, it means that the algorithm is in hunt mode, so the AI can just play a random value.
+            int move = EasyBot();
+
+            // Since the smallest ship is of size two, that means that we only have to hunt half the board for ships, so we only have to return the numbers that are even (including 0) from 0-99.
+            while (true)
+            {
+
+                // The pattern followed by the cells is that they're divisible by 2 in the first row, not in the second, and so on.
+                // This will make the board look somewhat like a chess board, and reduces the number of searches the AI will need to perform by half.
+                if (move < 10 && move % 2 == 0)
+                    break;
+                else if (move >= 10 && move < 20 && move % 2 != 0)
+                    break;
+                else if (move >= 20 && move < 30 && move % 2 == 0)
+                    break;
+                else if (move >= 30 && move < 40 && move % 2 != 0)
+                    break;
+                else if (move >= 40 && move < 50 && move % 2 == 0)
+                    break;
+                else if (move >= 50 && move < 60 && move % 2 != 0)
+                    break;
+                else if (move >= 60 && move < 70 && move % 2 == 0)
+                    break;
+                else if (move >= 70 && move < 80 && move % 2 != 0)
+                    break;
+                else if (move >= 80 && move < 90 && move % 2 == 0)
+                    break;
+                else if (move >= 90 && move < 100 && move % 2 != 0)
+                    break;
+
+                // If the random guess does not follow the above rule, then update it.
+                move = EasyBot();
+            }
+
+            // Return the move.
+            return move;
+        }
+
+        // In this algorithm, the AI is given the ships that are sunken, and based on that, the AI computes the probabilities for a given location being a hit.
+        public int HardBot()
+        {
+
+            if (cruiser == false)
+                GetProbabilities(5);
+            if (battleship == false)
+                GetProbabilities(4);
+            if (cruiser == false)
+                GetProbabilities(3);
+            if (submarine == false)
+                GetProbabilities(3);
+            if (destroyer == false)
+                GetProbabilities(2);
+
+            int[] highestCells = new int[0];
+            int largestCell = 0;
+
+            for (int index = 0; index < 100; index++)
+            {
+                if (probabilities[index] > largestCell)
+                {
+                    largestCell = probabilities[index];
+                    Array.Resize(ref probabilities, 1);
+                    highestCells[0] = index;
+                }
+
+                else if (probabilities[index] == largestCell)
+                {
+                    Array.Resize(ref highestCells, highestCells.Length + 1);
+                    highestCells[highestCells.Length - 1] = index;
+                }
+            }
+
+            Random randomGenerator = new Random();
+
+            int move = randomGenerator.Next(highestCells.Length);
+            return highestCells[move];
+        }
+
+        private void GetProbabilities(int size)
+        {
+            int cell = 0;
+
+            while (cell < 100)
+            {
+                bool possible = true;
+                for (int index = cell; index < cell + size; index++)
+                {
+                    if (misses[index] == true || cell % 10 >= 6)
+                    {
+                        possible = false;
+                        break;
+                    }
+                }
+
+                if (possible == true)
+                {
+                    for (int index = cell; index < cell + size; index++)
+                    {
+                        probabilities[index]++;
+                    }
+                }
+
+                cell++;
+            }
+
+            cell = 0;
+
+            while (cell < 100)
+            {
+                bool possible = true;
+                for (int index = cell; index < cell + (size * 10); index += 10)
+                {
+                    if (misses[index] == true || cell > 60)
+                    {
+                        possible = false;
+                        break;
+                    }
+                }
+
+                if (possible == true)
+                {
+                    for (int index = cell; index < cell + (size * 10); index += 10)
+                    {
+                        probabilities[index]++;
+                    }
+                }
+
+                cell++;
+            }
         }
     }
 }

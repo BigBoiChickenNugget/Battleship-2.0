@@ -46,6 +46,21 @@ namespace Battleship_2._0
         bool submarine = false;
         bool destroyer = false;
 
+        // Variables that store the positions of all the ships individually.
+        int[] carrierPosition = new int[5];
+        int[] battleshipPosition = new int[4];
+        int[] cruiserPosition = new int[3];
+        int[] submarinePosition = new int[3];
+        int[] destroyerPosition = new int[2];
+
+        // Boolean variables that store if the user's ships have been sinked or no.
+        bool carrierSunk = false;
+        bool battleshipSunk = false;
+        bool cruiserSunk = false;
+        bool submarineSunk = false;
+        bool destroyerSunk = false;
+
+
         // Boolean to see if a ship is being moved or not.
         bool shipMoving = false;
 
@@ -168,11 +183,18 @@ namespace Battleship_2._0
             computer.misses = playerMiss;
             computer.hits = playerHits;
 
+            // Set the ships the sink to the AI object.
+            computer.carrier = carrierSunk;
+            computer.battleship = battleshipSunk;
+            computer.cruiser = cruiserSunk;
+            computer.submarine = submarineSunk;
+            computer.destroyer = destroyerSunk;
+
             // Get a move made by the computer.
-            int move = computer.MediumBot();
+            int move = computer.HardBot();
 
             // Get the cell that the computer made a move on.
-            PictureBox cell = picPlayer1;
+            PictureBox cell = null;
             string cellName = "picPlayer" + (move + 1);
 
             // Iterate through all the controls and look for the one that has a name matching the one cell chosen by the computer.
@@ -199,6 +221,66 @@ namespace Battleship_2._0
 
                 // Reduce the player's cell count by one.
                 playerCells--;
+
+                // Check to see if the carrier has been sunk.
+                for (int index = 0; index < 5; index++)
+                {
+                    // Check to see if any of the positions the ship is on haven't been hit. If one hasn't then break the loop.
+                    if (playerHits[carrierPosition[index]] == false)
+                        break;
+
+                    // If the loop has reached its final stage, set the variable saying that the ship is sunk to true.
+                    if (index == 4)
+                        carrierSunk = true;
+                }
+
+                // Check to see if the battleship has been sunk.
+                for (int index = 0; index < 4; index++)
+                {
+                    // Check to see if any of the positions the ship is on haven't been hit. If one hasn't then break the loop.
+                    if (playerHits[battleshipPosition[index]] == false)
+                        break;
+
+                    // If the loop has reached its final stage, set the variable saying that the ship is sunk to true.
+                    if (index == 3)
+                        battleshipSunk = true;
+                }
+
+                // Check to see if the cruiser has been sunk.
+                for (int index = 0; index < 3; index++)
+                {
+                    // Check to see if any of the positions the ship is on haven't been hit. If one hasn't then break the loop.
+                    if (playerHits[cruiserPosition[index]] == false)
+                        break;
+
+                    // If the loop has reached its final stage, set the variable saying that the ship is sunk to true.
+                    if (index == 2)
+                        cruiserSunk = true;
+                }
+
+                // Check to see if the submarine has been sunk.
+                for (int index = 0; index < 3; index++)
+                {
+                    // Check to see if any of the positions the ship is on haven't been hit. If one hasn't then break the loop.
+                    if (playerHits[submarinePosition[index]] == false)
+                        break;
+
+                    // If the loop has reached its final stage, set the variable saying that the ship is sunk to true.
+                    if (index == 2)
+                        submarineSunk = true;
+                }
+
+                // Check to see if the destroyer has been sunk.
+                for (int index = 0; index < 2; index++)
+                {
+                    // Check to see if any of the positions the ship is on haven't been hit. If one hasn't then break the loop.
+                    if (playerHits[destroyerPosition[index]] == false)
+                        break;
+
+                    // If the loop has reached its final stage, set the variable saying that the ship is sunk to true.
+                    if (index == 1)
+                        destroyerSunk = true;
+                }
             }
 
             // If the AI's move misses, colour the cell apprpriately.
@@ -569,6 +651,18 @@ namespace Battleship_2._0
                             // Set the index on which is cell is on to true, signifying that the ship is there.
                             playerBoats[index-1] = true;
 
+                            // Store the ships position in their variables.
+                            if (shipType == "carrier")
+                                carrierPosition[index - cellNum] = index-1;
+                            else if (shipType == "battleship")
+                                battleshipPosition[index - cellNum] = index-1;
+                            else if (shipType == "cruiser")
+                                cruiserPosition[index - cellNum] = index-1;
+                            else if (shipType == "submarine")
+                                submarinePosition[index - cellNum] = index-1;
+                            else if (shipType == "destroyer")
+                                destroyerPosition[index - cellNum] = index-1;
+
                             // Change the picture on the cell picture box.
                             cell.Image = Properties.Resources.PlayerTaken;
                         }
@@ -580,6 +674,9 @@ namespace Battleship_2._0
 
                         // Get the cell number that the ship is on.
                         int cellNum = int.Parse(cell.Name.Substring(9));
+
+                        // Create an indexShip variable for the purpose of storing the position of the ships.
+                        int indexShip = 0;
 
                         // Iterate through all the cells the ship is placed on.
                         for (int index = cellNum; index < cellNum + (size * 10); index += 10)
@@ -597,9 +694,24 @@ namespace Battleship_2._0
                                 }
                             }
 
+                            // Store the ships position in their variables.
+                            if (shipType == "carrier")
+                                carrierPosition[indexShip] = index-1;
+                            else if (shipType == "battleship")
+                                battleshipPosition[indexShip] = index-1;
+                            else if (shipType == "cruiser")
+                                cruiserPosition[indexShip] = index-1;
+                            else if (shipType == "submarine")
+                                submarinePosition[indexShip] = index-1;
+                            else if (shipType == "destroyer")
+                                destroyerPosition[indexShip] = index-1;
+
                             // Set this cell equal to true, and change the picture on it.
                             playerBoats[index-1] = true;
                             cell.Image = Properties.Resources.PlayerTaken;
+
+                            // Increment the indexShip variable.
+                            indexShip++;
                         }
                     }
 
