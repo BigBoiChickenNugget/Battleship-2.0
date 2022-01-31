@@ -270,6 +270,118 @@ namespace Battleship_2._0
         public int HardBot()
         {
 
+            // Check for hits.
+            for (int cell = 0; cell < 100; cell++)
+            {
+                if (hits[cell] == true)
+                {
+                    string orientation = null;
+
+                    bool endEast = false;
+                    bool endWest = false;
+                    bool endNorth = false;
+                    bool endSouth = false;
+
+                    int size = 1;
+
+                    for (int index = 1; index < 5; index++)
+                    {
+                        if (cell + index % 10 != 9 && endEast == false)
+                        {
+                            if (hits[cell + index] == true)
+                            {
+                                orientation = "Horizontal";
+                                size++;
+                            }
+
+                            else if (misses[cell + index] == true)
+                                endEast = true;
+
+                            if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Horizontal" && endEast == false)
+                                return (cell+index);
+                        }
+
+                        else if (cell + index % 10 == 9)
+                            endEast = true;
+
+                        if (cell - index % 10 != 0 && endWest == false)
+                        {
+                            if (hits[cell + index] == true)
+                            {
+                                orientation = "Horizontal";
+                                size++;
+                            }
+
+                            else if (misses[cell - index] == true)
+                                endWest = true;
+
+                            if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Horizontal" && endWest == false)
+                                return (cell - index);
+                        }
+
+                        else if (cell + index % 10 == 0)
+                            endWest = true;
+
+                    }
+
+                    if (orientation == null || (endEast == true && endWest == true))
+                    {
+                        size = 1;
+                        for (int index = 10; index < 50; index += 10)
+                        {
+                            if (cell + index < 100 && endSouth == false)
+                            {
+                                if (hits[cell + index] == true)
+                                {
+                                    orientation = "Vertical";
+                                    size++;
+                                }
+
+                                else if (misses[cell + index] == true)
+                                    endSouth = true;
+
+                                if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Vertical" && endSouth == false)
+                                    return (cell + index);
+                            }
+
+                            else if (cell + index >= 100)
+                                endSouth = true;
+
+                            if (cell - index >= 0 && endNorth == false)
+                            {
+                                if (hits[cell - index] == true)
+                                {
+                                    orientation = "Vertical";
+                                    size++;
+                                }
+
+                                else if (misses[cell - index] == true)
+                                    endNorth = true;
+
+                                if (misses[cell - index] == false && hits[cell - index] == false && orientation == "Vertical" && endNorth == false)
+                                    return (cell - index);
+                            }
+
+                            else if (cell - index < 0)
+                                endNorth = true;
+                        }
+
+                    }
+
+                    if (orientation == null)
+                    {
+                        if (cell + 1 % 10 != 9 && misses[cell + 1] != true)
+                            return cell + 1;
+                        if (cell - 1 % 10 != 0 && misses[cell - 1] != true)
+                            return cell - 1;
+                        if (cell + 10 < 100 && misses[cell + 10] != true)
+                            return cell + 10;
+                        if (cell - 10 >= 0 && misses[cell - 10] != true)
+                            return cell - 10;
+                    }
+                }
+            }
+
             if (cruiser == false)
                 GetProbabilities(5);
             if (battleship == false)
@@ -286,10 +398,12 @@ namespace Battleship_2._0
 
             for (int index = 0; index < 100; index++)
             {
+                if (hits[index] == true)
+                    continue;
                 if (probabilities[index] > largestCell)
                 {
                     largestCell = probabilities[index];
-                    Array.Resize(ref probabilities, 1);
+                    Array.Resize(ref highestCells, 1);
                     highestCells[0] = index;
                 }
 
@@ -340,7 +454,7 @@ namespace Battleship_2._0
                 bool possible = true;
                 for (int index = cell; index < cell + (size * 10); index += 10)
                 {
-                    if (misses[index] == true || cell > 60)
+                    if (misses[index] == true || cell >= 60)
                     {
                         possible = false;
                         break;

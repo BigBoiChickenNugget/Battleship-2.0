@@ -193,6 +193,7 @@ namespace Battleship_2._0
             // Get a move made by the computer.
             int move = computer.HardBot();
 
+
             // Get the cell that the computer made a move on.
             PictureBox cell = null;
             string cellName = "picPlayer" + (move + 1);
@@ -295,6 +296,8 @@ namespace Battleship_2._0
             }
 
             turn = true;
+
+            MessageBox.Show(move + "");
         }
 
         // If the mouse button is pressed over one of the ships, set the shipMoving variable to true, and get 
