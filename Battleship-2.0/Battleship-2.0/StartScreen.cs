@@ -18,14 +18,10 @@ namespace Battleship_2._0
 
         public StartScreen()
         {
-            //InitializeComponent();
-            //WindowsMediaPlayer player = new WindowsMediaPlayer();
-            //player.URL = "battleship_8-bit_music.mp3";
-            //player.controls.play()
-            
             InitializeComponent();
-            this.Player.SoundLocation = @"mainmusic.wav";
-            this.Player.PlayLooping();
+            WindowsMediaPlayer player = new WindowsMediaPlayer();
+            player.URL = @"mainmusic.wav";
+            player.controls.play();
            
         }
 

@@ -191,7 +191,7 @@ namespace Battleship_2._0
             computer.destroyer = destroyerSunk;
 
             // Get a move made by the computer.
-            int move = computer.HardBot();
+            int move = computer.MediumBot();
 
             // Get the cell that the computer made a move on.
             PictureBox cell = null;
