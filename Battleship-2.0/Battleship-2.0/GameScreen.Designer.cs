@@ -239,6 +239,10 @@
             this.picPlayer40 = new System.Windows.Forms.PictureBox();
             this.picPlayer30 = new System.Windows.Forms.PictureBox();
             this.picPlayer20 = new System.Windows.Forms.PictureBox();
+            this.oceanbackground = new System.Windows.Forms.PictureBox();
+            this.menuitem1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picCarrier)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBattleship)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCruiser)).BeginInit();
@@ -444,6 +448,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer40)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oceanbackground)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menuitem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblMoves
@@ -452,7 +460,7 @@
             this.lblMoves.AutoSize = true;
             this.lblMoves.CausesValidation = false;
             this.lblMoves.Font = new System.Drawing.Font("Microsoft YaHei", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMoves.ForeColor = System.Drawing.Color.White;
+            this.lblMoves.ForeColor = System.Drawing.Color.Lime;
             this.lblMoves.Location = new System.Drawing.Point(647, 9);
             this.lblMoves.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMoves.Name = "lblMoves";
@@ -467,7 +475,7 @@
             // picCarrier
             // 
             this.picCarrier.Image = ((System.Drawing.Image)(resources.GetObject("picCarrier.Image")));
-            this.picCarrier.Location = new System.Drawing.Point(359, 702);
+            this.picCarrier.Location = new System.Drawing.Point(301, 685);
             this.picCarrier.Margin = new System.Windows.Forms.Padding(2);
             this.picCarrier.Name = "picCarrier";
             this.picCarrier.Size = new System.Drawing.Size(286, 54);
@@ -481,7 +489,7 @@
             // picBattleship
             // 
             this.picBattleship.Image = global::Battleship_2._0.Properties.Resources.battleshipLeft;
-            this.picBattleship.Location = new System.Drawing.Point(69, 702);
+            this.picBattleship.Location = new System.Drawing.Point(11, 685);
             this.picBattleship.Margin = new System.Windows.Forms.Padding(2);
             this.picBattleship.Name = "picBattleship";
             this.picBattleship.Size = new System.Drawing.Size(228, 54);
@@ -495,7 +503,7 @@
             // picCruiser
             // 
             this.picCruiser.Image = global::Battleship_2._0.Properties.Resources.cruiserLeft;
-            this.picCruiser.Location = new System.Drawing.Point(952, 702);
+            this.picCruiser.Location = new System.Drawing.Point(243, 771);
             this.picCruiser.Margin = new System.Windows.Forms.Padding(2);
             this.picCruiser.Name = "picCruiser";
             this.picCruiser.Size = new System.Drawing.Size(170, 54);
@@ -508,7 +516,7 @@
             // 
             // picPlayer1
             // 
-            this.picPlayer1.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer1.Image")));
+            this.picPlayer1.BackColor = System.Drawing.Color.Navy;
             this.picPlayer1.Location = new System.Drawing.Point(11, 61);
             this.picPlayer1.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer1.Name = "picPlayer1";
@@ -520,7 +528,7 @@
             // 
             // picPlayer91
             // 
-            this.picPlayer91.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer91.Image")));
+            this.picPlayer91.BackColor = System.Drawing.Color.Navy;
             this.picPlayer91.Location = new System.Drawing.Point(11, 583);
             this.picPlayer91.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer91.Name = "picPlayer91";
@@ -531,7 +539,7 @@
             // 
             // picPlayer81
             // 
-            this.picPlayer81.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer81.Image")));
+            this.picPlayer81.BackColor = System.Drawing.Color.Navy;
             this.picPlayer81.Location = new System.Drawing.Point(11, 525);
             this.picPlayer81.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer81.Name = "picPlayer81";
@@ -542,7 +550,7 @@
             // 
             // picPlayer71
             // 
-            this.picPlayer71.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer71.Image")));
+            this.picPlayer71.BackColor = System.Drawing.Color.Navy;
             this.picPlayer71.Location = new System.Drawing.Point(11, 467);
             this.picPlayer71.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer71.Name = "picPlayer71";
@@ -553,7 +561,7 @@
             // 
             // picPlayer61
             // 
-            this.picPlayer61.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer61.Image")));
+            this.picPlayer61.BackColor = System.Drawing.Color.Navy;
             this.picPlayer61.Location = new System.Drawing.Point(11, 409);
             this.picPlayer61.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer61.Name = "picPlayer61";
@@ -564,7 +572,7 @@
             // 
             // picPlayer51
             // 
-            this.picPlayer51.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer51.Image")));
+            this.picPlayer51.BackColor = System.Drawing.Color.Navy;
             this.picPlayer51.Location = new System.Drawing.Point(11, 351);
             this.picPlayer51.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer51.Name = "picPlayer51";
@@ -575,7 +583,7 @@
             // 
             // picPlayer41
             // 
-            this.picPlayer41.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer41.Image")));
+            this.picPlayer41.BackColor = System.Drawing.Color.Navy;
             this.picPlayer41.Location = new System.Drawing.Point(11, 293);
             this.picPlayer41.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer41.Name = "picPlayer41";
@@ -587,7 +595,7 @@
             // 
             // picPlayer31
             // 
-            this.picPlayer31.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer31.Image")));
+            this.picPlayer31.BackColor = System.Drawing.Color.Navy;
             this.picPlayer31.Location = new System.Drawing.Point(11, 235);
             this.picPlayer31.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer31.Name = "picPlayer31";
@@ -599,7 +607,7 @@
             // 
             // picPlayer21
             // 
-            this.picPlayer21.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer21.Image")));
+            this.picPlayer21.BackColor = System.Drawing.Color.Navy;
             this.picPlayer21.Location = new System.Drawing.Point(11, 177);
             this.picPlayer21.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer21.Name = "picPlayer21";
@@ -611,7 +619,7 @@
             // 
             // picPlayer11
             // 
-            this.picPlayer11.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer11.Image")));
+            this.picPlayer11.BackColor = System.Drawing.Color.Navy;
             this.picPlayer11.Location = new System.Drawing.Point(11, 119);
             this.picPlayer11.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer11.Name = "picPlayer11";
@@ -1866,7 +1874,7 @@
             // picSubmarine
             // 
             this.picSubmarine.Image = global::Battleship_2._0.Properties.Resources.submarineLeft;
-            this.picSubmarine.Location = new System.Drawing.Point(711, 702);
+            this.picSubmarine.Location = new System.Drawing.Point(11, 771);
             this.picSubmarine.Margin = new System.Windows.Forms.Padding(2);
             this.picSubmarine.Name = "picSubmarine";
             this.picSubmarine.Size = new System.Drawing.Size(170, 54);
@@ -1880,7 +1888,7 @@
             // picDestroyer
             // 
             this.picDestroyer.Image = global::Battleship_2._0.Properties.Resources.destroyerLeft;
-            this.picDestroyer.Location = new System.Drawing.Point(1202, 702);
+            this.picDestroyer.Location = new System.Drawing.Point(475, 771);
             this.picDestroyer.Margin = new System.Windows.Forms.Padding(2);
             this.picDestroyer.Name = "picDestroyer";
             this.picDestroyer.Size = new System.Drawing.Size(112, 54);
@@ -1905,7 +1913,7 @@
             // 
             // picPlayer2
             // 
-            this.picPlayer2.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer2.Image")));
+            this.picPlayer2.BackColor = System.Drawing.Color.Navy;
             this.picPlayer2.Location = new System.Drawing.Point(69, 61);
             this.picPlayer2.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer2.Name = "picPlayer2";
@@ -1917,7 +1925,7 @@
             // 
             // picPlayer92
             // 
-            this.picPlayer92.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer92.Image")));
+            this.picPlayer92.BackColor = System.Drawing.Color.Navy;
             this.picPlayer92.Location = new System.Drawing.Point(69, 583);
             this.picPlayer92.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer92.Name = "picPlayer92";
@@ -1928,7 +1936,7 @@
             // 
             // picPlayer82
             // 
-            this.picPlayer82.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer82.Image")));
+            this.picPlayer82.BackColor = System.Drawing.Color.Navy;
             this.picPlayer82.Location = new System.Drawing.Point(69, 525);
             this.picPlayer82.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer82.Name = "picPlayer82";
@@ -1939,7 +1947,7 @@
             // 
             // picPlayer72
             // 
-            this.picPlayer72.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer72.Image")));
+            this.picPlayer72.BackColor = System.Drawing.Color.Navy;
             this.picPlayer72.Location = new System.Drawing.Point(69, 467);
             this.picPlayer72.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer72.Name = "picPlayer72";
@@ -1950,7 +1958,7 @@
             // 
             // picPlayer62
             // 
-            this.picPlayer62.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer62.Image")));
+            this.picPlayer62.BackColor = System.Drawing.Color.Navy;
             this.picPlayer62.Location = new System.Drawing.Point(69, 409);
             this.picPlayer62.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer62.Name = "picPlayer62";
@@ -1961,7 +1969,7 @@
             // 
             // picPlayer52
             // 
-            this.picPlayer52.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer52.Image")));
+            this.picPlayer52.BackColor = System.Drawing.Color.Navy;
             this.picPlayer52.Location = new System.Drawing.Point(69, 351);
             this.picPlayer52.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer52.Name = "picPlayer52";
@@ -1972,7 +1980,7 @@
             // 
             // picPlayer42
             // 
-            this.picPlayer42.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer42.Image")));
+            this.picPlayer42.BackColor = System.Drawing.Color.Navy;
             this.picPlayer42.Location = new System.Drawing.Point(69, 293);
             this.picPlayer42.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer42.Name = "picPlayer42";
@@ -1984,7 +1992,7 @@
             // 
             // picPlayer32
             // 
-            this.picPlayer32.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer32.Image")));
+            this.picPlayer32.BackColor = System.Drawing.Color.Navy;
             this.picPlayer32.Location = new System.Drawing.Point(69, 235);
             this.picPlayer32.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer32.Name = "picPlayer32";
@@ -1996,7 +2004,7 @@
             // 
             // picPlayer22
             // 
-            this.picPlayer22.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer22.Image")));
+            this.picPlayer22.BackColor = System.Drawing.Color.Navy;
             this.picPlayer22.Location = new System.Drawing.Point(69, 177);
             this.picPlayer22.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer22.Name = "picPlayer22";
@@ -2008,7 +2016,7 @@
             // 
             // picPlayer12
             // 
-            this.picPlayer12.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer12.Image")));
+            this.picPlayer12.BackColor = System.Drawing.Color.Navy;
             this.picPlayer12.Location = new System.Drawing.Point(69, 119);
             this.picPlayer12.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer12.Name = "picPlayer12";
@@ -2020,7 +2028,7 @@
             // 
             // picPlayer3
             // 
-            this.picPlayer3.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer3.Image")));
+            this.picPlayer3.BackColor = System.Drawing.Color.Navy;
             this.picPlayer3.Location = new System.Drawing.Point(127, 61);
             this.picPlayer3.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer3.Name = "picPlayer3";
@@ -2032,7 +2040,7 @@
             // 
             // picPlayer93
             // 
-            this.picPlayer93.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer93.Image")));
+            this.picPlayer93.BackColor = System.Drawing.Color.Navy;
             this.picPlayer93.Location = new System.Drawing.Point(127, 583);
             this.picPlayer93.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer93.Name = "picPlayer93";
@@ -2043,7 +2051,7 @@
             // 
             // picPlayer83
             // 
-            this.picPlayer83.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer83.Image")));
+            this.picPlayer83.BackColor = System.Drawing.Color.Navy;
             this.picPlayer83.Location = new System.Drawing.Point(127, 525);
             this.picPlayer83.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer83.Name = "picPlayer83";
@@ -2054,7 +2062,7 @@
             // 
             // picPlayer73
             // 
-            this.picPlayer73.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer73.Image")));
+            this.picPlayer73.BackColor = System.Drawing.Color.Navy;
             this.picPlayer73.Location = new System.Drawing.Point(127, 467);
             this.picPlayer73.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer73.Name = "picPlayer73";
@@ -2065,7 +2073,7 @@
             // 
             // picPlayer63
             // 
-            this.picPlayer63.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer63.Image")));
+            this.picPlayer63.BackColor = System.Drawing.Color.Navy;
             this.picPlayer63.Location = new System.Drawing.Point(127, 409);
             this.picPlayer63.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer63.Name = "picPlayer63";
@@ -2076,7 +2084,7 @@
             // 
             // picPlayer53
             // 
-            this.picPlayer53.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer53.Image")));
+            this.picPlayer53.BackColor = System.Drawing.Color.Navy;
             this.picPlayer53.Location = new System.Drawing.Point(127, 351);
             this.picPlayer53.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer53.Name = "picPlayer53";
@@ -2087,7 +2095,7 @@
             // 
             // picPlayer43
             // 
-            this.picPlayer43.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer43.Image")));
+            this.picPlayer43.BackColor = System.Drawing.Color.Navy;
             this.picPlayer43.Location = new System.Drawing.Point(127, 293);
             this.picPlayer43.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer43.Name = "picPlayer43";
@@ -2099,7 +2107,7 @@
             // 
             // picPlayer33
             // 
-            this.picPlayer33.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer33.Image")));
+            this.picPlayer33.BackColor = System.Drawing.Color.Navy;
             this.picPlayer33.Location = new System.Drawing.Point(127, 235);
             this.picPlayer33.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer33.Name = "picPlayer33";
@@ -2111,7 +2119,7 @@
             // 
             // picPlayer23
             // 
-            this.picPlayer23.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer23.Image")));
+            this.picPlayer23.BackColor = System.Drawing.Color.Navy;
             this.picPlayer23.Location = new System.Drawing.Point(127, 177);
             this.picPlayer23.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer23.Name = "picPlayer23";
@@ -2123,7 +2131,7 @@
             // 
             // picPlayer13
             // 
-            this.picPlayer13.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer13.Image")));
+            this.picPlayer13.BackColor = System.Drawing.Color.Navy;
             this.picPlayer13.Location = new System.Drawing.Point(127, 119);
             this.picPlayer13.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer13.Name = "picPlayer13";
@@ -2135,7 +2143,7 @@
             // 
             // picPlayer4
             // 
-            this.picPlayer4.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer4.Image")));
+            this.picPlayer4.BackColor = System.Drawing.Color.Navy;
             this.picPlayer4.Location = new System.Drawing.Point(185, 61);
             this.picPlayer4.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer4.Name = "picPlayer4";
@@ -2147,7 +2155,7 @@
             // 
             // picPlayer94
             // 
-            this.picPlayer94.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer94.Image")));
+            this.picPlayer94.BackColor = System.Drawing.Color.Navy;
             this.picPlayer94.Location = new System.Drawing.Point(185, 583);
             this.picPlayer94.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer94.Name = "picPlayer94";
@@ -2158,7 +2166,7 @@
             // 
             // picPlayer84
             // 
-            this.picPlayer84.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer84.Image")));
+            this.picPlayer84.BackColor = System.Drawing.Color.Navy;
             this.picPlayer84.Location = new System.Drawing.Point(185, 525);
             this.picPlayer84.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer84.Name = "picPlayer84";
@@ -2169,7 +2177,7 @@
             // 
             // picPlayer74
             // 
-            this.picPlayer74.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer74.Image")));
+            this.picPlayer74.BackColor = System.Drawing.Color.Navy;
             this.picPlayer74.Location = new System.Drawing.Point(185, 467);
             this.picPlayer74.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer74.Name = "picPlayer74";
@@ -2180,7 +2188,7 @@
             // 
             // picPlayer64
             // 
-            this.picPlayer64.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer64.Image")));
+            this.picPlayer64.BackColor = System.Drawing.Color.Navy;
             this.picPlayer64.Location = new System.Drawing.Point(185, 409);
             this.picPlayer64.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer64.Name = "picPlayer64";
@@ -2191,7 +2199,7 @@
             // 
             // picPlayer54
             // 
-            this.picPlayer54.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer54.Image")));
+            this.picPlayer54.BackColor = System.Drawing.Color.Navy;
             this.picPlayer54.Location = new System.Drawing.Point(185, 351);
             this.picPlayer54.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer54.Name = "picPlayer54";
@@ -2202,7 +2210,7 @@
             // 
             // picPlayer44
             // 
-            this.picPlayer44.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer44.Image")));
+            this.picPlayer44.BackColor = System.Drawing.Color.Navy;
             this.picPlayer44.Location = new System.Drawing.Point(185, 293);
             this.picPlayer44.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer44.Name = "picPlayer44";
@@ -2214,7 +2222,7 @@
             // 
             // picPlayer34
             // 
-            this.picPlayer34.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer34.Image")));
+            this.picPlayer34.BackColor = System.Drawing.Color.Navy;
             this.picPlayer34.Location = new System.Drawing.Point(185, 235);
             this.picPlayer34.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer34.Name = "picPlayer34";
@@ -2226,7 +2234,7 @@
             // 
             // picPlayer24
             // 
-            this.picPlayer24.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer24.Image")));
+            this.picPlayer24.BackColor = System.Drawing.Color.Navy;
             this.picPlayer24.Location = new System.Drawing.Point(185, 177);
             this.picPlayer24.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer24.Name = "picPlayer24";
@@ -2238,7 +2246,7 @@
             // 
             // picPlayer14
             // 
-            this.picPlayer14.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer14.Image")));
+            this.picPlayer14.BackColor = System.Drawing.Color.Navy;
             this.picPlayer14.Location = new System.Drawing.Point(185, 119);
             this.picPlayer14.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer14.Name = "picPlayer14";
@@ -2250,7 +2258,7 @@
             // 
             // picPlayer5
             // 
-            this.picPlayer5.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer5.Image")));
+            this.picPlayer5.BackColor = System.Drawing.Color.Navy;
             this.picPlayer5.Location = new System.Drawing.Point(243, 61);
             this.picPlayer5.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer5.Name = "picPlayer5";
@@ -2262,7 +2270,7 @@
             // 
             // picPlayer95
             // 
-            this.picPlayer95.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer95.Image")));
+            this.picPlayer95.BackColor = System.Drawing.Color.Navy;
             this.picPlayer95.Location = new System.Drawing.Point(243, 583);
             this.picPlayer95.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer95.Name = "picPlayer95";
@@ -2273,7 +2281,7 @@
             // 
             // picPlayer85
             // 
-            this.picPlayer85.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer85.Image")));
+            this.picPlayer85.BackColor = System.Drawing.Color.Navy;
             this.picPlayer85.Location = new System.Drawing.Point(243, 525);
             this.picPlayer85.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer85.Name = "picPlayer85";
@@ -2284,7 +2292,7 @@
             // 
             // picPlayer75
             // 
-            this.picPlayer75.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer75.Image")));
+            this.picPlayer75.BackColor = System.Drawing.Color.Navy;
             this.picPlayer75.Location = new System.Drawing.Point(243, 467);
             this.picPlayer75.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer75.Name = "picPlayer75";
@@ -2295,7 +2303,7 @@
             // 
             // picPlayer65
             // 
-            this.picPlayer65.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer65.Image")));
+            this.picPlayer65.BackColor = System.Drawing.Color.Navy;
             this.picPlayer65.Location = new System.Drawing.Point(243, 409);
             this.picPlayer65.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer65.Name = "picPlayer65";
@@ -2306,7 +2314,7 @@
             // 
             // picPlayer55
             // 
-            this.picPlayer55.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer55.Image")));
+            this.picPlayer55.BackColor = System.Drawing.Color.Navy;
             this.picPlayer55.Location = new System.Drawing.Point(243, 351);
             this.picPlayer55.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer55.Name = "picPlayer55";
@@ -2317,7 +2325,7 @@
             // 
             // picPlayer45
             // 
-            this.picPlayer45.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer45.Image")));
+            this.picPlayer45.BackColor = System.Drawing.Color.Navy;
             this.picPlayer45.Location = new System.Drawing.Point(243, 293);
             this.picPlayer45.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer45.Name = "picPlayer45";
@@ -2329,7 +2337,7 @@
             // 
             // picPlayer35
             // 
-            this.picPlayer35.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer35.Image")));
+            this.picPlayer35.BackColor = System.Drawing.Color.Navy;
             this.picPlayer35.Location = new System.Drawing.Point(243, 235);
             this.picPlayer35.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer35.Name = "picPlayer35";
@@ -2341,7 +2349,7 @@
             // 
             // picPlayer25
             // 
-            this.picPlayer25.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer25.Image")));
+            this.picPlayer25.BackColor = System.Drawing.Color.Navy;
             this.picPlayer25.Location = new System.Drawing.Point(243, 177);
             this.picPlayer25.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer25.Name = "picPlayer25";
@@ -2353,7 +2361,7 @@
             // 
             // picPlayer15
             // 
-            this.picPlayer15.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer15.Image")));
+            this.picPlayer15.BackColor = System.Drawing.Color.Navy;
             this.picPlayer15.Location = new System.Drawing.Point(243, 119);
             this.picPlayer15.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer15.Name = "picPlayer15";
@@ -2365,7 +2373,7 @@
             // 
             // picPlayer6
             // 
-            this.picPlayer6.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer6.Image")));
+            this.picPlayer6.BackColor = System.Drawing.Color.Navy;
             this.picPlayer6.Location = new System.Drawing.Point(301, 61);
             this.picPlayer6.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer6.Name = "picPlayer6";
@@ -2377,7 +2385,7 @@
             // 
             // picPlayer96
             // 
-            this.picPlayer96.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer96.Image")));
+            this.picPlayer96.BackColor = System.Drawing.Color.Navy;
             this.picPlayer96.Location = new System.Drawing.Point(301, 583);
             this.picPlayer96.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer96.Name = "picPlayer96";
@@ -2388,7 +2396,7 @@
             // 
             // picPlayer86
             // 
-            this.picPlayer86.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer86.Image")));
+            this.picPlayer86.BackColor = System.Drawing.Color.Navy;
             this.picPlayer86.Location = new System.Drawing.Point(301, 525);
             this.picPlayer86.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer86.Name = "picPlayer86";
@@ -2399,7 +2407,7 @@
             // 
             // picPlayer76
             // 
-            this.picPlayer76.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer76.Image")));
+            this.picPlayer76.BackColor = System.Drawing.Color.Navy;
             this.picPlayer76.Location = new System.Drawing.Point(301, 467);
             this.picPlayer76.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer76.Name = "picPlayer76";
@@ -2410,7 +2418,7 @@
             // 
             // picPlayer66
             // 
-            this.picPlayer66.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer66.Image")));
+            this.picPlayer66.BackColor = System.Drawing.Color.Navy;
             this.picPlayer66.Location = new System.Drawing.Point(301, 409);
             this.picPlayer66.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer66.Name = "picPlayer66";
@@ -2421,7 +2429,7 @@
             // 
             // picPlayer56
             // 
-            this.picPlayer56.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer56.Image")));
+            this.picPlayer56.BackColor = System.Drawing.Color.Navy;
             this.picPlayer56.Location = new System.Drawing.Point(301, 351);
             this.picPlayer56.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer56.Name = "picPlayer56";
@@ -2432,7 +2440,7 @@
             // 
             // picPlayer46
             // 
-            this.picPlayer46.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer46.Image")));
+            this.picPlayer46.BackColor = System.Drawing.Color.Navy;
             this.picPlayer46.Location = new System.Drawing.Point(301, 293);
             this.picPlayer46.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer46.Name = "picPlayer46";
@@ -2444,7 +2452,7 @@
             // 
             // picPlayer36
             // 
-            this.picPlayer36.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer36.Image")));
+            this.picPlayer36.BackColor = System.Drawing.Color.Navy;
             this.picPlayer36.Location = new System.Drawing.Point(301, 235);
             this.picPlayer36.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer36.Name = "picPlayer36";
@@ -2456,7 +2464,7 @@
             // 
             // picPlayer26
             // 
-            this.picPlayer26.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer26.Image")));
+            this.picPlayer26.BackColor = System.Drawing.Color.Navy;
             this.picPlayer26.Location = new System.Drawing.Point(301, 177);
             this.picPlayer26.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer26.Name = "picPlayer26";
@@ -2468,7 +2476,7 @@
             // 
             // picPlayer16
             // 
-            this.picPlayer16.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer16.Image")));
+            this.picPlayer16.BackColor = System.Drawing.Color.Navy;
             this.picPlayer16.Location = new System.Drawing.Point(301, 119);
             this.picPlayer16.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer16.Name = "picPlayer16";
@@ -2480,7 +2488,7 @@
             // 
             // picPlayer7
             // 
-            this.picPlayer7.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer7.Image")));
+            this.picPlayer7.BackColor = System.Drawing.Color.Navy;
             this.picPlayer7.Location = new System.Drawing.Point(359, 61);
             this.picPlayer7.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer7.Name = "picPlayer7";
@@ -2492,7 +2500,7 @@
             // 
             // picPlayer97
             // 
-            this.picPlayer97.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer97.Image")));
+            this.picPlayer97.BackColor = System.Drawing.Color.Navy;
             this.picPlayer97.Location = new System.Drawing.Point(359, 583);
             this.picPlayer97.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer97.Name = "picPlayer97";
@@ -2503,7 +2511,7 @@
             // 
             // picPlayer87
             // 
-            this.picPlayer87.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer87.Image")));
+            this.picPlayer87.BackColor = System.Drawing.Color.Navy;
             this.picPlayer87.Location = new System.Drawing.Point(359, 525);
             this.picPlayer87.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer87.Name = "picPlayer87";
@@ -2514,7 +2522,7 @@
             // 
             // picPlayer77
             // 
-            this.picPlayer77.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer77.Image")));
+            this.picPlayer77.BackColor = System.Drawing.Color.Navy;
             this.picPlayer77.Location = new System.Drawing.Point(359, 467);
             this.picPlayer77.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer77.Name = "picPlayer77";
@@ -2525,7 +2533,7 @@
             // 
             // picPlayer67
             // 
-            this.picPlayer67.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer67.Image")));
+            this.picPlayer67.BackColor = System.Drawing.Color.Navy;
             this.picPlayer67.Location = new System.Drawing.Point(359, 409);
             this.picPlayer67.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer67.Name = "picPlayer67";
@@ -2536,7 +2544,7 @@
             // 
             // picPlayer57
             // 
-            this.picPlayer57.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer57.Image")));
+            this.picPlayer57.BackColor = System.Drawing.Color.Navy;
             this.picPlayer57.Location = new System.Drawing.Point(359, 351);
             this.picPlayer57.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer57.Name = "picPlayer57";
@@ -2547,7 +2555,7 @@
             // 
             // picPlayer47
             // 
-            this.picPlayer47.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer47.Image")));
+            this.picPlayer47.BackColor = System.Drawing.Color.Navy;
             this.picPlayer47.Location = new System.Drawing.Point(359, 293);
             this.picPlayer47.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer47.Name = "picPlayer47";
@@ -2559,7 +2567,7 @@
             // 
             // picPlayer37
             // 
-            this.picPlayer37.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer37.Image")));
+            this.picPlayer37.BackColor = System.Drawing.Color.Navy;
             this.picPlayer37.Location = new System.Drawing.Point(359, 235);
             this.picPlayer37.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer37.Name = "picPlayer37";
@@ -2571,7 +2579,7 @@
             // 
             // picPlayer27
             // 
-            this.picPlayer27.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer27.Image")));
+            this.picPlayer27.BackColor = System.Drawing.Color.Navy;
             this.picPlayer27.Location = new System.Drawing.Point(359, 177);
             this.picPlayer27.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer27.Name = "picPlayer27";
@@ -2583,7 +2591,7 @@
             // 
             // picPlayer17
             // 
-            this.picPlayer17.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer17.Image")));
+            this.picPlayer17.BackColor = System.Drawing.Color.Navy;
             this.picPlayer17.Location = new System.Drawing.Point(359, 119);
             this.picPlayer17.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer17.Name = "picPlayer17";
@@ -2595,7 +2603,7 @@
             // 
             // picPlayer8
             // 
-            this.picPlayer8.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer8.Image")));
+            this.picPlayer8.BackColor = System.Drawing.Color.Navy;
             this.picPlayer8.Location = new System.Drawing.Point(417, 61);
             this.picPlayer8.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer8.Name = "picPlayer8";
@@ -2607,7 +2615,7 @@
             // 
             // picPlayer98
             // 
-            this.picPlayer98.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer98.Image")));
+            this.picPlayer98.BackColor = System.Drawing.Color.Navy;
             this.picPlayer98.Location = new System.Drawing.Point(417, 583);
             this.picPlayer98.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer98.Name = "picPlayer98";
@@ -2618,7 +2626,7 @@
             // 
             // picPlayer88
             // 
-            this.picPlayer88.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer88.Image")));
+            this.picPlayer88.BackColor = System.Drawing.Color.Navy;
             this.picPlayer88.Location = new System.Drawing.Point(417, 525);
             this.picPlayer88.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer88.Name = "picPlayer88";
@@ -2629,7 +2637,7 @@
             // 
             // picPlayer78
             // 
-            this.picPlayer78.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer78.Image")));
+            this.picPlayer78.BackColor = System.Drawing.Color.Navy;
             this.picPlayer78.Location = new System.Drawing.Point(417, 467);
             this.picPlayer78.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer78.Name = "picPlayer78";
@@ -2640,7 +2648,7 @@
             // 
             // picPlayer68
             // 
-            this.picPlayer68.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer68.Image")));
+            this.picPlayer68.BackColor = System.Drawing.Color.Navy;
             this.picPlayer68.Location = new System.Drawing.Point(417, 409);
             this.picPlayer68.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer68.Name = "picPlayer68";
@@ -2651,7 +2659,7 @@
             // 
             // picPlayer58
             // 
-            this.picPlayer58.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer58.Image")));
+            this.picPlayer58.BackColor = System.Drawing.Color.Navy;
             this.picPlayer58.Location = new System.Drawing.Point(417, 351);
             this.picPlayer58.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer58.Name = "picPlayer58";
@@ -2662,7 +2670,7 @@
             // 
             // picPlayer48
             // 
-            this.picPlayer48.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer48.Image")));
+            this.picPlayer48.BackColor = System.Drawing.Color.Navy;
             this.picPlayer48.Location = new System.Drawing.Point(417, 293);
             this.picPlayer48.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer48.Name = "picPlayer48";
@@ -2674,7 +2682,7 @@
             // 
             // picPlayer38
             // 
-            this.picPlayer38.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer38.Image")));
+            this.picPlayer38.BackColor = System.Drawing.Color.Navy;
             this.picPlayer38.Location = new System.Drawing.Point(417, 235);
             this.picPlayer38.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer38.Name = "picPlayer38";
@@ -2686,7 +2694,7 @@
             // 
             // picPlayer28
             // 
-            this.picPlayer28.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer28.Image")));
+            this.picPlayer28.BackColor = System.Drawing.Color.Navy;
             this.picPlayer28.Location = new System.Drawing.Point(417, 177);
             this.picPlayer28.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer28.Name = "picPlayer28";
@@ -2698,7 +2706,7 @@
             // 
             // picPlayer18
             // 
-            this.picPlayer18.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer18.Image")));
+            this.picPlayer18.BackColor = System.Drawing.Color.Navy;
             this.picPlayer18.Location = new System.Drawing.Point(417, 119);
             this.picPlayer18.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer18.Name = "picPlayer18";
@@ -2710,7 +2718,7 @@
             // 
             // picPlayer9
             // 
-            this.picPlayer9.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer9.Image")));
+            this.picPlayer9.BackColor = System.Drawing.Color.Navy;
             this.picPlayer9.Location = new System.Drawing.Point(475, 61);
             this.picPlayer9.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer9.Name = "picPlayer9";
@@ -2722,7 +2730,7 @@
             // 
             // picPlayer99
             // 
-            this.picPlayer99.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer99.Image")));
+            this.picPlayer99.BackColor = System.Drawing.Color.Navy;
             this.picPlayer99.Location = new System.Drawing.Point(475, 583);
             this.picPlayer99.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer99.Name = "picPlayer99";
@@ -2733,7 +2741,7 @@
             // 
             // picPlayer89
             // 
-            this.picPlayer89.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer89.Image")));
+            this.picPlayer89.BackColor = System.Drawing.Color.Navy;
             this.picPlayer89.Location = new System.Drawing.Point(475, 525);
             this.picPlayer89.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer89.Name = "picPlayer89";
@@ -2744,7 +2752,7 @@
             // 
             // picPlayer79
             // 
-            this.picPlayer79.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer79.Image")));
+            this.picPlayer79.BackColor = System.Drawing.Color.Navy;
             this.picPlayer79.Location = new System.Drawing.Point(475, 467);
             this.picPlayer79.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer79.Name = "picPlayer79";
@@ -2755,7 +2763,7 @@
             // 
             // picPlayer69
             // 
-            this.picPlayer69.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer69.Image")));
+            this.picPlayer69.BackColor = System.Drawing.Color.Navy;
             this.picPlayer69.Location = new System.Drawing.Point(475, 409);
             this.picPlayer69.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer69.Name = "picPlayer69";
@@ -2766,7 +2774,7 @@
             // 
             // picPlayer59
             // 
-            this.picPlayer59.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer59.Image")));
+            this.picPlayer59.BackColor = System.Drawing.Color.Navy;
             this.picPlayer59.Location = new System.Drawing.Point(475, 351);
             this.picPlayer59.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer59.Name = "picPlayer59";
@@ -2777,7 +2785,7 @@
             // 
             // picPlayer49
             // 
-            this.picPlayer49.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer49.Image")));
+            this.picPlayer49.BackColor = System.Drawing.Color.Navy;
             this.picPlayer49.Location = new System.Drawing.Point(475, 293);
             this.picPlayer49.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer49.Name = "picPlayer49";
@@ -2789,7 +2797,7 @@
             // 
             // picPlayer39
             // 
-            this.picPlayer39.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer39.Image")));
+            this.picPlayer39.BackColor = System.Drawing.Color.Navy;
             this.picPlayer39.Location = new System.Drawing.Point(475, 235);
             this.picPlayer39.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer39.Name = "picPlayer39";
@@ -2801,7 +2809,7 @@
             // 
             // picPlayer29
             // 
-            this.picPlayer29.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer29.Image")));
+            this.picPlayer29.BackColor = System.Drawing.Color.Navy;
             this.picPlayer29.Location = new System.Drawing.Point(475, 177);
             this.picPlayer29.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer29.Name = "picPlayer29";
@@ -2813,7 +2821,7 @@
             // 
             // picPlayer19
             // 
-            this.picPlayer19.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer19.Image")));
+            this.picPlayer19.BackColor = System.Drawing.Color.Navy;
             this.picPlayer19.Location = new System.Drawing.Point(475, 119);
             this.picPlayer19.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer19.Name = "picPlayer19";
@@ -2825,7 +2833,7 @@
             // 
             // picPlayer10
             // 
-            this.picPlayer10.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer10.Image")));
+            this.picPlayer10.BackColor = System.Drawing.Color.Navy;
             this.picPlayer10.Location = new System.Drawing.Point(533, 61);
             this.picPlayer10.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer10.Name = "picPlayer10";
@@ -2837,7 +2845,7 @@
             // 
             // picPlayer100
             // 
-            this.picPlayer100.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer100.Image")));
+            this.picPlayer100.BackColor = System.Drawing.Color.Navy;
             this.picPlayer100.Location = new System.Drawing.Point(533, 583);
             this.picPlayer100.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer100.Name = "picPlayer100";
@@ -2848,7 +2856,7 @@
             // 
             // picPlayer90
             // 
-            this.picPlayer90.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer90.Image")));
+            this.picPlayer90.BackColor = System.Drawing.Color.Navy;
             this.picPlayer90.Location = new System.Drawing.Point(533, 525);
             this.picPlayer90.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer90.Name = "picPlayer90";
@@ -2859,7 +2867,7 @@
             // 
             // picPlayer80
             // 
-            this.picPlayer80.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer80.Image")));
+            this.picPlayer80.BackColor = System.Drawing.Color.Navy;
             this.picPlayer80.Location = new System.Drawing.Point(533, 467);
             this.picPlayer80.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer80.Name = "picPlayer80";
@@ -2870,7 +2878,7 @@
             // 
             // picPlayer70
             // 
-            this.picPlayer70.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer70.Image")));
+            this.picPlayer70.BackColor = System.Drawing.Color.Navy;
             this.picPlayer70.Location = new System.Drawing.Point(533, 409);
             this.picPlayer70.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer70.Name = "picPlayer70";
@@ -2881,7 +2889,7 @@
             // 
             // picPlayer60
             // 
-            this.picPlayer60.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer60.Image")));
+            this.picPlayer60.BackColor = System.Drawing.Color.Navy;
             this.picPlayer60.Location = new System.Drawing.Point(533, 351);
             this.picPlayer60.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer60.Name = "picPlayer60";
@@ -2892,7 +2900,7 @@
             // 
             // picPlayer50
             // 
-            this.picPlayer50.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer50.Image")));
+            this.picPlayer50.BackColor = System.Drawing.Color.Navy;
             this.picPlayer50.Location = new System.Drawing.Point(533, 293);
             this.picPlayer50.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer50.Name = "picPlayer50";
@@ -2904,7 +2912,7 @@
             // 
             // picPlayer40
             // 
-            this.picPlayer40.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer40.Image")));
+            this.picPlayer40.BackColor = System.Drawing.Color.Navy;
             this.picPlayer40.Location = new System.Drawing.Point(533, 235);
             this.picPlayer40.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer40.Name = "picPlayer40";
@@ -2916,7 +2924,7 @@
             // 
             // picPlayer30
             // 
-            this.picPlayer30.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer30.Image")));
+            this.picPlayer30.BackColor = System.Drawing.Color.Navy;
             this.picPlayer30.Location = new System.Drawing.Point(533, 177);
             this.picPlayer30.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer30.Name = "picPlayer30";
@@ -2928,7 +2936,7 @@
             // 
             // picPlayer20
             // 
-            this.picPlayer20.Image = ((System.Drawing.Image)(resources.GetObject("picPlayer20.Image")));
+            this.picPlayer20.BackColor = System.Drawing.Color.Navy;
             this.picPlayer20.Location = new System.Drawing.Point(533, 119);
             this.picPlayer20.Margin = new System.Windows.Forms.Padding(2);
             this.picPlayer20.Name = "picPlayer20";
@@ -2938,12 +2946,54 @@
             this.picPlayer20.TabStop = false;
             this.picPlayer20.Tag = "EnemyCell11";
             // 
+            // oceanbackground
+            // 
+            this.oceanbackground.Image = global::Battleship_2._0.Properties.Resources.oceantiles;
+            this.oceanbackground.Location = new System.Drawing.Point(11, 61);
+            this.oceanbackground.Name = "oceanbackground";
+            this.oceanbackground.Size = new System.Drawing.Size(576, 576);
+            this.oceanbackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.oceanbackground.TabIndex = 336;
+            this.oceanbackground.TabStop = false;
+            // 
+            // menuitem1
+            // 
+            this.menuitem1.Image = ((System.Drawing.Image)(resources.GetObject("menuitem1.Image")));
+            this.menuitem1.Location = new System.Drawing.Point(1, 642);
+            this.menuitem1.Name = "menuitem1";
+            this.menuitem1.Size = new System.Drawing.Size(586, 218);
+            this.menuitem1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.menuitem1.TabIndex = 337;
+            this.menuitem1.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1131, 637);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(281, 223);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 338;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(795, 637);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(340, 223);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 339;
+            this.pictureBox2.TabStop = false;
+            // 
             // GameScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1424, 861);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.picDestroyer);
             this.Controls.Add(this.picCruiser);
             this.Controls.Add(this.picSubmarine);
@@ -3151,6 +3201,9 @@
             this.Controls.Add(this.picPlayer11);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lblMoves);
+            this.Controls.Add(this.oceanbackground);
+            this.Controls.Add(this.menuitem1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GameScreen";
             this.Text = "Game";
@@ -3360,6 +3413,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer40)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oceanbackground)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.menuitem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3576,5 +3633,9 @@
         private System.Windows.Forms.PictureBox picPlayer40;
         private System.Windows.Forms.PictureBox picPlayer30;
         private System.Windows.Forms.PictureBox picPlayer20;
+        private System.Windows.Forms.PictureBox oceanbackground;
+        private System.Windows.Forms.PictureBox menuitem1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
