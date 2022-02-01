@@ -289,40 +289,53 @@ namespace Battleship_2._0
                         if (endEast == true && endWest == true)
                             break;
 
-                        if (cell + (index - 1) % 10 != 9 && endEast == false)
+                        if (((cell + (index - 1)) % 10 != 9 && endEast == false) || ((cell - (index - 1)) % 10 != 0 && endWest == false))
                         {
-                            if (hits[cell + index] == true)
+                            if ((cell + index - 1) % 10 != 9)
                             {
-                                orientation = "Horizontal";
-                                size++;
+
+                                if (misses[cell + index] == true)
+                                    endEast = true;
+
+                                if (hits[cell + index] == true && endEast == false)
+                                {
+                                    orientation = "Horizontal";
+                                    size++;
+                                }
                             }
 
-                            else if (misses[cell + index] == true)
-                                endEast = true;
+                            if ((cell - (index - 1)) % 10 != 0)
+                            {
+                                
+                                if (hits[cell - index] == true && endWest == false)
+                                {
+                                    orientation = "Horizontal";
+                                    size++;
+                                }
 
-                            if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Horizontal" && endEast == false)
-                                return (cell+index);
+                                if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Horizontal" && endWest == false)
+                                    return (cell - index);
+                            }
+
+                            if ((cell + (index - 1)) % 10 != 9)
+                            {
+                                if (hits[cell + index] == false && misses[cell - index] == false && orientation == "Horizontal" && endEast == false)
+                                    return (cell + index);
+
+                            }
+
+                            if ((cell - (index - 1)) % 10 != 0)
+                            {
+
+                                if (misses[cell - index] == true)
+                                    endWest = true;
+                            }
                         }
 
-                        else if (cell + (index - 1) % 10 == 9)
+                        if ((cell + (index - 1)) % 10 == 9)
                             endEast = true;
 
-                        if (cell - (index + 1) % 10 != 0 && endWest == false)
-                        {
-                            if (hits[cell + index] == true)
-                            {
-                                orientation = "Horizontal";
-                                size++;
-                            }
-
-                            else if (misses[cell - index] == true)
-                                endWest = true;
-
-                            if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Horizontal" && endWest == false)
-                                return (cell - index);
-                        }
-
-                        else if (cell + (index + 1) % 10 == 0)
+                        if ((cell - (index - 1)) % 10 == 0)
                             endWest = true;
 
                     }
@@ -332,40 +345,54 @@ namespace Battleship_2._0
                         size = 1;
                         for (int index = 10; index < 50; index += 10)
                         {
-                            if (cell + index < 100 && endSouth == false)
+                            if (endNorth == true && endSouth == true)
+                                break;
+
+                            if ((cell + index < 100 && endSouth == false) || (cell - index >= 0 && endNorth == false))
                             {
-                                if (hits[cell + index] == true)
+
+                                if (cell + index < 100)
                                 {
-                                    orientation = "Vertical";
-                                    size++;
+                                    if (misses[cell + index] == true || hits[cell + index - 10] == false)
+                                        endSouth = true;
+
+                                    if (hits[cell + index] == true)
+                                    {
+                                        orientation = "Vertical";
+                                        size++;
+                                    }
                                 }
 
-                                else if (misses[cell + index] == true)
-                                    endSouth = true;
+                                if (cell - index >= 0)
+                                {
 
-                                if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Vertical" && endSouth == false)
-                                    return (cell + index);
+                                    if (misses[cell - index] == true || hits[cell - index + 10] == false)
+                                        endNorth = true;
+
+                                    if (hits[cell - index] == true)
+                                    {
+                                        orientation = "Vertical";
+                                        size++;
+                                    }
+                                }
+
+                                if (cell + index < 100)
+                                {
+                                    if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Vertical" && endSouth == false)
+                                        return (cell + index);
+                                }
+
+                                if (cell - index >= 0)
+                                {
+                                    if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Vertical" && endNorth == false)
+                                        return (cell - index);
+                                }
                             }
 
-                            else if (cell + index >= 100)
+                            if (cell + index >= 100)
                                 endSouth = true;
 
-                            if (cell - index >= 0 && endNorth == false)
-                            {
-                                if (hits[cell - index] == true)
-                                {
-                                    orientation = "Vertical";
-                                    size++;
-                                }
-
-                                else if (misses[cell - index] == true)
-                                    endNorth = true;
-
-                                if (misses[cell - index] == false && hits[cell - index] == false && orientation == "Vertical" && endNorth == false)
-                                    return (cell - index);
-                            }
-
-                            else if (cell - index < 0)
+                            if (cell - index < 0)
                                 endNorth = true;
                         }
 
