@@ -283,6 +283,16 @@ namespace Battleship_2._0.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap oceantiles {
+            get {
+                object obj = ResourceManager.GetObject("oceantiles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PlayerEmpty {
             get {
                 object obj = ResourceManager.GetObject("PlayerEmpty", resourceCulture);
