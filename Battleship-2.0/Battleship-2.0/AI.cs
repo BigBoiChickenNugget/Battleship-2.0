@@ -267,36 +267,50 @@ namespace Battleship_2._0
         }
 
         // In this algorithm, the AI is given the ships that are sunken, and based on that, the AI computes the probabilities for a given location being a hit.
+        // That location is hit, and if a cell is hit, it is searched around.
         public int HardBot()
         {
 
             // Check for hits.
             for (int cell = 0; cell < 100; cell++)
             {
+
+                // If there's a hit on a cell.
                 if (hits[cell] == true)
                 {
+
+                    // Variable storing the initial orientation of the ship cluster that's been hit. Initially, the orientation is null.
                     string orientation = null;
 
+                    // Variables that say whether or not the ship cluster has ended on all 4 ends.
                     bool endEast = false;
                     bool endWest = false;
                     bool endNorth = false;
                     bool endSouth = false;
 
+                    // Variable storing the size of the ship cluster. Initially 1, because the hit box is 1.
                     int size = 1;
 
-                    for (int index = 1; index < 5; index++)
-                    {
-                        if (endEast == true && endWest == true)
-                            break;
+                    // Set the index variable equal to 1 initially.
+                    int index = 1;
 
+                    // Iterate through the blocks around to the cell horizontally until they come to an end.
+                    while (endEast == false && endWest == false)
+                    {
+
+                        // If the cell is not ended on both sides, continue checking.
                         if (((cell + (index - 1)) % 10 != 9 && endEast == false) || ((cell - (index - 1)) % 10 != 0 && endWest == false))
                         {
-                            if ((cell + index - 1) % 10 != 9)
+
+                            // If the cell is not ended on the East side, run this code.
+                            if ((cell + index - 1) % 10 != 9 && endEast == false)
                             {
 
+                                // If the next block is a miss, the cluster ends on the East side.
                                 if (misses[cell + index] == true)
                                     endEast = true;
 
+                                // If the cluster is a hit, the orientation is horizontal and increment the size of the cluster.
                                 if (hits[cell + index] == true && endEast == false)
                                 {
                                     orientation = "Horizontal";
@@ -304,58 +318,85 @@ namespace Battleship_2._0
                                 }
                             }
 
-                            if ((cell - (index - 1)) % 10 != 0)
+                            // If the cluster doesn't end on the West side.
+                            if ((cell - (index - 1)) % 10 != 0 && endWest == false)
                             {
-                                
+
+                                // If the next cell is a miss, the cell ends on the West side.
+                                if (misses[cell - index] == true)
+                                    endWest = true;
+
+                                // If the cell is a hit, increment the size and set the orientation equal to horizontal.
                                 if (hits[cell - index] == true && endWest == false)
                                 {
                                     orientation = "Horizontal";
                                     size++;
                                 }
-
-                                if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Horizontal" && endWest == false)
-                                    return (cell - index);
                             }
 
+                            // If the cell doesn't end on the East side.
                             if ((cell + (index - 1)) % 10 != 9)
                             {
+                                // If the cell has not been hit or missed yet, and if the orientation is horizontal, hit this cell.
                                 if (hits[cell + index] == false && misses[cell - index] == false && orientation == "Horizontal" && endEast == false)
                                     return (cell + index);
 
+                                // Otherwise, the cell ends on the East side.
+                                else
+                                    endEast = true;
                             }
 
+                            // If the cell doesn't end on the West side.
                             if ((cell - (index - 1)) % 10 != 0)
                             {
+                                // If the cell has not been hit or missed yet, and if the orientation is horizontal, hit this cell.
+                                if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Horizontal" && endWest == false)
+                                    return (cell - index);
 
-                                if (misses[cell - index] == true)
+                                // Otherwise, the cell ends on the West side.
+                                else
                                     endWest = true;
                             }
                         }
 
+                        // If the cell is at the end of the row, it ends on the East side.
                         if ((cell + (index - 1)) % 10 == 9)
                             endEast = true;
 
+                        // If the cell is at the start of the row, it ends on the West side.
                         if ((cell - (index - 1)) % 10 == 0)
                             endWest = true;
 
+                        // Increment the index variable.
+                        index++;
                     }
 
+                    // If the orientation is null and not horizontal. 
                     if (orientation == null)
                     {
+                        // Make the size of the cluster one.
                         size = 1;
-                        for (int index = 10; index < 50; index += 10)
-                        {
-                            if (endNorth == true && endSouth == true)
-                                break;
 
+                        // Set the index variable to 10, since vertical is 10 up or 10 down.
+                        index = 10;
+
+                        // Run this loop while the cell has not ended in the North or South direction.
+                        while (endNorth == false && endSouth == false)
+                        {
+
+                            // If the cell has not ended in the North or South direction, run this code.
                             if ((cell + index < 100 && endSouth == false) || (cell - index >= 0 && endNorth == false))
                             {
 
-                                if (cell + index < 100)
+                                // If the cluster has not ended in teh South direction.
+                                if (cell + index < 100 && endSouth == false)
                                 {
-                                    if (misses[cell + index] == true || hits[cell + index - 10] == false)
+
+                                    // If the cell is a miss, it ends in the South direction.
+                                    if (misses[cell + index] == true)
                                         endSouth = true;
 
+                                    // If the cell is a hit, set the orientation to vertical and increment the size.
                                     if (hits[cell + index] == true)
                                     {
                                         orientation = "Vertical";
@@ -363,12 +404,15 @@ namespace Battleship_2._0
                                     }
                                 }
 
-                                if (cell - index >= 0)
+                                // If the cluster doesn't end in the North direction.
+                                if (cell - index >= 0 && endNorth == false)
                                 {
 
-                                    if (misses[cell - index] == true || hits[cell - index + 10] == false)
+                                    // If the cell is a miss, it ends in the North direction.
+                                    if (misses[cell - index] == true)
                                         endNorth = true;
 
+                                    // If the cell is a hit, set the orientation to vertical and increment the size.
                                     if (hits[cell - index] == true)
                                     {
                                         orientation = "Vertical";
@@ -376,42 +420,68 @@ namespace Battleship_2._0
                                     }
                                 }
 
+                                // If the cell is valid in the South direction.
                                 if (cell + index < 100)
                                 {
+
+                                    // If the cell is not a miss or a hit, and the orientation is vertical and the cell doesn't end in the South direction, return this cell as a move.
                                     if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Vertical" && endSouth == false)
                                         return (cell + index);
+
+                                    // Otherwise, the cell ends in the South direction.
+                                    else
+                                        endSouth = true;
                                 }
 
+                                // If the cell is valid in the North direction.
                                 if (cell - index >= 0)
                                 {
+
+                                    // If the cell isn't a hit and it isn't a miss and the orientation is vertical, return this cell as a move.
                                     if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Vertical" && endNorth == false)
                                         return (cell - index);
+
+                                    // Otherwise, teh cell ends in the North direction.
+                                    else
+                                        endNorth = true;
                                 }
                             }
 
+                            // If the cell is more than or equal to 100, it is invalid in the South direction.
                             if (cell + index >= 100)
                                 endSouth = true;
 
+                            // If the cell is less than 0, it is invalid in the South direction.
                             if (cell - index < 0)
                                 endNorth = true;
                         }
 
                     }
 
+                    // If the orientation is null (lone cell).
                     if (orientation == null)
                     {
+                        
+                        // If it is possible to hit the cell in the East direction, do it.
                         if (cell % 10 != 9 && misses[cell + 1] != true)
                             return cell + 1;
+
+                        // If it is possible to hit the cell in the West direction, do it.
                         if (cell % 10 != 0 && misses[cell - 1] != true)
                             return cell - 1;
+
+                        // If it is possible to hit the cell in the South direction, do it.
                         if (cell + 10 < 100 && misses[cell + 10] != true)
                             return cell + 10;
+
+                        // If it is possible to hit the cell in the North direction, do it.
                         if (cell - 10 >= 0 && misses[cell - 10] != true)
                             return cell - 10;
                     }
                 }
             }
 
+            // Update the probabilities array depending on whether or not a ship exists.
             if (cruiser == false)
                 GetProbabilities(5);
             if (battleship == false)
@@ -423,13 +493,21 @@ namespace Battleship_2._0
             if (destroyer == false)
                 GetProbabilities(2);
 
+            // Create an array storing the cells with the highest probabilities.
             int[] highestCells = new int[0];
+
+            // Create an integer which is the biggest probability cell.
             int largestCell = 0;
 
+            // Iterate through all elements in the probabilities array.
             for (int index = 0; index < 100; index++)
             {
-                if (hits[index] == true)
+
+                // If this cell is a hit or a miss, continue.
+                if (hits[index] == true || misses[index] == true)
                     continue;
+
+                // If the probability of the cell is greater than the largest probability so far, set the highest probability to this cell alone.
                 if (probabilities[index] > largestCell)
                 {
                     largestCell = probabilities[index];
@@ -437,6 +515,7 @@ namespace Battleship_2._0
                     highestCells[0] = index;
                 }
 
+                // If the probability is equal to the largest probability so far, add the new probability to the array.
                 else if (probabilities[index] == largestCell)
                 {
                     Array.Resize(ref highestCells, highestCells.Length + 1);
@@ -444,21 +523,31 @@ namespace Battleship_2._0
                 }
             }
 
+            // Create a random generator.
             Random randomGenerator = new Random();
 
+            // Return a random element from the highest probabilites array.
             int move = randomGenerator.Next(highestCells.Length);
             return highestCells[move];
         }
 
+        // Function that calculates the probabilities array given the size of a specific ship.
         private void GetProbabilities(int size)
         {
-            int cell = 0;
 
-            while (cell < 100)
+
+            // Iterate through all the cells.
+            for (int cell = 0; cell < 100; cell++)
             {
+
+                // Create a boolean possible that stores whether or not it is possible for a ship to be placed horizontally in this direction.
                 bool possible = true;
+
+                // Iterate through all the cells over which the ship will be placed.
                 for (int index = cell; index < cell + size; index++)
                 {
+
+                    // If a cell the ship is placed on is a miss or hangs over an edge, it is not possible for the ship to be placed ehre.
                     if (misses[index] == true || hits[index] || cell % 10 > 10 - size)
                     {
                         possible = false;
@@ -466,24 +555,30 @@ namespace Battleship_2._0
                     }
                 }
 
+                // If it is possible for the ship to be placed.
                 if (possible == true)
                 {
+
+                    // Iterate through all the cells the ship will be placed on and increment their probabilties.
                     for (int index = cell; index < cell + size; index++)
                     {
                         probabilities[index]++;
                     }
                 }
-
-                cell++;
             }
 
-            cell = 0;
 
-            while (cell < 100)
+            // Iterate through all the cells, this time calculating vertical probability.
+            for (int cell = 0; cell < 100; cell++)
             {
+
+                // Boolean storing whether or not it is possible for a ship to be placed.
                 bool possible = true;
+
+                // Iterate through all the cells the ship will be placed on if placed vertically.
                 for (int index = cell; index < cell + (size * 10); index += 10)
                 {
+                    // If a cell is a miss or hands over the edge, it is not possible for the ship to be placed.
                     if (misses[index] == true || hits[index] == true || cell >= 100 - (10 * (size-1)))
                     {
                         possible = false;
@@ -491,15 +586,16 @@ namespace Battleship_2._0
                     }
                 }
 
+                // If it is possible for the ship to be placed.
                 if (possible == true)
                 {
+
+                    // Iterate through all teh cells and increment their probabilities.
                     for (int index = cell; index < cell + (size * 10); index += 10)
                     {
                         probabilities[index]++;
                     }
                 }
-
-                cell++;
             }
         }
     }

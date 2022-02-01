@@ -295,9 +295,8 @@ namespace Battleship_2._0
                 cell.Image = Properties.Resources.miss;
             }
 
+            // Switch turn to the user.
             turn = true;
-
-            MessageBox.Show(move + "");
         }
 
         // If the mouse button is pressed over one of the ships, set the shipMoving variable to true, and get 
