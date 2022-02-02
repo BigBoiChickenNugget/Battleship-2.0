@@ -29,26 +29,20 @@
         private void InitializeComponent()
         {
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.txtbxFPmoves = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.txtbxSecondPlacemoves = new System.Windows.Forms.TextBox();
-            this.txtbxTPmoves = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.txtbxFirstscore = new System.Windows.Forms.TextBox();
-            this.txtbxSecondScore = new System.Windows.Forms.TextBox();
-            this.txtbxThrdScore = new System.Windows.Forms.TextBox();
-            this.txtbxTPuser = new System.Windows.Forms.TextBox();
-            this.txtbxFPuser = new System.Windows.Forms.TextBox();
-            this.txtbxSPuser = new System.Windows.Forms.TextBox();
             this.lblFPuser = new System.Windows.Forms.Label();
-            this.lblFPMoves = new System.Windows.Forms.Label();
             this.lblTPuser = new System.Windows.Forms.Label();
-            this.lblTPmoves = new System.Windows.Forms.Label();
             this.lblSPuser = new System.Windows.Forms.Label();
-            this.lblSPmoves = new System.Windows.Forms.Label();
             this.picbxLeaderboard = new System.Windows.Forms.PictureBox();
             this.txtbxLeaderboard = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblMoves1 = new System.Windows.Forms.Label();
+            this.lblMoves3 = new System.Windows.Forms.Label();
+            this.lblMoves2 = new System.Windows.Forms.Label();
+            this.lblThirdPlace = new System.Windows.Forms.Label();
+            this.lblSecondPlace = new System.Windows.Forms.Label();
+            this.lblFirstPlace = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -59,223 +53,77 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pictureBox2.Location = new System.Drawing.Point(565, 365);
+            this.pictureBox2.Location = new System.Drawing.Point(753, 449);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(304, 502);
+            this.pictureBox2.Size = new System.Drawing.Size(405, 618);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            // 
-            // txtbxFPmoves
-            // 
-            this.txtbxFPmoves.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txtbxFPmoves.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxFPmoves.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxFPmoves.Location = new System.Drawing.Point(578, 684);
-            this.txtbxFPmoves.Multiline = true;
-            this.txtbxFPmoves.Name = "txtbxFPmoves";
-            this.txtbxFPmoves.ReadOnly = true;
-            this.txtbxFPmoves.Size = new System.Drawing.Size(276, 164);
-            this.txtbxFPmoves.TabIndex = 2;
-            this.txtbxFPmoves.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox3.Location = new System.Drawing.Point(298, 458);
+            this.pictureBox3.Location = new System.Drawing.Point(397, 564);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(267, 409);
+            this.pictureBox3.Size = new System.Drawing.Size(356, 503);
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
-            // 
-            // txtbxSecondPlacemoves
-            // 
-            this.txtbxSecondPlacemoves.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.txtbxSecondPlacemoves.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxSecondPlacemoves.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxSecondPlacemoves.Location = new System.Drawing.Point(307, 711);
-            this.txtbxSecondPlacemoves.Multiline = true;
-            this.txtbxSecondPlacemoves.Name = "txtbxSecondPlacemoves";
-            this.txtbxSecondPlacemoves.ReadOnly = true;
-            this.txtbxSecondPlacemoves.Size = new System.Drawing.Size(248, 137);
-            this.txtbxSecondPlacemoves.TabIndex = 4;
-            this.txtbxSecondPlacemoves.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtbxTPmoves
-            // 
-            this.txtbxTPmoves.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtbxTPmoves.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxTPmoves.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxTPmoves.Location = new System.Drawing.Point(878, 741);
-            this.txtbxTPmoves.Multiline = true;
-            this.txtbxTPmoves.Name = "txtbxTPmoves";
-            this.txtbxTPmoves.ReadOnly = true;
-            this.txtbxTPmoves.Size = new System.Drawing.Size(228, 108);
-            this.txtbxTPmoves.TabIndex = 6;
-            this.txtbxTPmoves.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox4.Location = new System.Drawing.Point(869, 511);
+            this.pictureBox4.Location = new System.Drawing.Point(1159, 629);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(247, 353);
+            this.pictureBox4.Size = new System.Drawing.Size(329, 434);
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
-            // 
-            // txtbxFirstscore
-            // 
-            this.txtbxFirstscore.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txtbxFirstscore.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxFirstscore.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxFirstscore.Location = new System.Drawing.Point(578, 377);
-            this.txtbxFirstscore.Multiline = true;
-            this.txtbxFirstscore.Name = "txtbxFirstscore";
-            this.txtbxFirstscore.Size = new System.Drawing.Size(276, 85);
-            this.txtbxFirstscore.TabIndex = 7;
-            this.txtbxFirstscore.Text = "First Place";
-            this.txtbxFirstscore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtbxSecondScore
-            // 
-            this.txtbxSecondScore.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.txtbxSecondScore.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxSecondScore.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxSecondScore.Location = new System.Drawing.Point(304, 464);
-            this.txtbxSecondScore.Multiline = true;
-            this.txtbxSecondScore.Name = "txtbxSecondScore";
-            this.txtbxSecondScore.Size = new System.Drawing.Size(255, 85);
-            this.txtbxSecondScore.TabIndex = 8;
-            this.txtbxSecondScore.Text = "Second Place";
-            this.txtbxSecondScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtbxThrdScore
-            // 
-            this.txtbxThrdScore.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtbxThrdScore.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxThrdScore.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxThrdScore.Location = new System.Drawing.Point(875, 520);
-            this.txtbxThrdScore.Multiline = true;
-            this.txtbxThrdScore.Name = "txtbxThrdScore";
-            this.txtbxThrdScore.Size = new System.Drawing.Size(231, 85);
-            this.txtbxThrdScore.TabIndex = 9;
-            this.txtbxThrdScore.Text = "Third Place";
-            this.txtbxThrdScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtbxTPuser
-            // 
-            this.txtbxTPuser.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtbxTPuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxTPuser.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxTPuser.Location = new System.Drawing.Point(878, 608);
-            this.txtbxTPuser.Multiline = true;
-            this.txtbxTPuser.Name = "txtbxTPuser";
-            this.txtbxTPuser.ReadOnly = true;
-            this.txtbxTPuser.Size = new System.Drawing.Size(228, 84);
-            this.txtbxTPuser.TabIndex = 10;
-            this.txtbxTPuser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtbxFPuser
-            // 
-            this.txtbxFPuser.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txtbxFPuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxFPuser.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxFPuser.Location = new System.Drawing.Point(578, 468);
-            this.txtbxFPuser.Multiline = true;
-            this.txtbxFPuser.Name = "txtbxFPuser";
-            this.txtbxFPuser.ReadOnly = true;
-            this.txtbxFPuser.Size = new System.Drawing.Size(276, 149);
-            this.txtbxFPuser.TabIndex = 11;
-            this.txtbxFPuser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtbxSPuser
-            // 
-            this.txtbxSPuser.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.txtbxSPuser.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxSPuser.Font = new System.Drawing.Font("Javanese Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxSPuser.Location = new System.Drawing.Point(307, 548);
-            this.txtbxSPuser.Multiline = true;
-            this.txtbxSPuser.Name = "txtbxSPuser";
-            this.txtbxSPuser.ReadOnly = true;
-            this.txtbxSPuser.Size = new System.Drawing.Size(248, 106);
-            this.txtbxSPuser.TabIndex = 12;
-            this.txtbxSPuser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblFPuser
             // 
             this.lblFPuser.AutoSize = true;
             this.lblFPuser.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblFPuser.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFPuser.Location = new System.Drawing.Point(659, 428);
+            this.lblFPuser.Location = new System.Drawing.Point(879, 527);
+            this.lblFPuser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFPuser.Name = "lblFPuser";
-            this.lblFPuser.Size = new System.Drawing.Size(107, 34);
+            this.lblFPuser.Size = new System.Drawing.Size(136, 43);
             this.lblFPuser.TabIndex = 13;
             this.lblFPuser.Text = "USERNAME";
-            // 
-            // lblFPMoves
-            // 
-            this.lblFPMoves.AutoSize = true;
-            this.lblFPMoves.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblFPMoves.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFPMoves.Location = new System.Drawing.Point(678, 632);
-            this.lblFPMoves.Name = "lblFPMoves";
-            this.lblFPMoves.Size = new System.Drawing.Size(72, 34);
-            this.lblFPMoves.TabIndex = 14;
-            this.lblFPMoves.Text = "MOVES";
-            this.lblFPMoves.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lblTPuser
             // 
             this.lblTPuser.AutoSize = true;
             this.lblTPuser.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblTPuser.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTPuser.Location = new System.Drawing.Point(938, 571);
+            this.lblTPuser.Location = new System.Drawing.Point(1251, 703);
+            this.lblTPuser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTPuser.Name = "lblTPuser";
-            this.lblTPuser.Size = new System.Drawing.Size(107, 34);
+            this.lblTPuser.Size = new System.Drawing.Size(136, 43);
             this.lblTPuser.TabIndex = 15;
             this.lblTPuser.Text = "USERNAME";
-            // 
-            // lblTPmoves
-            // 
-            this.lblTPmoves.AutoSize = true;
-            this.lblTPmoves.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblTPmoves.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTPmoves.Location = new System.Drawing.Point(955, 701);
-            this.lblTPmoves.Name = "lblTPmoves";
-            this.lblTPmoves.Size = new System.Drawing.Size(72, 34);
-            this.lblTPmoves.TabIndex = 16;
-            this.lblTPmoves.Text = "MOVES";
-            this.lblTPmoves.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lblSPuser
             // 
             this.lblSPuser.AutoSize = true;
             this.lblSPuser.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lblSPuser.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSPuser.Location = new System.Drawing.Point(375, 515);
+            this.lblSPuser.Location = new System.Drawing.Point(500, 634);
+            this.lblSPuser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSPuser.Name = "lblSPuser";
-            this.lblSPuser.Size = new System.Drawing.Size(107, 34);
+            this.lblSPuser.Size = new System.Drawing.Size(136, 43);
             this.lblSPuser.TabIndex = 17;
             this.lblSPuser.Text = "USERNAME";
-            // 
-            // lblSPmoves
-            // 
-            this.lblSPmoves.AutoSize = true;
-            this.lblSPmoves.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lblSPmoves.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSPmoves.Location = new System.Drawing.Point(390, 674);
-            this.lblSPmoves.Name = "lblSPmoves";
-            this.lblSPmoves.Size = new System.Drawing.Size(72, 34);
-            this.lblSPmoves.TabIndex = 18;
-            this.lblSPmoves.Text = "MOVES";
-            this.lblSPmoves.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // picbxLeaderboard
             // 
             this.picbxLeaderboard.BackColor = System.Drawing.Color.Transparent;
             this.picbxLeaderboard.Image = global::Battleship_2._0.Properties.Resources.explosion;
-            this.picbxLeaderboard.Location = new System.Drawing.Point(267, 12);
+            this.picbxLeaderboard.Location = new System.Drawing.Point(356, 15);
+            this.picbxLeaderboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picbxLeaderboard.Name = "picbxLeaderboard";
-            this.picbxLeaderboard.Size = new System.Drawing.Size(161, 152);
+            this.picbxLeaderboard.Size = new System.Drawing.Size(215, 187);
             this.picbxLeaderboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picbxLeaderboard.TabIndex = 19;
             this.picbxLeaderboard.TabStop = false;
@@ -285,10 +133,11 @@
             this.txtbxLeaderboard.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtbxLeaderboard.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbxLeaderboard.Font = new System.Drawing.Font("Impact", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxLeaderboard.Location = new System.Drawing.Point(434, 26);
+            this.txtbxLeaderboard.Location = new System.Drawing.Point(579, 32);
+            this.txtbxLeaderboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbxLeaderboard.Multiline = true;
             this.txtbxLeaderboard.Name = "txtbxLeaderboard";
-            this.txtbxLeaderboard.Size = new System.Drawing.Size(604, 118);
+            this.txtbxLeaderboard.Size = new System.Drawing.Size(805, 145);
             this.txtbxLeaderboard.TabIndex = 20;
             this.txtbxLeaderboard.Text = "LEADERBOARD";
             // 
@@ -296,42 +145,104 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Battleship_2._0.Properties.Resources.explosion;
-            this.pictureBox1.Location = new System.Drawing.Point(988, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1317, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 152);
+            this.pictureBox1.Size = new System.Drawing.Size(215, 187);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
+            // lblMoves1
+            // 
+            this.lblMoves1.AutoSize = true;
+            this.lblMoves1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblMoves1.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoves1.Location = new System.Drawing.Point(879, 564);
+            this.lblMoves1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMoves1.Name = "lblMoves1";
+            this.lblMoves1.Size = new System.Drawing.Size(116, 43);
+            this.lblMoves1.TabIndex = 22;
+            this.lblMoves1.Text = "MOVES: 0";
+            // 
+            // lblMoves3
+            // 
+            this.lblMoves3.AutoSize = true;
+            this.lblMoves3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblMoves3.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoves3.Location = new System.Drawing.Point(1251, 746);
+            this.lblMoves3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMoves3.Name = "lblMoves3";
+            this.lblMoves3.Size = new System.Drawing.Size(116, 43);
+            this.lblMoves3.TabIndex = 24;
+            this.lblMoves3.Text = "MOVES: 0";
+            // 
+            // lblMoves2
+            // 
+            this.lblMoves2.AutoSize = true;
+            this.lblMoves2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblMoves2.Font = new System.Drawing.Font("Javanese Text", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoves2.Location = new System.Drawing.Point(500, 677);
+            this.lblMoves2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMoves2.Name = "lblMoves2";
+            this.lblMoves2.Size = new System.Drawing.Size(116, 43);
+            this.lblMoves2.TabIndex = 23;
+            this.lblMoves2.Text = "MOVES: 0";
+            // 
+            // lblThirdPlace
+            // 
+            this.lblThirdPlace.AutoSize = true;
+            this.lblThirdPlace.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblThirdPlace.Location = new System.Drawing.Point(1314, 645);
+            this.lblThirdPlace.Name = "lblThirdPlace";
+            this.lblThirdPlace.Size = new System.Drawing.Size(80, 17);
+            this.lblThirdPlace.TabIndex = 25;
+            this.lblThirdPlace.Text = "Third Place";
+            // 
+            // lblSecondPlace
+            // 
+            this.lblSecondPlace.AutoSize = true;
+            this.lblSecondPlace.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblSecondPlace.Location = new System.Drawing.Point(525, 590);
+            this.lblSecondPlace.Name = "lblSecondPlace";
+            this.lblSecondPlace.Size = new System.Drawing.Size(95, 17);
+            this.lblSecondPlace.TabIndex = 26;
+            this.lblSecondPlace.Text = "Second Place";
+            // 
+            // lblFirstPlace
+            // 
+            this.lblFirstPlace.AutoSize = true;
+            this.lblFirstPlace.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblFirstPlace.Location = new System.Drawing.Point(921, 475);
+            this.lblFirstPlace.Name = "lblFirstPlace";
+            this.lblFirstPlace.Size = new System.Drawing.Size(74, 17);
+            this.lblFirstPlace.TabIndex = 27;
+            this.lblFirstPlace.Text = "First Place";
+            // 
             // LeaderBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImage = global::Battleship_2._0.Properties.Resources.leaderboardbackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1424, 861);
+            this.ClientSize = new System.Drawing.Size(1899, 1055);
+            this.Controls.Add(this.lblFirstPlace);
+            this.Controls.Add(this.lblSecondPlace);
+            this.Controls.Add(this.lblThirdPlace);
+            this.Controls.Add(this.lblMoves3);
+            this.Controls.Add(this.lblMoves2);
+            this.Controls.Add(this.lblMoves1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtbxLeaderboard);
             this.Controls.Add(this.picbxLeaderboard);
-            this.Controls.Add(this.lblSPmoves);
             this.Controls.Add(this.lblSPuser);
-            this.Controls.Add(this.lblTPmoves);
             this.Controls.Add(this.lblTPuser);
-            this.Controls.Add(this.lblFPMoves);
             this.Controls.Add(this.lblFPuser);
-            this.Controls.Add(this.txtbxSPuser);
-            this.Controls.Add(this.txtbxFPuser);
-            this.Controls.Add(this.txtbxTPuser);
-            this.Controls.Add(this.txtbxThrdScore);
-            this.Controls.Add(this.txtbxSecondScore);
-            this.Controls.Add(this.txtbxFirstscore);
-            this.Controls.Add(this.txtbxTPmoves);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.txtbxSecondPlacemoves);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.txtbxFPmoves);
             this.Controls.Add(this.pictureBox2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LeaderBoard";
             this.Text = "LeaderBoard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -346,25 +257,19 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox txtbxFPmoves;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox txtbxSecondPlacemoves;
-        private System.Windows.Forms.TextBox txtbxTPmoves;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.TextBox txtbxFirstscore;
-        private System.Windows.Forms.TextBox txtbxSecondScore;
-        private System.Windows.Forms.TextBox txtbxThrdScore;
-        private System.Windows.Forms.TextBox txtbxTPuser;
-        private System.Windows.Forms.TextBox txtbxFPuser;
-        private System.Windows.Forms.TextBox txtbxSPuser;
         private System.Windows.Forms.Label lblFPuser;
-        private System.Windows.Forms.Label lblFPMoves;
         private System.Windows.Forms.Label lblTPuser;
-        private System.Windows.Forms.Label lblTPmoves;
         private System.Windows.Forms.Label lblSPuser;
-        private System.Windows.Forms.Label lblSPmoves;
         private System.Windows.Forms.PictureBox picbxLeaderboard;
         private System.Windows.Forms.TextBox txtbxLeaderboard;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblMoves1;
+        private System.Windows.Forms.Label lblMoves3;
+        private System.Windows.Forms.Label lblMoves2;
+        private System.Windows.Forms.Label lblThirdPlace;
+        private System.Windows.Forms.Label lblSecondPlace;
+        private System.Windows.Forms.Label lblFirstPlace;
     }
 }

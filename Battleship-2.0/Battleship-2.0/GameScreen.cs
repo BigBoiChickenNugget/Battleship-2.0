@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
 using WMPLib;
+using System.IO;
 
 namespace Battleship_2._0
 {
@@ -768,6 +769,147 @@ namespace Battleship_2._0
         // If the player wins the game.
         private void GameWon()
         {
+            // Stop gametimer since the game is over.
+            gameTimer.Stop();
+
+            // Find out if the user has a low enough move count to be incorporated onto the leaderboard.
+            StreamReader sr = new StreamReader(@"leaderboard.txt");
+
+            // Get the number of items stores in the leaderboard.
+            int numItems = int.Parse(sr.ReadLine());
+
+            // Booleans storing whether or not the player is in these positions.
+            bool first = true;
+            bool second = true;
+            bool third = true;
+
+            // Iterate through the leaderboard database.
+            for (int position = 0; position < numItems; position++)
+            {
+                // Split the entire line by ';' and store it in an array.
+                string[] entireLine = sr.ReadLine().Split(';');
+
+                // If the number of moves is greater than this line.
+                if (moves > int.Parse(entireLine[1]))
+                {
+
+                    // Set whatever position this item was at to false. (If moves > first position: first position = false).
+                    if (position == 0)
+                        first = false;
+                    else if (position == 1)
+                        second = false;
+                    else if (position == 2)
+                        third = false;
+                }
+            }
+
+            // Close streamreader.
+            sr.Close();
+
+            // Variable that will store the user's username of choice. Initially null.
+            string username = null;
+
+            // If the user is somewhere in the top 3.
+            if (first == true || second == true || third == true)
+            {
+
+                // Ask the user whether or not they would like to be incorporated into the leaderboard.
+                DialogResult answer = MessageBox.Show("You have beaten the game in such a low amount of moves that you are eligible for the leaderboard. Would you like to be incorporated?", "LEADERBOARD", MessageBoxButtons.YesNo);
+
+                // If the user says yes.
+                if (answer == DialogResult.Yes)
+                {
+
+                    // Open a new form of type InputBox. Open it in modal with the current form as the parent.
+                    InputBox InputBox = new InputBox();
+                    InputBox.ShowDialog(this);
+
+                    // Iterate over and over until the user types in valid input.
+                    while (true)
+                    {
+
+                        // If the dialog result property of the other form is OK, which it becomes when the user inputs valid input.
+                        if (InputBox.DialogResult == DialogResult.OK)
+                        {
+
+                            // Interate through all the controls in the input form.
+                            foreach (Control x in InputBox.Controls)
+                            {
+
+                                // If the control is a textbox with the name txtUsername, it is the one we are looking for.
+                                if (x is TextBox && x.Name == "txtUsername")
+                                {
+
+                                    // Set username equal to whatever the textbox contains, and break the foreach loop.
+                                    username = ((TextBox)x).Text;
+                                    break;
+                                }
+                            }
+
+                            // If the username is not null, break the while loop.
+                            if (username != null)
+                                break;
+                        }
+                    }
+
+                }
+
+                // If the user chooses not to be incorporated into the leaderboard, set the first, second, and third boolean to false.
+                else
+                {
+                    first = false;
+                    second = false;
+                    third = false;
+                }
+            }
+
+            // If first, second, or third are true.
+            if (first == true || second == true || third == true)
+            {
+
+                // Store the index at which the user's position lies.
+                int index = 0;
+                if (first == true)
+                    index = 1;
+                else if (second == true)
+                    index = 2;
+                else if (third == true)
+                    index = 3;
+
+                // Get all the lines in the leaderboard.txt file and store them in an array.
+                string[] originalFile = File.ReadAllLines(@"leaderboard.txt");
+
+                // Two variables that will be used for the purpose of updating the file.
+                string tmp = originalFile[index];
+                string tmp2 = null;
+
+                // If there were already 3 items in the file, just update the user's position.
+                if (numItems == 3)
+                {
+                    originalFile[index] = username + ";" + moves;
+                }
+
+                // If there were not 3 items in the file, update the user's position as well as the number of items in the file.
+                else
+                {
+                    originalFile[0] = (numItems + 1).ToString();
+                    originalFile[index] = username + ";" + moves;
+                    numItems++;
+                }
+
+                
+                // Move all the other values in the file below the user one position down.
+                for (int placement = index+1; placement <= numItems; placement++)
+                {
+                    tmp2 = originalFile[placement];
+                    originalFile[placement] = tmp;
+                    tmp = tmp2;
+                }
+
+                // Write the updated array to the file.
+                File.WriteAllLines(@"leaderboard.txt", originalFile);
+            }
+            
             // Set the gameStart variable to false, signifying that the game is over.
             gameStart = false;
 
@@ -779,6 +921,7 @@ namespace Battleship_2._0
             {
                 RestartGame();
             }
+
             else
             {
                 MessageBox.Show("Closing game, have a nice day!");
@@ -817,10 +960,8 @@ namespace Battleship_2._0
         private void exitgame(object sender, EventArgs e)
         {
 
-            // Close the file and open the homescreen.
+            // Close the file and the open homescreen will open automatically.
             this.Close();
-            //StartScreen homescreen = new StartScreen();
-            //homescreen.Show();
         }
     }
 }
