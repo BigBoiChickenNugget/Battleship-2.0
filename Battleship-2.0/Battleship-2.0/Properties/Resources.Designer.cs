@@ -253,6 +253,16 @@ namespace Battleship_2._0.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap firstplace {
+            get {
+                object obj = ResourceManager.GetObject("firstplace", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap H2x1_NSwitchDS_Battleship_image1600w {
             get {
                 object obj = ResourceManager.GetObject("H2x1_NSwitchDS_Battleship_image1600w", resourceCulture);
@@ -276,6 +286,16 @@ namespace Battleship_2._0.Properties {
         internal static System.Drawing.Bitmap img_272299 {
             get {
                 object obj = ResourceManager.GetObject("img_272299", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leaderboardbackground {
+            get {
+                object obj = ResourceManager.GetObject("leaderboardbackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
