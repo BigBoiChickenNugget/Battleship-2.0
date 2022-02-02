@@ -612,6 +612,8 @@ namespace Battleship_2._0
         {
             gameStart = true;
 
+            MessageBox.Show("Remember: Red Tiles are Enemy Ships");
+
             // Look for the ship pictures.
             foreach (Control x in this.Controls)
             {
