@@ -750,6 +750,9 @@ namespace Battleship_2._0
 
                     // Hide the ship picture.
                     ship.Visible = false;
+
+                    // Hide the start button.
+                    btnStart.Visible = false;
                 }
             }
 

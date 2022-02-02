@@ -335,7 +335,7 @@ namespace Battleship_2._0
                             }
 
                             // If the cell doesn't end on the East side.
-                            if ((cell + (index - 1)) % 10 != 9)
+                            if ((cell + (index - 1)) % 10 != 9 && cell + index < 100)
                             {
                                 // If the cell has not been hit or missed yet, and if the orientation is horizontal, hit this cell.
                                 if (hits[cell + index] == false && misses[cell - index] == false && orientation == "Horizontal" && endEast == false)
@@ -347,7 +347,7 @@ namespace Battleship_2._0
                             }
 
                             // If the cell doesn't end on the West side.
-                            if ((cell - (index - 1)) % 10 != 0)
+                            if ((cell - (index - 1)) % 10 != 0 && cell - index >= 0)
                             {
                                 // If the cell has not been hit or missed yet, and if the orientation is horizontal, hit this cell.
                                 if (hits[cell - index] == false && misses[cell - index] == false && orientation == "Horizontal" && endWest == false)
