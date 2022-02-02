@@ -145,6 +145,8 @@ namespace Battleship_2._0
                 SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
                 simpleSound.Play();
 
+                //cell.Image = Properties.Resources.explosion;
+
                 // Change the image of the hit cell.
                 cell.Image = Properties.Resources.hit;
 
@@ -158,6 +160,8 @@ namespace Battleship_2._0
                 // Play the sound associated with missing a shot.
                 SoundPlayer simpleSound = new SoundPlayer(@"missile.wav");
                 simpleSound.Play();
+
+                //cell.Image = Properties.Resources.splash;
 
                 // Change the picture to display one that means a miss.
                 cell.Image = Properties.Resources.miss;
@@ -191,7 +195,7 @@ namespace Battleship_2._0
             computer.destroyer = destroyerSunk;
 
             // Get a move made by the computer.
-            int move = computer.HardBot();
+            int move = computer.EasyBot();
 
 
             // Get the cell that the computer made a move on.
@@ -743,7 +747,16 @@ namespace Battleship_2._0
             gameTimer.Stop();
 
             // Display a winning message to the player and allow the user to restart the game.
-            DialogResult restartGame = MessageBox.Show("CONGRATULATIONS", "You've won! Would you like to play again?", MessageBoxButtons.YesNo);
+            if (MessageBox.Show("CONGRATULATIONS", "You've won! Would you like to play again?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                RestartGame();
+            }
+            else
+            {
+                MessageBox.Show("Closing game, have a nice day!");
+                Application.Exit();
+            }
+
         }
 
         // If the AI wins.
@@ -753,12 +766,29 @@ namespace Battleship_2._0
             gameTimer.Stop();
 
             // Display a lose message to the player.
-            MessageBox.Show("You've lost!");
+            if (MessageBox.Show("Try again?", "You lost!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                RestartGame();
+            }
+            else
+            {
+                MessageBox.Show("Closing game, have a nice day!");
+                Application.Exit();
+            }
         }
 
         private void RestartGame()
         {
+            MessageBox.Show("Returning to home screen.", "Restarting game...", MessageBoxButtons.OK);
+            Application.Restart();
+        }
 
+        private void exitgame(object sender, EventArgs e)
+        {
+            StartScreen startscreen = new StartScreen();
+            this.Hide();
+            startscreen.ShowDialog();
+            this.Show();
         }
     }
 }

@@ -243,6 +243,16 @@ namespace Battleship_2._0.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap explosion {
+            get {
+                object obj = ResourceManager.GetObject("explosion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap H2x1_NSwitchDS_Battleship_image1600w {
             get {
                 object obj = ResourceManager.GetObject("H2x1_NSwitchDS_Battleship_image1600w", resourceCulture);
@@ -316,6 +326,16 @@ namespace Battleship_2._0.Properties {
         internal static System.Drawing.Bitmap PlayerTaken {
             get {
                 object obj = ResourceManager.GetObject("PlayerTaken", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap splash {
+            get {
+                object obj = ResourceManager.GetObject("splash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

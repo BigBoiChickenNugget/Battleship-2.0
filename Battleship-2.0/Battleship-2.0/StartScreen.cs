@@ -39,17 +39,6 @@ namespace Battleship_2._0
             GameScreen game = new GameScreen();
             this.Hide();
             game.ShowDialog();
-            this.Show();
-        }
-
-        private void Settings(object sender, EventArgs e)
-        {
-            SoundPlayer simpleSound = new SoundPlayer(@"menuclick1.wav");
-            simpleSound.Play();
-            Settings setting = new Settings();
-            this.Hide();
-            setting.ShowDialog();
-            this.Show();
         }
     }
 }

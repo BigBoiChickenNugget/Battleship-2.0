@@ -64,12 +64,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Settings.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Settings.Designer.cs">
-      <DependentUpon>Settings.cs</DependentUpon>
-    </Compile>
     <Compile Include="StartScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,9 +77,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LeaderBoard.resx">
       <DependentUpon>LeaderBoard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Settings.resx">
-      <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartScreen.resx">
       <DependentUpon>StartScreen.cs</DependentUpon>
@@ -234,6 +225,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\submarineUp.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explosion.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
