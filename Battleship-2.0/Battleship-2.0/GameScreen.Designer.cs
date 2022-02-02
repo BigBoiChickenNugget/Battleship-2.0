@@ -34,6 +34,7 @@
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnStart = new System.Windows.Forms.Button();
+            this.backbutton = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picDestroyer = new System.Windows.Forms.PictureBox();
@@ -243,7 +244,9 @@
             this.picPlayer11 = new System.Windows.Forms.PictureBox();
             this.oceanbackground = new System.Windows.Forms.PictureBox();
             this.menuitem1 = new System.Windows.Forms.PictureBox();
-            this.backbutton = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.levelcurrent = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.backbutton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestroyer)).BeginInit();
@@ -453,7 +456,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.oceanbackground)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuitem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.backbutton)).BeginInit();
             this.SuspendLayout();
             // 
             // lblMoves
@@ -485,6 +487,17 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Visible = false;
             this.btnStart.Click += new System.EventHandler(this.StartGame);
+            // 
+            // backbutton
+            // 
+            this.backbutton.Image = ((System.Drawing.Image)(resources.GetObject("backbutton.Image")));
+            this.backbutton.Location = new System.Drawing.Point(11, 3);
+            this.backbutton.Name = "backbutton";
+            this.backbutton.Size = new System.Drawing.Size(49, 52);
+            this.backbutton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.backbutton.TabIndex = 340;
+            this.backbutton.TabStop = false;
+            this.backbutton.Click += new System.EventHandler(this.exitgame);
             // 
             // pictureBox2
             // 
@@ -3087,16 +3100,26 @@
             this.menuitem1.TabIndex = 337;
             this.menuitem1.TabStop = false;
             // 
-            // backbutton
+            // label1
             // 
-            this.backbutton.Image = ((System.Drawing.Image)(resources.GetObject("backbutton.Image")));
-            this.backbutton.Location = new System.Drawing.Point(11, 3);
-            this.backbutton.Name = "backbutton";
-            this.backbutton.Size = new System.Drawing.Size(49, 52);
-            this.backbutton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.backbutton.TabIndex = 340;
-            this.backbutton.TabStop = false;
-            this.backbutton.Click += new System.EventHandler(this.exitgame);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1180, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.TabIndex = 341;
+            this.label1.Text = "MODE:";
+            // 
+            // levelcurrent
+            // 
+            this.levelcurrent.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.levelcurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.levelcurrent.Location = new System.Drawing.Point(1276, 9);
+            this.levelcurrent.Name = "levelcurrent";
+            this.levelcurrent.ReadOnly = true;
+            this.levelcurrent.Size = new System.Drawing.Size(100, 31);
+            this.levelcurrent.TabIndex = 342;
             // 
             // GameScreen
             // 
@@ -3105,6 +3128,8 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.ControlBox = false;
+            this.Controls.Add(this.levelcurrent);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.backbutton);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -3326,6 +3351,7 @@
             this.Name = "GameScreen";
             this.Text = "Game";
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.RotateShip);
+            ((System.ComponentModel.ISupportInitialize)(this.backbutton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDestroyer)).EndInit();
@@ -3535,7 +3561,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picPlayer11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.oceanbackground)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.menuitem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.backbutton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3757,5 +3782,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox backbutton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox levelcurrent;
     }
 }

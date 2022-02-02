@@ -22,7 +22,8 @@ namespace Battleship_2._0
             WindowsMediaPlayer player = new WindowsMediaPlayer();
             player.URL = @"mainmusic.wav";
             player.controls.play();
-           
+            GameScreen game = new GameScreen();
+            game.Close();
         }
 
         private void QuitGame(object sender, EventArgs e)
@@ -39,6 +40,15 @@ namespace Battleship_2._0
             GameScreen game = new GameScreen();
             this.Hide();
             game.ShowDialog();
+        }
+
+        private void SelectDifficulty(object sender, EventArgs e)
+        {
+            SoundPlayer simpleSound = new SoundPlayer(@"menuclick1.wav");
+            simpleSound.Play();
+            SelectDifficulty select = new SelectDifficulty();
+            this.Hide();
+            select.ShowDialog();
         }
     }
 }

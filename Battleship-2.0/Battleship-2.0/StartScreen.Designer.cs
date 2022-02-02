@@ -38,31 +38,33 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.SkyBlue;
-            this.button1.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(413, 308);
             this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button1.Size = new System.Drawing.Size(274, 109);
             this.button1.TabIndex = 0;
-            this.button1.Text = "New game";
+            this.button1.Text = "New Game";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.StartNew);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.SkyBlue;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(710, 309);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(274, 109);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Load Save";
+            this.button2.Text = "Select Difficulty";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.SelectDifficulty);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.SkyBlue;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(413, 436);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(274, 109);

@@ -14,7 +14,9 @@ namespace Battleship_2._0
 {
     public partial class GameScreen : Form
     {
-
+        public static GameScreen selectDifficulty;
+        public TextBox lvl;
+     
         // Variable's that stores the enemy's and the player's cells on the board that have a boat on them. 
         bool[] computerBoats = new bool[100];
         bool[] playerBoats = new bool[100];
@@ -74,11 +76,17 @@ namespace Battleship_2._0
         public GameScreen()
         {
             InitializeComponent();
+            selectDifficulty = this;
+            lvl = levelcurrent;
             gameTimer.Start();
         }
 
         private void Tick(object sender, EventArgs e)
         {
+            if (levelcurrent.Text == "")
+            {
+                levelcurrent.Text = "NORMAL";
+            }
 
             // If all the ships have been placed, allow the user to start the game.
             if (battleship == true && carrier == true && cruiser == true && submarine == true && destroyer == true)
@@ -195,8 +203,26 @@ namespace Battleship_2._0
             computer.destroyer = destroyerSunk;
 
             // Get a move made by the computer.
-            int move = computer.EasyBot();
 
+            string levelinput = levelcurrent.Text;
+            int move;
+
+            if (levelinput == "HARD")
+            {
+                move = computer.HardBot();
+            }
+            else if (levelinput == "NORMAL")
+            {
+                move = computer.MediumBot();
+            }
+            else if (levelinput == "EASY")
+            {
+                move = computer.EasyBot();
+            }
+            else
+            {
+                move = computer.MediumBot();
+            }
 
             // Get the cell that the computer made a move on.
             PictureBox cell = null;
@@ -786,9 +812,9 @@ namespace Battleship_2._0
         private void exitgame(object sender, EventArgs e)
         {
             StartScreen startscreen = new StartScreen();
-            this.Hide();
             startscreen.ShowDialog();
-            this.Show();
+            GameScreen game = new GameScreen();
+            game.Close();
         }
     }
 }
