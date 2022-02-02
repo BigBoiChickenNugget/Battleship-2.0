@@ -30,7 +30,7 @@ namespace Battleship_2._0
         {
             SoundPlayer simpleSound = new SoundPlayer(@"menuclick1.wav");
             simpleSound.Play();
-            Application.Exit();
+            Environment.Exit(0);
         }
 
         private void StartNew(object sender, EventArgs e)
@@ -40,6 +40,7 @@ namespace Battleship_2._0
             GameScreen game = new GameScreen();
             this.Hide();
             game.ShowDialog();
+            this.Show();
         }
 
         private void SelectDifficulty(object sender, EventArgs e)

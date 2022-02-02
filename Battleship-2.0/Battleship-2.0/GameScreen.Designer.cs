@@ -3113,9 +3113,10 @@
             // 
             // levelcurrent
             // 
-            this.levelcurrent.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.levelcurrent.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.levelcurrent.Enabled = false;
             this.levelcurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.levelcurrent.ForeColor = System.Drawing.Color.White;
             this.levelcurrent.HideSelection = false;
             this.levelcurrent.Location = new System.Drawing.Point(1276, 9);
             this.levelcurrent.Name = "levelcurrent";

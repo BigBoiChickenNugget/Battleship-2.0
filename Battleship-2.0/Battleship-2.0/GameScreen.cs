@@ -812,9 +812,9 @@ namespace Battleship_2._0
         private void exitgame(object sender, EventArgs e)
         {
             StartScreen startscreen = new StartScreen();
+            this.Hide();
             startscreen.ShowDialog();
-            GameScreen game = new GameScreen();
-            game.Close();
+            this.Show();
         }
     }
 }

@@ -62,8 +62,9 @@ namespace Battleship_2._0
             {
                 GameScreen.selectDifficulty.lvl.Text = ("EASY");
             }
-            this.Close();
-            game.Show();
+            this.Hide();
+            game.ShowDialog();
+            this.Show();
             
         }
     }
