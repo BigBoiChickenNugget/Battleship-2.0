@@ -743,7 +743,7 @@ namespace Battleship_2._0
             gameTimer.Stop();
 
             // Display a winning message to the player and allow the user to restart the game.
-            DialogResult restartGame = MessageBox.Show("CONGRATULATIONS", "You've won! Would you like to play again?", MessageBoxButtons.YesNo);
+            DialogResult restartGame = MessageBox.Show("You've won! Would you like to play again?", "CONGRATULATIONS", MessageBoxButtons.YesNo);
         }
 
         // If the AI wins.
