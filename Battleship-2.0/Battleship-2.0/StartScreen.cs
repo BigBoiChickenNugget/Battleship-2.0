@@ -51,5 +51,13 @@ namespace Battleship_2._0
             this.Hide();
             select.ShowDialog();
         }
+
+        private void Leaderboard(object sender, EventArgs e)
+        {
+            LeaderBoard leaderbrd = new LeaderBoard();
+            this.Hide();
+            leaderbrd.ShowDialog();
+
+        }
     }
 }

@@ -761,6 +761,8 @@ namespace Battleship_2._0
 
             // Make the start game button invisible.
             btnStart.Visible = false;
+
+            // Random
         }
 
         // If the player wins the game.
@@ -796,6 +798,7 @@ namespace Battleship_2._0
             {
                 RestartGame();
             }
+
             else
             {
                 MessageBox.Show("Closing game, have a nice day!");
@@ -803,18 +806,21 @@ namespace Battleship_2._0
             }
         }
 
+        // If user wiches to restart the game, restart the window.
         private void RestartGame()
         {
             MessageBox.Show("Returning to home screen.", "Restarting game...", MessageBoxButtons.OK);
             Application.Restart();
         }
 
+        // If user wants to exit the game.
         private void exitgame(object sender, EventArgs e)
         {
-            StartScreen startscreen = new StartScreen();
-            this.Hide();
-            startscreen.ShowDialog();
-            this.Show();
+
+            // Close the file and open the homescreen.
+            this.Close();
+            StartScreen homescreen = new StartScreen();
+            homescreen.Show();
         }
     }
 }
