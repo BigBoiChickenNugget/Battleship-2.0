@@ -14,7 +14,9 @@ namespace Battleship_2._0
 {
     public partial class GameScreen : Form
     {
-
+        public static GameScreen selectDifficulty;
+        public TextBox lvl;
+     
         // Variable's that stores the enemy's and the player's cells on the board that have a boat on them. 
         bool[] computerBoats = new bool[100];
         bool[] playerBoats = new bool[100];
@@ -74,11 +76,17 @@ namespace Battleship_2._0
         public GameScreen()
         {
             InitializeComponent();
+            selectDifficulty = this;
+            lvl = levelcurrent;
             gameTimer.Start();
         }
 
         private void Tick(object sender, EventArgs e)
         {
+            if (levelcurrent.Text == "")
+            {
+                levelcurrent.Text = "NORMAL";
+            }
 
             // If all the ships have been placed, allow the user to start the game.
             if (battleship == true && carrier == true && cruiser == true && submarine == true && destroyer == true)
@@ -145,6 +153,8 @@ namespace Battleship_2._0
                 SoundPlayer simpleSound = new SoundPlayer(@"enemyshipsunk.wav");
                 simpleSound.Play();
 
+                //cell.Image = Properties.Resources.explosion;
+
                 // Change the image of the hit cell.
                 cell.Image = Properties.Resources.hit;
 
@@ -158,6 +168,8 @@ namespace Battleship_2._0
                 // Play the sound associated with missing a shot.
                 SoundPlayer simpleSound = new SoundPlayer(@"missile.wav");
                 simpleSound.Play();
+
+                //cell.Image = Properties.Resources.splash;
 
                 // Change the picture to display one that means a miss.
                 cell.Image = Properties.Resources.miss;
@@ -191,8 +203,26 @@ namespace Battleship_2._0
             computer.destroyer = destroyerSunk;
 
             // Get a move made by the computer.
-            int move = computer.HardBot();
 
+            string levelinput = levelcurrent.Text;
+            int move;
+
+            if (levelinput == "HARD")
+            {
+                move = computer.HardBot();
+            }
+            else if (levelinput == "NORMAL")
+            {
+                move = computer.MediumBot();
+            }
+            else if (levelinput == "EASY")
+            {
+                move = computer.EasyBot();
+            }
+            else
+            {
+                move = computer.MediumBot();
+            }
 
             // Get the cell that the computer made a move on.
             PictureBox cell = null;
@@ -743,7 +773,16 @@ namespace Battleship_2._0
             gameTimer.Stop();
 
             // Display a winning message to the player and allow the user to restart the game.
-            DialogResult restartGame = MessageBox.Show("You've won! Would you like to play again?", "CONGRATULATIONS", MessageBoxButtons.YesNo);
+            if (MessageBox.Show("CONGRATULATIONS", "You've won! Would you like to play again?", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                RestartGame();
+            }
+            else
+            {
+                MessageBox.Show("Closing game, have a nice day!");
+                Application.Exit();
+            }
+
         }
 
         // If the AI wins.
@@ -753,12 +792,29 @@ namespace Battleship_2._0
             gameTimer.Stop();
 
             // Display a lose message to the player.
-            MessageBox.Show("You've lost!");
+            if (MessageBox.Show("Try again?", "You lost!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                RestartGame();
+            }
+            else
+            {
+                MessageBox.Show("Closing game, have a nice day!");
+                Application.Exit();
+            }
         }
 
         private void RestartGame()
         {
+            MessageBox.Show("Returning to home screen.", "Restarting game...", MessageBoxButtons.OK);
+            Application.Restart();
+        }
 
+        private void exitgame(object sender, EventArgs e)
+        {
+            StartScreen startscreen = new StartScreen();
+            startscreen.ShowDialog();
+            GameScreen game = new GameScreen();
+            game.Close();
         }
     }
 }
