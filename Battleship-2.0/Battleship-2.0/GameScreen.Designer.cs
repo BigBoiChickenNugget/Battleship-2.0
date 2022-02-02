@@ -246,6 +246,7 @@
             this.menuitem1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.levelcurrent = new System.Windows.Forms.TextBox();
+            this.lblinstruction = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.backbutton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -522,7 +523,7 @@
             // picDestroyer
             // 
             this.picDestroyer.Image = global::Battleship_2._0.Properties.Resources.destroyerLeft;
-            this.picDestroyer.Location = new System.Drawing.Point(475, 771);
+            this.picDestroyer.Location = new System.Drawing.Point(475, 790);
             this.picDestroyer.Margin = new System.Windows.Forms.Padding(2);
             this.picDestroyer.Name = "picDestroyer";
             this.picDestroyer.Size = new System.Drawing.Size(112, 54);
@@ -536,7 +537,7 @@
             // picCruiser
             // 
             this.picCruiser.Image = global::Battleship_2._0.Properties.Resources.cruiserLeft;
-            this.picCruiser.Location = new System.Drawing.Point(243, 771);
+            this.picCruiser.Location = new System.Drawing.Point(243, 790);
             this.picCruiser.Margin = new System.Windows.Forms.Padding(2);
             this.picCruiser.Name = "picCruiser";
             this.picCruiser.Size = new System.Drawing.Size(170, 54);
@@ -550,7 +551,7 @@
             // picSubmarine
             // 
             this.picSubmarine.Image = global::Battleship_2._0.Properties.Resources.submarineLeft;
-            this.picSubmarine.Location = new System.Drawing.Point(11, 771);
+            this.picSubmarine.Location = new System.Drawing.Point(11, 790);
             this.picSubmarine.Margin = new System.Windows.Forms.Padding(2);
             this.picSubmarine.Name = "picSubmarine";
             this.picSubmarine.Size = new System.Drawing.Size(170, 54);
@@ -564,7 +565,7 @@
             // picBattleship
             // 
             this.picBattleship.Image = global::Battleship_2._0.Properties.Resources.battleshipLeft;
-            this.picBattleship.Location = new System.Drawing.Point(11, 685);
+            this.picBattleship.Location = new System.Drawing.Point(11, 714);
             this.picBattleship.Margin = new System.Windows.Forms.Padding(2);
             this.picBattleship.Name = "picBattleship";
             this.picBattleship.Size = new System.Drawing.Size(228, 54);
@@ -578,7 +579,7 @@
             // picCarrier
             // 
             this.picCarrier.Image = ((System.Drawing.Image)(resources.GetObject("picCarrier.Image")));
-            this.picCarrier.Location = new System.Drawing.Point(301, 685);
+            this.picCarrier.Location = new System.Drawing.Point(301, 714);
             this.picCarrier.Margin = new System.Windows.Forms.Padding(2);
             this.picCarrier.Name = "picCarrier";
             this.picCarrier.Size = new System.Drawing.Size(286, 54);
@@ -3125,6 +3126,18 @@
             this.levelcurrent.TabIndex = 342;
             this.levelcurrent.TabStop = false;
             // 
+            // lblinstruction
+            // 
+            this.lblinstruction.AutoSize = true;
+            this.lblinstruction.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.lblinstruction.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblinstruction.ForeColor = System.Drawing.Color.Transparent;
+            this.lblinstruction.Location = new System.Drawing.Point(143, 661);
+            this.lblinstruction.Name = "lblinstruction";
+            this.lblinstruction.Size = new System.Drawing.Size(298, 24);
+            this.lblinstruction.TabIndex = 343;
+            this.lblinstruction.Text = "Rotate Ships Using Arrow Keys";
+            // 
             // GameScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3132,6 +3145,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.ControlBox = false;
+            this.Controls.Add(this.lblinstruction);
             this.Controls.Add(this.levelcurrent);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.backbutton);
@@ -3788,5 +3802,6 @@
         private System.Windows.Forms.PictureBox backbutton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox levelcurrent;
+        private System.Windows.Forms.Label lblinstruction;
     }
 }
