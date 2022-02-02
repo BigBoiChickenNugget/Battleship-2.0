@@ -819,8 +819,8 @@ namespace Battleship_2._0
 
             // Close the file and open the homescreen.
             this.Close();
-            StartScreen homescreen = new StartScreen();
-            homescreen.Show();
+            //StartScreen homescreen = new StartScreen();
+            //homescreen.Show();
         }
     }
 }

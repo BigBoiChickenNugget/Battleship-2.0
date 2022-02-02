@@ -50,6 +50,7 @@ namespace Battleship_2._0
             SelectDifficulty select = new SelectDifficulty();
             this.Hide();
             select.ShowDialog();
+            this.Show();
         }
 
         private void Leaderboard(object sender, EventArgs e)
@@ -57,6 +58,7 @@ namespace Battleship_2._0
             LeaderBoard leaderbrd = new LeaderBoard();
             this.Hide();
             leaderbrd.ShowDialog();
+            this.Show();
 
         }
     }
