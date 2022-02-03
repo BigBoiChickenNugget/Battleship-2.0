@@ -889,10 +889,6 @@ namespace Battleship_2._0
                     // Get all the lines in the leaderboard.txt file and store them in an array.
                     string[] originalFile = File.ReadAllLines(@"leaderboard.txt");
 
-                    // Two variables that will be used for the purpose of updating the file.
-                    string tmp = originalFile[index];
-                    string tmp2 = null;
-
                     // If there were already 3 items in the file, just update the user's position.
                     if (numItems == 3)
                     {
@@ -902,27 +898,41 @@ namespace Battleship_2._0
                     // If there were not 3 items in the file, update the user's position as well as the number of items in the file.
                     else
                     {
-                        originalFile[0] = (numItems + 1).ToString();
-                        originalFile[index] = username + ";" + moves;
                         numItems++;
+
+                        // Resize the original file array.
+                        Array.Resize(ref originalFile, numItems+1);
+
+                        originalFile[0] = numItems.ToString();
+                        originalFile[index] = username + ";" + moves;
+
                     }
 
-
-                    // Move all the other values in the file below the user one position down.
-                    for (int placement = index + 1; placement <= numItems; placement++)
+                    if (index != 0)
                     {
-                        tmp2 = originalFile[placement];
-                        originalFile[placement] = tmp;
-                        tmp = tmp2;
-                    }
 
-                    // Write the updated array to the file.
-                    File.WriteAllLines(@"leaderboard.txt", originalFile);
+                        // Two variables that will be used for the purpose of updating the file.
+                        string tmp = originalFile[index];
+                        string tmp2 = null;
+
+                        // Move all the other values in the file below the user one position down.
+                        for (int placement = index + 1; placement <= numItems; placement++)
+                        {
+                            tmp2 = originalFile[placement];
+                            originalFile[placement] = tmp;
+                            tmp = tmp2;
+                        }
+
+                        // Write the updated array to the file.
+                        File.WriteAllLines(@"leaderboard.txt", originalFile);
+
+                    }
                 }
             }
             
             // Set the gameStart variable to false, signifying that the game is over.
             gameStart = false;
+
 
             // Display a winning message to the player and allow the user to restart the game.
             if (MessageBox.Show("CONGRATULATIONS", "You've won! Would you like to play again?", MessageBoxButtons.YesNo) == DialogResult.Yes)
