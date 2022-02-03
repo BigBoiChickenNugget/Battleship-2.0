@@ -35,14 +35,14 @@
             this.lblTPuser = new System.Windows.Forms.Label();
             this.lblSPuser = new System.Windows.Forms.Label();
             this.picbxLeaderboard = new System.Windows.Forms.PictureBox();
-            this.txtbxLeaderboard = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblMoves1 = new System.Windows.Forms.Label();
             this.lblMoves3 = new System.Windows.Forms.Label();
             this.lblMoves2 = new System.Windows.Forms.Label();
-            this.lblThirdPlace = new System.Windows.Forms.Label();
-            this.lblSecondPlace = new System.Windows.Forms.Label();
             this.lblFirstPlace = new System.Windows.Forms.Label();
+            this.lblLeaderboard = new System.Windows.Forms.Label();
+            this.lblSecond = new System.Windows.Forms.Label();
+            this.lblThird = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -54,7 +54,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.pictureBox2.Location = new System.Drawing.Point(753, 449);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(405, 618);
             this.pictureBox2.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureBox3.Location = new System.Drawing.Point(397, 564);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(356, 503);
             this.pictureBox3.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox4.Location = new System.Drawing.Point(1159, 629);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(329, 434);
             this.pictureBox4.TabIndex = 5;
@@ -121,32 +121,19 @@
             this.picbxLeaderboard.BackColor = System.Drawing.Color.Transparent;
             this.picbxLeaderboard.Image = global::Battleship_2._0.Properties.Resources.explosion;
             this.picbxLeaderboard.Location = new System.Drawing.Point(356, 15);
-            this.picbxLeaderboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picbxLeaderboard.Margin = new System.Windows.Forms.Padding(4);
             this.picbxLeaderboard.Name = "picbxLeaderboard";
             this.picbxLeaderboard.Size = new System.Drawing.Size(215, 187);
             this.picbxLeaderboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picbxLeaderboard.TabIndex = 19;
             this.picbxLeaderboard.TabStop = false;
             // 
-            // txtbxLeaderboard
-            // 
-            this.txtbxLeaderboard.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.txtbxLeaderboard.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtbxLeaderboard.Font = new System.Drawing.Font("Impact", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbxLeaderboard.Location = new System.Drawing.Point(579, 32);
-            this.txtbxLeaderboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtbxLeaderboard.Multiline = true;
-            this.txtbxLeaderboard.Name = "txtbxLeaderboard";
-            this.txtbxLeaderboard.Size = new System.Drawing.Size(805, 145);
-            this.txtbxLeaderboard.TabIndex = 20;
-            this.txtbxLeaderboard.Text = "LEADERBOARD";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Battleship_2._0.Properties.Resources.explosion;
             this.pictureBox1.Location = new System.Drawing.Point(1317, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(215, 187);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -189,35 +176,49 @@
             this.lblMoves2.TabIndex = 23;
             this.lblMoves2.Text = "MOVES: 0";
             // 
-            // lblThirdPlace
-            // 
-            this.lblThirdPlace.AutoSize = true;
-            this.lblThirdPlace.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblThirdPlace.Location = new System.Drawing.Point(1314, 645);
-            this.lblThirdPlace.Name = "lblThirdPlace";
-            this.lblThirdPlace.Size = new System.Drawing.Size(80, 17);
-            this.lblThirdPlace.TabIndex = 25;
-            this.lblThirdPlace.Text = "Third Place";
-            // 
-            // lblSecondPlace
-            // 
-            this.lblSecondPlace.AutoSize = true;
-            this.lblSecondPlace.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lblSecondPlace.Location = new System.Drawing.Point(525, 590);
-            this.lblSecondPlace.Name = "lblSecondPlace";
-            this.lblSecondPlace.Size = new System.Drawing.Size(95, 17);
-            this.lblSecondPlace.TabIndex = 26;
-            this.lblSecondPlace.Text = "Second Place";
-            // 
             // lblFirstPlace
             // 
             this.lblFirstPlace.AutoSize = true;
             this.lblFirstPlace.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblFirstPlace.Location = new System.Drawing.Point(921, 475);
+            this.lblFirstPlace.Font = new System.Drawing.Font("Showcard Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstPlace.Location = new System.Drawing.Point(859, 470);
             this.lblFirstPlace.Name = "lblFirstPlace";
-            this.lblFirstPlace.Size = new System.Drawing.Size(74, 17);
+            this.lblFirstPlace.Size = new System.Drawing.Size(181, 35);
             this.lblFirstPlace.TabIndex = 27;
             this.lblFirstPlace.Text = "First Place";
+            // 
+            // lblLeaderboard
+            // 
+            this.lblLeaderboard.AutoSize = true;
+            this.lblLeaderboard.BackColor = System.Drawing.Color.Transparent;
+            this.lblLeaderboard.Font = new System.Drawing.Font("Ravie", 40F, System.Drawing.FontStyle.Bold);
+            this.lblLeaderboard.Location = new System.Drawing.Point(590, 62);
+            this.lblLeaderboard.Name = "lblLeaderboard";
+            this.lblLeaderboard.Size = new System.Drawing.Size(704, 89);
+            this.lblLeaderboard.TabIndex = 28;
+            this.lblLeaderboard.Text = "LEADERBOARD";
+            // 
+            // lblSecond
+            // 
+            this.lblSecond.AutoSize = true;
+            this.lblSecond.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblSecond.Font = new System.Drawing.Font("Showcard Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSecond.Location = new System.Drawing.Point(471, 586);
+            this.lblSecond.Name = "lblSecond";
+            this.lblSecond.Size = new System.Drawing.Size(212, 35);
+            this.lblSecond.TabIndex = 29;
+            this.lblSecond.Text = "Second Place";
+            // 
+            // lblThird
+            // 
+            this.lblThird.AutoSize = true;
+            this.lblThird.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblThird.Font = new System.Drawing.Font("Showcard Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThird.Location = new System.Drawing.Point(1229, 642);
+            this.lblThird.Name = "lblThird";
+            this.lblThird.Size = new System.Drawing.Size(195, 35);
+            this.lblThird.TabIndex = 30;
+            this.lblThird.Text = "Third Place";
             // 
             // LeaderBoard
             // 
@@ -227,14 +228,14 @@
             this.BackgroundImage = global::Battleship_2._0.Properties.Resources.leaderboardbackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1899, 1055);
+            this.Controls.Add(this.lblThird);
+            this.Controls.Add(this.lblSecond);
+            this.Controls.Add(this.lblLeaderboard);
             this.Controls.Add(this.lblFirstPlace);
-            this.Controls.Add(this.lblSecondPlace);
-            this.Controls.Add(this.lblThirdPlace);
             this.Controls.Add(this.lblMoves3);
             this.Controls.Add(this.lblMoves2);
             this.Controls.Add(this.lblMoves1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtbxLeaderboard);
             this.Controls.Add(this.picbxLeaderboard);
             this.Controls.Add(this.lblSPuser);
             this.Controls.Add(this.lblTPuser);
@@ -242,7 +243,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LeaderBoard";
             this.Text = "LeaderBoard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -263,13 +264,13 @@
         private System.Windows.Forms.Label lblTPuser;
         private System.Windows.Forms.Label lblSPuser;
         private System.Windows.Forms.PictureBox picbxLeaderboard;
-        private System.Windows.Forms.TextBox txtbxLeaderboard;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblMoves1;
         private System.Windows.Forms.Label lblMoves3;
         private System.Windows.Forms.Label lblMoves2;
-        private System.Windows.Forms.Label lblThirdPlace;
-        private System.Windows.Forms.Label lblSecondPlace;
         private System.Windows.Forms.Label lblFirstPlace;
+        private System.Windows.Forms.Label lblLeaderboard;
+        private System.Windows.Forms.Label lblSecond;
+        private System.Windows.Forms.Label lblThird;
     }
 }

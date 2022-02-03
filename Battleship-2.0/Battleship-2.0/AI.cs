@@ -338,7 +338,7 @@ namespace Battleship_2._0
                             if ((cell + (index - 1)) % 10 != 9 && cell + index < 100)
                             {
                                 // If the cell has not been hit or missed yet, and if the orientation is horizontal, hit this cell.
-                                if (hits[cell + index] == false && misses[cell - index] == false && orientation == "Horizontal" && endEast == false)
+                                if (hits[cell + index] == false && misses[cell + index] == false && orientation == "Horizontal" && endEast == false)
                                     return (cell + index);
 
                                 // Otherwise, the cell ends on the East side.
