@@ -90,7 +90,7 @@ namespace Battleship_2._0
             }
 
             // If all the ships have been placed, allow the user to start the game.
-            if (battleship == true && carrier == true && cruiser == true && submarine == true && destroyer == true)
+            if (battleship == true && carrier == true && cruiser == true && submarine == true && destroyer == true && gameStart == false)
             {
                 btnStart.Visible = true;
             }
@@ -106,6 +106,10 @@ namespace Battleship_2._0
             {
                 return;
             }
+
+            // If the game is started, make the start button invisible.
+            if (gameStart == true)
+                btnStart.Visible = false;
 
             // If boats aren't required to be entered, the game itself can start.
             if  (turn == false)
@@ -889,6 +893,15 @@ namespace Battleship_2._0
                     // Get all the lines in the leaderboard.txt file and store them in an array.
                     string[] originalFile = File.ReadAllLines(@"leaderboard.txt");
 
+                    // Variable for the purpose of updating the file.
+                    string tmp = null;
+
+                    // If there aren't 0 items in the file, get the value the user's high schore is at.
+                    if (numItems != 0)
+                    {
+                        tmp = originalFile[index];
+                    }
+
                     // If there were already 3 items in the file, just update the user's position.
                     if (numItems == 3)
                     {
@@ -908,25 +921,23 @@ namespace Battleship_2._0
 
                     }
 
-                    if (index != 0)
+                    // If there weren't 0 items in the file originally.
+                    if (numItems - 1 != 0)
                     {
 
-                        // Two variables that will be used for the purpose of updating the file.
-                        string tmp = originalFile[index];
+                        // Variable that will be used for the purpose of updating the file.
                         string tmp2 = null;
 
-                        // Move all the other values in the file below the user one position down.
+                        // Move all the other values in the file below the user's score one position down.
                         for (int placement = index + 1; placement <= numItems; placement++)
                         {
                             tmp2 = originalFile[placement];
                             originalFile[placement] = tmp;
                             tmp = tmp2;
                         }
-
+                    }
                         // Write the updated array to the file.
                         File.WriteAllLines(@"leaderboard.txt", originalFile);
-
-                    }
                 }
             }
             
