@@ -89,7 +89,7 @@ namespace Battleship_2._0
                 levelcurrent.Text = "NORMAL";
             }
 
-            // If all the ships have been placed, allow the user to start the game.
+            // If all the ships have been placed, and the game hasn't been started yet, allow the user to start the game.
             if (battleship == true && carrier == true && cruiser == true && submarine == true && destroyer == true && gameStart == false)
             {
                 btnStart.Visible = true;
